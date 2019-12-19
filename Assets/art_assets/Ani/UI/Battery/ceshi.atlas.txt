@@ -1,0 +1,195 @@
+
+ceshi.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Starter 01
+  rotate: false
+  xy: 744, 212
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+Starter 02
+  rotate: false
+  xy: 824, 226
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+Starter02
+  rotate: false
+  xy: 696, 212
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+Starter04
+  rotate: false
+  xy: 792, 226
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+Tesla L
+  rotate: false
+  xy: 117, 16
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TeslaR
+  rotate: false
+  xy: 186, 34
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+Teslalight L
+  rotate: false
+  xy: 530, 135
+  size: 68, 70
+  orig: 68, 70
+  offset: 0, 0
+  index: -1
+Teslalight R
+  rotate: false
+  xy: 603, 135
+  size: 68, 70
+  orig: 68, 70
+  offset: 0, 0
+  index: -1
+cell01
+  rotate: true
+  xy: 186, 16
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+cell02
+  rotate: true
+  xy: 355, 117
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+cell03
+  rotate: false
+  xy: 676, 177
+  size: 14, 28
+  orig: 14, 28
+  offset: 0, 0
+  index: -1
+cell04
+  rotate: true
+  xy: 887, 238
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+cellfish000
+  rotate: false
+  xy: 324, 135
+  size: 98, 66
+  orig: 98, 66
+  offset: 0, 0
+  index: -1
+cellfish001
+  rotate: false
+  xy: 427, 135
+  size: 98, 66
+  orig: 98, 66
+  offset: 0, 0
+  index: -1
+cellfish003
+  rotate: false
+  xy: 5, 9
+  size: 107, 74
+  orig: 129, 86
+  offset: 11, 6
+  index: -1
+effect01
+  rotate: true
+  xy: 173, 94
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+effect02
+  rotate: false
+  xy: 117, 5
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 5, 88
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+l hand L
+  rotate: false
+  xy: 324, 107
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+l hand R
+  rotate: false
+  xy: 856, 228
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+lightning body
+  rotate: false
+  xy: 255, 47
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+lightning eye
+  rotate: false
+  xy: 255, 35
+  size: 15, 7
+  orig: 15, 7
+  offset: 0, 0
+  index: -1
+lightning001
+  rotate: false
+  xy: 324, 232
+  size: 182, 19
+  orig: 182, 19
+  offset: 0, 0
+  index: -1
+lightning002
+  rotate: false
+  xy: 324, 206
+  size: 180, 21
+  orig: 181, 21
+  offset: 1, 0
+  index: -1
+lightning003
+  rotate: false
+  xy: 511, 232
+  size: 180, 19
+  orig: 181, 20
+  offset: 0, 1
+  index: -1
+lightning004
+  rotate: false
+  xy: 509, 210
+  size: 182, 17
+  orig: 183, 17
+  offset: 0, 0
+  index: -1
+pop
+  rotate: false
+  xy: 173, 106
+  size: 146, 145
+  orig: 146, 145
+  offset: 0, 0
+  index: -1

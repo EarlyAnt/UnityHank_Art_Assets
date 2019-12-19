@@ -1,0 +1,321 @@
+
+guide_append.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Circle001
+  rotate: false
+  xy: 434, 180
+  size: 71, 71
+  orig: 87, 87
+  offset: 9, 8
+  index: -1
+Cloud
+  rotate: false
+  xy: 428, 120
+  size: 76, 55
+  orig: 76, 55
+  offset: 0, 0
+  index: -1
+arrow
+  rotate: true
+  xy: 130, 5
+  size: 39, 42
+  orig: 40, 45
+  offset: 1, 0
+  index: -1
+arrows
+  rotate: true
+  xy: 382, 71
+  size: 10, 17
+  orig: 10, 17
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 239, 29
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+click_txt
+  rotate: false
+  xy: 5, 38
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+click_txt_CHS
+  rotate: false
+  xy: 5, 38
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+click_txt_CHT
+  rotate: false
+  xy: 184, 220
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+click_txt_EN
+  rotate: false
+  xy: 184, 184
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+dn
+  rotate: false
+  xy: 309, 114
+  size: 71, 65
+  orig: 71, 65
+  offset: 0, 0
+  index: -1
+drink_baby
+  rotate: false
+  xy: 315, 82
+  size: 34, 27
+  orig: 86, 99
+  offset: 8, 0
+  index: -1
+drink_cup
+  rotate: false
+  xy: 184, 25
+  size: 50, 38
+  orig: 50, 38
+  offset: 0, 0
+  index: -1
+drink_water
+  rotate: false
+  xy: 345, 62
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+exits_txt
+  rotate: false
+  xy: 309, 220
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+exits_txt_CHS
+  rotate: false
+  xy: 184, 148
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+exits_txt_CHT
+  rotate: false
+  xy: 309, 184
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+exits_txt_EN
+  rotate: false
+  xy: 184, 112
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+guide_cup
+  rotate: true
+  xy: 5, 5
+  size: 28, 72
+  orig: 28, 72
+  offset: 0, 0
+  index: -1
+guide_cup02
+  rotate: false
+  xy: 385, 107
+  size: 38, 72
+  orig: 38, 72
+  offset: 0, 0
+  index: -1
+guide_hand
+  rotate: false
+  xy: 82, 8
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1
+mask_r
+  rotate: false
+  xy: 5, 74
+  size: 174, 177
+  orig: 240, 320
+  offset: 66, 0
+  index: -1
+particle001
+  rotate: true
+  xy: 214, 11
+  size: 9, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+particle00114
+  rotate: false
+  xy: 481, 96
+  size: 10, 9
+  orig: 11, 11
+  offset: 0, 1
+  index: -1
+particle002
+  rotate: false
+  xy: 355, 63
+  size: 8, 8
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+particle003
+  rotate: false
+  xy: 496, 96
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+particle004
+  rotate: false
+  xy: 404, 71
+  size: 10, 10
+  orig: 11, 11
+  offset: 1, 0
+  index: -1
+particle005
+  rotate: true
+  xy: 380, 60
+  size: 6, 7
+  orig: 9, 9
+  offset: 1, 1
+  index: -1
+particle006
+  rotate: false
+  xy: 418, 89
+  size: 11, 12
+  orig: 13, 13
+  offset: 1, 1
+  index: -1
+particle007
+  rotate: false
+  xy: 448, 92
+  size: 10, 9
+  orig: 11, 11
+  offset: 0, 1
+  index: -1
+particle008
+  rotate: false
+  xy: 419, 74
+  size: 9, 10
+  orig: 12, 12
+  offset: 1, 1
+  index: -1
+particle009
+  rotate: true
+  xy: 466, 96
+  size: 9, 10
+  orig: 13, 13
+  offset: 2, 2
+  index: -1
+particle010
+  rotate: false
+  xy: 368, 64
+  size: 7, 7
+  orig: 11, 11
+  offset: 2, 2
+  index: -1
+particle011
+  rotate: false
+  xy: 198, 7
+  size: 11, 13
+  orig: 14, 14
+  offset: 2, 0
+  index: -1
+particle012
+  rotate: false
+  xy: 434, 90
+  size: 9, 11
+  orig: 13, 13
+  offset: 2, 2
+  index: -1
+slide_hand
+  rotate: false
+  xy: 354, 76
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+tap_effect
+  rotate: true
+  xy: 315, 64
+  size: 13, 25
+  orig: 15, 25
+  offset: 1, 0
+  index: -1
+voice001
+  rotate: true
+  xy: 130, 49
+  size: 20, 49
+  orig: 20, 49
+  offset: 0, 0
+  index: -1
+voice002
+  rotate: true
+  xy: 382, 86
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+voice003
+  rotate: true
+  xy: 177, 7
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+wash_bowl_cover
+  rotate: false
+  xy: 239, 5
+  size: 37, 19
+  orig: 37, 19
+  offset: 0, 0
+  index: -1
+wash_cup_body
+  rotate: true
+  xy: 184, 68
+  size: 39, 92
+  orig: 39, 101
+  offset: 0, 0
+  index: -1
+water
+  rotate: true
+  xy: 428, 106
+  size: 9, 33
+  orig: 9, 33
+  offset: 0, 0
+  index: -1
+water faucet
+  rotate: true
+  xy: 281, 69
+  size: 38, 29
+  orig: 38, 29
+  offset: 0, 0
+  index: -1
+water_light
+  rotate: false
+  xy: 345, 73
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+water_wave
+  rotate: false
+  xy: 466, 110
+  size: 36, 5
+  orig: 36, 5
+  offset: 0, 0
+  index: -1

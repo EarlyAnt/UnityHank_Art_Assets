@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Name="Gululu" Version="">
+  <AwardConfigs>
+    <AwardConfig ID="10000" Desc="普通30%dailyGoal宝箱" >
+      <Coin Percent="0.6" />
+      <Prop Percent="0.4" Source="Food" />
+    </AwardConfig>
+    <AwardConfig ID="10001" Desc="普通60%dailyGoal宝箱" >
+      <Coin Percent="0.5" />
+      <Prop Percent="0.5" Source="Food" />
+    </AwardConfig>
+    <AwardConfig ID="10002" Desc="普通100%dailyGoal宝箱" >
+      <Coin Percent="0.4" />
+      <Prop Percent="0.6" Source="Food" />
+    </AwardConfig>
+  </AwardConfigs>
+</Project>

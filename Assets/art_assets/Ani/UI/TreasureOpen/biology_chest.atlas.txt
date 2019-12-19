@@ -1,0 +1,48 @@
+
+biology_chest.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects
+  rotate: false
+  xy: 3, 134
+  size: 139, 116
+  orig: 139, 116
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 3, 7
+  size: 124, 93
+  orig: 124, 93
+  offset: 0, 0
+  index: -1
+treasure chest0
+  rotate: false
+  xy: 145, 180
+  size: 103, 70
+  orig: 103, 70
+  offset: 0, 0
+  index: -1
+treasure chest1
+  rotate: true
+  xy: 99, 3
+  size: 114, 67
+  orig: 114, 67
+  offset: 0, 0
+  index: -1
+treasure chest2
+  rotate: true
+  xy: 169, 6
+  size: 111, 60
+  orig: 111, 60
+  offset: 0, 0
+  index: -1
+treasure chest3
+  rotate: false
+  xy: 145, 120
+  size: 98, 57
+  orig: 98, 57
+  offset: 0, 0
+  index: -1

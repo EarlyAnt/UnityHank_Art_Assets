@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Name="Gululu" Version="">
+  <Levels>
+    <LevelUp level="1" exp="45" hunger="30" coinDL="62" coinUL="62">
+      <DrinkWater coinDL="2" coinUL="2" expN="2" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="37" award="10000" expDL="10" expUL="10" />
+      <DailyGoal percent="0.6" coin="51" award="10001" expDL="15" expUL="15" />
+      <DailyGoal percent="1.0" coin="104" award="10002" expDL="20" expUL="20" />
+    </LevelUp>
+    <LevelUp level="2" exp="70" hunger="32" coinDL="64" coinUL="64">
+      <DrinkWater coinDL="2" coinUL="2" expN="2" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="40" award="10000" expDL="12" expUL="12" />
+      <DailyGoal percent="0.6" coin="53" award="10001" expDL="18" expUL="18" />
+      <DailyGoal percent="1.0" coin="107" award="10002" expDL="24" expUL="24" />
+    </LevelUp>
+    <LevelUp level="3" exp="105" hunger="34" coinDL="67" coinUL="67">
+      <DrinkWater coinDL="2" coinUL="2" expN="3" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="41" award="10000" expDL="14" expUL="14" />
+      <DailyGoal percent="0.6" coin="55" award="10001" expDL="21" expUL="21" />
+      <DailyGoal percent="1.0" coin="109" award="10002" expDL="28" expUL="28" />
+    </LevelUp>
+    <LevelUp level="4" exp="140" hunger="36" coinDL="70" coinUL="70">
+      <DrinkWater coinDL="3" coinUL="3" expN="3" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="43" award="10000" expDL="16" expUL="16" />
+      <DailyGoal percent="0.6" coin="57" award="10001" expDL="24" expUL="24" />
+      <DailyGoal percent="1.0" coin="112" award="10002" expDL="32" expUL="32" />
+    </LevelUp>
+    <LevelUp level="5" exp="160" hunger="38" coinDL="73" coinUL="73">
+      <DrinkWater coinDL="3" coinUL="3" expN="3" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="44" award="10000" expDL="18" expUL="18" />
+      <DailyGoal percent="0.6" coin="59" award="10001" expDL="27" expUL="27" />
+      <DailyGoal percent="1.0" coin="113" award="10002" expDL="36" expUL="36" />
+    </LevelUp>
+    <LevelUp level="6" exp="175" hunger="40" coinDL="77" coinUL="77">
+      <DrinkWater coinDL="3" coinUL="3" expN="4" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="45" award="10000" expDL="20" expUL="20" />
+      <DailyGoal percent="0.6" coin="60" award="10001" expDL="30" expUL="30" />
+      <DailyGoal percent="1.0" coin="115" award="10002" expDL="40" expUL="40" />
+    </LevelUp>
+    <LevelUp level="7" exp="180" hunger="42" coinDL="80" coinUL="80">
+      <DrinkWater coinDL="3" coinUL="3" expN="4" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="47" award="10000" expDL="22" expUL="22" />
+      <DailyGoal percent="0.6" coin="61" award="10001" expDL="33" expUL="33" />
+      <DailyGoal percent="1.0" coin="117" award="10002" expDL="44" expUL="44" />
+    </LevelUp>
+    <LevelUp level="8" exp="220" hunger="44" coinDL="84" coinUL="84">
+      <DrinkWater coinDL="3" coinUL="3" expN="4" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="48" award="10000" expDL="24" expUL="24" />
+      <DailyGoal percent="0.6" coin="62" award="10001" expDL="36" expUL="36" />
+      <DailyGoal percent="1.0" coin="118" award="10002" expDL="48" expUL="48" />
+    </LevelUp>
+    <LevelUp level="9" exp="400" hunger="46" coinDL="87" coinUL="87">
+      <DrinkWater coinDL="3" coinUL="3" expN="5" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="49" award="10000" expDL="26" expUL="26" />
+      <DailyGoal percent="0.6" coin="64" award="10001" expDL="39" expUL="39" />
+      <DailyGoal percent="1.0" coin="120" award="10002" expDL="52" expUL="52" />
+    </LevelUp>
+    <LevelUp level="10" exp="485" hunger="48" coinDL="91" coinUL="91">
+      <DrinkWater coinDL="3" coinUL="3" expN="5" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="49" award="10000" expDL="28" expUL="28" />
+      <DailyGoal percent="0.6" coin="65" award="10001" expDL="42" expUL="42" />
+      <DailyGoal percent="1.0" coin="121" award="10002" expDL="56" expUL="56" />
+    </LevelUp>
+    <LevelUp level="11" exp="560" hunger="50" coinDL="95" coinUL="95">
+      <DrinkWater coinDL="3" coinUL="3" expN="5" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="50" award="10000" expDL="30" expUL="30" />
+      <DailyGoal percent="0.6" coin="66" award="10001" expDL="45" expUL="45" />
+      <DailyGoal percent="1.0" coin="122" award="10002" expDL="60" expUL="60" />
+    </LevelUp>
+    <LevelUp level="12" exp="720" hunger="52" coinDL="99" coinUL="99">
+      <DrinkWater coinDL="3" coinUL="3" expN="6" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="51" award="10000" expDL="32" expUL="32" />
+      <DailyGoal percent="0.6" coin="66" award="10001" expDL="48" expUL="48" />
+      <DailyGoal percent="1.0" coin="123" award="10002" expDL="64" expUL="64" />
+    </LevelUp>
+    <LevelUp level="13" exp="820" hunger="54" coinDL="103" coinUL="103">
+      <DrinkWater coinDL="3" coinUL="3" expN="6" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="52" award="10000" expDL="34" expUL="34" />
+      <DailyGoal percent="0.6" coin="67" award="10001" expDL="51" expUL="51" />
+      <DailyGoal percent="1.0" coin="124" award="10002" expDL="68" expUL="68" />
+    </LevelUp>
+    <LevelUp level="14" exp="920" hunger="56" coinDL="107" coinUL="107">
+      <DrinkWater coinDL="3" coinUL="3" expN="6" expG="1" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="53" award="10000" expDL="36" expUL="36" />
+      <DailyGoal percent="0.6" coin="68" award="10001" expDL="54" expUL="54" />
+      <DailyGoal percent="1.0" coin="125" award="10002" expDL="72" expUL="72" />
+    </LevelUp>
+    <LevelUp level="15" exp="1135" hunger="58" coinDL="111" coinUL="111">
+      <DrinkWater coinDL="3" coinUL="3" expN="7" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="53" award="10000" expDL="38" expUL="38" />
+      <DailyGoal percent="0.6" coin="69" award="10001" expDL="57" expUL="57" />
+      <DailyGoal percent="1.0" coin="126" award="10002" expDL="76" expUL="76" />
+    </LevelUp>
+    <LevelUp level="16" exp="1250" hunger="60" coinDL="115" coinUL="115">
+      <DrinkWater coinDL="4" coinUL="4" expN="7" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="54" award="10000" expDL="40" expUL="40" />
+      <DailyGoal percent="0.6" coin="70" award="10001" expDL="60" expUL="60" />
+      <DailyGoal percent="1.0" coin="128" award="10002" expDL="80" expUL="80" />
+    </LevelUp>
+    <LevelUp level="17" exp="1380" hunger="62" coinDL="119" coinUL="119">
+      <DrinkWater coinDL="4" coinUL="4" expN="7" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="55" award="10000" expDL="42" expUL="42" />
+      <DailyGoal percent="0.6" coin="71" award="10001" expDL="63" expUL="63" />
+      <DailyGoal percent="1.0" coin="128" award="10002" expDL="84" expUL="84" />
+    </LevelUp>
+    <LevelUp level="18" exp="1660" hunger="64" coinDL="124" coinUL="124">
+      <DrinkWater coinDL="4" coinUL="4" expN="8" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="55" award="10000" expDL="44" expUL="44" />
+      <DailyGoal percent="0.6" coin="71" award="10001" expDL="66" expUL="66" />
+      <DailyGoal percent="1.0" coin="129" award="10002" expDL="88" expUL="88" />
+    </LevelUp>
+    <LevelUp level="19" exp="1810" hunger="66" coinDL="128" coinUL="128">
+      <DrinkWater coinDL="4" coinUL="4" expN="8" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="56" award="10000" expDL="46" expUL="46" />
+      <DailyGoal percent="0.6" coin="72" award="10001" expDL="69" expUL="69" />
+      <DailyGoal percent="1.0" coin="130" award="10002" expDL="92" expUL="92" />
+    </LevelUp>
+    <LevelUp level="20" exp="1970" hunger="68" coinDL="132" coinUL="132">
+      <DrinkWater coinDL="4" coinUL="4" expN="8" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="57" award="10000" expDL="48" expUL="48" />
+      <DailyGoal percent="0.6" coin="73" award="10001" expDL="72" expUL="72" />
+      <DailyGoal percent="1.0" coin="131" award="10002" expDL="96" expUL="96" />
+    </LevelUp>
+    <LevelUp level="21" exp="2320" hunger="70" coinDL="137" coinUL="137">
+      <DrinkWater coinDL="4" coinUL="4" expN="9" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="57" award="10000" expDL="50" expUL="50" />
+      <DailyGoal percent="0.6" coin="74" award="10001" expDL="75" expUL="75" />
+      <DailyGoal percent="1.0" coin="132" award="10002" expDL="100" expUL="100" />
+    </LevelUp>
+    <LevelUp level="22" exp="2500" hunger="72" coinDL="141" coinUL="141">
+      <DrinkWater coinDL="4" coinUL="4" expN="9" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="58" award="10000" expDL="52" expUL="52" />
+      <DailyGoal percent="0.6" coin="74" award="10001" expDL="78" expUL="78" />
+      <DailyGoal percent="1.0" coin="133" award="10002" expDL="104" expUL="104" />
+    </LevelUp>
+    <LevelUp level="23" exp="2700" hunger="74" coinDL="146" coinUL="146">
+      <DrinkWater coinDL="4" coinUL="4" expN="9" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="59" award="10000" expDL="54" expUL="54" />
+      <DailyGoal percent="0.6" coin="75" award="10001" expDL="81" expUL="81" />
+      <DailyGoal percent="1.0" coin="134" award="10002" expDL="108" expUL="108" />
+    </LevelUp>
+    <LevelUp level="24" exp="3110" hunger="76" coinDL="150" coinUL="150">
+      <DrinkWater coinDL="4" coinUL="4" expN="10" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="59" award="10000" expDL="56" expUL="56" />
+      <DailyGoal percent="0.6" coin="76" award="10001" expDL="84" expUL="84" />
+      <DailyGoal percent="1.0" coin="135" award="10002" expDL="112" expUL="112" />
+    </LevelUp>
+    <LevelUp level="25" exp="3330" hunger="78" coinDL="155" coinUL="155">
+      <DrinkWater coinDL="4" coinUL="4" expN="10" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="60" award="10000" expDL="58" expUL="58" />
+      <DailyGoal percent="0.6" coin="76" award="10001" expDL="87" expUL="87" />
+      <DailyGoal percent="1.0" coin="136" award="10002" expDL="116" expUL="116" />
+    </LevelUp>
+    <LevelUp level="26" exp="3565" hunger="80" coinDL="159" coinUL="159">
+      <DrinkWater coinDL="4" coinUL="4" expN="10" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="60" award="10000" expDL="60" expUL="60" />
+      <DailyGoal percent="0.6" coin="77" award="10001" expDL="90" expUL="90" />
+      <DailyGoal percent="1.0" coin="136" award="10002" expDL="120" expUL="120" />
+    </LevelUp>
+    <LevelUp level="27" exp="4060" hunger="82" coinDL="164" coinUL="164">
+      <DrinkWater coinDL="4" coinUL="4" expN="11" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="61" award="10000" expDL="62" expUL="62" />
+      <DailyGoal percent="0.6" coin="78" award="10001" expDL="93" expUL="93" />
+      <DailyGoal percent="1.0" coin="137" award="10002" expDL="124" expUL="124" />
+    </LevelUp>
+    <LevelUp level="28" exp="4320" hunger="84" coinDL="169" coinUL="169">
+      <DrinkWater coinDL="4" coinUL="4" expN="11" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="61" award="10000" expDL="64" expUL="64" />
+      <DailyGoal percent="0.6" coin="78" award="10001" expDL="96" expUL="96" />
+      <DailyGoal percent="1.0" coin="138" award="10002" expDL="128" expUL="128" />
+    </LevelUp>
+    <LevelUp level="29" exp="4590" hunger="86" coinDL="173" coinUL="173">
+      <DrinkWater coinDL="4" coinUL="4" expN="11" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="62" award="10000" expDL="66" expUL="66" />
+      <DailyGoal percent="0.6" coin="79" award="10001" expDL="99" expUL="99" />
+      <DailyGoal percent="1.0" coin="139" award="10002" expDL="132" expUL="132" />
+    </LevelUp>
+    <LevelUp level="30" exp="5165" hunger="88" coinDL="178" coinUL="178">
+      <DrinkWater coinDL="4" coinUL="4" expN="12" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="62" award="10000" expDL="68" expUL="68" />
+      <DailyGoal percent="0.6" coin="79" award="10001" expDL="102" expUL="102" />
+      <DailyGoal percent="1.0" coin="139" award="10002" expDL="136" expUL="136" />
+    </LevelUp>
+    <LevelUp level="31" exp="5465" hunger="90" coinDL="183" coinUL="183">
+      <DrinkWater coinDL="4" coinUL="4" expN="12" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="63" award="10000" expDL="70" expUL="70" />
+      <DailyGoal percent="0.6" coin="80" award="10001" expDL="105" expUL="105" />
+      <DailyGoal percent="1.0" coin="140" award="10002" expDL="140" expUL="140" />
+    </LevelUp>
+    <LevelUp level="32" exp="5770" hunger="92" coinDL="188" coinUL="188">
+      <DrinkWater coinDL="4" coinUL="4" expN="12" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="63" award="10000" expDL="72" expUL="72" />
+      <DailyGoal percent="0.6" coin="81" award="10001" expDL="108" expUL="108" />
+      <DailyGoal percent="1.0" coin="141" award="10002" expDL="144" expUL="144" />
+    </LevelUp>
+    <LevelUp level="33" exp="6435" hunger="94" coinDL="192" coinUL="192">
+      <DrinkWater coinDL="4" coinUL="4" expN="13" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="64" award="10000" expDL="74" expUL="74" />
+      <DailyGoal percent="0.6" coin="81" award="10001" expDL="111" expUL="111" />
+      <DailyGoal percent="1.0" coin="141" award="10002" expDL="148" expUL="148" />
+    </LevelUp>
+    <LevelUp level="34" exp="6775" hunger="96" coinDL="197" coinUL="197">
+      <DrinkWater coinDL="4" coinUL="4" expN="13" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="64" award="10000" expDL="76" expUL="76" />
+      <DailyGoal percent="0.6" coin="82" award="10001" expDL="114" expUL="114" />
+      <DailyGoal percent="1.0" coin="142" award="10002" expDL="152" expUL="152" />
+    </LevelUp>
+    <LevelUp level="35" exp="7120" hunger="98" coinDL="202" coinUL="202">
+      <DrinkWater coinDL="4" coinUL="4" expN="13" expG="2" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="65" award="10000" expDL="78" expUL="78" />
+      <DailyGoal percent="0.6" coin="82" award="10001" expDL="117" expUL="117" />
+      <DailyGoal percent="1.0" coin="143" award="10002" expDL="156" expUL="156" />
+    </LevelUp>
+    <LevelUp level="36" exp="7875" hunger="100" coinDL="207" coinUL="207">
+      <DrinkWater coinDL="5" coinUL="5" expN="14" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="65" award="10000" expDL="80" expUL="80" />
+      <DailyGoal percent="0.6" coin="83" award="10001" expDL="120" expUL="120" />
+      <DailyGoal percent="1.0" coin="144" award="10002" expDL="160" expUL="160" />
+    </LevelUp>
+    <LevelUp level="37" exp="8255" hunger="102" coinDL="212" coinUL="212">
+      <DrinkWater coinDL="5" coinUL="5" expN="14" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="66" award="10000" expDL="82" expUL="82" />
+      <DailyGoal percent="0.6" coin="83" award="10001" expDL="123" expUL="123" />
+      <DailyGoal percent="1.0" coin="144" award="10002" expDL="164" expUL="164" />
+    </LevelUp>
+    <LevelUp level="38" exp="8650" hunger="104" coinDL="217" coinUL="217">
+      <DrinkWater coinDL="5" coinUL="5" expN="14" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="66" award="10000" expDL="84" expUL="84" />
+      <DailyGoal percent="0.6" coin="84" award="10001" expDL="126" expUL="126" />
+      <DailyGoal percent="1.0" coin="145" award="10002" expDL="168" expUL="168" />
+    </LevelUp>
+    <LevelUp level="39" exp="9495" hunger="106" coinDL="222" coinUL="222">
+      <DrinkWater coinDL="5" coinUL="5" expN="15" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="67" award="10000" expDL="86" expUL="86" />
+      <DailyGoal percent="0.6" coin="84" award="10001" expDL="129" expUL="129" />
+      <DailyGoal percent="1.0" coin="145" award="10002" expDL="172" expUL="172" />
+    </LevelUp>
+    <LevelUp level="40" exp="9920" hunger="108" coinDL="227" coinUL="227">
+      <DrinkWater coinDL="5" coinUL="5" expN="15" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="67" award="10000" expDL="88" expUL="88" />
+      <DailyGoal percent="0.6" coin="85" award="10001" expDL="132" expUL="132" />
+      <DailyGoal percent="1.0" coin="146" award="10002" expDL="176" expUL="176" />
+    </LevelUp>
+    <LevelUp level="41" exp="10360" hunger="110" coinDL="232" coinUL="232">
+      <DrinkWater coinDL="5" coinUL="5" expN="15" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="68" award="10000" expDL="90" expUL="90" />
+      <DailyGoal percent="0.6" coin="85" award="10001" expDL="135" expUL="135" />
+      <DailyGoal percent="1.0" coin="147" award="10002" expDL="180" expUL="180" />
+    </LevelUp>
+    <LevelUp level="42" exp="11300" hunger="112" coinDL="237" coinUL="237">
+      <DrinkWater coinDL="5" coinUL="5" expN="16" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="68" award="10000" expDL="92" expUL="92" />
+      <DailyGoal percent="0.6" coin="86" award="10001" expDL="138" expUL="138" />
+      <DailyGoal percent="1.0" coin="147" award="10002" expDL="184" expUL="184" />
+    </LevelUp>
+    <LevelUp level="43" exp="11775" hunger="114" coinDL="242" coinUL="242">
+      <DrinkWater coinDL="5" coinUL="5" expN="16" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="68" award="10000" expDL="94" expUL="94" />
+      <DailyGoal percent="0.6" coin="86" award="10001" expDL="141" expUL="141" />
+      <DailyGoal percent="1.0" coin="148" award="10002" expDL="188" expUL="188" />
+    </LevelUp>
+    <LevelUp level="44" exp="12260" hunger="116" coinDL="247" coinUL="247">
+      <DrinkWater coinDL="5" coinUL="5" expN="16" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="69" award="10000" expDL="96" expUL="96" />
+      <DailyGoal percent="0.6" coin="87" award="10001" expDL="144" expUL="144" />
+      <DailyGoal percent="1.0" coin="149" award="10002" expDL="192" expUL="192" />
+    </LevelUp>
+    <LevelUp level="45" exp="13305" hunger="118" coinDL="252" coinUL="252">
+      <DrinkWater coinDL="5" coinUL="5" expN="17" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="69" award="10000" expDL="98" expUL="98" />
+      <DailyGoal percent="0.6" coin="87" award="10001" expDL="147" expUL="147" />
+      <DailyGoal percent="1.0" coin="149" award="10002" expDL="196" expUL="196" />
+    </LevelUp>
+    <LevelUp level="46" exp="13825" hunger="120" coinDL="257" coinUL="257">
+      <DrinkWater coinDL="5" coinUL="5" expN="17" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="70" award="10000" expDL="100" expUL="100" />
+      <DailyGoal percent="0.6" coin="88" award="10001" expDL="150" expUL="150" />
+      <DailyGoal percent="1.0" coin="150" award="10002" expDL="200" expUL="200" />
+    </LevelUp>
+    <LevelUp level="47" exp="14360" hunger="122" coinDL="263" coinUL="263">
+      <DrinkWater coinDL="5" coinUL="5" expN="17" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="70" award="10000" expDL="102" expUL="102" />
+      <DailyGoal percent="0.6" coin="88" award="10001" expDL="153" expUL="153" />
+      <DailyGoal percent="1.0" coin="150" award="10002" expDL="204" expUL="204" />
+    </LevelUp>
+    <LevelUp level="48" exp="15505" hunger="124" coinDL="268" coinUL="268">
+      <DrinkWater coinDL="5" coinUL="5" expN="18" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="70" award="10000" expDL="104" expUL="104" />
+      <DailyGoal percent="0.6" coin="89" award="10001" expDL="156" expUL="156" />
+      <DailyGoal percent="1.0" coin="151" award="10002" expDL="208" expUL="208" />
+    </LevelUp>
+    <LevelUp level="49" exp="16080" hunger="126" coinDL="273" coinUL="273">
+      <DrinkWater coinDL="5" coinUL="5" expN="18" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="71" award="10000" expDL="106" expUL="106" />
+      <DailyGoal percent="0.6" coin="89" award="10001" expDL="159" expUL="159" />
+      <DailyGoal percent="1.0" coin="152" award="10002" expDL="212" expUL="212" />
+    </LevelUp>
+    <LevelUp level="50" exp="16660" hunger="128" coinDL="278" coinUL="278">
+      <DrinkWater coinDL="5" coinUL="5" expN="18" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="71" award="10000" expDL="108" expUL="108" />
+      <DailyGoal percent="0.6" coin="90" award="10001" expDL="162" expUL="162" />
+      <DailyGoal percent="1.0" coin="152" award="10002" expDL="216" expUL="216" />
+    </LevelUp>
+    <LevelUp level="51" exp="17915" hunger="130" coinDL="283" coinUL="283">
+      <DrinkWater coinDL="5" coinUL="5" expN="19" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="72" award="10000" expDL="110" expUL="110" />
+      <DailyGoal percent="0.6" coin="90" award="10001" expDL="165" expUL="165" />
+      <DailyGoal percent="1.0" coin="153" award="10002" expDL="220" expUL="220" />
+    </LevelUp>
+    <LevelUp level="52" exp="18540" hunger="132" coinDL="289" coinUL="289">
+      <DrinkWater coinDL="5" coinUL="5" expN="19" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="72" award="10000" expDL="112" expUL="112" />
+      <DailyGoal percent="0.6" coin="90" award="10001" expDL="168" expUL="168" />
+      <DailyGoal percent="1.0" coin="153" award="10002" expDL="224" expUL="224" />
+    </LevelUp>
+    <LevelUp level="53" exp="19175" hunger="134" coinDL="294" coinUL="294">
+      <DrinkWater coinDL="5" coinUL="5" expN="19" expG="3" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="72" award="10000" expDL="114" expUL="114" />
+      <DailyGoal percent="0.6" coin="91" award="10001" expDL="171" expUL="171" />
+      <DailyGoal percent="1.0" coin="154" award="10002" expDL="228" expUL="228" />
+    </LevelUp>
+    <LevelUp level="54" exp="20535" hunger="136" coinDL="299" coinUL="299">
+      <DrinkWater coinDL="5" coinUL="5" expN="20" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="73" award="10000" expDL="116" expUL="116" />
+      <DailyGoal percent="0.6" coin="91" award="10001" expDL="174" expUL="174" />
+      <DailyGoal percent="1.0" coin="154" award="10002" expDL="232" expUL="232" />
+    </LevelUp>
+    <LevelUp level="55" exp="21215" hunger="138" coinDL="305" coinUL="305">
+      <DrinkWater coinDL="5" coinUL="5" expN="20" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="73" award="10000" expDL="118" expUL="118" />
+      <DailyGoal percent="0.6" coin="92" award="10001" expDL="177" expUL="177" />
+      <DailyGoal percent="1.0" coin="155" award="10002" expDL="236" expUL="236" />
+    </LevelUp>
+    <LevelUp level="56" exp="21900" hunger="140" coinDL="310" coinUL="310">
+      <DrinkWater coinDL="5" coinUL="5" expN="20" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="74" award="10000" expDL="120" expUL="120" />
+      <DailyGoal percent="0.6" coin="92" award="10001" expDL="180" expUL="180" />
+      <DailyGoal percent="1.0" coin="155" award="10002" expDL="240" expUL="240" />
+    </LevelUp>
+    <LevelUp level="57" exp="23375" hunger="142" coinDL="315" coinUL="315">
+      <DrinkWater coinDL="5" coinUL="5" expN="21" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="74" award="10000" expDL="122" expUL="122" />
+      <DailyGoal percent="0.6" coin="93" award="10001" expDL="183" expUL="183" />
+      <DailyGoal percent="1.0" coin="156" award="10002" expDL="244" expUL="244" />
+    </LevelUp>
+    <LevelUp level="58" exp="24105" hunger="144" coinDL="321" coinUL="321">
+      <DrinkWater coinDL="5" coinUL="5" expN="21" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="74" award="10000" expDL="124" expUL="124" />
+      <DailyGoal percent="0.6" coin="93" award="10001" expDL="186" expUL="186" />
+      <DailyGoal percent="1.0" coin="156" award="10002" expDL="248" expUL="248" />
+    </LevelUp>
+    <LevelUp level="59" exp="24850" hunger="146" coinDL="326" coinUL="326">
+      <DrinkWater coinDL="5" coinUL="5" expN="21" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="75" award="10000" expDL="126" expUL="126" />
+      <DailyGoal percent="0.6" coin="93" award="10001" expDL="189" expUL="189" />
+      <DailyGoal percent="1.0" coin="157" award="10002" expDL="252" expUL="252" />
+    </LevelUp>
+    <LevelUp level="60" exp="26440" hunger="148" coinDL="332" coinUL="332">
+      <DrinkWater coinDL="5" coinUL="5" expN="22" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="75" award="10000" expDL="128" expUL="128" />
+      <DailyGoal percent="0.6" coin="94" award="10001" expDL="192" expUL="192" />
+      <DailyGoal percent="1.0" coin="157" award="10002" expDL="256" expUL="256" />
+    </LevelUp>
+    <LevelUp level="61" exp="27230" hunger="150" coinDL="337" coinUL="337">
+      <DrinkWater coinDL="5" coinUL="5" expN="22" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="75" award="10000" expDL="130" expUL="130" />
+      <DailyGoal percent="0.6" coin="94" award="10001" expDL="195" expUL="195" />
+      <DailyGoal percent="1.0" coin="158" award="10002" expDL="260" expUL="260" />
+    </LevelUp>
+    <LevelUp level="62" exp="28025" hunger="152" coinDL="343" coinUL="343">
+      <DrinkWater coinDL="5" coinUL="5" expN="22" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="76" award="10000" expDL="132" expUL="132" />
+      <DailyGoal percent="0.6" coin="95" award="10001" expDL="198" expUL="198" />
+      <DailyGoal percent="1.0" coin="158" award="10002" expDL="264" expUL="264" />
+    </LevelUp>
+    <LevelUp level="63" exp="29735" hunger="154" coinDL="348" coinUL="348">
+      <DrinkWater coinDL="5" coinUL="5" expN="23" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="76" award="10000" expDL="134" expUL="134" />
+      <DailyGoal percent="0.6" coin="95" award="10001" expDL="201" expUL="201" />
+      <DailyGoal percent="1.0" coin="159" award="10002" expDL="268" expUL="268" />
+    </LevelUp>
+    <LevelUp level="64" exp="30580" hunger="156" coinDL="354" coinUL="354">
+      <DrinkWater coinDL="6" coinUL="6" expN="23" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="77" award="10000" expDL="136" expUL="136" />
+      <DailyGoal percent="0.6" coin="96" award="10001" expDL="204" expUL="204" />
+      <DailyGoal percent="1.0" coin="160" award="10002" expDL="272" expUL="272" />
+    </LevelUp>
+    <LevelUp level="65" exp="31435" hunger="158" coinDL="359" coinUL="359">
+      <DrinkWater coinDL="6" coinUL="6" expN="23" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="77" award="10000" expDL="138" expUL="138" />
+      <DailyGoal percent="0.6" coin="96" award="10001" expDL="207" expUL="207" />
+      <DailyGoal percent="1.0" coin="160" award="10002" expDL="276" expUL="276" />
+    </LevelUp>
+    <LevelUp level="66" exp="33270" hunger="160" coinDL="365" coinUL="365">
+      <DrinkWater coinDL="6" coinUL="6" expN="24" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="77" award="10000" expDL="140" expUL="140" />
+      <DailyGoal percent="0.6" coin="96" award="10001" expDL="210" expUL="210" />
+      <DailyGoal percent="1.0" coin="160" award="10002" expDL="280" expUL="280" />
+    </LevelUp>
+    <LevelUp level="67" exp="34170" hunger="162" coinDL="370" coinUL="370">
+      <DrinkWater coinDL="6" coinUL="6" expN="24" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="78" award="10000" expDL="142" expUL="142" />
+      <DailyGoal percent="0.6" coin="97" award="10001" expDL="213" expUL="213" />
+      <DailyGoal percent="1.0" coin="161" award="10002" expDL="284" expUL="284" />
+    </LevelUp>
+    <LevelUp level="68" exp="35085" hunger="164" coinDL="376" coinUL="376">
+      <DrinkWater coinDL="6" coinUL="6" expN="24" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="78" award="10000" expDL="144" expUL="144" />
+      <DailyGoal percent="0.6" coin="97" award="10001" expDL="216" expUL="216" />
+      <DailyGoal percent="1.0" coin="161" award="10002" expDL="288" expUL="288" />
+    </LevelUp>
+    <LevelUp level="69" exp="37040" hunger="166" coinDL="381" coinUL="381">
+      <DrinkWater coinDL="6" coinUL="6" expN="25" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="78" award="10000" expDL="146" expUL="146" />
+      <DailyGoal percent="0.6" coin="97" award="10001" expDL="219" expUL="219" />
+      <DailyGoal percent="1.0" coin="162" award="10002" expDL="292" expUL="292" />
+    </LevelUp>
+    <LevelUp level="70" exp="38000" hunger="168" coinDL="387" coinUL="387">
+      <DrinkWater coinDL="6" coinUL="6" expN="25" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="79" award="10000" expDL="148" expUL="148" />
+      <DailyGoal percent="0.6" coin="98" award="10001" expDL="222" expUL="222" />
+      <DailyGoal percent="1.0" coin="162" award="10002" expDL="296" expUL="296" />
+    </LevelUp>
+    <LevelUp level="71" exp="38975" hunger="170" coinDL="393" coinUL="393">
+      <DrinkWater coinDL="6" coinUL="6" expN="25" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="79" award="10000" expDL="150" expUL="150" />
+      <DailyGoal percent="0.6" coin="98" award="10001" expDL="225" expUL="225" />
+      <DailyGoal percent="1.0" coin="163" award="10002" expDL="300" expUL="300" />
+    </LevelUp>
+    <LevelUp level="72" exp="41060" hunger="172" coinDL="398" coinUL="398">
+      <DrinkWater coinDL="6" coinUL="6" expN="26" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="79" award="10000" expDL="152" expUL="152" />
+      <DailyGoal percent="0.6" coin="99" award="10001" expDL="228" expUL="228" />
+      <DailyGoal percent="1.0" coin="163" award="10002" expDL="304" expUL="304" />
+    </LevelUp>
+    <LevelUp level="73" exp="42080" hunger="174" coinDL="404" coinUL="404">
+      <DrinkWater coinDL="6" coinUL="6" expN="26" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="80" award="10000" expDL="154" expUL="154" />
+      <DailyGoal percent="0.6" coin="99" award="10001" expDL="231" expUL="231" />
+      <DailyGoal percent="1.0" coin="164" award="10002" expDL="308" expUL="308" />
+    </LevelUp>
+    <LevelUp level="74" exp="43115" hunger="176" coinDL="410" coinUL="410">
+      <DrinkWater coinDL="6" coinUL="6" expN="26" expG="4" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="80" award="10000" expDL="156" expUL="156" />
+      <DailyGoal percent="0.6" coin="99" award="10001" expDL="234" expUL="234" />
+      <DailyGoal percent="1.0" coin="164" award="10002" expDL="312" expUL="312" />
+    </LevelUp>
+    <LevelUp level="75" exp="45330" hunger="178" coinDL="415" coinUL="415">
+      <DrinkWater coinDL="6" coinUL="6" expN="27" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="80" award="10000" expDL="158" expUL="158" />
+      <DailyGoal percent="0.6" coin="100" award="10001" expDL="237" expUL="237" />
+      <DailyGoal percent="1.0" coin="165" award="10002" expDL="316" expUL="316" />
+    </LevelUp>
+    <LevelUp level="76" exp="46415" hunger="180" coinDL="421" coinUL="421">
+      <DrinkWater coinDL="6" coinUL="6" expN="27" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="81" award="10000" expDL="160" expUL="160" />
+      <DailyGoal percent="0.6" coin="100" award="10001" expDL="240" expUL="240" />
+      <DailyGoal percent="1.0" coin="165" award="10002" expDL="320" expUL="320" />
+    </LevelUp>
+    <LevelUp level="77" exp="47510" hunger="182" coinDL="427" coinUL="427">
+      <DrinkWater coinDL="6" coinUL="6" expN="27" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="81" award="10000" expDL="162" expUL="162" />
+      <DailyGoal percent="0.6" coin="100" award="10001" expDL="243" expUL="243" />
+      <DailyGoal percent="1.0" coin="166" award="10002" expDL="324" expUL="324" />
+    </LevelUp>
+    <LevelUp level="78" exp="49860" hunger="184" coinDL="432" coinUL="432">
+      <DrinkWater coinDL="6" coinUL="6" expN="28" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="81" award="10000" expDL="164" expUL="164" />
+      <DailyGoal percent="0.6" coin="101" award="10001" expDL="246" expUL="246" />
+      <DailyGoal percent="1.0" coin="166" award="10002" expDL="328" expUL="328" />
+    </LevelUp>
+    <LevelUp level="79" exp="51005" hunger="186" coinDL="438" coinUL="438">
+      <DrinkWater coinDL="6" coinUL="6" expN="28" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="81" award="10000" expDL="166" expUL="166" />
+      <DailyGoal percent="0.6" coin="101" award="10001" expDL="249" expUL="249" />
+      <DailyGoal percent="1.0" coin="167" award="10002" expDL="332" expUL="332" />
+    </LevelUp>
+    <LevelUp level="80" exp="52165" hunger="188" coinDL="444" coinUL="444">
+      <DrinkWater coinDL="6" coinUL="6" expN="28" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="82" award="10000" expDL="168" expUL="168" />
+      <DailyGoal percent="0.6" coin="102" award="10001" expDL="252" expUL="252" />
+      <DailyGoal percent="1.0" coin="167" award="10002" expDL="336" expUL="336" />
+    </LevelUp>
+    <LevelUp level="81" exp="54650" hunger="190" coinDL="450" coinUL="450">
+      <DrinkWater coinDL="6" coinUL="6" expN="29" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="82" award="10000" expDL="170" expUL="170" />
+      <DailyGoal percent="0.6" coin="102" award="10001" expDL="255" expUL="255" />
+      <DailyGoal percent="1.0" coin="168" award="10002" expDL="340" expUL="340" />
+    </LevelUp>
+    <LevelUp level="82" exp="55860" hunger="192" coinDL="455" coinUL="455">
+      <DrinkWater coinDL="6" coinUL="6" expN="29" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="82" award="10000" expDL="172" expUL="172" />
+      <DailyGoal percent="0.6" coin="102" award="10001" expDL="258" expUL="258" />
+      <DailyGoal percent="1.0" coin="168" award="10002" expDL="344" expUL="344" />
+    </LevelUp>
+    <LevelUp level="83" exp="57085" hunger="194" coinDL="461" coinUL="461">
+      <DrinkWater coinDL="6" coinUL="6" expN="29" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="83" award="10000" expDL="174" expUL="174" />
+      <DailyGoal percent="0.6" coin="103" award="10001" expDL="261" expUL="261" />
+      <DailyGoal percent="1.0" coin="168" award="10002" expDL="348" expUL="348" />
+    </LevelUp>
+    <LevelUp level="84" exp="59705" hunger="196" coinDL="467" coinUL="467">
+      <DrinkWater coinDL="6" coinUL="6" expN="30" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="83" award="10000" expDL="176" expUL="176" />
+      <DailyGoal percent="0.6" coin="103" award="10001" expDL="264" expUL="264" />
+      <DailyGoal percent="1.0" coin="169" award="10002" expDL="352" expUL="352" />
+    </LevelUp>
+    <LevelUp level="85" exp="60985" hunger="198" coinDL="473" coinUL="473">
+      <DrinkWater coinDL="6" coinUL="6" expN="30" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="83" award="10000" expDL="178" expUL="178" />
+      <DailyGoal percent="0.6" coin="103" award="10001" expDL="267" expUL="267" />
+      <DailyGoal percent="1.0" coin="169" award="10002" expDL="356" expUL="356" />
+    </LevelUp>
+    <LevelUp level="86" exp="62275" hunger="200" coinDL="479" coinUL="479">
+      <DrinkWater coinDL="6" coinUL="6" expN="30" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="84" award="10000" expDL="180" expUL="180" />
+      <DailyGoal percent="0.6" coin="104" award="10001" expDL="270" expUL="270" />
+      <DailyGoal percent="1.0" coin="170" award="10002" expDL="360" expUL="360" />
+    </LevelUp>
+    <LevelUp level="87" exp="65035" hunger="202" coinDL="485" coinUL="485">
+      <DrinkWater coinDL="6" coinUL="6" expN="31" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="84" award="10000" expDL="182" expUL="182" />
+      <DailyGoal percent="0.6" coin="104" award="10001" expDL="273" expUL="273" />
+      <DailyGoal percent="1.0" coin="170" award="10002" expDL="364" expUL="364" />
+    </LevelUp>
+    <LevelUp level="88" exp="66380" hunger="204" coinDL="490" coinUL="490">
+      <DrinkWater coinDL="6" coinUL="6" expN="31" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="84" award="10000" expDL="184" expUL="184" />
+      <DailyGoal percent="0.6" coin="104" award="10001" expDL="276" expUL="276" />
+      <DailyGoal percent="1.0" coin="171" award="10002" expDL="368" expUL="368" />
+    </LevelUp>
+    <LevelUp level="89" exp="67735" hunger="206" coinDL="496" coinUL="496">
+      <DrinkWater coinDL="6" coinUL="6" expN="31" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="85" award="10000" expDL="186" expUL="186" />
+      <DailyGoal percent="0.6" coin="105" award="10001" expDL="279" expUL="279" />
+      <DailyGoal percent="1.0" coin="171" award="10002" expDL="372" expUL="372" />
+    </LevelUp>
+    <LevelUp level="90" exp="70640" hunger="208" coinDL="502" coinUL="502">
+      <DrinkWater coinDL="6" coinUL="6" expN="32" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="85" award="10000" expDL="188" expUL="188" />
+      <DailyGoal percent="0.6" coin="105" award="10001" expDL="282" expUL="282" />
+      <DailyGoal percent="1.0" coin="171" award="10002" expDL="376" expUL="376" />
+    </LevelUp>
+    <LevelUp level="91" exp="72050" hunger="210" coinDL="508" coinUL="508">
+      <DrinkWater coinDL="6" coinUL="6" expN="32" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="85" award="10000" expDL="190" expUL="190" />
+      <DailyGoal percent="0.6" coin="105" award="10001" expDL="285" expUL="285" />
+      <DailyGoal percent="1.0" coin="172" award="10002" expDL="380" expUL="380" />
+    </LevelUp>
+    <LevelUp level="92" exp="73475" hunger="212" coinDL="514" coinUL="514">
+      <DrinkWater coinDL="6" coinUL="6" expN="32" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="85" award="10000" expDL="192" expUL="192" />
+      <DailyGoal percent="0.6" coin="106" award="10001" expDL="288" expUL="288" />
+      <DailyGoal percent="1.0" coin="172" award="10002" expDL="384" expUL="384" />
+    </LevelUp>
+    <LevelUp level="93" exp="76525" hunger="214" coinDL="520" coinUL="520">
+      <DrinkWater coinDL="6" coinUL="6" expN="33" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="86" award="10000" expDL="194" expUL="194" />
+      <DailyGoal percent="0.6" coin="106" award="10001" expDL="291" expUL="291" />
+      <DailyGoal percent="1.0" coin="173" award="10002" expDL="388" expUL="388" />
+    </LevelUp>
+    <LevelUp level="94" exp="78005" hunger="216" coinDL="526" coinUL="526">
+      <DrinkWater coinDL="6" coinUL="6" expN="33" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="86" award="10000" expDL="196" expUL="196" />
+      <DailyGoal percent="0.6" coin="106" award="10001" expDL="294" expUL="294" />
+      <DailyGoal percent="1.0" coin="173" award="10002" expDL="392" expUL="392" />
+    </LevelUp>
+    <LevelUp level="95" exp="79500" hunger="218" coinDL="532" coinUL="532">
+      <DrinkWater coinDL="6" coinUL="6" expN="33" expG="5" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="86" award="10000" expDL="198" expUL="198" />
+      <DailyGoal percent="0.6" coin="107" award="10001" expDL="297" expUL="297" />
+      <DailyGoal percent="1.0" coin="173" award="10002" expDL="396" expUL="396" />
+    </LevelUp>
+    <LevelUp level="96" exp="82695" hunger="220" coinDL="538" coinUL="538">
+      <DrinkWater coinDL="6" coinUL="6" expN="34" expG="6" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="87" award="10000" expDL="200" expUL="200" />
+      <DailyGoal percent="0.6" coin="107" award="10001" expDL="300" expUL="300" />
+      <DailyGoal percent="1.0" coin="174" award="10002" expDL="400" expUL="400" />
+    </LevelUp>
+    <LevelUp level="97" exp="84245" hunger="222" coinDL="544" coinUL="544">
+      <DrinkWater coinDL="6" coinUL="6" expN="34" expG="6" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="87" award="10000" expDL="202" expUL="202" />
+      <DailyGoal percent="0.6" coin="107" award="10001" expDL="303" expUL="303" />
+      <DailyGoal percent="1.0" coin="174" award="10002" expDL="404" expUL="404" />
+    </LevelUp>
+    <LevelUp level="98" exp="85810" hunger="224" coinDL="550" coinUL="550">
+      <DrinkWater coinDL="6" coinUL="6" expN="34" expG="6" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="87" award="10000" expDL="204" expUL="204" />
+      <DailyGoal percent="0.6" coin="108" award="10001" expDL="306" expUL="306" />
+      <DailyGoal percent="1.0" coin="175" award="10002" expDL="408" expUL="408" />
+    </LevelUp>
+    <LevelUp level="99" exp="89160" hunger="226" coinDL="556" coinUL="556">
+      <DrinkWater coinDL="6" coinUL="6" expN="35" expG="6" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="87" award="10000" expDL="206" expUL="206" />
+      <DailyGoal percent="0.6" coin="108" award="10001" expDL="309" expUL="309" />
+      <DailyGoal percent="1.0" coin="175" award="10002" expDL="412" expUL="412" />
+    </LevelUp>
+    <LevelUp level="100" exp="9078000" hunger="228" coinDL="562" coinUL="562">
+      <DrinkWater coinDL="7" coinUL="7" expN="35" expG="6" rate30="0.8" rateMore="0.1" />
+      <DailyGoal percent="0.3" coin="88" award="10000" expDL="208" expUL="208" />
+      <DailyGoal percent="0.6" coin="108" award="10001" expDL="312" expUL="312" />
+      <DailyGoal percent="1.0" coin="176" award="10002" expDL="416" expUL="416" />
+    </LevelUp>
+  </Levels>
+</Project>

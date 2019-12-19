@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Name="Gululu" Version="">
+  <TreasureBoxes>
+    <!-- 小生物 -->
+    <TreasureBox Id="10001" Type="1" Name="">
+      <Treasure ItemId="40001" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10002" Type="1" Name="">
+      <Treasure ItemId="40002" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10003" Type="1" Name="">
+      <Treasure ItemId="40003" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10004" Type="1" Name="">
+      <Treasure ItemId="40004" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10005" Type="1" Name="">
+      <Treasure ItemId="40005" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10006" Type="1" Name="">
+      <Treasure ItemId="40006" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10007" Type="1" Name="">
+      <Treasure ItemId="40007" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10008" Type="1" Name="">
+      <Treasure ItemId="40008" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10009" Type="1" Name="">
+      <Treasure ItemId="40009" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10010" Type="1" Name="">
+      <Treasure ItemId="40010" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10011" Type="1" Name="">
+      <Treasure ItemId="40011" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10012" Type="1" Name="">
+      <Treasure ItemId="40012" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10013" Type="1" Name="">
+      <Treasure ItemId="40013" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10014" Type="1" Name="">
+      <Treasure ItemId="40014" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10015" Type="1" Name="">
+      <Treasure ItemId="40015" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10016" Type="1" Name="">
+      <Treasure ItemId="40016" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10017" Type="1" Name="">
+      <Treasure ItemId="40017" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10018" Type="1" Name="">
+      <Treasure ItemId="40018" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10019" Type="1" Name="">
+      <Treasure ItemId="40019" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10020" Type="1" Name="">
+      <Treasure ItemId="40020" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10021" Type="1" Name="">
+      <Treasure ItemId="40021" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10022" Type="1" Name="">
+      <Treasure ItemId="40022" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10023" Type="1" Name="">
+      <Treasure ItemId="40023" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10024" Type="1" Name="">
+      <Treasure ItemId="40024" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10025" Type="1" Name="">
+      <Treasure ItemId="40025" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10026" Type="1" Name="">
+      <Treasure ItemId="40026" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10027" Type="1" Name="">
+      <Treasure ItemId="40027" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10028" Type="1" Name="">
+      <Treasure ItemId="40028" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10029" Type="1" Name="">
+      <Treasure ItemId="40029" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10030" Type="1" Name="">
+      <Treasure ItemId="40030" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10031" Type="1" Name="">
+      <Treasure ItemId="40031" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10032" Type="1" Name="">
+      <Treasure ItemId="40032" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10033" Type="1" Name="">
+      <Treasure ItemId="40033" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10034" Type="1" Name="">
+      <Treasure ItemId="40034" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10035" Type="1" Name="">
+      <Treasure ItemId="40035" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10036" Type="1" Name="">
+      <Treasure ItemId="40036" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10037" Type="1" Name="">
+      <Treasure ItemId="40037" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10038" Type="1" Name="">
+      <Treasure ItemId="40038" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10039" Type="1" Name="">
+      <Treasure ItemId="40039" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10040" Type="1" Name="">
+      <Treasure ItemId="40040" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10041" Type="1" Name="">
+      <Treasure ItemId="40041" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10042" Type="1" Name="">
+      <Treasure ItemId="40042" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10043" Type="1" Name="">
+      <Treasure ItemId="40043" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10044" Type="1" Name="">
+      <Treasure ItemId="40044" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10045" Type="1" Name="">
+      <Treasure ItemId="40045" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10046" Type="1" Name="">
+      <Treasure ItemId="40046" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10047" Type="1" Name="">
+      <Treasure ItemId="40047" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10048" Type="1" Name="">
+      <Treasure ItemId="40048" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10049" Type="1" Name="">
+      <Treasure ItemId="40049" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10050" Type="1" Name="">
+      <Treasure ItemId="40050" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10051" Type="1" Name="">
+      <Treasure ItemId="40051" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10052" Type="1" Name="">
+      <Treasure ItemId="40052" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10053" Type="1" Name="">
+      <Treasure ItemId="40053" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10054" Type="1" Name="">
+      <Treasure ItemId="40054" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10055" Type="1" Name="">
+      <Treasure ItemId="40055" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10056" Type="1" Name="">
+      <Treasure ItemId="40056" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10057" Type="1" Name="">
+      <Treasure ItemId="40057" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10058" Type="1" Name="">
+      <Treasure ItemId="40058" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10059" Type="1" Name="">
+      <Treasure ItemId="40059" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10060" Type="1" Name="">
+      <Treasure ItemId="40060" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10061" Type="1" Name="">
+      <Treasure ItemId="40061" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10062" Type="1" Name="">
+      <Treasure ItemId="40062" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10063" Type="1" Name="">
+      <Treasure ItemId="40063" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10064" Type="1" Name="">
+      <Treasure ItemId="40064" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10065" Type="1" Name="">
+      <Treasure ItemId="40065" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10066" Type="1" Name="">
+      <Treasure ItemId="40066" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10067" Type="1" Name="">
+      <Treasure ItemId="40067" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10068" Type="1" Name="">
+      <Treasure ItemId="40068" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10069" Type="1" Name="">
+      <Treasure ItemId="40069" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10070" Type="1" Name="">
+      <Treasure ItemId="40070" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10071" Type="1" Name="">
+      <Treasure ItemId="40071" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10072" Type="1" Name="">
+      <Treasure ItemId="40072" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10073" Type="1" Name="">
+      <Treasure ItemId="40073" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10074" Type="1" Name="">
+      <Treasure ItemId="40074" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10075" Type="1" Name="">
+      <Treasure ItemId="40075" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10076" Type="1" Name="">
+      <Treasure ItemId="40076" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10077" Type="1" Name="">
+      <Treasure ItemId="40077" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10078" Type="1" Name="">
+      <Treasure ItemId="40078" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10079" Type="1" Name="">
+      <Treasure ItemId="40079" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10080" Type="1" Name="">
+      <Treasure ItemId="40080" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10081" Type="1" Name="">
+      <Treasure ItemId="40081" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10082" Type="1" Name="">
+      <Treasure ItemId="40082" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10083" Type="1" Name="">
+      <Treasure ItemId="40083" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10084" Type="1" Name="">
+      <Treasure ItemId="40084" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10085" Type="1" Name="">
+      <Treasure ItemId="40085" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10086" Type="1" Name="">
+      <Treasure ItemId="40086" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10087" Type="1" Name="">
+      <Treasure ItemId="40087" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10088" Type="1" Name="">
+      <Treasure ItemId="40088" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10089" Type="1" Name="">
+      <Treasure ItemId="40089" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10090" Type="1" Name="">
+      <Treasure ItemId="40090" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10091" Type="1" Name="">
+      <Treasure ItemId="40091" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10092" Type="1" Name="">
+      <Treasure ItemId="40092" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10093" Type="1" Name="">
+      <Treasure ItemId="40093" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10094" Type="1" Name="">
+      <Treasure ItemId="40094" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10095" Type="1" Name="">
+      <Treasure ItemId="40095" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10096" Type="1" Name="">
+      <Treasure ItemId="40096" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10097" Type="1" Name="">
+      <Treasure ItemId="40097" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10098" Type="1" Name="">
+      <Treasure ItemId="40098" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10099" Type="1" Name="">
+      <Treasure ItemId="40099" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10100" Type="1" Name="">
+      <Treasure ItemId="40100" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10101" Type="1" Name="">
+      <Treasure ItemId="40101" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10102" Type="1" Name="">
+      <Treasure ItemId="40102" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10103" Type="1" Name="">
+      <Treasure ItemId="40103" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10104" Type="1" Name="">
+      <Treasure ItemId="40104" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10105" Type="1" Name="">
+      <Treasure ItemId="40105" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10106" Type="1" Name="">
+      <Treasure ItemId="40106" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10107" Type="1" Name="">
+      <Treasure ItemId="40107" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10108" Type="1" Name="">
+      <Treasure ItemId="40108" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10109" Type="1" Name="">
+      <Treasure ItemId="40109" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10110" Type="1" Name="">
+      <Treasure ItemId="40110" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10111" Type="1" Name="">
+      <Treasure ItemId="40111" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10112" Type="1" Name="">
+      <Treasure ItemId="40112" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10113" Type="1" Name="">
+      <Treasure ItemId="40113" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10114" Type="1" Name="">
+      <Treasure ItemId="40114" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10115" Type="1" Name="">
+      <Treasure ItemId="40115" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10116" Type="1" Name="">
+      <Treasure ItemId="40116" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10117" Type="1" Name="">
+      <Treasure ItemId="40117" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10118" Type="1" Name="">
+      <Treasure ItemId="40118" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10119" Type="1" Name="">
+      <Treasure ItemId="40119" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10120" Type="1" Name="">
+      <Treasure ItemId="40120" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10121" Type="1" Name="">
+      <Treasure ItemId="40121" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10122" Type="1" Name="">
+      <Treasure ItemId="40122" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10123" Type="1" Name="">
+      <Treasure ItemId="40123" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10124" Type="1" Name="">
+      <Treasure ItemId="40124" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10125" Type="1" Name="">
+      <Treasure ItemId="40125" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10126" Type="1" Name="">
+      <Treasure ItemId="40126" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10127" Type="1" Name="">
+      <Treasure ItemId="40147" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10128" Type="1" Name="">
+      <Treasure ItemId="40148" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10129" Type="1" Name="">
+      <Treasure ItemId="40149" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10130" Type="1" Name="">
+      <Treasure ItemId="40150" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10131" Type="1" Name="">
+      <Treasure ItemId="40151" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10132" Type="1" Name="">
+      <Treasure ItemId="40152" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10133" Type="1" Name="">
+      <Treasure ItemId="40153" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10134" Type="1" Name="">
+      <Treasure ItemId="40154" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10135" Type="1" Name="">
+      <Treasure ItemId="40155" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10136" Type="1" Name="">
+      <Treasure ItemId="40156" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10137" Type="1" Name="">
+      <Treasure ItemId="40157" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10138" Type="1" Name="">
+      <Treasure ItemId="40158" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10139" Type="1" Name="">
+      <Treasure ItemId="40159" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10140" Type="1" Name="">
+      <Treasure ItemId="40160" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10141" Type="1" Name="">
+      <Treasure ItemId="40161" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10142" Type="1" Name="">
+      <Treasure ItemId="40162" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10143" Type="1" Name="">
+      <Treasure ItemId="40163" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10144" Type="1" Name="">
+      <Treasure ItemId="40164" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10145" Type="1" Name="">
+      <Treasure ItemId="40165" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="10146" Type="1" Name="">
+      <Treasure ItemId="40166" Value="1" />
+    </TreasureBox>
+
+    <TreasureBox Id="81001" Type="2" Name="">
+      <Treasure ItemId="69008" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="81002" Type="2" Name="">
+      <Treasure ItemId="69008" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="81003" Type="2" Name="">
+      <Treasure ItemId="69009" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="81004" Type="2" Name="">
+      <Treasure ItemId="69009" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="81005" Type="2" Name="">
+      <Treasure ItemId="69010" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="81006" Type="2" Name="">
+      <Treasure ItemId="69010" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="81007" Type="2" Name="">
+      <Treasure ItemId="69011" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="81008" Type="2" Name="">
+      <Treasure ItemId="69011" Value="3" />
+    </TreasureBox>
+
+    <TreasureBox Id="81009" Type="2" Name="">
+      <Treasure ItemId="69016" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="81010" Type="2" Name="">
+      <Treasure ItemId="69016" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="81011" Type="2" Name="">
+      <Treasure ItemId="69017" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="81012" Type="2" Name="">
+      <Treasure ItemId="69017" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="81013" Type="2" Name="">
+      <Treasure ItemId="69018" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="81014" Type="2" Name="">
+      <Treasure ItemId="69018" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="81015" Type="2" Name="">
+      <Treasure ItemId="69019" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="81016" Type="2" Name="">
+      <Treasure ItemId="69020" Value="3" />
+    </TreasureBox>
+
+    <TreasureBox Id="91001" Type="2" Name="">
+      <Treasure ItemId="69004" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91002" Type="2" Name="">
+      <Treasure ItemId="69004" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="91003" Type="2" Name="">
+      <Treasure ItemId="69005" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91004" Type="2" Name="">
+      <Treasure ItemId="69005" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="91005" Type="2" Name="">
+      <Treasure ItemId="69006" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91006" Type="2" Name="">
+      <Treasure ItemId="69006" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="91007" Type="2" Name="">
+      <Treasure ItemId="69007" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91008" Type="2" Name="">
+      <Treasure ItemId="69007" Value="3" />
+    </TreasureBox>
+
+    <TreasureBox Id="91009" Type="2" Name="">
+      <Treasure ItemId="69012" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91010" Type="2" Name="">
+      <Treasure ItemId="69012" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="91011" Type="2" Name="">
+      <Treasure ItemId="69013" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91012" Type="2" Name="">
+      <Treasure ItemId="69013" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="91013" Type="2" Name="">
+      <Treasure ItemId="69014" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91014" Type="2" Name="">
+      <Treasure ItemId="69014" Value="3" />
+    </TreasureBox>
+    <TreasureBox Id="91015" Type="2" Name="">
+      <Treasure ItemId="69015" Value="1" />
+    </TreasureBox>
+    <TreasureBox Id="91016" Type="2" Name="">
+      <Treasure ItemId="69015" Value="3" />
+    </TreasureBox>
+
+    <!-- 其他 -->
+    <TreasureBox Id="20001" Type="2" Name="">
+      <Treasure ItemId="10001" Value="10"/>
+      <Treasure ItemId="10002" Value="10"/>
+    </TreasureBox>
+  </TreasureBoxes>
+</Project>

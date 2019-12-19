@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 906216f56f9d5294f801b0a4046d6822
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm_L_01_01
+    100002: Arm_L_01_02
+    100004: Arm_R_01_01
+    100006: Arm_R_01_02
+    100008: Body001
+    100010: dangban
+    100012: dangban 1
+    100014: Eye_L
+    100016: Eye_L002
+    100018: Eye_R
+    100020: Eye_R002
+    100022: EyeBrow_L
+    100024: EyeBrow_r
+    100026: EyeBrown_L
+    100028: EyeBrown_R
+    100030: EyeLip_L_Down
+    100032: EyeLip_L_Down002
+    100034: EyeLip_L_Up
+    100036: EyeLip_L_Up002
+    100038: EyeLip_R_Down
+    100040: EyeLip_R_Down002
+    100042: EyeLip_R_Up
+    100044: EyeLip_R_Up002
+    100046: EyeTouming_L
+    100048: EyeTouming_R
+    100050: Head002
+    100052: Jiemao_L
+    100054: Jiemao_R
+    100056: Jijiao_L_01
+    100058: Jijiao_L_02
+    100060: Jijiao_L_03
+    100062: Jijiao_R_01
+    100064: Jijiao_R_02
+    100066: Jijiao_R_03
+    100068: Leg_L_01_01
+    100070: Leg_L_01_02
+    100072: Leg_L_01_03
+    100074: Leg_L_02_01
+    100076: Leg_L_02_02
+    100078: Leg_L_02_03
+    100080: Leg_L_03_01
+    100082: Leg_L_03_02
+    100084: Leg_L_03_03
+    100086: Leg_L_04_01
+    100088: Leg_L_04_02
+    100090: Leg_L_04_03
+    100092: Leg_L_05_01
+    100094: Leg_L_05_02
+    100096: Leg_L_05_03
+    100098: Leg_MidBack_01_01
+    100100: Leg_MidBack_01_02
+    100102: Leg_MidBack_01_03
+    100104: Leg_MidFront_01_01
+    100106: Leg_MidFront_01_02
+    100108: Leg_MidFront_01_03
+    100110: Leg_R_01_01
+    100112: Leg_R_01_02
+    100114: Leg_R_01_03
+    100116: Leg_R_02_01
+    100118: Leg_R_02_02
+    100120: Leg_R_02_02 1
+    100122: Leg_R_02_03
+    100124: Leg_R_02_03 1
+    100126: Leg_R_03_01
+    100128: Leg_R_04_01
+    100130: Leg_R_04_02
+    100132: Leg_R_04_03
+    100134: Leg_R_05_01
+    100136: Leg_R_05_02
+    100138: Leg_R_05_03
+    100140: Mouth_Down
+    100142: Mouth_L001
+    100144: Mouth_R001
+    100146: Mouth_Up
+    100148: //RootNode
+    100150: pur_Jaw
+    100152: Purpie_Geo
+    100154: Root01
+    100156: Root02
+    100158: Teeth
+    100160: Teeth 1
+    100162: Tongue004
+    100164: Tongue01
+    100166: Tongue02
+    100168: Tongue03
+    100170: Tongue04
+    100172: Head
+    100174: Mouth_L
+    100176: Mouth_R
+    400000: Arm_L_01_01
+    400002: Arm_L_01_02
+    400004: Arm_R_01_01
+    400006: Arm_R_01_02
+    400008: Body001
+    400010: dangban
+    400012: dangban 1
+    400014: Eye_L
+    400016: Eye_L002
+    400018: Eye_R
+    400020: Eye_R002
+    400022: EyeBrow_L
+    400024: EyeBrow_r
+    400026: EyeBrown_L
+    400028: EyeBrown_R
+    400030: EyeLip_L_Down
+    400032: EyeLip_L_Down002
+    400034: EyeLip_L_Up
+    400036: EyeLip_L_Up002
+    400038: EyeLip_R_Down
+    400040: EyeLip_R_Down002
+    400042: EyeLip_R_Up
+    400044: EyeLip_R_Up002
+    400046: EyeTouming_L
+    400048: EyeTouming_R
+    400050: Head002
+    400052: Jiemao_L
+    400054: Jiemao_R
+    400056: Jijiao_L_01
+    400058: Jijiao_L_02
+    400060: Jijiao_L_03
+    400062: Jijiao_R_01
+    400064: Jijiao_R_02
+    400066: Jijiao_R_03
+    400068: Leg_L_01_01
+    400070: Leg_L_01_02
+    400072: Leg_L_01_03
+    400074: Leg_L_02_01
+    400076: Leg_L_02_02
+    400078: Leg_L_02_03
+    400080: Leg_L_03_01
+    400082: Leg_L_03_02
+    400084: Leg_L_03_03
+    400086: Leg_L_04_01
+    400088: Leg_L_04_02
+    400090: Leg_L_04_03
+    400092: Leg_L_05_01
+    400094: Leg_L_05_02
+    400096: Leg_L_05_03
+    400098: Leg_MidBack_01_01
+    400100: Leg_MidBack_01_02
+    400102: Leg_MidBack_01_03
+    400104: Leg_MidFront_01_01
+    400106: Leg_MidFront_01_02
+    400108: Leg_MidFront_01_03
+    400110: Leg_R_01_01
+    400112: Leg_R_01_02
+    400114: Leg_R_01_03
+    400116: Leg_R_02_01
+    400118: Leg_R_02_02
+    400120: Leg_R_02_02 1
+    400122: Leg_R_02_03
+    400124: Leg_R_02_03 1
+    400126: Leg_R_03_01
+    400128: Leg_R_04_01
+    400130: Leg_R_04_02
+    400132: Leg_R_04_03
+    400134: Leg_R_05_01
+    400136: Leg_R_05_02
+    400138: Leg_R_05_03
+    400140: Mouth_Down
+    400142: Mouth_L001
+    400144: Mouth_R001
+    400146: Mouth_Up
+    400148: //RootNode
+    400150: pur_Jaw
+    400152: Purpie_Geo
+    400154: Root01
+    400156: Root02
+    400158: Teeth
+    400160: Teeth 1
+    400162: Tongue004
+    400164: Tongue01
+    400166: Tongue02
+    400168: Tongue03
+    400170: Tongue04
+    400172: Head
+    400174: Mouth_L
+    400176: Mouth_R
+    2100000: blinn1
+    2100002: jiao
+    2100004: phong3
+    2100006: No Name
+    2100008: 08 - Default
+    2300000: dangban
+    3300000: dangban
+    4300000: Body001
+    4300002: Tongue004
+    4300004: Jiemao_L
+    4300006: Jiemao_R
+    4300008: EyeBrow_r
+    4300010: EyeBrow_L
+    4300012: EyeTouming_R
+    4300014: Eye_R002
+    4300016: EyeLip_R_Down002
+    4300018: EyeLip_R_Up002
+    4300020: EyeTouming_L
+    4300022: Eye_L002
+    4300024: EyeLip_L_Down002
+    4300026: EyeLip_L_Up002
+    4300028: Teeth
+    4300030: dangban
+    4300032: dangban
+    7400000: pur_doc
+    9500000: //RootNode
+    13700000: Body001
+    13700002: dangban 1
+    13700004: Eye_L002
+    13700006: Eye_R002
+    13700008: EyeBrow_L
+    13700010: EyeBrow_r
+    13700012: EyeLip_L_Down002
+    13700014: EyeLip_L_Up002
+    13700016: EyeLip_R_Down002
+    13700018: EyeLip_R_Up002
+    13700020: EyeTouming_L
+    13700022: EyeTouming_R
+    13700024: Jiemao_L
+    13700026: Jiemao_R
+    13700028: Teeth 1
+    13700030: Tongue004
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pur_doc
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

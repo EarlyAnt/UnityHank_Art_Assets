@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Name="Gululu" Version="">
+  <Accessories>
+    <Accessory ID="20001" Type="1" Index="4" Name="wizard hat" Icon="part_head_hat" Prefab="cap_point" Region="Dummy_head" Purchase="Coin" Price="200" Exp="2" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20002" Type="2" Index="5" Name="devil wing" Icon="part_wing_bat" Prefab="wing_point" Region="Dummy_wing" Purchase="Coin" Price="500" Exp="18" StartTime="null" EndTime="null" Level="6" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20003" Type="5" Index="6" Name="ghost" Icon="elf_up_ghost" Prefab="ghost" Region="TopLeft" Purchase="Coin" Price="2000" Exp="8" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20004" Type="6" Index="1" Name="pumpkin" Icon="elf_down_pumpkin" Prefab="pumpkin" Region="TopLeft" Purchase="Coin" Price="800" Exp="3" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20005" Type="5" Index="7" Name="snow cloud" Icon="elf_up_cloud" Prefab="cloud_snow" Region="TopLeft" Purchase="Coin" Price="2500" Exp="19" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20006" Type="2" Index="6" Name="snow wing" Icon="part_wing_snow" Prefab="wing_snow" Region="Dummy_wing" Purchase="Coin" Price="1200" Exp="10" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20007" Type="1" Index="3" Name="cornu cervi" Icon="part_head_antler" Prefab="cornu cervi_point" Region="Dummy_head" Purchase="Coin" Price="1800" Exp="20" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20008" Type="6" Index="8" Name="snowman" Icon="elf_down_snowman" Prefab="snowman" Region="BottomRight" Purchase="Coin" Price="1000" Exp="5" StartTime="null" EndTime="null" Level="10" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20009" Type="1" Index="1" Name="antler ponit" Icon="part_head_antler02" Prefab="antler_ponit" Region="Dummy_head" Purchase="Coin" Price="300" Exp="20" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20010" Type="1" Index="2" Name="christmas hat" Icon="part_head_merryhat" Prefab="christmas hat_point" Region="Dummy_head" Purchase="Coin" Price="800" Exp="20" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20011" Type="4" Index="1" Name="christmas point" Icon="suit_pur_merry" Prefab="christmas_point" Region="Dummy_taozhuang" Purchase="Coin" Price="2500" Exp="20" StartTime="null" EndTime="null" Level="10" PURPIE="1" DONNY="0" NINJI="0" SANSA="0" YOYO="0" NUO="0" />
+    <Accessory ID="20012" Type="6" Index="4" Name="elk" Icon="elf_down_deer" Prefab="elk" Region="BottomRight" Purchase="Coin" Price="1500" Exp="20" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20013" Type="6" Index="5" Name="elk02" Icon="elf_down_deer02" Prefab="elk_A" Region="BottomRight" Purchase="Cash" Price="1.99" Exp="20" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20014" Type="5" Index="2" Name="giftbox" Icon="elf_up_gift" Prefab="giftbox" Region="TopLeft" Purchase="Coin" Price="1000" Exp="20" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+    <Accessory ID="20015" Type="5" Index="3" Name="giftbox02" Icon="elf_up_gift02" Prefab="giftbox_A" Region="TopLeft" Purchase="Coin" Price="1800" Exp="20" StartTime="null" EndTime="null" Level="1" PURPIE="1" DONNY="1" NINJI="1" SANSA="1" YOYO="1" NUO="1" />
+  </Accessories>
+</Project>

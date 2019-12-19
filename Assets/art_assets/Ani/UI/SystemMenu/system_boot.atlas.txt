@@ -1,0 +1,97 @@
+
+system_boot.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrows
+  rotate: false
+  xy: 850, 28
+  size: 10, 17
+  orig: 10, 17
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 783, 11
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+guide_cup
+  rotate: true
+  xy: 661, 17
+  size: 28, 72
+  orig: 28, 72
+  offset: 0, 0
+  index: -1
+guide_hand
+  rotate: false
+  xy: 738, 20
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1
+slide_hand
+  rotate: false
+  xy: 822, 12
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+txt_down
+  rotate: false
+  xy: 87, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+txt_down_CHT
+  rotate: false
+  xy: 169, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+txt_down_EN
+  rotate: false
+  xy: 251, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+txt_down_JP
+  rotate: false
+  xy: 333, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+txt_yes
+  rotate: false
+  xy: 415, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+txt_yes_CHT
+  rotate: false
+  xy: 497, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+txt_yes_EN
+  rotate: false
+  xy: 579, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+txt_yes_JP
+  rotate: false
+  xy: 5, 5
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1

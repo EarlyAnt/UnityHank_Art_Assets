@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Fur
+  m_Shader: {fileID: 4800000, guid: 1951b659a654f1c4eac95591d3321950, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b35f45fb9776cd04283d54c724453db9, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 8c19362951f0aff44846e2001a4a48e4, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0
+    - _EdgeFade: 0.19007803
+    - _FurDarkening: 1.39
+    - _FurLength: 0.0649811
+    - _HairColoring: 0.19197905
+    - _HairHardness: 1
+    - _HairShading: 0.44230768
+    - _HairThinness: 3.3659313
+    - _Reflection: 0
+    - _RimPower: 4
+    - _Shininess: 6.121652
+    - _SkinAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Dow2n: {r: 0, g: -1, b: 0, a: 0}
+    - _Down: {r: 0, g: 1, b: 0, a: 0}
+    - _ForceGlobal: {r: 0, g: 0, b: 0, a: 0}
+    - _ForceLocal: {r: 0, g: 0, b: 0, a: 0}
+    - _LightDirection: {r: 1, g: 0, b: 0, a: 0.2}
+    - _LightDirection0: {r: 0, g: 0, b: -1, a: 0}
+    - _LightDirection1: {r: 0, g: 0.848, b: 0.53, a: 5.750409e-18}
+    - _MyLightColor0: {r: 0.5447761, g: 0.5447761, b: 0.5447761, a: 0.078431375}
+    - _MyLightColor1: {r: 0.12558176, g: 0.25152972, b: 0.38094148, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

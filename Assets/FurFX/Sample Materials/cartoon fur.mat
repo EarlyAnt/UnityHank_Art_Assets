@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cartoon fur
+  m_Shader: {fileID: 4800000, guid: 077358c94a524f742bba740b34e2adc9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: d9efb6da673fe1c44bbc592d9f82945d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 96cbda247b0471a47b1a6dae4c6b26b0, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: cea2ca91ca9b36c46bb9fd405ee04f86, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0
+    - _EdgeFade: 0.40585536
+    - _FurLength: 0.09160218
+    - _HairColoring: 0
+    - _HairHardness: 1
+    - _HairShading: 0
+    - _HairThinness: 3.2759616
+    - _Reflection: 0.46153846
+    - _RimPower: 8
+    - _Shininess: 10.000001
+    - _SkinAlpha: 0.54477614
+    m_Colors:
+    - _Color: {r: 0.738806, g: 0.04410783, b: 0.04410783, a: 1}
+    - _ForceGlobal: {r: 0, g: -0, b: 0, a: 0}
+    - _ForceLocal: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}

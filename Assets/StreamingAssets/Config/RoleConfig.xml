@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Name="Gululu" Version="">
+  <Roles>
+    <!--Purpie dony ninji sansa-->
+    <Role Id="0" Name="PURPIE" ChineseName="胖紫" ModelPath="pur" GuestPath="pur"/>
+    <Role Id="1" Name="DONNY" ChineseName="逗泥" ModelPath="dony" GuestPath="dony"/>
+    <Role Id="2" Name="NINJI" ChineseName="小忍" ModelPath="ninji" GuestPath="ninji"/>
+    <Role Id="3" Name="SANSA" ChineseName="珊珊" ModelPath="sansa" GuestPath="sansa"/>
+    <Role Id="4" Name="YOYO" ChineseName="呦呦" ModelPath="yoyo" GuestPath="yoyo"/>
+    <Role Id="5" Name="NUO" ChineseName="诺诺" ModelPath="nuo" GuestPath="nuo"/>
+  </Roles>
+</Project>

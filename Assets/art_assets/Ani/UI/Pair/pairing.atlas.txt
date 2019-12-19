@@ -1,0 +1,104 @@
+
+pairing.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: false
+  xy: 992, 220
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 3, 3
+  size: 240, 320
+  orig: 240, 320
+  offset: 0, 0
+  index: -1
+cup
+  rotate: false
+  xy: 756, 87
+  size: 31, 69
+  orig: 31, 69
+  offset: 0, 0
+  index: -1
+failure1
+  rotate: true
+  xy: 900, 156
+  size: 87, 89
+  orig: 87, 89
+  offset: 0, 0
+  index: -1
+failure2
+  rotate: false
+  xy: 456, 68
+  size: 113, 85
+  orig: 113, 85
+  offset: 0, 0
+  index: -1
+gululu world
+  rotate: false
+  xy: 326, 63
+  size: 127, 180
+  orig: 127, 180
+  offset: 0, 0
+  index: -1
+line1
+  rotate: true
+  xy: 805, 159
+  size: 84, 92
+  orig: 84, 92
+  offset: 0, 0
+  index: -1
+line2
+  rotate: false
+  xy: 456, 156
+  size: 115, 87
+  orig: 115, 87
+  offset: 0, 0
+  index: -1
+notfound1
+  rotate: true
+  xy: 574, 68
+  size: 87, 89
+  orig: 87, 89
+  offset: 0, 0
+  index: -1
+notfound2
+  rotate: false
+  xy: 574, 158
+  size: 113, 85
+  orig: 113, 85
+  offset: 0, 0
+  index: -1
+router
+  rotate: false
+  xy: 326, 13
+  size: 68, 47
+  orig: 68, 47
+  offset: 0, 0
+  index: -1
+wifi
+  rotate: false
+  xy: 397, 44
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+win1
+  rotate: false
+  xy: 666, 66
+  size: 87, 89
+  orig: 87, 89
+  offset: 0, 0
+  index: -1
+win2
+  rotate: false
+  xy: 690, 159
+  size: 112, 84
+  orig: 112, 84
+  offset: 0, 0
+  index: -1

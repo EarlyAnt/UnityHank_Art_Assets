@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: 7c825f50cc397ec44a324bd9494e633d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Eye_L
+    100002: Eye_L 1
+    100004: Eye_L_Down
+    100006: Eye_L_Quan
+    100008: Eye_L_TouMing
+    100010: Eye_L_Up
+    100012: Eye_R
+    100014: Eye_R 1
+    100016: Eye_R_Down
+    100018: Eye_R_Quan
+    100020: Eye_R_TouMing
+    100022: Eye_R_Up
+    100024: EyeLip_L_Down
+    100026: EyeLip_L_Up
+    100028: EyeLip_R_Down
+    100030: EyeLip_R_Up
+    100032: Hair
+    100034: Hair_01
+    100036: Hair_02
+    100038: Head
+    100040: Head 1
+    100042: Leg_01
+    100044: Leg_01_01
+    100046: Leg_01_02
+    100048: Leg_01_03
+    100050: Leg_01_04
+    100052: Leg_02
+    100054: Leg_02_01
+    100056: Leg_02_02
+    100058: Leg_02_03
+    100060: Leg_02_04
+    100062: Leg_03
+    100064: Leg_03_01
+    100066: Leg_03_02
+    100068: Leg_03_03
+    100070: Leg_03_04
+    100072: //RootNode
+    100074: NinJin_Geo
+    100076: Root_01
+    100078: Root_02
+    400000: Eye_L
+    400002: Eye_L 1
+    400004: Eye_L_Down
+    400006: Eye_L_Quan
+    400008: Eye_L_TouMing
+    400010: Eye_L_Up
+    400012: Eye_R
+    400014: Eye_R 1
+    400016: Eye_R_Down
+    400018: Eye_R_Quan
+    400020: Eye_R_TouMing
+    400022: Eye_R_Up
+    400024: EyeLip_L_Down
+    400026: EyeLip_L_Up
+    400028: EyeLip_R_Down
+    400030: EyeLip_R_Up
+    400032: Hair
+    400034: Hair_01
+    400036: Hair_02
+    400038: Head
+    400040: Head 1
+    400042: Leg_01
+    400044: Leg_01_01
+    400046: Leg_01_02
+    400048: Leg_01_03
+    400050: Leg_01_04
+    400052: Leg_02
+    400054: Leg_02_01
+    400056: Leg_02_02
+    400058: Leg_02_03
+    400060: Leg_02_04
+    400062: Leg_03
+    400064: Leg_03_01
+    400066: Leg_03_02
+    400068: Leg_03_03
+    400070: Leg_03_04
+    400072: //RootNode
+    400074: NinJin_Geo
+    400076: Root_01
+    400078: Root_02
+    2100000: Ninji_Rig_V9_xiaoren_model
+    2100002: Ninji_Rig_V9_eye_mod
+    2100004: Ninji_Rig_V9_xiaoren_model1
+    4300000: Eye_L_Down
+    4300002: Eye_L_Up
+    4300004: Eye_R_Down
+    4300006: Eye_R_Up
+    4300008: Eye_R
+    4300010: Eye_R_TouMing
+    4300012: Eye_L_TouMing
+    4300014: Eye_R_Quan
+    4300016: Eye_L_Quan
+    4300018: Head
+    4300020: Hair
+    4300022: Leg_03
+    4300024: Leg_02
+    4300026: Leg_01
+    4300028: Eye_L
+    7400000: nin_dailygoal_skill_in_01
+    7400002: nin_dailygoal_skill_01
+    7400004: nin_dailygoal_skill_out_01
+    7400006: nin_dailygoal_idle_01
+    7400008: nin_unhappy_idle_in_01
+    7400010: nin_unhappy_idle_01
+    7400012: nin_unhappy_idle_out_01
+    7400014: nin_unhappy_play_01
+    9500000: //RootNode
+    13700000: Eye_L 1
+    13700002: Eye_L_Down
+    13700004: Eye_L_Quan
+    13700006: Eye_L_TouMing
+    13700008: Eye_L_Up
+    13700010: Eye_R 1
+    13700012: Eye_R_Down
+    13700014: Eye_R_Quan
+    13700016: Eye_R_TouMing
+    13700018: Eye_R_Up
+    13700020: Hair
+    13700022: Head 1
+    13700024: Leg_01
+    13700026: Leg_02
+    13700028: Leg_03
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: nin_dailygoal_skill_in_01
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nin_dailygoal_skill_01
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nin_dailygoal_skill_out_01
+      takeName: Take 001
+      firstFrame: 390
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nin_dailygoal_idle_01
+      takeName: Take 001
+      firstFrame: 1110
+      lastFrame: 1160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nin_unhappy_idle_in_01
+      takeName: Take 001
+      firstFrame: 890
+      lastFrame: 900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nin_unhappy_idle_01
+      takeName: Take 001
+      firstFrame: 900
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nin_unhappy_idle_out_01
+      takeName: Take 001
+      firstFrame: 1000
+      lastFrame: 1030
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nin_unhappy_play_01
+      takeName: Take 001
+      firstFrame: 730
+      lastFrame: 850
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

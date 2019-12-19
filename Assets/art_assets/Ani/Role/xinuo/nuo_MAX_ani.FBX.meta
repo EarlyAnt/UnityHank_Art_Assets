@@ -1,0 +1,1122 @@
+fileFormatVersion: 2
+guid: 1ce7350d0a8e89a42ab0f9f4b5bf8b4b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm_L_01
+    100002: Arm_L_02
+    100004: Arm_R_01
+    100006: Arm_R_02
+    100008: Bip001 Head
+    100010: Bip001 HeadNub
+    100012: Bip001 L Clavicle
+    100014: Bip001 L Finger0
+    100016: Bip001 L Finger0Nub
+    100018: Bip001 L Forearm
+    100020: Bip001 L Hand
+    100022: Bip001 L UpperArm
+    100024: Bip001 Neck
+    100026: Bip001 Pelvis
+    100028: Bip001 R Clavicle
+    100030: Bip001 R Finger0
+    100032: Bip001 R Finger0Nub
+    100034: Bip001 R Forearm
+    100036: Bip001 R Hand
+    100038: Bip001 R UpperArm
+    100040: Bip001 Spine
+    100042: body
+    100044: chin
+    100046: cloth
+    100048: cloth_01
+    100050: cloth_02
+    100052: cloth_03
+    100054: cloth_04
+    100056: cloth_05
+    100058: cloth_06
+    100060: cloth_07
+    100062: cloth_08
+    100064: cloth_all
+    100066: ear_l_01
+    100068: ear_l_02
+    100070: ear_l_03
+    100072: ear_r_01
+    100074: ear_r_02
+    100076: ear_r_03
+    100078: Eye_L
+    100080: Eye_L_Down
+    100082: Eye_L_Up
+    100084: Eye_R
+    100086: Eye_R_Down
+    100088: Eye_R_Up
+    100090: eyeball_L
+    100092: eyeball_R
+    100094: Finger _L_01
+    100096: Finger _L_02
+    100098: Finger _L_03
+    100100: Finger _R_01
+    100102: Finger _R_02
+    100104: Finger _R_03
+    100106: head_01
+    100108: head_02
+    100110: leg_ L Toe0Nub
+    100112: leg_ R Foot
+    100114: leg_ R Toe0Nub
+    100116: leg_L Calf
+    100118: leg_L Foot
+    100120: leg_L Thigh
+    100122: leg_L Toe0
+    100124: leg_R Calf
+    100126: leg_R Thigh
+    100128: leg_R Toe0
+    100130: Lower eyelid_L
+    100132: Lower eyelid_R
+    100134: Mouth_Down
+    100136: Mouth_Down_002
+    100138: Mouth_Down_01
+    100140: Mouth_L
+    100142: Mouth_R
+    100144: Mouth_up
+    100146: Mouth_up_01
+    100148: Mouth_up_02
+    100150: root
+    100152: shetou_01
+    100154: shetou_02
+    100156: shetou_03
+    100158: Shoulder_L
+    100160: Shoulder_R
+    100162: spine_01
+    100164: spine_02
+    100166: Tail_01
+    100168: Tail_02
+    100170: Tail_03
+    100172: Tongue
+    100174: Upper eyelid_L
+    100176: Upper eyelid_R
+    100178: //RootNode
+    100180: Bip001 Footsteps
+    100182: u
+    100184: Body
+    100186: Bone005
+    100188: Bone006
+    100190: Bone007
+    100192: Eye
+    100194: Eye002
+    100196: face_L
+    100198: face_R
+    100200: Moon
+    100202: Moon _Root
+    100204: Nose
+    100206: nose
+    100208: star
+    100210: star001
+    100212: star002
+    100214: Star_Eye
+    100216: Star_Eye001
+    100218: Star_Eye002
+    100220: Star_Root_A
+    100222: Star_Root_A001
+    100224: Star_Root_A002
+    100226: Start_Body
+    100228: Start_Body001
+    100230: Start_Body002
+    100232: sun
+    100234: sun2
+    100236: sun3
+    100238: sun4
+    100240: Sun_Root001
+    100242: Teetn
+    100244: Arm_L_003
+    100246: Arm_L_004
+    100248: Arm_R_003
+    100250: Arm_R_004
+    100252: Bip001 Head001
+    100254: Bip001 HeadNub001
+    100256: Bip001 L Clavicle001
+    100258: Bip001 L Finger001
+    100260: Bip001 L Finger0Nub001
+    100262: Bip001 L Forearm001
+    100264: Bip001 L Hand001
+    100266: Bip001 L UpperArm001
+    100268: Bip001 Neck001
+    100270: Bip001 Pelvis001
+    100272: Bip001 R Clavicle001
+    100274: Bip001 R Finger001
+    100276: Bip001 R Finger0Nub001
+    100278: Bip001 R Forearm001
+    100280: Bip001 R Hand001
+    100282: Bip001 R UpperArm001
+    100284: Bip001 Spine001
+    100286: body001
+    100288: Bone010
+    100290: Bone011
+    100292: Bone012
+    100294: Bone013
+    100296: Bone014
+    100298: Bone015
+    100300: Bone016
+    100302: Bone017
+    100304: Bone018
+    100306: chin001
+    100308: cloth001
+    100310: cloth_009
+    100312: cloth_010
+    100314: cloth_011
+    100316: cloth_012
+    100318: cloth_013
+    100320: cloth_014
+    100322: cloth_015
+    100324: cloth_016
+    100326: cloth_all001
+    100328: ear_l_004
+    100330: ear_l_005
+    100332: ear_l_006
+    100334: ear_r_004
+    100336: ear_r_005
+    100338: ear_r_006
+    100340: Eye_L001
+    100342: Eye_L_Down001
+    100344: Eye_L_Up001
+    100346: Eye_R001
+    100348: Eye_R_Down001
+    100350: Eye_R_Up001
+    100352: eyeball_L001
+    100354: eyeball_R001
+    100356: face_L001
+    100358: face_R001
+    100360: Finger _L_004
+    100362: Finger _L_005
+    100364: Finger _L_006
+    100366: Finger _R_004
+    100368: Finger _R_005
+    100370: Finger _R_006
+    100372: head_003
+    100374: head_004
+    100376: leg_ L Toe0Nub001
+    100378: leg_ R Foot001
+    100380: leg_ R Toe0Nub001
+    100382: leg_L Calf001
+    100384: leg_L Foot001
+    100386: leg_L Thigh001
+    100388: leg_L Toe001
+    100390: leg_R Calf001
+    100392: leg_R Thigh001
+    100394: leg_R Toe001
+    100396: Lower eyelid_L001
+    100398: Lower eyelid_R001
+    100400: Mouth_Down001
+    100402: Mouth_Down_003
+    100404: Mouth_Down_004
+    100406: Mouth_L001
+    100408: Mouth_R001
+    100410: Mouth_up001
+    100412: Mouth_up_003
+    100414: Mouth_up_004
+    100416: nose001
+    100418: root001
+    100420: shetou_004
+    100422: shetou_005
+    100424: shetou_006
+    100426: Shoulder_L001
+    100428: Shoulder_R001
+    100430: spine_003
+    100432: spine_004
+    100434: Tail_004
+    100436: Tail_005
+    100438: Tail_006
+    100440: Tongue001
+    100442: Upper eyelid_L001
+    100444: Upper eyelid_R001
+    100446: Dummy_cap
+    100448: Dummy_L
+    100450: Dummy_R
+    100452: moon
+    100454: sun005
+    100456: Dummy_head
+    100458: Dummy_wing
+    400000: Arm_L_01
+    400002: Arm_L_02
+    400004: Arm_R_01
+    400006: Arm_R_02
+    400008: Bip001 Head
+    400010: Bip001 HeadNub
+    400012: Bip001 L Clavicle
+    400014: Bip001 L Finger0
+    400016: Bip001 L Finger0Nub
+    400018: Bip001 L Forearm
+    400020: Bip001 L Hand
+    400022: Bip001 L UpperArm
+    400024: Bip001 Neck
+    400026: Bip001 Pelvis
+    400028: Bip001 R Clavicle
+    400030: Bip001 R Finger0
+    400032: Bip001 R Finger0Nub
+    400034: Bip001 R Forearm
+    400036: Bip001 R Hand
+    400038: Bip001 R UpperArm
+    400040: Bip001 Spine
+    400042: body
+    400044: chin
+    400046: cloth
+    400048: cloth_01
+    400050: cloth_02
+    400052: cloth_03
+    400054: cloth_04
+    400056: cloth_05
+    400058: cloth_06
+    400060: cloth_07
+    400062: cloth_08
+    400064: cloth_all
+    400066: ear_l_01
+    400068: ear_l_02
+    400070: ear_l_03
+    400072: ear_r_01
+    400074: ear_r_02
+    400076: ear_r_03
+    400078: Eye_L
+    400080: Eye_L_Down
+    400082: Eye_L_Up
+    400084: Eye_R
+    400086: Eye_R_Down
+    400088: Eye_R_Up
+    400090: eyeball_L
+    400092: eyeball_R
+    400094: Finger _L_01
+    400096: Finger _L_02
+    400098: Finger _L_03
+    400100: Finger _R_01
+    400102: Finger _R_02
+    400104: Finger _R_03
+    400106: head_01
+    400108: head_02
+    400110: leg_ L Toe0Nub
+    400112: leg_ R Foot
+    400114: leg_ R Toe0Nub
+    400116: leg_L Calf
+    400118: leg_L Foot
+    400120: leg_L Thigh
+    400122: leg_L Toe0
+    400124: leg_R Calf
+    400126: leg_R Thigh
+    400128: leg_R Toe0
+    400130: Lower eyelid_L
+    400132: Lower eyelid_R
+    400134: Mouth_Down
+    400136: Mouth_Down_002
+    400138: Mouth_Down_01
+    400140: Mouth_L
+    400142: Mouth_R
+    400144: Mouth_up
+    400146: Mouth_up_01
+    400148: Mouth_up_02
+    400150: root
+    400152: shetou_01
+    400154: shetou_02
+    400156: shetou_03
+    400158: Shoulder_L
+    400160: Shoulder_R
+    400162: spine_01
+    400164: spine_02
+    400166: Tail_01
+    400168: Tail_02
+    400170: Tail_03
+    400172: Tongue
+    400174: Upper eyelid_L
+    400176: Upper eyelid_R
+    400178: //RootNode
+    400180: Bip001 Footsteps
+    400182: u
+    400184: Body
+    400186: Bone005
+    400188: Bone006
+    400190: Bone007
+    400192: Eye
+    400194: Eye002
+    400196: face_L
+    400198: face_R
+    400200: Moon
+    400202: Moon _Root
+    400204: Nose
+    400206: nose
+    400208: star
+    400210: star001
+    400212: star002
+    400214: Star_Eye
+    400216: Star_Eye001
+    400218: Star_Eye002
+    400220: Star_Root_A
+    400222: Star_Root_A001
+    400224: Star_Root_A002
+    400226: Start_Body
+    400228: Start_Body001
+    400230: Start_Body002
+    400232: sun
+    400234: sun2
+    400236: sun3
+    400238: sun4
+    400240: Sun_Root001
+    400242: Teetn
+    400244: Arm_L_003
+    400246: Arm_L_004
+    400248: Arm_R_003
+    400250: Arm_R_004
+    400252: Bip001 Head001
+    400254: Bip001 HeadNub001
+    400256: Bip001 L Clavicle001
+    400258: Bip001 L Finger001
+    400260: Bip001 L Finger0Nub001
+    400262: Bip001 L Forearm001
+    400264: Bip001 L Hand001
+    400266: Bip001 L UpperArm001
+    400268: Bip001 Neck001
+    400270: Bip001 Pelvis001
+    400272: Bip001 R Clavicle001
+    400274: Bip001 R Finger001
+    400276: Bip001 R Finger0Nub001
+    400278: Bip001 R Forearm001
+    400280: Bip001 R Hand001
+    400282: Bip001 R UpperArm001
+    400284: Bip001 Spine001
+    400286: body001
+    400288: Bone010
+    400290: Bone011
+    400292: Bone012
+    400294: Bone013
+    400296: Bone014
+    400298: Bone015
+    400300: Bone016
+    400302: Bone017
+    400304: Bone018
+    400306: chin001
+    400308: cloth001
+    400310: cloth_009
+    400312: cloth_010
+    400314: cloth_011
+    400316: cloth_012
+    400318: cloth_013
+    400320: cloth_014
+    400322: cloth_015
+    400324: cloth_016
+    400326: cloth_all001
+    400328: ear_l_004
+    400330: ear_l_005
+    400332: ear_l_006
+    400334: ear_r_004
+    400336: ear_r_005
+    400338: ear_r_006
+    400340: Eye_L001
+    400342: Eye_L_Down001
+    400344: Eye_L_Up001
+    400346: Eye_R001
+    400348: Eye_R_Down001
+    400350: Eye_R_Up001
+    400352: eyeball_L001
+    400354: eyeball_R001
+    400356: face_L001
+    400358: face_R001
+    400360: Finger _L_004
+    400362: Finger _L_005
+    400364: Finger _L_006
+    400366: Finger _R_004
+    400368: Finger _R_005
+    400370: Finger _R_006
+    400372: head_003
+    400374: head_004
+    400376: leg_ L Toe0Nub001
+    400378: leg_ R Foot001
+    400380: leg_ R Toe0Nub001
+    400382: leg_L Calf001
+    400384: leg_L Foot001
+    400386: leg_L Thigh001
+    400388: leg_L Toe001
+    400390: leg_R Calf001
+    400392: leg_R Thigh001
+    400394: leg_R Toe001
+    400396: Lower eyelid_L001
+    400398: Lower eyelid_R001
+    400400: Mouth_Down001
+    400402: Mouth_Down_003
+    400404: Mouth_Down_004
+    400406: Mouth_L001
+    400408: Mouth_R001
+    400410: Mouth_up001
+    400412: Mouth_up_003
+    400414: Mouth_up_004
+    400416: nose001
+    400418: root001
+    400420: shetou_004
+    400422: shetou_005
+    400424: shetou_006
+    400426: Shoulder_L001
+    400428: Shoulder_R001
+    400430: spine_003
+    400432: spine_004
+    400434: Tail_004
+    400436: Tail_005
+    400438: Tail_006
+    400440: Tongue001
+    400442: Upper eyelid_L001
+    400444: Upper eyelid_R001
+    400446: Dummy_cap
+    400448: Dummy_L
+    400450: Dummy_R
+    400452: moon
+    400454: sun005
+    400456: Dummy_head
+    400458: Dummy_wing
+    2100000: lambert2
+    2100002: coat1
+    2100004: 'Material #6'
+    2100006: 'Material #7'
+    2100008: blinn2
+    2100010: phong2
+    2100012: 'Material #0'
+    2100014: phong1
+    2100016: 'Material #16'
+    2100018: 'Material #17'
+    2100020: 'Material #12'
+    2100022: 'Material #13'
+    2100024: 'Material #14'
+    2100026: 'Material #15'
+    4300000: body
+    4300002: cloth
+    4300004: Eye_L
+    4300006: Eye_L_Down
+    4300008: Eye_R_Down
+    4300010: Eye_L_Up
+    4300012: Eye_R_Up
+    4300014: Eye_R
+    4300016: Tongue
+    4300018: u
+    4300020: sun4
+    4300022: sun3
+    4300024: sun2
+    4300026: Nose
+    4300028: Eye002
+    4300030: Body
+    4300032: Eye
+    4300034: Teetn
+    4300036: Start_Body
+    4300038: Star_Eye
+    4300040: Start_Body001
+    4300042: Star_Eye001
+    4300044: Start_Body002
+    4300046: Star_Eye002
+    4300048: body001
+    4300050: cloth001
+    4300052: Eye_L001
+    4300054: Eye_L_Down001
+    4300056: Eye_R_Down001
+    4300058: Eye_L_Up001
+    4300060: Eye_R_Up001
+    4300062: Eye_R001
+    4300064: Tongue001
+    7400000: nuo_idle_01
+    7400002: nuo_play_up_01
+    7400004: nuo_friend_search_01
+    7400006: nuo_play_down_01
+    7400008: nuo_friend_fail_01
+    7400010: nuo_level_end_01
+    7400012: nuo_hello_01
+    7400014: nuo_sleep_begin_01
+    7400016: nuo_sleep_loop_01
+    7400018: nuo_sleep_end_01
+    7400020: nuo_drink_remind_begin_01
+    7400022: nuo_drink_remind_loop_01
+    7400024: nuo_drink_remind_end_01
+    7400026: nuo_play_up_down_01
+    7400028: nuo_friend_host_01
+    7400030: nuo_friend_guest_out_01
+    7400032: nuo_friend_guest_01
+    9500000: //RootNode
+    13700000: body
+    13700002: cloth
+    13700004: Eye_L
+    13700006: Eye_L_Down
+    13700008: Eye_L_Up
+    13700010: Eye_R
+    13700012: Eye_R_Down
+    13700014: Eye_R_Up
+    13700016: Tongue
+    13700018: u
+    13700020: Body
+    13700022: Eye
+    13700024: Eye002
+    13700026: Nose
+    13700028: Star_Eye
+    13700030: Star_Eye001
+    13700032: Star_Eye002
+    13700034: Start_Body
+    13700036: Start_Body001
+    13700038: Start_Body002
+    13700040: sun2
+    13700042: sun3
+    13700044: sun4
+    13700046: Teetn
+    13700048: body001
+    13700050: cloth001
+    13700052: Eye_L001
+    13700054: Eye_L_Down001
+    13700056: Eye_L_Up001
+    13700058: Eye_R001
+    13700060: Eye_R_Down001
+    13700062: Eye_R_Up001
+    13700064: Tongue001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: nuo_idle_01
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_play_up_01
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_play_down_01
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_friend_search_01
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_friend_fail_01
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_level_end_01
+      takeName: Take 001
+      firstFrame: 1540
+      lastFrame: 1590
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_hello_01
+      takeName: Take 001
+      firstFrame: 1450
+      lastFrame: 1530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_sleep_begin_01
+      takeName: Take 001
+      firstFrame: 980
+      lastFrame: 1235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_sleep_loop_01
+      takeName: Take 001
+      firstFrame: 1250
+      lastFrame: 1325
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_sleep_end_01
+      takeName: Take 001
+      firstFrame: 1325
+      lastFrame: 1440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_drink_remind_begin_01
+      takeName: Take 001
+      firstFrame: 1730
+      lastFrame: 1753
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_drink_remind_loop_01
+      takeName: Take 001
+      firstFrame: 1753
+      lastFrame: 1844
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_drink_remind_end_01
+      takeName: Take 001
+      firstFrame: 1844
+      lastFrame: 1870
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_play_up_down_01
+      takeName: Take 001
+      firstFrame: 1600
+      lastFrame: 1730
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_friend_host_01
+      takeName: Take 001
+      firstFrame: 440
+      lastFrame: 640
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_friend_guest_out_01
+      takeName: Take 001
+      firstFrame: 650
+      lastFrame: 930
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nuo_friend_guest_01
+      takeName: Take 001
+      firstFrame: 1880
+      lastFrame: 2080
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

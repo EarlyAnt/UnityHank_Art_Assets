@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Name="Gululu" Version="">
+  <Sounds>
+    <!--========NinJi语音========-->
+    <Sound Type="nin_level_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_level_end_01" />
+    </Sound>
+    <Sound Type="nin_hello_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_hello_01" />
+    </Sound>
+    <Sound Type="nin_sleep_begin_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_nod_01_01" />
+      <Clip SoundPath="nin_nod_01_02" />
+      <Clip SoundPath="nin_nod_01_03" />
+    </Sound>
+    <Sound Type="nin_friend_search_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_friend_search_01" />
+    </Sound>
+    <Sound Type="nin_friend_host_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_friend_host_01" />
+    </Sound>
+    <Sound Type="nin_friend_guest_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_friend_guest_01" />
+    </Sound>
+    <Sound Type="nin_friend_guest_out_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_friend_guest_out_01" />
+    </Sound>
+    <Sound Type="nin_friend_guest_back_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_friend_guest_back_01" />
+    </Sound>
+    <Sound Type="nin_friend_fail_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_friend_fail_01" />
+    </Sound>
+    <Sound Type="nin_sleep_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_morning_01_01" />
+      <Clip SoundPath="nin_morning_01_02" />
+      <Clip SoundPath="nin_morning_01_03" />
+      <Clip SoundPath="nin_morning_01_04" />
+      <Clip SoundPath="nin_morning_01_05" />
+      <Clip SoundPath="nin_morning_01_06" />
+      <Clip SoundPath="nin_morning_01_07" />
+      <Clip SoundPath="nin_morning_01_08" />
+    </Sound>
+    <Sound Type="nin_play_up_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_play_up_01" />
+      <Clip SoundPath="nin_play_up_02" />
+      <Clip SoundPath="nin_play_up_03" />
+      <Clip SoundPath="nin_play_up_04" />
+    </Sound>
+    <Sound Type="nin_play_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_play_down_01" />
+      <Clip SoundPath="nin_play_down_02" />
+      <Clip SoundPath="nin_play_down_03" />
+      <Clip SoundPath="nin_play_down_04" />
+    </Sound>
+    <Sound Type="nin_play_up_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nin_play_up_down_01" />
+      <Clip SoundPath="nin_play_up_down_02" />
+      <Clip SoundPath="nin_play_up_down_03" />
+      <Clip SoundPath="nin_play_up_down_04" />
+      <Clip SoundPath="nin_play_up_down_05" />
+    </Sound>
+    <Sound Type="level_up_NINJI" Storage="Remote" Dec="小忍升级">
+      <Clip SoundPath="level_up_nin_01" />
+      <Clip SoundPath="level_up_nin_02" />
+      <Clip SoundPath="level_up_nin_03" />
+    </Sound>
+    <Sound Type="nim_chest_open_NINJI" Storage="Remote" Dec="小忍小生物宝箱">
+      <Clip SoundPath="nim_chest_open_nin_01" />
+      <Clip SoundPath="nim_chest_open_nin_02" />
+      <Clip SoundPath="nim_chest_open_nin_03" />
+      <Clip SoundPath="nim_chest_open_nin_04" />
+      <Clip SoundPath="nim_chest_open_nin_05" />
+      <Clip SoundPath="nim_chest_open_nin_06" />
+    </Sound>
+    <Sound Type="ninji_eat_act_loop" Storage="Remote" Dec="NINJI吃食物的音效">
+      <Clip SoundPath="ninji_eat_act_loop" />
+    </Sound>
+    <Sound Type="NINJI_eat_act_loop_after" Storage="Remote" Dec="MINJI吃完食物之后播放的随机音效">
+      <Clip SoundPath="ninji_eat_act_01" />
+      <Clip SoundPath="ninji_eat_act_02" />
+      <Clip SoundPath="ninji_eat_act_03" />
+    </Sound>
+    <Sound Type="ninji_eat_full_loop" Storage="Remote" Dec="NINJI吃饱了的音效">
+      <Clip SoundPath="ninji_eat_full_loop" />
+    </Sound>
+    <Sound Type="ninji_eat_satisfaction" Storage="Remote" Dec="NINJI吃满意的音效">
+      <Clip SoundPath="ninji_eat_satisfaction" />
+    </Sound>
+    <!--========Sansa语音========-->
+    <Sound Type="san_level_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_level_end_01" />
+    </Sound>
+    <Sound Type="san_hello_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_hello_01" />
+    </Sound>
+    <Sound Type="san_sleep_begin_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_nod_01_01" />
+      <Clip SoundPath="san_nod_01_02" />
+      <Clip SoundPath="san_nod_01_03" />
+    </Sound>
+    <Sound Type="san_friend_search_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_friend_search_01" />
+    </Sound>
+    <Sound Type="san_friend_host_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_friend_host_01" />
+    </Sound>
+    <Sound Type="san_friend_guest_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_friend_guest_01" />
+    </Sound>
+    <Sound Type="san_friend_guest_out_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_friend_guest_out_01" />
+    </Sound>
+    <Sound Type="san_friend_guest_back_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_friend_guest_back_01" />
+    </Sound>
+    <Sound Type="san_friend_fail_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_friend_fail_01" />
+    </Sound>
+    <Sound Type="san_sleep_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_morning_01_01" />
+      <Clip SoundPath="san_morning_01_02" />
+      <Clip SoundPath="san_morning_01_03" />
+      <Clip SoundPath="san_morning_01_04" />
+      <Clip SoundPath="san_morning_01_05" />
+      <Clip SoundPath="san_morning_01_06" />
+      <Clip SoundPath="san_morning_01_07" />
+      <Clip SoundPath="san_morning_01_08" />
+    </Sound>
+    <Sound Type="san_play_up_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_play_up_01" />
+      <Clip SoundPath="san_play_up_02" />
+      <Clip SoundPath="san_play_up_03" />
+      <Clip SoundPath="san_play_up_04" />
+      <Clip SoundPath="san_play_up_05" />
+    </Sound>
+    <Sound Type="san_play_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_play_down_01" />
+      <Clip SoundPath="san_play_down_02" />
+      <Clip SoundPath="san_play_down_03" />
+      <Clip SoundPath="san_play_down_04" />
+      <Clip SoundPath="san_play_down_05" />
+    </Sound>
+    <Sound Type="san_play_up_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="san_play_up_down_01_01" />
+      <Clip SoundPath="san_play_up_down_01_02" />
+      <Clip SoundPath="san_play_up_down_01_03" />
+    </Sound>
+    <Sound Type="level_up_SANSA" Storage="Remote" Dec="姗姗升级">
+      <Clip SoundPath="level_up_san_01" />
+      <Clip SoundPath="level_up_san_02" />
+      <Clip SoundPath="level_up_san_03" />
+    </Sound>
+    <Sound Type="nim_chest_open_SANSA" Storage="Remote" Dec="姗姗小生物宝箱">
+      <Clip SoundPath="nim_chest_open_san_01" />
+      <Clip SoundPath="nim_chest_open_san_02" />
+      <Clip SoundPath="nim_chest_open_san_03" />
+      <Clip SoundPath="nim_chest_open_san_04" />
+      <Clip SoundPath="nim_chest_open_san_05" />
+    </Sound>
+    <Sound Type="sansa_eat_act_loop" Storage="Remote" Dec="SANSA吃食物的音效">
+      <Clip SoundPath="sansa_eat_act_loop" />
+    </Sound>
+    <Sound Type="SANSA_eat_act_loop_after" Storage="Remote" Dec="SANSA吃完食物之后播放的随机音效">
+      <Clip SoundPath="sansa_eat_act_01" />
+      <Clip SoundPath="sansa_eat_act_02" />
+      <Clip SoundPath="sansa_eat_act_03" />
+    </Sound>
+    <Sound Type="sansa_eat_full_loop" Storage="Remote" Dec="SANSA吃饱了的音效">
+      <Clip SoundPath="sansa_eat_full_loop" />
+    </Sound>
+    <Sound Type="sansa_eat_satisfaction" Storage="Remote" Dec="SANSA吃满意的音效">
+      <Clip SoundPath="sansa_eat_satisfaction" />
+    </Sound>
+    <!--========Purpie语音========-->
+    <Sound Type="pur_level_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_level_end_01" />
+    </Sound>
+    <Sound Type="pur_hello_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_hello_01" />
+    </Sound>
+    <Sound Type="pur_sleep_begin_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_nod_01_01" />
+      <Clip SoundPath="pur_nod_01_02" />
+      <Clip SoundPath="pur_nod_01_03" />
+    </Sound>
+    <Sound Type="pur_friend_search_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_friend_search_01" />
+    </Sound>
+    <Sound Type="pur_friend_host_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_friend_host_01" />
+    </Sound>
+    <Sound Type="pur_friend_guest_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_friend_guest_01" />
+    </Sound>
+    <Sound Type="pur_friend_guest_out_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_friend_guest_out_01" />
+    </Sound>
+    <Sound Type="pur_friend_guest_back_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_friend_guest_back_01" />
+    </Sound>
+    <Sound Type="pur_friend_fail_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_friend_fail_01" />
+    </Sound>
+    <Sound Type="pur_sleep_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_morning_01_01" />
+      <Clip SoundPath="pur_morning_01_02" />
+      <Clip SoundPath="pur_morning_01_03" />
+      <Clip SoundPath="pur_morning_01_04" />
+      <Clip SoundPath="pur_morning_01_05" />
+      <Clip SoundPath="pur_morning_01_06" />
+      <Clip SoundPath="pur_morning_01_07" />
+      <Clip SoundPath="pur_morning_01_08" />
+    </Sound>
+    <Sound Type="pur_play_up_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_play_up_01" />
+      <Clip SoundPath="pur_play_up_02" />
+      <Clip SoundPath="pur_play_up_03" />
+      <Clip SoundPath="pur_play_up_04" />
+    </Sound>
+    <Sound Type="pur_play_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_play_down_01" />
+      <Clip SoundPath="pur_play_down_02" />
+      <Clip SoundPath="pur_play_down_03" />
+      <Clip SoundPath="pur_play_down_04" />
+    </Sound>
+    <Sound Type="pur_play_up_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="pur_play_up_down_01_01" />
+      <Clip SoundPath="pur_play_up_down_01_02" />
+      <Clip SoundPath="pur_play_up_down_01_03" />
+    </Sound>
+    <Sound Type="level_up_PURPIE" Storage="Remote" Dec="胖紫升级">
+      <Clip SoundPath="level_up_pur_01" />
+      <Clip SoundPath="level_up_pur_02" />
+      <Clip SoundPath="level_up_pur_03" />
+    </Sound>
+    <Sound Type="nim_chest_open_PURPIE" Storage="Remote" Dec="胖紫小生物宝箱">
+      <Clip SoundPath="nim_chest_open_pur_01" />
+      <Clip SoundPath="nim_chest_open_pur_02" />
+      <Clip SoundPath="nim_chest_open_pur_03" />
+      <Clip SoundPath="nim_chest_open_pur_04" />
+      <Clip SoundPath="nim_chest_open_pur_05" />
+      <Clip SoundPath="nim_chest_open_pur_06" />
+    </Sound>
+    <Sound Type="pur_eat_act_loop" Storage="Remote" Dec="PUR吃食物的音效">
+      <Clip SoundPath="pur_eat_act_loop" />
+    </Sound>
+    <Sound Type="PURPIE_eat_act_loop_after" Storage="Remote" Dec="PUR吃完食物之后播放的随机音效">
+      <Clip SoundPath="purpie_eat_act_01" />
+      <Clip SoundPath="purpie_eat_act_02" />
+      <Clip SoundPath="purpie_eat_act_03" />
+    </Sound>
+    <Sound Type="pur_eat_full_loop" Storage="Remote" Dec="PUR吃饱了的音效">
+      <Clip SoundPath="pur_eat_full_loop" />
+    </Sound>
+    <Sound Type="pur_eat_satisfaction" Storage="Remote" Dec="PUR吃满意的音效">
+      <Clip SoundPath="pur_eat_satisfaction" />
+    </Sound>
+    <!--========Donny语音========-->
+    <Sound Type="dony_level_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_level_end_01" />
+    </Sound>
+    <Sound Type="dony_hello_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_hello_01" />
+    </Sound>
+    <Sound Type="dony_sleep_begin_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_nod_01_01" />
+      <Clip SoundPath="dony_nod_01_02" />
+      <Clip SoundPath="dony_nod_01_03" />
+    </Sound>
+    <Sound Type="dony_friend_search_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_friend_search_01_01" />
+      <Clip SoundPath="dony_friend_search_01_02" />
+    </Sound>
+    <Sound Type="dony_friend_host_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_friend_host_01" />
+    </Sound>
+    <Sound Type="dony_friend_guest_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_friend_guest_01" />
+    </Sound>
+    <Sound Type="dony_friend_guest_out_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_friend_guest_out_01" />
+    </Sound>
+    <Sound Type="dony_friend_guest_back_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_friend_guest_back_01" />
+    </Sound>
+    <Sound Type="dony_friend_fail_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_friend_fail_01" />
+    </Sound>
+    <Sound Type="dony_sleep_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_morning_01_01" />
+      <Clip SoundPath="dony_morning_01_02" />
+      <Clip SoundPath="dony_morning_01_03" />
+      <Clip SoundPath="dony_morning_01_04" />
+      <Clip SoundPath="dony_morning_01_05" />
+      <Clip SoundPath="dony_morning_01_06" />
+      <Clip SoundPath="dony_morning_01_07" />
+      <Clip SoundPath="dony_morning_01_08" />
+    </Sound>
+    <Sound Type="dony_play_up_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_play_up_01_01" />
+      <Clip SoundPath="dony_play_up_01_02" />
+      <Clip SoundPath="dony_play_up_01_03" />
+    </Sound>
+    <Sound Type="dony_play_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_play_down_01_01" />
+      <Clip SoundPath="dony_play_down_01_02" />
+    </Sound>
+    <Sound Type="dony_play_up_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="dony_play_up_down_01_01" />
+      <Clip SoundPath="dony_play_up_down_01_02" />
+      <Clip SoundPath="dony_play_up_down_01_03" />
+    </Sound>
+    0
+    <Sound Type="level_up_DONNY" Storage="Remote" Dec="逗泥升级">
+      <Clip SoundPath="level_up_dony_01" />
+      <Clip SoundPath="level_up_dony_02" />
+    </Sound>
+    <Sound Type="nim_chest_open_DONNY" Storage="Remote" Dec="逗泥小生物宝箱">
+      <Clip SoundPath="nim_chest_open_dony_01" />
+      <Clip SoundPath="nim_chest_open_dony_02" />
+      <Clip SoundPath="nim_chest_open_dony_03" />
+      <Clip SoundPath="nim_chest_open_dony_04" />
+      <Clip SoundPath="nim_chest_open_dony_05" />
+    </Sound>
+    <Sound Type="dony_eat_act_loop" Storage="Remote" Dec="DONNY吃食物的音效">
+      <Clip SoundPath="dony_eat_act_loop" />
+    </Sound>
+    <Sound Type="DONNY_eat_act_loop_after" Storage="Remote" Dec="DONNY吃完食物之后播放的随机音效">
+      <Clip SoundPath="dony_eat_act_01" />
+      <Clip SoundPath="dony_eat_act_02" />
+      <Clip SoundPath="dony_eat_act_03" />
+    </Sound>
+    <Sound Type="dony_eat_full_loop" Storage="Remote" Dec="DONNY吃饱了的音效">
+      <Clip SoundPath="dony_eat_full_loop" />
+    </Sound>
+    <Sound Type="dony_eat_satisfaction" Storage="Remote" Dec="DONNY吃满意的音效">
+      <Clip SoundPath="dony_eat_satisfaction" />
+    </Sound>
+    <!--========YoYo语音========-->
+    <Sound Type="yoyo_level_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_level_end_01" />
+    </Sound>
+    <Sound Type="yoyo_hello_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_hello_01" />
+    </Sound>
+    <Sound Type="yoyo_sleep_begin_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_nod_01_01" />
+      <Clip SoundPath="yoyo_nod_01_02" />
+      <Clip SoundPath="yoyo_nod_01_03" />
+    </Sound>
+    <Sound Type="yoyo_friend_search_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_friend_search_01_01" />
+      <Clip SoundPath="yoyo_friend_search_01_02" />
+      <Clip SoundPath="yoyo_friend_search_01_03" />
+    </Sound>
+    <Sound Type="yoyo_friend_host_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_friend_host_01" />
+    </Sound>
+    <Sound Type="yoyo_friend_guest_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_friend_guest_01" />
+    </Sound>
+    <Sound Type="yoyo_friend_guest_out_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_friend_guest_out_01" />
+      <Clip SoundPath="yoyo_friend_guest_out_02" />
+    </Sound>
+    <Sound Type="yoyo_friend_guest_back_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_friend_guest_back_01" />
+    </Sound>
+    <Sound Type="yoyo_friend_fail_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_friend_fail_01" />
+    </Sound>
+    <Sound Type="yoyo_sleep_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_morning_01_01" />
+      <Clip SoundPath="yoyo_morning_01_02" />
+      <Clip SoundPath="yoyo_morning_01_03" />
+    </Sound>
+    <Sound Type="yoyo_play_up_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_play_up_01_01" />
+      <Clip SoundPath="yoyo_play_up_01_02" />
+    </Sound>
+    <Sound Type="yoyo_play_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_play_down_01_01" />
+      <Clip SoundPath="yoyo_play_down_01_02" />
+    </Sound>
+    <Sound Type="yoyo_play_up_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="yoyo_play_up_down_01_01" />
+      <Clip SoundPath="yoyo_play_up_down_01_02" />
+    </Sound>
+    <Sound Type="level_up_YOYO" Storage="Remote" Dec="哟哟升级">
+      <Clip SoundPath="level_up_yoyo_01" />
+      <Clip SoundPath="level_up_yoyo_02" />
+    </Sound>
+    <Sound Type="nim_chest_open_YOYO" Storage="Remote" Dec="呦呦小生物宝箱">
+      <Clip SoundPath="nim_chest_open_yoyo_01" />
+      <Clip SoundPath="nim_chest_open_yoyo_02" />
+      <Clip SoundPath="nim_chest_open_yoyo_03" />
+      <Clip SoundPath="nim_chest_open_yoyo_04" />
+    </Sound>
+    <Sound Type="yoyo_eat_act_loop" Storage="Remote" Dec="YOYO吃食物的音效">
+      <Clip SoundPath="yoyo_eat_act_loop" />
+    </Sound>
+    <Sound Type="YOYO_eat_act_loop_after" Storage="Remote" Dec="YOYO吃完食物之后播放的随机音效">
+      <Clip SoundPath="yoyo_eat_act_01" />
+      <Clip SoundPath="yoyo_eat_act_02" />
+      <Clip SoundPath="yoyo_eat_act_03" />
+    </Sound>
+    <Sound Type="yoyo_eat_full_loop" Storage="Remote" Dec="YOYO吃饱了的音效">
+      <Clip SoundPath="yoyo_eat_full_loop" />
+    </Sound>
+    <Sound Type="yoyo_eat_satisfaction" Storage="Remote" Dec="YOYO吃满意的音效">
+      <Clip SoundPath="yoyo_eat_satisfaction" />
+    </Sound>
+    <!--========NuoNuo语音========-->
+    <Sound Type="nuo_level_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_level_end_01" />
+    </Sound>
+    <Sound Type="nuo_hello_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_hello_01" />
+    </Sound>
+    <Sound Type="nuo_sleep_begin_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_sleep_begin_01" />
+    </Sound>
+    <Sound Type="nuo_friend_search_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_friend_search_01" />
+    </Sound>
+    <Sound Type="nuo_friend_host_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_friend_host_01" />
+    </Sound>
+    <Sound Type="nuo_friend_guest_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_friend_guest_01" />
+    </Sound>
+    <Sound Type="nuo_friend_guest_back_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_friend_guest_back_01" />
+    </Sound>
+    <Sound Type="nuo_friend_guest_out_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_friend_guest_out_01" />
+    </Sound>
+    <Sound Type="nuo_friend_fail_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_friend_fail_01" />
+    </Sound>
+    <Sound Type="nuo_sleep_end_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_morning_01" />
+    </Sound>
+    <Sound Type="nuo_play_up_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_play_up_01" />
+    </Sound>
+    <Sound Type="nuo_play_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_play_down_01" />
+    </Sound>
+    <Sound Type="nuo_play_up_down_01" Storage="Remote" Dec="">
+      <Clip SoundPath="nuo_play_up_down_01" />
+    </Sound>
+    0
+    <Sound Type="level_up_NUO" Storage="Remote" Dec="诺诺升级">
+      <Clip SoundPath="level_up_nuo_01" />
+      <Clip SoundPath="level_up_nuo_02" />
+    </Sound>
+    <Sound Type="nim_chest_open_NUO" Storage="Remote" Dec="喏喏小生物宝箱">
+      <Clip SoundPath="nuo_chest_open_01" />
+      <Clip SoundPath="nuo_chest_open_02" />
+      <Clip SoundPath="nuo_chest_open_03" />
+    </Sound>
+    <Sound Type="nuo_eat_act_loop" Storage="Remote" Dec="NUO吃食物的音效">
+      <Clip SoundPath="nuo_eat_act_loop" />
+    </Sound>
+    <Sound Type="NUO_eat_act_loop_after" Storage="Remote" Dec="NUO吃完食物之后播放的随机音效">
+      <Clip SoundPath="nuo_eat_act_01" />
+      <Clip SoundPath="nuo_eat_act_02" />
+      <Clip SoundPath="nuo_eat_act_03" />
+    </Sound>
+    <Sound Type="nuo_eat_full_loop" Storage="Remote" Dec="NUO吃饱了的音效">
+      <Clip SoundPath="nuo_eat_full_loop" />
+    </Sound>
+    <Sound Type="nuo_eat_satisfaction" Storage="Remote" Dec="NUO吃满意的音效">
+      <Clip SoundPath="nuo_eat_satisfaction" />
+    </Sound>
+    <!--========背景音乐========-->
+    <Sound Type="friend_bgm" Storage="Remote" Dec="好友互动时的背景音乐">
+      <Clip SoundPath="friend_bgm_01" />
+    </Sound>
+    <!--========游戏音效========-->
+    <Sound Type="water_drop_down" Storage="Remote" Dec="水滴下">
+      <Clip SoundPath="water_drop_down_01" />
+    </Sound>
+    <Sound Type="water_drop_down_81001" Storage="Remote" Dec="水滴下">
+      <Clip SoundPath="water_drop_down_81001" />
+    </Sound>
+    <Sound Type="water_drop_down_81002" Storage="Remote" Dec="水滴下">
+      <Clip SoundPath="water_drop_down_81002" />
+    </Sound>
+    <Sound Type="water_drop_down_81003" Storage="Remote" Dec="水滴下">
+      <Clip SoundPath="water_drop_down_81003" />
+    </Sound>
+    <Sound Type="water_drop_down_81004" Storage="Remote" Dec="水滴下">
+      <Clip SoundPath="water_drop_down_81004" />
+    </Sound>
+    <Sound Type="water_raise" Storage="Remote" Dec="水位上升">
+      <Clip SoundPath="water_raise_01" />
+    </Sound>
+    <Sound Type="daily_goal_progress_init_bgm" Storage="Remote" Dec="初始化dailygoal进度条背景音乐">
+      <Clip SoundPath="daily_goal_progress_init_bgm" />
+    </Sound>
+    <Sound Type="daily_goal_progress_done_bgm" Storage="Remote" Dec="dailygoal100%时的背景音乐">
+      <Clip SoundPath="daily_goal_progress_done_bgm" />
+    </Sound>
+    <Sound Type="daily_goal_crown_jump_in" Storage="Remote" Dec="皇冠跳入到进度条上">
+      <Clip SoundPath="daily_goal_crown_jump_in" />
+    </Sound>
+    <Sound Type="daily_goal_crown_jump_out" Storage="Remote" Dec="皇冠跳入到进度条上">
+      <Clip SoundPath="daily_goal_crown_jump_out" />
+    </Sound>
+    <Sound Type="daily_goal_progress_node_active_1" Storage="Remote" Dec="进度条第1个节点点亮">
+      <Clip SoundPath="daily_goal_progress_node_active_1" />
+    </Sound>
+    <Sound Type="daily_goal_progress_node_active_2" Storage="Remote" Dec="进度条第2个节点点亮">
+      <Clip SoundPath="daily_goal_progress_node_active_2" />
+    </Sound>
+    <Sound Type="daily_goal_progress_node_active_3" Storage="Remote" Dec="进度条第3个节点点亮">
+      <Clip SoundPath="daily_goal_progress_node_active_3" />
+    </Sound>
+    <Sound Type="daily_goal_crown_fly_in_shapeshift" Storage="Remote" Dec="dailygoal节点时皇冠飞入屏幕">
+      <Clip SoundPath="daily_goal_crown_fly_in_shapeshift" />
+    </Sound>
+    <Sound Type="daily_goal_crown_fly_out" Storage="Remote" Dec="dailygoal节点时皇冠飞出屏幕">
+      <Clip SoundPath="daily_goal_crown_fly_out" />
+    </Sound>
+    <Sound Type="daily_goal_claim_award" Storage="Remote" Dec="达成dailygoal30%，60%，100%时，奖励界面中点按钮后显示奖励内容时的配音">
+      <Clip SoundPath="daily_goal_claim_award" />
+    </Sound>
+    <Sound Type="daily_goal_milestone_01_crown_shapeshift" Storage="Remote" Dec="达成日目标30%皇冠变身">
+      <Clip SoundPath="daily_goal_crown_fly_in_shapeshift" />
+    </Sound>
+    <Sound Type="daily_goal_milestone_02_crown_shapeshift" Storage="Remote" Dec="达成日目标60%皇冠变身">
+      <Clip SoundPath="daily_goal_crown_fly_in_shapeshift" />
+    </Sound>
+    <Sound Type="daily_goal_milestone_03_crown_shapeshift" Storage="Remote" Dec="达成日目标100%皇冠变身">
+      <Clip SoundPath="daily_goal_crown_fly_in_shapeshift" />
+    </Sound>
+    <Sound Type="mission_complete_init" Storage="Remote" Dec="过关初始化，闪烁+文字">
+      <Clip SoundPath="mission_complete_init" />
+    </Sound>
+    <Sound Type="mission_complete_board_fly_in" Storage="Remote" Dec="结算面板飞入屏幕">
+      <Clip SoundPath="mission_complete_board_fly_in" />
+    </Sound>
+    <Sound Type="mission_complete_board_fly_out" Storage="Remote" Dec="结算面板飞出屏幕">
+      <Clip SoundPath="mission_complete_board_fly_in" />
+    </Sound>
+    <Sound Type="mission_locked" Storage="Remote" Dec="进入未解锁的关卡，锁跳动，提示未解锁">
+      <Clip SoundPath="mission_locked" />
+    </Sound>
+    <Sound Type="mission_unlock_action" Storage="Remote" Dec="关卡锁打开">
+      <Clip SoundPath="mission_unlock_action" />
+    </Sound>
+    <!--========系统音效========-->
+    <Sound Type="system_charging_start" Storage="Remote" Dec="进入充电状态">
+      <Clip SoundPath="system_charging_start" />
+    </Sound>
+    <Sound Type="system_charging_low_battery_in" Storage="Remote" Dec="低电量救护车进入">
+      <Clip SoundPath="system_charging_low_battery_in" />
+    </Sound>
+    <Sound Type="system_charging_low_battery_out" Storage="Remote" Dec="电量符号缩小到右下角">
+      <Clip SoundPath="system_charging_low_battery_out" />
+    </Sound>
+    <Sound Type="system_button_click" Storage="Remote" Dec="点击按钮">
+      <Clip SoundPath="system_button_click_01" />
+    </Sound>
+    <Sound Type="popup_alarm_sync" Storage="Remote" Dec="闹钟设置已在水杯生效">
+      <Clip SoundPath="popup_alarm_sync" />
+    </Sound>
+    <Sound Type="popup_dailygoal_sync" Storage="Remote" Dec="饮水目标更改已在水杯生效">
+      <Clip SoundPath="popup_dailygoal_sync" />
+    </Sound>
+    <Sound Type="popup_donotdisturb_sync" Storage="Remote" Dec="勿扰模式更改已在水杯生效">
+      <Clip SoundPath="popup_donotdisturb_sync" />
+    </Sound>
+    <Sound Type="popup_newapk_sync" Storage="Remote" Dec="新的APK下载完成，等待升级">
+      <Clip SoundPath="popup_newapk_sync" />
+    </Sound>
+    <Sound Type="popup_no_network" Storage="Remote" Dec="天猫没有网络">
+      <Clip SoundPath="ai_popup_no_network" />
+    </Sound>
+    <Sound Type="popup_no_notauthorized" Storage="Remote" Dec="天猫未授权">
+      <Clip SoundPath="ai_popup_notauthorized" />
+    </Sound>
+    <!--========闹铃========-->
+    <Sound Type="alarm_morning" Storage="Remote" Dec="起床闹铃">
+      <Clip SoundPath="alarm_morning" />
+    </Sound>
+    <Sound Type="alarm_other" Storage="Remote" Dec="其他闹铃">
+      <Clip SoundPath="alarm_other" />
+    </Sound>
+    <Sound Type="alarm_sleep" Storage="Remote" Dec="睡觉闹铃">
+      <Clip SoundPath="alarm_sleep" />
+    </Sound>
+    <Sound Type="alarm_study" Storage="Remote" Dec="学习闹铃">
+      <Clip SoundPath="alarm_study" />
+    </Sound>
+    <!--========天猫精灵========-->
+    <Sound Type="AI_scene_vad" Storage="Remote" Dec="天猫精灵开始收音的音效">
+      <Clip SoundPath="AI_scene_vad" />
+    </Sound>
+    <Sound Type="ai_popup_not_activated" Storage="Remote" Dec="天猫精灵没配对的音效">
+      <Clip SoundPath="ai_popup_not_activated" />
+    </Sound>
+    <!--========语音提示========-->
+    <Sound Type="pair_start_cn" Storage="Remote" Dec="收到密码，开始配对">
+      <Clip SoundPath="pair_start_cn" />
+    </Sound>
+    <Sound Type="pair_active_success_cn" Storage="Remote" Dec="配对成功">
+      <Clip SoundPath="pair_active_success_cn" />
+    </Sound>
+    <Sound Type="pair_connect_to_cloud_fail_cn" Storage="Remote" Dec="连接服务器失败（后半段失败）">
+      <Clip SoundPath="pair_connect_to_cloud_fail_cn" />
+    </Sound>
+    <Sound Type="pair_connect_to_router_fail_password_cn" Storage="Remote" Dec="连接路由失败（前半段失败，密码错误）">
+      <Clip SoundPath="pair_connect_to_router_fail_password_cn" />
+    </Sound>
+    <Sound Type="pair_connect_to_router_fail_other_cn" Storage="Remote" Dec="连接路由失败（前半段失败，其他错误）">
+      <Clip SoundPath="pair_connect_to_router_fail_other_cn" />
+    </Sound>
+    <Sound Type="pair_syncdata_start_cn" Storage="Remote" Dec="开始同步数据">
+      <Clip SoundPath="pair_syncdata_start_cn" />
+    </Sound>
+    <Sound Type="pair_syncdata_success_cn" Storage="Remote" Dec="数据同步完成">
+      <Clip SoundPath="pair_syncdata_success_cn" />
+    </Sound>
+    <Sound Type="pair_update_wifi_success_cn" Storage="Remote" Dec="更新Wi-Fi成功">
+      <Clip SoundPath="pair_update_wifi_success_cn" />
+    </Sound>
+    <Sound Type="hint_map_lock_cn" Storage="Remote" Dec="地图锁定">
+      <Clip SoundPath="hint_map_lock_cn" />
+    </Sound>
+    <Sound Type="hint_app_download_01_cn" Storage="Remote" Dec="提示下载app">
+      <Clip SoundPath="hint_app_download_01_cn" />
+    </Sound>
+    <Sound Type="hint_app_download_crcode_cn" Storage="Remote" Dec="摇一摇时提示扫描二维码下载app">
+      <Clip SoundPath="hint_app_download_crcode_cn" />
+    </Sound>
+    <Sound Type="guide_id" Storage="Remote" Dec="id页面引导语音">
+      <Clip SoundPath="guide_2_id_1" />
+    </Sound>
+    <Sound Type="guide_system_page" Storage="Remote" Dec="system页面引导语音">
+      <Clip SoundPath="guide_2_systempage_1" />
+    </Sound>
+    <Sound Type="fresh_news" Storage="Remote" Dec="收到新闻">
+      <Clip SoundPath="fresh_news_01" />
+      <Clip SoundPath="fresh_news_02" />
+      <Clip SoundPath="fresh_news_03" />
+      <Clip SoundPath="fresh_news_04" />
+    </Sound>
+    <Sound Type="comming_soon" Storage="Remote" Dec="暂未开放的功能">
+      <Clip SoundPath="navmenu_comingsoon_1" />
+      <Clip SoundPath="navmenu_comingsoon_2" />
+      <Clip SoundPath="navmenu_comingsoon_3" />
+      <Clip SoundPath="navmenu_comingsoon_4" />
+    </Sound>
+    <Sound Type="collection_story_tip1" Storage="Remote" Dec="请继续喝水解锁更多的小宠物">
+      <Clip SoundPath="collection_story_tip1" />
+    </Sound>
+    <Sound Type="collection_story_tip2" Storage="Remote" Dec="更多资源(小宠物故事)正在制作中">
+      <Clip SoundPath="collection_story_tip2" />
+    </Sound>
+    <Sound Type="gain_coin" Storage="Remote" Dec="喝水或其他途径获得金币时的音效">
+      <Clip SoundPath="gain_coin" />
+    </Sound>
+    <Sound Type="popup_download" Storage="Remote" Dec="开始下载资源文件时的音效">
+      <Clip SoundPath="popup_download" />
+    </Sound>
+    <Sound Type="popup_download_cancel" Storage="Remote" Dec="确认是否退出下载时的音效">
+      <Clip SoundPath="popup_download_cancel" />
+    </Sound>
+    <Sound Type="download_popup_no_network" Storage="Remote" Dec="下载过程中断网时的音效">
+      <Clip SoundPath="popup_no_network" />
+    </Sound>
+    <Sound Type="first_enter_feed_scene" Storage="Remote" Dec="第一次进入喂食场景">
+      <Clip SoundPath="popup_feed_welcome" />
+    </Sound>
+    <Sound Type="welcome_enter_feed_scene" Storage="Remote" Dec="每次进入喂食场景">
+      <Clip SoundPath="feed_welcome_001" />
+      <Clip SoundPath="feed_welcome_002" />
+      <Clip SoundPath="feed_welcome_003" />
+      <Clip SoundPath="feed_welcome_004" />
+      <Clip SoundPath="feed_welcome_005" />
+    </Sound>
+    <Sound Type="no_coin" Storage="Remote" Dec="金币不足">
+      <Clip SoundPath="popup_no_coin_001" />
+      <Clip SoundPath="popup_no_coin_002" />
+      <Clip SoundPath="popup_no_coin_003" />
+    </Sound>
+    <Sound Type="moon_moonfestival" Storage="Remote" Dec="中秋节欢迎音频">
+      <Clip SoundPath="feed_welcome_moonfestival_01" />
+      <Clip SoundPath="feed_welcome_moonfestival_02" />
+      <Clip SoundPath="feed_welcome_moonfestival_03" />
+      <Clip SoundPath="feed_welcome_moonfestival_04" />
+      <Clip SoundPath="feed_welcome_moonfestival_05" />
+    </Sound>
+    <Sound Type="pet_hungry_tips" Storage="Remote" Dec="宠物饥饿提醒">
+      <Clip SoundPath="feed_hungry_alert_001" />
+      <Clip SoundPath="feed_hungry_alert_002" />
+      <Clip SoundPath="feed_hungry_alert_003" />
+    </Sound>
+    <Sound Type="welcome_nationalday" Storage="Remote" Dec="国庆节欢迎音频">
+      <Clip SoundPath="feed_welcome_china_001" />
+      <Clip SoundPath="feed_welcome_china_002" />
+      <Clip SoundPath="feed_welcome_china_003" />
+      <Clip SoundPath="feed_welcome_china_004" />
+      <Clip SoundPath="feed_welcome_china_005" />
+    </Sound>
+    <Sound Type="sale_out" Storage="Remote" Dec="已下架提示音效">
+      <Clip SoundPath="goods_soldout" />
+    </Sound>
+    <Sound Type="galaxy_welcome_new" Storage="Remote" Dec="世界地图页首次进入欢迎音效">
+      <Clip SoundPath="galaxy_welcome_new" />
+    </Sound>
+    <Sound Type="galaxy_welcome" Storage="Remote" Dec="世界地图页非首次进入欢迎音效">
+      <Clip SoundPath="galaxy_welcome_001" />
+      <Clip SoundPath="galaxy_welcome_002" />
+      <Clip SoundPath="galaxy_welcome_003" />
+      <Clip SoundPath="galaxy_welcome_004" />
+      <Clip SoundPath="galaxy_welcome_005" />
+      <Clip SoundPath="galaxy_welcome_006" />
+    </Sound>
+    <Sound Type="world_scene_BGM" Storage="Remote" Dec="世界地图背景音乐">
+      <Clip SoundPath="world_scene_BGM" />
+    </Sound>
+    <Sound Type="galaxy_new_world_welcome" Storage="Remote" Dec="世界地图页单击弹出确认页面时的提示音">
+      <Clip SoundPath="galaxy_new_world_welcome_001" />
+      <Clip SoundPath="galaxy_new_world_welcome_002" />
+    </Sound>
+    <Sound Type="mission_complete_retry" Storage="Remote" Dec="完成副本星球的所有关卡重新回到第1关时的提示音">
+      <Clip SoundPath="mission_complete_retry" />
+    </Sound>
+    <Sound Type="guide_homepage" Storage="Remote" Dec="各页面功能退出返回主页面时播放的功能介绍提示音">
+      <Clip SoundPath="guide_homepage_001" />
+      <Clip SoundPath="guide_homepage_002" />
+      <Clip SoundPath="guide_homepage_003" />
+      <Clip SoundPath="guide_homepage_004" />
+      <Clip SoundPath="guide_homepage_005" />
+      <Clip SoundPath="guide_homepage_006" />
+      <Clip SoundPath="guide_homepage_007" />
+      <Clip SoundPath="guide_homepage_008" />
+      <Clip SoundPath="guide_homepage_009" />
+      <Clip SoundPath="guide_homepage_010" />
+      <Clip SoundPath="guide_homepage_011" />
+    </Sound>
+    <Sound Type="mainview_tips_sfx" Storage="Remote" Dec="功能介绍提示音前的叮咚音效">
+      <Clip SoundPath="mainview_tips_sfx" />
+    </Sound>
+    <Sound Type="welcome_halloween" Storage="Remote" Dec="万圣节欢迎音频">
+      <Clip SoundPath="feed_welcome_halloween_001" />
+      <Clip SoundPath="feed_welcome_halloween_002" />
+      <Clip SoundPath="feed_welcome_halloween_003" />
+      <Clip SoundPath="feed_welcome_halloween_004" />
+      <Clip SoundPath="feed_welcome_halloween_005" />
+    </Sound>
+    <Sound Type="hallowmas_bgm" Storage="Remote" Dec="万圣节场景背景音乐">
+      <Clip SoundPath="sfx_halloween_11" Rate="100" />
+      <Clip SoundPath="sfx_halloween_12" Rate="100" />
+      <Clip SoundPath="sfx_halloween_13" Rate="100" />
+    </Sound>
+    <Sound Type="hallowmas_effect" Storage="Remote" Dec="万圣节场景音效">
+      <Clip SoundPath="sfx_halloween_01" Rate="100" />
+      <Clip SoundPath="sfx_halloween_03" Rate="50" />
+      <Clip SoundPath="sfx_halloween_04" Rate="100" />
+      <Clip SoundPath="sfx_halloween_05" Rate="100" />
+      <Clip SoundPath="sfx_halloween_07" Rate="100" />
+      <Clip SoundPath="sfx_halloween_08" Rate="100" />
+    </Sound>
+    <Sound Type="feed_welcome_denmark" Storage="Remote" Dec="丹麦地图欢迎语音">
+      <Clip SoundPath="feed_welcome_dk_001" />
+      <Clip SoundPath="feed_welcome_dk_002" />
+      <Clip SoundPath="feed_welcome_dk_003" />
+      <Clip SoundPath="feed_welcome_dk_004" />
+      <Clip SoundPath="feed_welcome_dk_005" />
+    </Sound>
+    <Sound Type="galaxy_unlock" Storage="Remote" Dec="星球或地图解锁提示音">
+      <Clip SoundPath="galaxy_unlock02" />
+    </Sound>
+    <Sound Type="galaxy_lock_drink" Storage="Remote" Dec="饮水解锁新地图">
+      <Clip SoundPath="galaxy_lock_drink" />
+    </Sound>
+    <Sound Type="galaxy_lock_time" Storage="Remote" Dec="新地图稍后解锁">
+      <Clip SoundPath="galaxy_lock_time" />
+    </Sound>
+    <Sound Type="mall_bgm" Storage="Remote" Dec="换装页背景音乐">
+      <Clip SoundPath="mall_bgm" />
+    </Sound>
+    <Sound Type="mall_welcome" Storage="Remote" Dec="换装页欢迎语音">
+      <Clip SoundPath="mall_welcome_001" />
+      <Clip SoundPath="mall_welcome_002" />
+      <Clip SoundPath="mall_welcome_003" />
+      <Clip SoundPath="mall_welcome_004" />
+      <Clip SoundPath="mall_welcome_005" />
+    </Sound>
+    <Sound Type="mall_purchase_lock" Storage="Remote" Dec="换装页今日饮水量未达标提醒">
+      <Clip SoundPath="mall_purchase_lock" />
+    </Sound>
+    <Sound Type="mall_suit_not_match" Storage="Remote" Dec="换装页配饰不适用提醒">
+      <Clip SoundPath="mall_suit_not_match" />
+    </Sound>
+    <Sound Type="popup_goods_level_lock" Storage="Remote" Dec="换装页等级不够提醒">
+      <Clip SoundPath="popup_goods_level_lock" />
+    </Sound>
+    <Sound Type="mall_purchase_qr" Storage="Remote" Dec="换装页显示二维码">
+      <Clip SoundPath="mall_purchase_qr" />
+    </Sound>
+    <Sound Type="mall_purchase_qr_complete" Storage="Remote" Dec="换装页二维码购物成功">
+      <Clip SoundPath="mall_purchase_qr_complete" />
+    </Sound>
+    <Sound Type="mall_change_item" Storage="Remote" Dec="换装页切换配饰/小精灵">
+      <Clip SoundPath="mall_change_item" />
+    </Sound>
+    <Sound Type="mall_put_on_accessory" Storage="Remote" Dec="换装页穿上配饰">
+      <Clip SoundPath="mall_put_on_accessory" />
+    </Sound>
+    <Sound Type="mall_take_off_accessory" Storage="Remote" Dec="换装页脱下配饰">
+      <Clip SoundPath="mall_take_off_accessory" />
+    </Sound>
+    <Sound Type="mall_spirit_in" Storage="Remote" Dec="换装页小精灵出场">
+      <Clip SoundPath="mall_spirit_in" />
+    </Sound>
+    <Sound Type="mall_spirit_out" Storage="Remote" Dec="换装页小精灵退场">
+      <Clip SoundPath="mall_spirit_out" />
+    </Sound>
+    <Sound Type="feed_welcome_xmas" Storage="Remote" Dec="喂食页圣诞节欢迎语音">
+      <Clip SoundPath="feed_welcome_xmas_001" />
+      <Clip SoundPath="feed_welcome_xmas_002" />
+      <Clip SoundPath="feed_welcome_xmas_003" />
+      <Clip SoundPath="feed_welcome_xmas_004" />
+      <Clip SoundPath="feed_welcome_xmas_005" />
+    </Sound>
+    <Sound Type="feed_bgm_xmas" Storage="Remote" Dec="喂食页圣诞节背景音乐">
+      <Clip SoundPath="feed_bgm_xmas" />
+    </Sound>
+  </Sounds>
+</Project>

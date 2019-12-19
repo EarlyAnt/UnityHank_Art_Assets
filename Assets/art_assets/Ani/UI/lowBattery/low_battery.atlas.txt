@@ -1,0 +1,111 @@
+
+low_battery.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: false
+  xy: 426, 80
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+20
+  rotate: false
+  xy: 426, 32
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+alarm_d
+  rotate: false
+  xy: 5, 5
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+alarm_red
+  rotate: true
+  xy: 265, 10
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+alarm_yellow
+  rotate: true
+  xy: 313, 10
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+car
+  rotate: false
+  xy: 5, 28
+  size: 142, 95
+  orig: 142, 95
+  offset: 0, 0
+  index: -1
+cellfish
+  rotate: false
+  xy: 265, 57
+  size: 98, 66
+  orig: 98, 66
+  offset: 0, 0
+  index: -1
+celllittle
+  rotate: false
+  xy: 265, 57
+  size: 98, 66
+  orig: 98, 66
+  offset: 0, 0
+  index: -1
+cellfish_glow
+  rotate: false
+  xy: 152, 48
+  size: 108, 75
+  orig: 108, 75
+  offset: 0, 0
+  index: -1
+hand_l
+  rotate: false
+  xy: 26, 16
+  size: 27, 7
+  orig: 27, 7
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: true
+  xy: 473, 58
+  size: 31, 19
+  orig: 31, 19
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 473, 94
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+light_body
+  rotate: false
+  xy: 368, 63
+  size: 53, 60
+  orig: 53, 60
+  offset: 0, 0
+  index: -1
+tyre_l
+  rotate: false
+  xy: 152, 7
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+tyre_r
+  rotate: false
+  xy: 193, 7
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

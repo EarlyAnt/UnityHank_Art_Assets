@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Name="Gululu" Version="">
+  <Actions>
+    <Pet Type ="NINJI">
+      <Action Type="level_end">
+        <Animation AniName="level_end_01" SoundType="nin_level_end_01"/>
+      </Action>
+      <Action Type="hello">
+        <Animation AniName="hello_01" SoundType="nin_hello_01"/>
+      </Action>
+      <Action Type="nod">
+        <Animation AniName="nod_01" SoundType="nin_nod_01"/>
+      </Action>
+      <Action Type="drink_remind_begin">
+        <Animation AniName="drink_remind_begin_01" SoundType="nin_drink_remind_begin_01"/>
+      </Action>
+      <Action Type="drink_remind_loop">
+        <Animation AniName="drink_remind_loop_01" SoundType="nin_drink_remind_loop_01"/>
+      </Action>
+      <Action Type="drink_remind_end">
+        <Animation AniName="drink_remind_end_01" SoundType="nin_drink_remind_end_01"/>
+      </Action>
+      <Action Type="friend_search">
+        <Animation AniName="friend_search_01" SoundType="nin_friend_search_01"/>
+      </Action>
+      <Action Type="friend_host">
+        <Animation AniName="friend_host_01" SoundType="nin_friend_host_01"/>
+      </Action>
+      <Action Type="friend_guest">
+        <Animation AniName="friend_guest_01" SoundType="nin_friend_guest_01"/>
+      </Action>
+      <Action Type="friend_guest_out">
+        <Animation AniName="friend_guest_out_01" SoundType="nin_friend_guest_out_01"/>
+      </Action>
+      <Action Type="friend_guest_back">
+        <Animation AniName="friend_guest_back_01" SoundType="nin_friend_guest_back_01"/>
+      </Action>
+      <Action Type="friend_fail">
+        <Animation AniName="friend_fail_01" SoundType="nin_friend_fail_01"/>
+      </Action>
+      <Action Type="idle">
+        <Animation AniName="idle_01" SoundType=""/>
+      </Action>
+      <Action Type="sleep_begin">
+        <Animation AniName="sleep_begin_01" SoundType="nin_sleep_begin_01"/>
+      </Action>
+      <Action Type="sleep_loop">
+        <Animation AniName="sleep_loop_01" SoundType="nin_sleep_loop_01"/>
+      </Action>
+      <Action Type="sleep_end">
+        <Animation AniName="sleep_end_01" SoundType="nin_sleep_end_01"/>
+      </Action>
+      <Action Type="morning">
+        <Animation AniName="morning_01" SoundType="nin_morning_01"/>
+      </Action>
+      <Action Type="right_up">
+        <Animation AniName="play_up_01" SoundType="nin_play_up_01"/>
+      </Action>
+      <Action Type="right_down">
+        <Animation AniName="play_down_01" SoundType="nin_play_down_01"/>
+      </Action>
+      <Action Type="right_updown">
+        <Animation AniName="play_up_down_01" SoundType="nin_play_up_down_01"/>
+      </Action>
+      <Action Type="right_tap">
+        <Animation AniName="play_up_down_01" SoundType="nin_play_up_down_01"/>
+      </Action>
+      <Action Type="DrinkSuccess">
+        <Animation AniName="play_up_01" SoundType="nin_play_up_01"/>
+        <Animation AniName="play_down_01" SoundType="nin_play_down_01"/>
+        <Animation AniName="play_up_down_01" SoundType="nin_play_up_down_01"/>
+      </Action>
+      <Action Type="eat_begin">
+        <Animation AniName="eat_act_in" SoundType=""/>
+      </Action>
+      <Action Type="eat_loop">
+        <Animation AniName="eat_act_loop" SoundType="ninji_eat_act_loop"/>
+      </Action>
+      <Action Type="eat_full">
+        <Animation AniName="eat_full_loop" SoundType="ninji_eat_full_loop"/>
+      </Action>
+      <Action Type="eat_satisfaction">
+        <Animation AniName="eat_satisfaction" SoundType="ninji_eat_satisfaction"/>
+      </Action>
+      <Action Type="eat_end">
+        <Animation AniName="eat_full_end" SoundType=""/>
+      </Action>
+      <Action Type="hunger">
+        <Animation AniName="eat_hungry" SoundType=""/>
+      </Action>
+      <Action Type="hunger_in">
+        <Animation AniName="eat_hungry_in"/>
+      </Action>
+      <Action Type="hunger_out">
+        <Animation AniName="eat_hungry_out"/>
+      </Action>
+      <Action Type="display01">
+        <Animation AniName="display01"/>
+      </Action>
+    </Pet>
+    <Pet Type ="SANSA">
+      <Action Type="level_end">
+        <Animation AniName="level_end_01" SoundType="san_level_end_01"/>
+      </Action>
+      <Action Type="hello">
+        <Animation AniName="hello_01" SoundType="san_hello_01"/>
+      </Action>
+      <Action Type="nod">
+        <Animation AniName="nod_01" SoundType="san_nod_01"/>
+      </Action>
+      <Action Type="drink_remind_begin">
+        <Animation AniName="drink_remind_begin_01" SoundType="san_drink_remind_begin_01"/>
+      </Action>
+      <Action Type="drink_remind_loop">
+        <Animation AniName="drink_remind_loop_01" SoundType="san_drink_remind_loop_01"/>
+      </Action>
+      <Action Type="drink_remind_end">
+        <Animation AniName="drink_remind_end_01" SoundType="san_drink_remind_end_01"/>
+      </Action>
+      <Action Type="friend_search">
+        <Animation AniName="friend_search_01" SoundType="san_friend_search_01"/>
+      </Action>
+      <Action Type="friend_host">
+        <Animation AniName="friend_host_01" SoundType="san_friend_host_01"/>
+      </Action>
+      <Action Type="friend_guest">
+        <Animation AniName="friend_guest_01" SoundType="san_friend_guest_01"/>
+      </Action>
+      <Action Type="friend_guest_out">
+        <Animation AniName="friend_guest_out_01" SoundType="san_friend_guest_out_01"/>
+      </Action>
+      <Action Type="friend_guest_back">
+        <Animation AniName="friend_guest_back_01" SoundType="san_friend_guest_back_01"/>
+      </Action>
+      <Action Type="friend_fail">
+        <Animation AniName="friend_fail_01" SoundType="san_friend_fail_01"/>
+      </Action>
+      <Action Type="idle">
+        <Animation AniName="idle_01" SoundType=""/>
+      </Action>
+      <Action Type="sleep_begin">
+        <Animation AniName="sleep_begin_01" SoundType="san_sleep_begin_01"/>
+      </Action>
+      <Action Type="sleep_loop">
+        <Animation AniName="sleep_loop_01" SoundType="san_sleep_loop_01"/>
+      </Action>
+      <Action Type="sleep_end">
+        <Animation AniName="sleep_end_01" SoundType="san_sleep_end_01"/>
+      </Action>
+      <Action Type="morning">
+        <Animation AniName="morning_01" SoundType="san_morning_01"/>
+      </Action>
+      <Action Type="right_up">
+        <Animation AniName="play_up_01" SoundType="san_play_up_01"/>
+      </Action>
+      <Action Type="right_down">
+        <Animation AniName="play_down_01" SoundType="san_play_down_01"/>
+      </Action>
+      <Action Type="right_updown">
+        <Animation AniName="play_up_down_01" SoundType="san_play_up_down_01"/>
+      </Action>
+      <Action Type="right_tap">
+        <Animation AniName="play_up_down_01" SoundType="san_play_up_down_01"/>
+      </Action>
+      <Action Type="DrinkSuccess">
+        <Animation AniName="play_up_01" SoundType="san_play_up_01"/>
+        <Animation AniName="play_down_01" SoundType="san_play_down_01"/>
+        <Animation AniName="play_up_down_01" SoundType="san_play_up_down_01"/>
+      </Action>
+      <Action Type="eat_begin">
+        <Animation AniName="eat_act_in" SoundType=""/>
+      </Action>
+      <Action Type="eat_loop">
+        <Animation AniName="eat_act_loop" SoundType="sansa_eat_act_loop"/>
+      </Action>
+      <Action Type="eat_full">
+        <Animation AniName="eat_full_loop" SoundType="sansa_eat_full_loop"/>
+      </Action>
+      <Action Type="eat_satisfaction">
+        <Animation AniName="eat_satisfaction" SoundType="sansa_eat_satisfaction"/>
+      </Action>
+      <Action Type="eat_end">
+        <Animation AniName="eat_full_end" SoundType=""/>
+      </Action>
+      <Action Type="hunger">
+        <Animation AniName="eat_hungry" SoundType=""/>
+      </Action>
+      <Action Type="hunger_in">
+        <Animation AniName="eat_hungry_in"/>
+      </Action>
+      <Action Type="hunger_out">
+        <Animation AniName="eat_hungry_out"/>
+      </Action>
+      <Action Type="display01">
+        <Animation AniName="display01"/>
+      </Action>
+    </Pet>
+    <Pet Type ="PURPIE">
+      <Action Type="level_end">
+        <Animation AniName="level_end_01" SoundType="pur_level_end_01"/>
+      </Action>
+      <Action Type="hello">
+        <Animation AniName="hello_01" SoundType="pur_hello_01"/>
+      </Action>
+      <Action Type="nod">
+        <Animation AniName="nod_01" SoundType="pur_nod_01"/>
+      </Action>
+      <Action Type="drink_remind_begin">
+        <Animation AniName="drink_remind_begin_01" SoundType="pur_drink_remind_begin_01"/>
+      </Action>
+      <Action Type="drink_remind_loop">
+        <Animation AniName="drink_remind_loop_01" SoundType="pur_drink_remind_loop_01"/>
+      </Action>
+      <Action Type="drink_remind_end">
+        <Animation AniName="drink_remind_end_01" SoundType="pur_drink_remind_end_01"/>
+      </Action>
+      <Action Type="friend_search">
+        <Animation AniName="friend_search_01" SoundType="pur_friend_search_01"/>
+      </Action>
+      <Action Type="friend_host">
+        <Animation AniName="friend_host_01" SoundType="pur_friend_host_01"/>
+      </Action>
+      <Action Type="friend_guest">
+        <Animation AniName="friend_guest_01" SoundType="pur_friend_guest_01"/>
+      </Action>
+      <Action Type="friend_guest_out">
+        <Animation AniName="friend_guest_out_01" SoundType="pur_friend_guest_out_01"/>
+      </Action>
+      <Action Type="friend_guest_back">
+        <Animation AniName="friend_guest_back_01" SoundType="pur_friend_guest_back_01"/>
+      </Action>
+      <Action Type="friend_fail">
+        <Animation AniName="friend_fail_01" SoundType="pur_friend_fail_01"/>
+      </Action>
+      <Action Type="idle">
+        <Animation AniName="idle_01" SoundType=""/>
+      </Action>
+      <Action Type="sleep_begin">
+        <Animation AniName="sleep_begin_01" SoundType="pur_sleep_begin_01"/>
+      </Action>
+      <Action Type="sleep_loop">
+        <Animation AniName="sleep_loop_01" SoundType="pur_sleep_loop_01"/>
+      </Action>
+      <Action Type="sleep_end">
+        <Animation AniName="sleep_end_01" SoundType="pur_sleep_end_01"/>
+      </Action>
+      <Action Type="morning">
+        <Animation AniName="morning_01" SoundType="pur_morning_01"/>
+      </Action>
+      <Action Type="right_up">
+        <Animation AniName="play_up_01" SoundType="pur_play_up_01"/>
+      </Action>
+      <Action Type="right_down">
+        <Animation AniName="play_down_01" SoundType="pur_play_down_01"/>
+      </Action>
+      <Action Type="right_updown">
+        <Animation AniName="play_up_down_01" SoundType="pur_play_up_down_01"/>
+      </Action>
+      <Action Type="right_tap">
+        <Animation AniName="play_up_down_01" SoundType="pur_play_up_down_01"/>
+      </Action>
+      <Action Type="DrinkSuccess">
+        <Animation AniName="play_up_01" SoundType="pur_play_up_01"/>
+        <Animation AniName="play_down_01" SoundType="pur_play_down_01"/>
+        <Animation AniName="play_up_down_01" SoundType="pur_play_up_down_01"/>
+      </Action>
+      <Action Type="eat_begin">
+        <Animation AniName="eat_act_in" SoundType=""/>
+      </Action>
+      <Action Type="eat_loop">
+        <Animation AniName="eat_act_loop" SoundType="pur_eat_act_loop"/>
+      </Action>
+      <Action Type="eat_full">
+        <Animation AniName="eat_full_loop" SoundType="pur_eat_full_loop"/>
+      </Action>
+      <Action Type="eat_satisfaction">
+        <Animation AniName="eat_satisfaction" SoundType="pur_eat_satisfaction"/>
+      </Action>
+      <Action Type="eat_end">
+        <Animation AniName="eat_full_end" SoundType=""/>
+      </Action>
+      <Action Type="hunger">
+        <Animation AniName="eat_hungry" SoundType=""/>
+      </Action>
+      <Action Type="hunger_in">
+        <Animation AniName="eat_hungry_in"/>
+      </Action>
+      <Action Type="hunger_out">
+        <Animation AniName="eat_hungry_out"/>
+      </Action>
+      <Action Type="display01">
+        <Animation AniName="display01"/>
+      </Action>
+    </Pet>
+    <Pet Type ="DONNY">
+      <Action Type="level_end">
+        <Animation AniName="level_end_01" SoundType="dony_level_end_01"/>
+      </Action>
+      <Action Type="hello">
+        <Animation AniName="hello_01" SoundType="dony_hello_01"/>
+      </Action>
+      <Action Type="nod">
+        <Animation AniName="nod_01" SoundType="dony_nod_01"/>
+      </Action>
+      <Action Type="drink_remind_begin">
+        <Animation AniName="drink_remind_begin_01" SoundType="dony_drink_remind_begin_01"/>
+      </Action>
+      <Action Type="drink_remind_loop">
+        <Animation AniName="drink_remind_loop_01" SoundType="dony_drink_remind_loop_01"/>
+      </Action>
+      <Action Type="drink_remind_end">
+        <Animation AniName="drink_remind_end_01" SoundType="dony_drink_remind_end_01"/>
+      </Action>
+      <Action Type="friend_search">
+        <Animation AniName="friend_search_01" SoundType="dony_friend_search_01"/>
+      </Action>
+      <Action Type="friend_host">
+        <Animation AniName="friend_host_01" SoundType="dony_friend_host_01"/>
+      </Action>
+      <Action Type="friend_guest">
+        <Animation AniName="friend_guest_01" SoundType="dony_friend_guest_01"/>
+      </Action>
+      <Action Type="friend_guest_out">
+        <Animation AniName="friend_guest_out_01" SoundType="dony_friend_guest_out_01"/>
+      </Action>
+      <Action Type="friend_guest_back">
+        <Animation AniName="friend_guest_back_01" SoundType="dony_friend_guest_back_01"/>
+      </Action>
+      <Action Type="friend_fail">
+        <Animation AniName="friend_fail_01" SoundType="dony_friend_fail_01"/>
+      </Action>
+      <Action Type="idle">
+        <Animation AniName="idle_01" SoundType=""/>
+      </Action>
+      <Action Type="sleep_begin">
+        <Animation AniName="sleep_begin_01" SoundType="dony_sleep_begin_01"/>
+      </Action>
+      <Action Type="sleep_loop">
+        <Animation AniName="sleep_loop_01" SoundType="dony_sleep_loop_01"/>
+      </Action>
+      <Action Type="sleep_end">
+        <Animation AniName="sleep_end_01" SoundType="dony_sleep_end_01"/>
+      </Action>
+      <Action Type="morning">
+        <Animation AniName="morning_01" SoundType="dony_morning_01"/>
+      </Action>
+      <Action Type="right_up">
+        <Animation AniName="play_up_01" SoundType="dony_play_up_01"/>
+      </Action>
+      <Action Type="right_down">
+        <Animation AniName="play_down_01" SoundType="dony_play_down_01"/>
+      </Action>
+      <Action Type="right_updown">
+        <Animation AniName="play_up_down_01" SoundType="dony_play_up_down_01"/>
+      </Action>
+      <Action Type="right_tap">
+        <Animation AniName="play_up_down_01" SoundType="dony_play_up_down_01"/>
+      </Action>
+      <Action Type="DrinkSuccess">
+        <Animation AniName="play_up_01" SoundType="dony_play_up_01"/>
+        <Animation AniName="play_down_01" SoundType="dony_play_down_01"/>
+        <Animation AniName="play_up_down_01" SoundType="dony_play_up_down_01"/>
+      </Action>
+      <Action Type="eat_begin">
+        <Animation AniName="eat_act_in" SoundType=""/>
+      </Action>
+      <Action Type="eat_loop">
+        <Animation AniName="eat_act_loop" SoundType="dony_eat_act_loop"/>
+      </Action>
+      <Action Type="eat_full">
+        <Animation AniName="eat_full_loop" SoundType="dony_eat_full_loop"/>
+      </Action>
+      <Action Type="eat_satisfaction">
+        <Animation AniName="eat_satisfaction" SoundType="dony_eat_satisfaction"/>
+      </Action>
+      <Action Type="eat_end">
+        <Animation AniName="eat_full_end" SoundType=""/>
+      </Action>
+      <Action Type="hunger">
+        <Animation AniName="eat_hungry" SoundType=""/>
+      </Action>
+      <Action Type="hunger_in">
+        <Animation AniName="eat_hungry_in"/>
+      </Action>
+      <Action Type="hunger_out">
+        <Animation AniName="eat_hungry_out"/>
+      </Action>
+      <Action Type="display01">
+        <Animation AniName="display01"/>
+      </Action>
+    </Pet>
+    <Pet Type ="YOYO">
+      <Action Type="level_end">
+        <Animation AniName="level_end_01" SoundType="yoyo_level_end_01"/>
+      </Action>
+      <Action Type="hello">
+        <Animation AniName="hello_01" SoundType="yoyo_hello_01"/>
+      </Action>
+      <Action Type="nod">
+        <Animation AniName="nod_01" SoundType="yoyo_nod_01"/>
+      </Action>
+      <Action Type="drink_remind_begin">
+        <Animation AniName="drink_remind_begin_01" SoundType="yoyo_drink_remind_begin_01"/>
+      </Action>
+      <Action Type="drink_remind_loop">
+        <Animation AniName="drink_remind_loop_01" SoundType="yoyo_drink_remind_loop_01"/>
+      </Action>
+      <Action Type="drink_remind_end">
+        <Animation AniName="drink_remind_end_01" SoundType="yoyo_drink_remind_end_01"/>
+      </Action>
+      <Action Type="friend_search">
+        <Animation AniName="friend_search_01" SoundType="yoyo_friend_search_01"/>
+      </Action>
+      <Action Type="friend_host">
+        <Animation AniName="friend_host_01" SoundType="yoyo_friend_host_01"/>
+      </Action>
+      <Action Type="friend_guest">
+        <Animation AniName="friend_guest_01" SoundType="yoyo_friend_guest_01"/>
+      </Action>
+      <Action Type="friend_guest_out">
+        <Animation AniName="friend_guest_out_01" SoundType="yoyo_friend_guest_out_01"/>
+      </Action>
+      <Action Type="friend_guest_back">
+        <Animation AniName="friend_guest_back_01" SoundType="yoyo_friend_guest_back_01"/>
+      </Action>
+      <Action Type="friend_fail">
+        <Animation AniName="friend_fail_01" SoundType="yoyo_friend_fail_01"/>
+      </Action>
+      <Action Type="idle">
+        <Animation AniName="idle_01" SoundType=""/>
+      </Action>
+      <Action Type="sleep_begin">
+        <Animation AniName="sleep_begin_01" SoundType="yoyo_sleep_begin_01"/>
+      </Action>
+      <Action Type="sleep_loop">
+        <Animation AniName="sleep_loop_01" SoundType="yoyo_sleep_loop_01"/>
+      </Action>
+      <Action Type="sleep_end">
+        <Animation AniName="sleep_end_01" SoundType="yoyo_sleep_end_01"/>
+      </Action>
+      <Action Type="morning">
+        <Animation AniName="morning_01" SoundType="yoyo_morning_01"/>
+      </Action>
+      <Action Type="right_up">
+        <Animation AniName="play_up_01" SoundType="yoyo_play_up_01"/>
+      </Action>
+      <Action Type="right_down">
+        <Animation AniName="play_down_01" SoundType="yoyo_play_down_01"/>
+      </Action>
+      <Action Type="right_updown">
+        <Animation AniName="play_up_down_01" SoundType="yoyo_play_up_down_01"/>
+      </Action>
+      <Action Type="right_tap">
+        <Animation AniName="play_up_down_01" SoundType="yoyo_play_up_down_01"/>
+      </Action>
+      <Action Type="DrinkSuccess">
+        <Animation AniName="play_up_01" SoundType="yoyo_play_up_01"/>
+        <Animation AniName="play_down_01" SoundType="yoyo_play_down_01"/>
+        <Animation AniName="play_up_down_01" SoundType="yoyo_play_up_down_01"/>
+      </Action>
+      <Action Type="eat_begin">
+        <Animation AniName="eat_act_in" SoundType=""/>
+      </Action>
+      <Action Type="eat_loop">
+        <Animation AniName="eat_act_loop" SoundType="yoyo_eat_act_loop"/>
+      </Action>
+      <Action Type="eat_full">
+        <Animation AniName="eat_full_loop" SoundType="yoyo_eat_full_loop"/>
+      </Action>
+      <Action Type="eat_satisfaction">
+        <Animation AniName="eat_satisfaction" SoundType="yoyo_eat_satisfaction"/>
+      </Action>
+      <Action Type="eat_end">
+        <Animation AniName="eat_full_end" SoundType=""/>
+      </Action>
+      <Action Type="hunger">
+        <Animation AniName="eat_hungry" SoundType=""/>
+      </Action>
+      <Action Type="hunger_in">
+        <Animation AniName="eat_hungry_in"/>
+      </Action>
+      <Action Type="hunger_out">
+        <Animation AniName="eat_hungry_out"/>
+      </Action>
+      <Action Type="display01">
+        <Animation AniName="display01"/>
+      </Action>
+    </Pet>
+    <Pet Type ="NUO">
+      <Action Type="level_end">
+        <Animation AniName="level_end_01" SoundType="nuo_level_end_01"/>
+      </Action>
+      <Action Type="hello">
+        <Animation AniName="hello_01" SoundType="nuo_hello_01"/>
+      </Action>
+      <Action Type="nod">
+        <Animation AniName="nod_01" SoundType="nuo_nod_01"/>
+      </Action>
+      <Action Type="drink_remind_begin">
+        <Animation AniName="drink_remind_begin_01" SoundType="nuo_drink_remind_begin_01"/>
+      </Action>
+      <Action Type="drink_remind_loop">
+        <Animation AniName="drink_remind_loop_01" SoundType="nuo_drink_remind_loop_01"/>
+      </Action>
+      <Action Type="drink_remind_end">
+        <Animation AniName="drink_remind_end_01" SoundType="nuo_drink_remind_end_01"/>
+      </Action>
+      <Action Type="friend_search">
+        <Animation AniName="friend_search_01" SoundType="nuo_friend_search_01"/>
+      </Action>
+      <Action Type="friend_host">
+        <Animation AniName="friend_host_01" SoundType="nuo_friend_host_01"/>
+      </Action>
+      <Action Type="friend_guest">
+        <Animation AniName="friend_guest_01" SoundType="nuo_friend_guest_01"/>
+      </Action>
+      <Action Type="friend_guest_out">
+        <Animation AniName="friend_guest_out_01" SoundType="nuo_friend_guest_out_01"/>
+      </Action>
+      <Action Type="friend_guest_back">
+        <Animation AniName="friend_guest_back_01" SoundType="nuo_friend_guest_back_01"/>
+      </Action>
+      <Action Type="friend_fail">
+        <Animation AniName="friend_fail_01" SoundType="nuo_friend_fail_01"/>
+      </Action>
+      <Action Type="idle">
+        <Animation AniName="idle_01" SoundType=""/>
+      </Action>
+      <Action Type="sleep_begin">
+        <Animation AniName="sleep_begin_01" SoundType="nuo_sleep_begin_01"/>
+      </Action>
+      <Action Type="sleep_loop">
+        <Animation AniName="sleep_loop_01" SoundType="nuo_sleep_loop_01"/>
+      </Action>
+      <Action Type="sleep_end">
+        <Animation AniName="sleep_end_01" SoundType="nuo_sleep_end_01"/>
+      </Action>
+      <Action Type="morning">
+        <Animation AniName="morning_01" SoundType="nuo_morning_01"/>
+      </Action>
+      <Action Type="right_up">
+        <Animation AniName="play_up_01" SoundType="nuo_play_up_01"/>
+      </Action>
+      <Action Type="right_down">
+        <Animation AniName="play_down_01" SoundType="nuo_play_down_01"/>
+      </Action>
+      <Action Type="right_updown">
+        <Animation AniName="play_up_down_01" SoundType="nuo_play_up_down_01"/>
+      </Action>
+      <Action Type="right_tap">
+        <Animation AniName="play_up_down_01" SoundType="nuo_play_up_down_01"/>
+      </Action>
+      <Action Type="DrinkSuccess">
+        <Animation AniName="play_up_01" SoundType="nuo_play_up_01"/>
+        <Animation AniName="play_down_01" SoundType="nuo_play_down_01"/>
+        <Animation AniName="play_up_down_01" SoundType="nuo_play_up_down_01"/>
+      </Action>
+      <Action Type="eat_begin">
+        <Animation AniName="eat_act_in" SoundType=""/>
+      </Action>
+      <Action Type="eat_loop">
+        <Animation AniName="eat_act_loop" SoundType="nuo_eat_act_loop"/>
+      </Action>
+      <Action Type="eat_full">
+        <Animation AniName="eat_full_loop" SoundType="nuo_eat_full_loop"/>
+      </Action>
+      <Action Type="eat_satisfaction">
+        <Animation AniName="eat_satisfaction" SoundType="nuo_eat_satisfaction"/>
+      </Action>
+      <Action Type="eat_end">
+        <Animation AniName="eat_full_end" SoundType=""/>
+      </Action>
+      <Action Type="hunger">
+        <Animation AniName="eat_hungry" SoundType=""/>
+      </Action>
+      <Action Type="hunger_in">
+        <Animation AniName="eat_hungry_in"/>
+      </Action>
+      <Action Type="hunger_out">
+        <Animation AniName="eat_hungry_out"/>
+      </Action>
+      <Action Type="display01">
+        <Animation AniName="display01"/>
+      </Action>
+    </Pet>
+  </Actions>
+</Project>
