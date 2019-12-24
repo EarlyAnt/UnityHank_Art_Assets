@@ -1,10 +1,9 @@
 fileFormatVersion: 2
 guid: dbfb1ff5f3680a24aadf95c003b0c839
-timeCreated: 1515651344
-licenseType: Free
 ShaderImporter:
   externalObjects: {}
   defaultTextures: []
+  nonModifiableTextures: []
   userData: 
-  assetBundleName: shader/shader-forge/effcartoon_simple.shader.unity3d
+  assetBundleName: 
   assetBundleVariant: 

@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: f87c25f88724af9439d428e0f5c8fcd6
-timeCreated: 1523933182
-licenseType: Free
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
   - _MainTex: {instanceID: 0}
+  nonModifiableTextures: []
   userData: 
-  assetBundleName: shader/shader-forge/single_alpha_cartoon.shader.unity3d
+  assetBundleName: 
   assetBundleVariant: 
