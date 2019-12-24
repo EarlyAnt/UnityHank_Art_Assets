@@ -52,7 +52,7 @@ GameObject:
   - component: {fileID: 4087362988553838}
   - component: {fileID: 95500225732783588}
   m_Layer: 0
-  m_Name: dony
+  m_Name: dony_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

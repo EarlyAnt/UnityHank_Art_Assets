@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 4737063423105878}
   - component: {fileID: 95089772871350860}
   m_Layer: 0
-  m_Name: wing_snow
+  m_Name: wing_snow_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

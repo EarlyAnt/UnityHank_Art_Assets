@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 4026913089088082}
   - component: {fileID: 95389893137037562}
   m_Layer: 0
-  m_Name: antler_ponit
+  m_Name: antler_ponit_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

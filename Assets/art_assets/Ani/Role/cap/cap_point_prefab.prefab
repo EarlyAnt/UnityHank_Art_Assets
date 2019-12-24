@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 4879251354014758}
   - component: {fileID: 95266327203586700}
   m_Layer: 0
-  m_Name: cap_point
+  m_Name: cap_point_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

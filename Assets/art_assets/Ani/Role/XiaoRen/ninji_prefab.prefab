@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 4628693787908364}
   - component: {fileID: 95246585384933736}
   m_Layer: 0
-  m_Name: ninji
+  m_Name: ninji_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

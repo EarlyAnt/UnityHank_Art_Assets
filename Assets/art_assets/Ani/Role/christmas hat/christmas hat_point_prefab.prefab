@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 4975136853910466}
   - component: {fileID: 95304558052073162}
   m_Layer: 0
-  m_Name: christmas hat_point
+  m_Name: christmas hat_point_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

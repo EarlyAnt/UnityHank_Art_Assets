@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4595845700853590}
   - component: {fileID: 95112588956752096}
   m_Layer: 0
-  m_Name: wing_point
+  m_Name: wing_point_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 4031152638686156}
   - component: {fileID: 95204553938777468}
   m_Layer: 0
-  m_Name: cornu cervi_point
+  m_Name: cornu cervi_point_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

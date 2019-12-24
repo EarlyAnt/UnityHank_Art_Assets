@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 4014556417922662}
   - component: {fileID: 95628467043503086}
   m_Layer: 0
-  m_Name: giftbox
+  m_Name: giftbox_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1006,7 +1006,7 @@ GameObject:
   - component: {fileID: 4494259952355508}
   - component: {fileID: 95061335026596732}
   m_Layer: 0
-  m_Name: nuo
+  m_Name: nuo_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
