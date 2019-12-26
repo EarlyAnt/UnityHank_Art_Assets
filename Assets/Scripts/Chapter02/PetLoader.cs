@@ -19,7 +19,6 @@ namespace Chapter02
             this.gameObject.name = this.objectName;
             this.gameObject.transform.position = this.transform.position;
             this.gameObject.AddComponent<FixShader>();
-            //GameObject.Destroy(obj);
             Debug.LogFormat("<><PetLoader.LoadAB>asset bundle name: {0}, pet name: {1}", this.assetBundleName, this.objectName);
             base.LoadNextAB();
         }
