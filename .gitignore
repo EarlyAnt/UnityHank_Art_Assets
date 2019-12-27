@@ -1,4 +1,5 @@
-Library
-/Temp
+/Library
 /obj
+/Temp
+/base.sln
 /.vs
