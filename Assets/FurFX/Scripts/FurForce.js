@@ -20,12 +20,12 @@ var windForceSpeed : float = 1;
 
 private var perlinrandom : Vector3;
 private var localDir : Vector3;
-var rb: Rigidbody;
+
 function Awake()
 {
 	//generating perlin random
 	perlinrandom = Vector3(Random.Range(0.0f, 65535.0f),Random.Range(0.0f, 65535.0f),Random.Range(0.0f, 65535.0f));
-    rb = GetComponent(typeof (Rigidbody));
+	
 	//get starting local direction for fur to calculate normalized vector with global direction
 	//localDir = Vector3.ClampMagnitude(renderer.material.GetVector("_ForceLocal"),1.0);
 	
@@ -39,11 +39,11 @@ var newLocalForce : Vector3 = Vector3.zero;
 //windForceFactor = Vector3.ClampMagnitude(windForceFactor,1.0);
 
 //adding force based on rigidbody velocity
-    if (addRigidbodyForce) {         
-        if (rb) {
-            sumForce = -rb.velocity * rigidbodyForceFactor;
-        }
-    }
+if (addRigidbodyForce) {
+	if (GetComponent.<Rigidbody>()) {
+		sumForce = -GetComponent.<Rigidbody>().velocity * rigidbodyForceFactor;
+	}
+}
 
 //add gravity force
 if (addGravityToForce) sumForce += Physics.gravity * gravityFactor;
@@ -76,7 +76,7 @@ forceSmoothed = Vector3.Lerp(forceSmoothed, sumForce,Time.deltaTime * smoothing)
 //forceLocalSmoothed = Vector3.Lerp(forceLocalSmoothed, newLocalForce,Time.deltaTime * smoothing);
 
 //pass global force for fur
-    GetComponent(typeof (Renderer)).material.SetVector("_ForceGlobal", forceSmoothed);
+GetComponent.<Renderer>().material.SetVector("_ForceGlobal", forceSmoothed);
 //renderer.material.SetVector("_ForceLocal", forceLocalSmoothed);
 
 

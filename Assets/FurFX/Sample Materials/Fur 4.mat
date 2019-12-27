@@ -9,7 +9,7 @@ Material:
   m_Name: Fur 4
   m_Shader: {fileID: 4800000, guid: 1951b659a654f1c4eac95591d3321950, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -31,7 +31,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 6242eb34579de194d8d8dd7fc9027e7b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c19362951f0aff44846e2001a4a48e4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat0:
@@ -51,14 +51,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.03
-    - _EdgeFade: 0
+    - _Cutoff: 0
+    - _EdgeFade: 0.3653846
     - _FurDarkening: 1.39
     - _FurLength: 0.11326578
     - _HairColoring: 0.23076923
     - _HairHardness: 1
     - _HairShading: 0.25
-    - _HairThinness: 1.06
+    - _HairThinness: 1.6931604
     - _Reflection: 0
     - _RimPower: 4
     - _Shininess: 1

@@ -13,7 +13,7 @@ function Update ()
 	if (!Input.GetMouseButtonDown (0))
 		return;
 
-    var mainCamera: Camera = FindCamera();
+	var mainCamera = FindCamera();
 		
 	// We need to actually hit an object
 	var hit : RaycastHit;
@@ -26,8 +26,8 @@ function Update ()
 	if (!springJoint)
 	{
 		var go = new GameObject("Rigidbody dragger");
-		var body : Rigidbody = go.AddComponent (typeof(Rigidbody)) as Rigidbody;
-        springJoint = go.AddComponent(typeof(SpringJoint));
+		var body : Rigidbody = go.AddComponent.<Rigidbody>() as Rigidbody;
+		springJoint = go.AddComponent.<SpringJoint>();
 		body.isKinematic = true;
 	}
 	
@@ -57,7 +57,7 @@ function DragObject (distance : float)
 	var oldAngularDrag = springJoint.connectedBody.angularDrag;
 	springJoint.connectedBody.drag = drag;
 	springJoint.connectedBody.angularDrag = angularDrag;
-    var mainCamera: Camera = FindCamera();
+	var mainCamera = FindCamera();
 	while (Input.GetMouseButton (0))
 	{
 		var ray = mainCamera.ScreenPointToRay (Input.mousePosition);
@@ -74,8 +74,8 @@ function DragObject (distance : float)
 
 function FindCamera ()
 {
-    if (GetComponent(typeof(Camera)))
-        return GetComponent(typeof (Camera));
+	if (GetComponent.<Camera>())
+		return GetComponent.<Camera>();
 	else
 		return Camera.main;
 }
