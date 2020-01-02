@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: XiaoRen
+  assetBundleName: xiaoren
   autoLoad: 1
   next: {fileID: 0}
   objectName: ninji_prefab
@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: Purpie
+  assetBundleName: purpie
   autoLoad: 1
   next: {fileID: 0}
   objectName: pur_prefab
