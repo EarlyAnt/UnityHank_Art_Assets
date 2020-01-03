@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 2303424178
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4588ef460e778b85fe17cf49d3236f02
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c6a55bdc13a8b6db14d532b7faaa95fd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Ani/Role/christmas/christmas_point.controller
+- Assets/art_assets/Ani/Role/christmas/christmas.FBX
+- Assets/art_assets/Ani/Role/christmas/Texture/christmas02.mat
+- Assets/art_assets/Ani/Role/christmas/christmas_point_prefab.prefab
+- Assets/art_assets/Ani/Role/christmas/Texture/christmas.png
+- Assets/art_assets/Ani/Role/christmas/Texture/FurNoise Sharp.tga
+- Assets/art_assets/Ani/Role/christmas/Texture/christmas03.mat
+- Assets/art_assets/Ani/Role/christmas/Texture/christmas01.mat
+Dependencies:
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/center_fx02.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_01.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/star_fx.ab

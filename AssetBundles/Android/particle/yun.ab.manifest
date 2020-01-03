@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1208323476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9e67725419336e048d1e904fa99f14d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0f931d4ebb7724728a37cd063f2dc20a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Ani/Role/particle/yun/materials/xue3.mat
+- "Assets/art_assets/Ani/Role/particle/yun/materials/\u4E91\u56E205.mat"
+- Assets/art_assets/Ani/Role/particle/yun/yun.prefab
+- Assets/art_assets/Ani/Role/particle/yun/textures/xue3.png
+- Assets/art_assets/Ani/Role/particle/yun/textures/xue01.png
+- Assets/art_assets/Ani/Role/particle/yun/materials/smoke01.mat
+- Assets/art_assets/Ani/Role/particle/yun/materials/xue01.mat
+- Assets/art_assets/Ani/Role/particle/yun/textures/smoke01.dds
+Dependencies: []
