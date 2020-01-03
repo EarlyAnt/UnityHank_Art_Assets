@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 1979306274
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6559bd8a067b55c73778d87b1701c676
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02414ef950ca26464080856446ac2820
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Ani/Role/XiaoRen/ninji_dailygoal.FBX
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/star.mat
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/knife.mat
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/moon_moon1SG_DiffuseGlossiness_new.tga
+- Assets/art_assets/Ani/Role/XiaoRen/ninji_prefab.prefab
+- Assets/art_assets/Ani/Role/XiaoRen/nin_eat.FBX
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/tongkong.mat
+- Assets/art_assets/Ani/Role/XiaoRen/ninji_MAX_ani.controller
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/xiaoren_body.jpg
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/star_c.png
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/spine.mat
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/spc.mat
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/leg.mat
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/sun_c.png
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/sun.mat
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/moon.mat
+- Assets/art_assets/Ani/Role/XiaoRen/ninji_MAX_ani.FBX
+- Assets/art_assets/Ani/Role/XiaoRen/Texture/hair.mat
+- Assets/art_assets/Ani/Role/XiaoRen/nin_doc.FBX
+Dependencies: []

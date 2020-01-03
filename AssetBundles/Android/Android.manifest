@@ -1,0 +1,106 @@
+ManifestFileVersion: 0
+CRC: 542998878
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: role/elk.ab
+      Dependencies:
+        Dependency_0: particle/guangdian_03.ab
+    Info_1:
+      Name: role/christmas hat.ab
+      Dependencies: {}
+    Info_2:
+      Name: role/xinuo.ab
+      Dependencies: {}
+    Info_3:
+      Name: role/purpie.ab
+      Dependencies: {}
+    Info_4:
+      Name: role/dony.ab
+      Dependencies: {}
+    Info_5:
+      Name: role/antler.ab
+      Dependencies: {}
+    Info_6:
+      Name: role/snowman.ab
+      Dependencies:
+        Dependency_0: particle/guangdian_03.ab
+    Info_7:
+      Name: role/cornu cervi.ab
+      Dependencies: {}
+    Info_8:
+      Name: role/pumpkin.ab
+      Dependencies:
+        Dependency_0: particle/shandian_fx01.ab
+    Info_9:
+      Name: role/xiaoren.ab
+      Dependencies: {}
+    Info_10:
+      Name: role/yoyo.ab
+      Dependencies: {}
+    Info_11:
+      Name: role/giftbox.ab
+      Dependencies:
+        Dependency_0: particle/hezi_fx.ab
+    Info_12:
+      Name: role/wing.ab
+      Dependencies:
+        Dependency_0: particle/wing01.ab
+    Info_13:
+      Name: role/sansa.ab
+      Dependencies: {}
+    Info_14:
+      Name: role/wing_snow.ab
+      Dependencies:
+        Dependency_0: particle/guangdian_02.ab
+    Info_15:
+      Name: role/ghost.ab
+      Dependencies:
+        Dependency_0: particle/tuowei_fx01.ab
+    Info_16:
+      Name: role/christmas.ab
+      Dependencies:
+        Dependency_0: particle/center_fx02.ab
+        Dependency_1: particle/guangdian_01.ab
+        Dependency_2: particle/star_fx.ab
+    Info_17:
+      Name: role/cloud_snow.ab
+      Dependencies:
+        Dependency_0: particle/yun.ab
+    Info_18:
+      Name: role/cap.ab
+      Dependencies:
+        Dependency_0: particle/star_fx.ab
+    Info_19:
+      Name: particle/center_fx01.ab
+      Dependencies: {}
+    Info_20:
+      Name: particle/center_fx02.ab
+      Dependencies: {}
+    Info_21:
+      Name: particle/guangdian_01.ab
+      Dependencies: {}
+    Info_22:
+      Name: particle/guangdian_02.ab
+      Dependencies: {}
+    Info_23:
+      Name: particle/guangdian_03.ab
+      Dependencies: {}
+    Info_24:
+      Name: particle/hezi_fx.ab
+      Dependencies: {}
+    Info_25:
+      Name: particle/shandian_fx01.ab
+      Dependencies: {}
+    Info_26:
+      Name: particle/star_fx.ab
+      Dependencies: {}
+    Info_27:
+      Name: particle/tuowei_fx01.ab
+      Dependencies: {}
+    Info_28:
+      Name: particle/wing01.ab
+      Dependencies: {}
+    Info_29:
+      Name: particle/yun.ab
+      Dependencies: {}
