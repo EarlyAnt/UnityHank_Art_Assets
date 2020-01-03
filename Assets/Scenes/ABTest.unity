@@ -1383,7 +1383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &992464470
 Transform:
   m_ObjectHideFlags: 0
@@ -2258,7 +2258,7 @@ MonoBehaviour:
   assetBundleName: role/snowman.ab
   autoLoad: 1
   next: {fileID: 0}
-  objectName: snowman_prefab
+  objectName: snowmanA_prefab
 --- !u!1 &1970987971
 GameObject:
   m_ObjectHideFlags: 0
