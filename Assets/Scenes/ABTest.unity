@@ -113,6 +113,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &49628418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49628419}
+  - component: {fileID: 49628420}
+  m_Layer: 0
+  m_Name: PetLoader (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &49628419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 49628418}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &49628420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 49628418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/yoyo.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: yoyo_prefab
 --- !u!1 &84369810
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: cap
+  assetBundleName: role/cap.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: cap_point_prefab
@@ -197,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: cloud_snow
+  assetBundleName: cloud_snow.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: cloud_snow_prefab
@@ -241,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: christmas
+  assetBundleName: christmas.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: christmas_point_prefab
@@ -285,10 +329,129 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: xiaoren
+  assetBundleName: xiaoren.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: ninji_prefab
+--- !u!1 &155388591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155388592}
+  - component: {fileID: 155388593}
+  m_Layer: 0
+  m_Name: PetLoader (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155388592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155388591}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &155388593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155388591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/xinuo.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: nuo_prefab
+--- !u!1 &273171053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 273171054}
+  m_Layer: 0
+  m_Name: Chapter02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &273171054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 273171053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1340802887}
+  - {fileID: 1677419503}
+  - {fileID: 590685891}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &281652103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 281652104}
+  - component: {fileID: 281652105}
+  m_Layer: 0
+  m_Name: PetLoader (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &281652104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281652103}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &281652105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281652103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/cloud_snow.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: cloud_snow_prefab
 --- !u!1 &430828492
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,7 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: snowman
+  assetBundleName: snowman.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: snowman_prefab
@@ -373,7 +536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: elk
+  assetBundleName: elk.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: elk_A_prefab
@@ -417,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: christmas hat
+  assetBundleName: christmas hat.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: christmas hat_point_prefab
@@ -461,7 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: elk
+  assetBundleName: elk.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: elk_prefab
@@ -505,10 +668,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: wing
+  assetBundleName: wing.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: wing_point_prefab
+--- !u!1 &556665475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 556665476}
+  - component: {fileID: 556665477}
+  m_Layer: 0
+  m_Name: PetLoader (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &556665476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 556665475}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &556665477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 556665475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/christmas hat.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: christmas hat_point_prefab
 --- !u!1 &568661758
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: antler
+  assetBundleName: antler.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: antler_ponit_prefab
@@ -574,7 +781,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 590685890}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -599,8 +806,8 @@ Transform:
   - {fileID: 99988738}
   - {fileID: 1871402248}
   - {fileID: 1699824982}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 273171054}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &597894628
 GameObject:
@@ -722,6 +929,50 @@ MonoBehaviour:
   assetBundleName: shader
   autoLoad: 0
   next: {fileID: 1340802886}
+--- !u!1 &728958898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 728958899}
+  - component: {fileID: 728958900}
+  m_Layer: 0
+  m_Name: PetLoader (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &728958899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728958898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &728958900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728958898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/giftbox.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: giftbox_prefab
 --- !u!1 &824585696
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: cornu cervi
+  assetBundleName: cornu cervi.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: cornu cervi_point_prefab
@@ -806,7 +1057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: sansa
+  assetBundleName: sansa.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: sansa_prefab
@@ -850,7 +1101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: pumpkin
+  assetBundleName: pumpkin.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: pumpkin_prefab
@@ -894,7 +1145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: giftbox
+  assetBundleName: giftbox.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: giftbox_prefab
@@ -938,10 +1189,98 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: dony
+  assetBundleName: dony.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: dony_prefab
+--- !u!1 &930723682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930723683}
+  - component: {fileID: 930723684}
+  m_Layer: 0
+  m_Name: PetLoader (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930723683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 930723682}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930723684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 930723682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/cornu cervi.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: cornu cervi_point_prefab
+--- !u!1 &935639929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935639930}
+  - component: {fileID: 935639931}
+  m_Layer: 0
+  m_Name: PetLoader (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &935639930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 935639929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &935639931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 935639929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/cap.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: cap_point_prefab
 --- !u!1 &956179403
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,10 +1321,147 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: wing_snow
+  assetBundleName: wing_snow.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: wing_snow_prefab
+--- !u!1 &990067528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990067529}
+  - component: {fileID: 990067530}
+  m_Layer: 0
+  m_Name: PetLoader (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &990067529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990067528}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &990067530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990067528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/pumpkin.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: pumpkin_prefab
+--- !u!1 &992464469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 992464470}
+  m_Layer: 0
+  m_Name: Loaders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &992464470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 992464469}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1787607958}
+  - {fileID: 935639930}
+  - {fileID: 1300027156}
+  - {fileID: 556665476}
+  - {fileID: 281652104}
+  - {fileID: 930723683}
+  - {fileID: 1870686147}
+  - {fileID: 1560126841}
+  - {fileID: 2126194072}
+  - {fileID: 1556122685}
+  - {fileID: 728958899}
+  - {fileID: 1970987972}
+  - {fileID: 990067529}
+  - {fileID: 1595214395}
+  - {fileID: 1073493364}
+  - {fileID: 1966563348}
+  - {fileID: 1689258073}
+  - {fileID: 1288018328}
+  - {fileID: 1204922893}
+  - {fileID: 155388592}
+  - {fileID: 49628419}
+  m_Father: {fileID: 1744673878}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1073493363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073493364}
+  - component: {fileID: 1073493365}
+  m_Layer: 0
+  m_Name: PetLoader (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1073493364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1073493363}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073493365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1073493363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/sansa.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: sansa_prefab
 --- !u!1 &1097385876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: ghost
+  assetBundleName: ghost.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: ghost_prefab
@@ -1070,7 +1546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: giftbox
+  assetBundleName: giftbox.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: giftbox_A_prefab
@@ -1140,6 +1616,138 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1204922892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1204922893}
+  - component: {fileID: 1204922894}
+  m_Layer: 0
+  m_Name: PetLoader (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1204922893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204922892}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204922894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204922892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/xiaoren.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: ninji_prefab
+--- !u!1 &1288018327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1288018328}
+  - component: {fileID: 1288018329}
+  m_Layer: 0
+  m_Name: PetLoader (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1288018328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288018327}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1288018329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288018327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/wing_snow.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: wing_snow_prefab
+--- !u!1 &1300027155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300027156}
+  - component: {fileID: 1300027157}
+  m_Layer: 0
+  m_Name: PetLoader (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1300027156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300027155}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1300027157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300027155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/christmas.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: christmas_point_prefab
 --- !u!1 &1340802885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,7 +1775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3da24e9ed9d79c448f43e418f96589e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: texture
+  assetBundleName: texture.ab
   autoLoad: 1
   next: {fileID: 1677419502}
 --- !u!4 &1340802887
@@ -1180,9 +1788,141 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 273171054}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1556122684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1556122685}
+  - component: {fileID: 1556122686}
+  m_Layer: 0
+  m_Name: PetLoader (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1556122685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556122684}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1556122686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556122684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/ghost.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: ghost_prefab
+--- !u!1 &1560126840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560126841}
+  - component: {fileID: 1560126842}
+  m_Layer: 0
+  m_Name: PetLoader (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1560126841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1560126840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1560126842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1560126840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/elk.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: elk_A_prefab
+--- !u!1 &1595214394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1595214395}
+  - component: {fileID: 1595214396}
+  m_Layer: 0
+  m_Name: PetLoader (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1595214395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595214394}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1595214396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595214394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/purpie.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: pur_prefab
 --- !u!1 &1677419501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,7 +1950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3da24e9ed9d79c448f43e418f96589e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: particle
+  assetBundleName: particle.ab
   autoLoad: 0
   next: {fileID: 0}
 --- !u!4 &1677419503
@@ -1223,9 +1963,53 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 273171054}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1689258072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1689258073}
+  - component: {fileID: 1689258074}
+  m_Layer: 0
+  m_Name: PetLoader (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1689258073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689258072}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1689258074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689258072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/wing.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: wing_point_prefab
 --- !u!1 &1699824981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,10 +2050,127 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: yoyo
+  assetBundleName: yoyo.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: yoyo_prefab
+--- !u!1 &1744673877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1744673878}
+  m_Layer: 0
+  m_Name: Chapter03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744673878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744673877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 992464470}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1787607957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787607958}
+  - component: {fileID: 1787607959}
+  m_Layer: 0
+  m_Name: PetLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787607958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787607957}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1787607959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787607957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/antler.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: antler_ponit_prefab
+--- !u!1 &1870686146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870686147}
+  - component: {fileID: 1870686148}
+  m_Layer: 0
+  m_Name: PetLoader (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1870686147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870686146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1870686148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870686146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/dony.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: dony_prefab
 --- !u!1 &1871402247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,10 +2211,98 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: xinuo
+  assetBundleName: xinuo.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: nuo_prefab
+--- !u!1 &1966563347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1966563348}
+  - component: {fileID: 1966563349}
+  m_Layer: 0
+  m_Name: PetLoader (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1966563348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966563347}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1966563349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966563347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/snowman.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: snowmanA_prefab
+--- !u!1 &1970987971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970987972}
+  - component: {fileID: 1970987973}
+  m_Layer: 0
+  m_Name: PetLoader (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970987972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970987971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970987973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970987971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/giftbox.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: giftbox_A_prefab
 --- !u!1 &2020705758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,7 +2343,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: purpie
+  assetBundleName: purpie.ab
   autoLoad: 1
   next: {fileID: 0}
   objectName: pur_prefab
+--- !u!1 &2126194071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2126194072}
+  - component: {fileID: 2126194073}
+  m_Layer: 0
+  m_Name: PetLoader (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2126194072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126194071}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 992464470}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2126194073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126194071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/elk.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: elk_B_prefab
