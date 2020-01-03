@@ -15,9 +15,11 @@ namespace Chapter02
         protected AssetBundle assetBundle;
         protected GameObject gameObject;
         private static Dictionary<string, AssetBundle> assetBundles = new Dictionary<string, AssetBundle>();
+        protected static AssetBundle manifestAssetBundle;
 
         protected virtual void Start()
         {
+            this.LoadManifest();
             if (this.autoLoad)
             {
                 this.LoadNextAB();
@@ -30,6 +32,14 @@ namespace Chapter02
                 this.next.LoadNextAB();
         }
 
+        protected void LoadManifest()
+        {
+            if (manifestAssetBundle == null)
+            {
+                manifestAssetBundle = AssetBundle.LoadFromFile(string.Format("{0}/Model/Android", Application.persistentDataPath));
+            }
+        }
+
         protected AssetBundle GetAssetBundle(string assetBundleName)
         {
             if (assetBundles.ContainsKey(assetBundleName) && assetBundles[assetBundleName] == null)
@@ -37,8 +47,25 @@ namespace Chapter02
 
             if (!assetBundles.ContainsKey(assetBundleName))
             {
-                AssetBundle assetBundle = AssetBundle.LoadFromFile(string.Format("{0}/Model/role/{1}", Application.persistentDataPath, this.assetBundleName));
+                AssetBundle assetBundle = AssetBundle.LoadFromFile(string.Format("{0}/Model/{1}", Application.persistentDataPath, this.assetBundleName));
                 assetBundles.Add(assetBundleName, assetBundle);
+
+                if (manifestAssetBundle != null)
+                {
+                    AssetBundleManifest manifest = manifestAssetBundle.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
+                    if (manifest != null)
+                    {
+                        string[] dependencies = manifest.GetAllDependencies(this.assetBundleName);
+                        foreach (string dependency in dependencies)
+                        {
+                            if (!assetBundles.ContainsKey(dependency))
+                            {
+                                AssetBundle dependencyAssetBundle = AssetBundle.LoadFromFile(string.Format("{0}/Model/{1}", Application.persistentDataPath, dependency));
+                                assetBundles.Add(dependency, dependencyAssetBundle);
+                            }
+                        }
+                    }
+                }
             }
             return assetBundles[assetBundleName];
         }
