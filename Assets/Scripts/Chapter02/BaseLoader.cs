@@ -1,5 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using UnityEngine;
 
 namespace Chapter02
@@ -16,6 +17,7 @@ namespace Chapter02
         protected GameObject gameObject;
         private static Dictionary<string, AssetBundle> assetBundles = new Dictionary<string, AssetBundle>();
         protected static AssetBundle manifestAssetBundle;
+        protected static StringBuilder strContent = new StringBuilder();
 
         protected virtual void Start()
         {
@@ -67,7 +69,22 @@ namespace Chapter02
                     }
                 }
             }
+            this.PrintAssetBundles();
             return assetBundles[assetBundleName];
+        }
+
+        protected void PrintAssetBundles()
+        {
+            strContent.Remove(0, strContent.Length);
+            if (assetBundles != null && assetBundles.Count > 0)
+            {
+                Dictionary<string, AssetBundle> buffer = assetBundles.OrderBy(p => p.Key).ToDictionary(p => p.Key, q => q.Value);
+                foreach (var assetBundle in buffer)
+                {
+                    strContent.AppendFormat("AssetBundle: {0}\n", assetBundle.Key);
+                }
+            }
+            Debug.LogFormat("<><BaseLoader.PrintAssetBundles>\n{0}", strContent.ToString());
         }
 
         [ContextMenu("1-卸载AB包中未使用的资源")]
