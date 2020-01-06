@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1750662274
+CRC: 2998951129
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 40fd0621a17f7b76241bb01ac17f5b2a
+    Hash: 440c35d7f910b158b83693210ae67103
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 33b27d5b98dcbb4d4b9c16dba782fadb
+    Hash: 77b4c59a67aa556d836c196a8ffff137
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -15,11 +15,7 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
-- Class: 23
-  Script: {instanceID: 0}
 - Class: 28
-  Script: {instanceID: 0}
-- Class: 33
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
@@ -32,6 +28,8 @@ ClassTypes:
 - Class: 91
   Script: {instanceID: 0}
 - Class: 95
+  Script: {instanceID: 0}
+- Class: 137
   Script: {instanceID: 0}
 Assets:
 - Assets/art_assets/Ani/Role/cornu cervi/cornu cervi_point_prefab.prefab

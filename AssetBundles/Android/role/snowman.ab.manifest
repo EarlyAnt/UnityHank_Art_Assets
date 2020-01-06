@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2893388759
+CRC: 730829571
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a341ceb7de4b89140d01572a2402d1d4
+    Hash: 60b8f6bbb9f6aa3ac5fb60700d85140f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3d7e0ebadadd20a331663440a56df288
@@ -43,9 +43,10 @@ Assets:
 - Assets/art_assets/Ani/Role/snowman/Texture/snowman.mat
 - Assets/art_assets/Ani/Role/snowman/Texture/snowmanB.mat
 - Assets/art_assets/Ani/Role/snowman/snowmanA_prefab.prefab
+- Assets/art_assets/Ani/Role/snowman/Texture/snowmanA.mat
 - Assets/art_assets/Ani/Role/snowman/Texture/snowmanB.png
 - Assets/art_assets/Ani/Role/snowman/snowman.controller
 - Assets/art_assets/Ani/Role/snowman/snowman.FBX
 - Assets/art_assets/Ani/Role/snowman/Texture/snowman.tga
 Dependencies:
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_03.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
