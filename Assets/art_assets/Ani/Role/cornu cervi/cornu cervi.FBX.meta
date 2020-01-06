@@ -36,6 +36,8 @@ ModelImporter:
     7400008: pur_cornu cervi
     7400010: yoyo_cornu cervi
     9500000: //RootNode
+    13700000: cornu cervi_L
+    13700002: cornu cervi_R
   externalObjects: {}
   materials:
     importMaterials: 1
