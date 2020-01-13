@@ -186,6 +186,7 @@ ModelImporter:
     100360: Dummy_head
     100362: eye_geo_l 2
     100364: horn 2
+    100366: Dummy_taozhuang
     400000: Body
     400002: body_a
     400004: Bone001
@@ -369,6 +370,7 @@ ModelImporter:
     400360: Dummy_head
     400362: eye_geo_l 2
     400364: horn 2
+    400366: Dummy_taozhuang
     2100000: 'Material #27'
     2100002: 'Material #29'
     2100004: 'Material #30'
@@ -456,6 +458,7 @@ ModelImporter:
     13700052: Teetn
     13700054: body_a001
     13700056: mouth001
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
