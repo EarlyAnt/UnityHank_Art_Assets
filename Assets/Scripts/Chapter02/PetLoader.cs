@@ -17,7 +17,7 @@ namespace Chapter02
             Object obj = this.assetBundle.LoadAsset(this.objectName);
             this.gameObject = GameObject.Instantiate(obj) as GameObject;
             this.gameObject.name = this.objectName;
-            //this.gameObject.transform.position = this.transform.position;
+            this.gameObject.transform.position = this.transform.position;
             this.gameObject.AddComponent<FixShader>();
             Debug.LogFormat("<><PetLoader.LoadAB>asset bundle name: {0}, pet name: {1}", this.assetBundleName, this.objectName);
             base.LoadNextAB();
