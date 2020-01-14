@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Chapter02\BaseLoader.cs" />
     <Compile Include="Assets\Scripts\Chapter02\CommonLoader.cs" />
     <Compile Include="Assets\Scripts\Chapter02\PetLoader.cs" />
+    <Compile Include="Assets\Scripts\Chapter02\ResetList.cs" />
     <Compile Include="Assets\Scripts\Common\ABLoader.cs" />
     <Compile Include="Assets\Scripts\Common\FixShader.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\BaseMaterial.cs" />
