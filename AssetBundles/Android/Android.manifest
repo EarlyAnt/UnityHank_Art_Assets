@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1134602251
+CRC: 2197962716
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -82,4 +82,16 @@ AssetBundleManifest:
       Dependencies: {}
     Info_22:
       Name: particle/yun.ab
+      Dependencies: {}
+    Info_23:
+      Name: role/coin hat.ab
+      Dependencies: {}
+    Info_24:
+      Name: role/fan wing.ab
+      Dependencies: {}
+    Info_25:
+      Name: role/little mouse.ab
+      Dependencies: {}
+    Info_26:
+      Name: role/mouse spring.ab
       Dependencies: {}

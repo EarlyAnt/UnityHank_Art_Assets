@@ -5,13 +5,13 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: coin hat_point_prefab
+  m_Name: fan wing_point
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: 1107601531305405444}
+    m_StateMachine: {fileID: 1107795568655430842}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -21,7 +21,32 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &1102029412277191782
+--- !u!1102 &1102075090818228874
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: pur_fan wing
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400002, guid: eae49ec79d70e7345b4da86beb32bd14, type: 3}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &1102241184746578424
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -46,13 +71,13 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102240993773890004
+--- !u!1102 &1102432940372339034
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ' yoyo_coin hat'
+  m_Name: yoyo_fan wing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -65,19 +90,19 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400010, guid: 51234cfc43a0cd342b863a361af61174, type: 3}
+  m_Motion: {fileID: 7400010, guid: eae49ec79d70e7345b4da86beb32bd14, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102274393860469066
+--- !u!1102 &1102538225568343034
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ninji_coin hat
+  m_Name: san_fan wing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -90,19 +115,19 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400006, guid: 51234cfc43a0cd342b863a361af61174, type: 3}
+  m_Motion: {fileID: 7400000, guid: eae49ec79d70e7345b4da86beb32bd14, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102304655898255686
+--- !u!1102 &1102709021481279778
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pur_coin hat
+  m_Name: ninji_fan wing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -115,19 +140,19 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400002, guid: 51234cfc43a0cd342b863a361af61174, type: 3}
+  m_Motion: {fileID: 7400006, guid: eae49ec79d70e7345b4da86beb32bd14, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102384695657779998
+--- !u!1102 &1102743697535781072
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: nuo_coin hat
+  m_Name: dony_fan wing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -140,19 +165,19 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400004, guid: 51234cfc43a0cd342b863a361af61174, type: 3}
+  m_Motion: {fileID: 7400008, guid: eae49ec79d70e7345b4da86beb32bd14, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102795303125286058
+--- !u!1102 &1102840725537735958
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: san_coin hat
+  m_Name: nuo_fan wing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -165,38 +190,13 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 51234cfc43a0cd342b863a361af61174, type: 3}
+  m_Motion: {fileID: 7400004, guid: eae49ec79d70e7345b4da86beb32bd14, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102892470431239820
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: dony_coin hat
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400008, guid: 51234cfc43a0cd342b863a361af61174, type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1107 &1107601531305405444
+--- !u!1107 &1107795568655430842
 AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -205,26 +205,26 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 1102240993773890004}
-    m_Position: {x: 564, y: 192, z: 0}
+    m_State: {fileID: 1102241184746578424}
+    m_Position: {x: 264, y: 108, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102892470431239820}
-    m_Position: {x: 564, y: 12, z: 0}
+    m_State: {fileID: 1102743697535781072}
+    m_Position: {x: 504, y: 12, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102274393860469066}
-    m_Position: {x: 564, y: 72, z: 0}
+    m_State: {fileID: 1102709021481279778}
+    m_Position: {x: 504, y: 72, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102384695657779998}
-    m_Position: {x: 564, y: 252, z: 0}
+    m_State: {fileID: 1102840725537735958}
+    m_Position: {x: 504, y: 252, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102304655898255686}
-    m_Position: {x: 564, y: -48, z: 0}
+    m_State: {fileID: 1102075090818228874}
+    m_Position: {x: 504, y: -48, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102029412277191782}
-    m_Position: {x: 276, y: 120, z: 0}
+    m_State: {fileID: 1102538225568343034}
+    m_Position: {x: 504, y: 132, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102795303125286058}
-    m_Position: {x: 564, y: 132, z: 0}
+    m_State: {fileID: 1102432940372339034}
+    m_Position: {x: 504, y: 192, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -232,6 +232,6 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ExitPosition: {x: 744, y: 96, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 1102029412277191782}
+  m_DefaultState: {fileID: 1102241184746578424}

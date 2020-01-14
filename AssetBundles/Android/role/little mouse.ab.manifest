@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 2625543313
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c3f3728233132df06ad7dffa0a567f40
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 524f11d833eb20da2782f3e14c91d01b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Ani/Role/little mouse/Texture/FurNoise Sharp.tga
+- Assets/art_assets/Ani/Role/little mouse/Texture/little mouseA01.mat
+- Assets/art_assets/Ani/Role/little mouse/Texture/little mouseA02.mat
+- Assets/art_assets/Ani/Role/little mouse/little mouse.FBX
+- Assets/art_assets/Ani/Role/little mouse/Texture/little mouseA.tga
+- Assets/art_assets/Ani/Role/little mouse/little mouse_prefab.prefab
+- Assets/art_assets/Ani/Role/little mouse/Texture/white.mat
+- Assets/art_assets/Ani/Role/little mouse/little mouse.controller
+- Assets/art_assets/Ani/Role/little mouse/Texture/Fur Shine.png
+- Assets/art_assets/Ani/Role/little mouse/Texture/white.tga
+- Assets/art_assets/Ani/Role/little mouse/Texture/yl_Reflection.tga
+Dependencies: []
