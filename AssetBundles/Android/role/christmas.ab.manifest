@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3946253317
+CRC: 3460865193
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7edcc996d6891239b2835ae49ecb4cb7
+    Hash: f0fc1c8ee92b824ae7c2c180f8677db4
   TypeTreeHash:
     serializedVersion: 2
     Hash: c6a55bdc13a8b6db14d532b7faaa95fd
@@ -46,6 +46,7 @@ Assets:
 - Assets/art_assets/Ani/Role/christmas/christmas.FBX
 - Assets/art_assets/Ani/Role/christmas/Texture/christmas02.mat
 - Assets/art_assets/Ani/Role/christmas/christmas_point_prefab.prefab
+- Assets/art_assets/Ani/Role/christmas/Texture/star.mat
 - Assets/art_assets/Ani/Role/christmas/Texture/christmas.png
 - Assets/art_assets/Ani/Role/christmas/Texture/FurNoise Sharp.tga
 - Assets/art_assets/Ani/Role/christmas/Texture/christmas03.mat
