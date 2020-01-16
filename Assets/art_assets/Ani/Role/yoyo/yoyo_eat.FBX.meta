@@ -110,6 +110,7 @@ ModelImporter:
     100208: horn 1
     100210: horn 2
     100212: horn001
+    100214: Dummy_taozhuang
     400000: body_a
     400002: Bone001
     400004: Bone002
@@ -217,6 +218,7 @@ ModelImporter:
     400208: horn 1
     400210: horn 2
     400212: horn001
+    400214: Dummy_taozhuang
     2100000: 'Material #27'
     2100002: 'Material #29'
     2100004: 'Material #30'
