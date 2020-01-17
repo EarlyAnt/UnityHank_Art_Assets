@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 174560644
+CRC: 4167787437
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e75c3beadabf7537f772b3138dce4199
+    Hash: f272ad2410c7db44b91e218cc979c3d6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 524f11d833eb20da2782f3e14c91d01b
@@ -40,8 +40,8 @@ Assets:
 - Assets/art_assets/Ani/Role/little mouse/little mouse.FBX
 - Assets/art_assets/Ani/Role/little mouse/Texture/little mouseA.tga
 - Assets/art_assets/Ani/Role/little mouse/little mouse_prefab.prefab
-- Assets/art_assets/Ani/Role/little mouse/Texture/white.mat
 - Assets/art_assets/Ani/Role/little mouse/little mouse.controller
+- Assets/art_assets/Ani/Role/little mouse/Texture/white.mat
 - Assets/art_assets/Ani/Role/little mouse/Texture/Fur Shine.png
 - Assets/art_assets/Ani/Role/little mouse/Texture/white.tga
 - Assets/art_assets/Ani/Role/little mouse/Texture/yl_Reflection.tga
