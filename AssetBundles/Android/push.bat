@@ -21,6 +21,7 @@ adb push "role/pumpkin.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files
 adb push "role/snowman.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files/Model/role/snowman.ab"
 adb push "role/wing.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files/Model/role/wing.ab"
 adb push "role/wing_snow.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files/Model/role/wing_snow.ab"
+adb push "role/papercut mice.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files/Model/role/papercut mice.ab"
 adb push "particle/center_fx01.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files/Model/particle/center_fx01.ab"
 adb push "particle/center_fx02.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files/Model/particle/center_fx02.ab"
 adb push "particle/guangdian_01.ab" "/storage/sdcard0/Android/data/com.bowhead.hank/files/Model/particle/guangdian_01.ab"
