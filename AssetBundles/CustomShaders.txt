@@ -1,0 +1,11 @@
+Particles/Additive
+Particles/Alpha Blended
+Legacy Shader/Reflective/Bumped Diffuse
+Legacy Shader/Reflective/Bumped Specular
+Legacy Shader/Reflective/Specular
+Mobile/Bumped Diffuse
+Mobile/Bumped Specular
+Mobile/Particles/Alpha Blended
+Mobile/Particles/VertexLit Blended
+Shader Forge/EffCartoon_simple
+Shader Forge/Single_Alpha_Cartoon
