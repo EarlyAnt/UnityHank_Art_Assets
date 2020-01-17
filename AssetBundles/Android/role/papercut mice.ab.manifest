@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2127904260
+CRC: 4109983371
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cb5d8215f4bea5ae4dce6b1409d5b508
+    Hash: cd331adfd000efc022bf151bba65a1fc
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 77b4c59a67aa556d836c196a8ffff137
+    Hash: 0954bcf195e28da56c116a350350d8a4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -14,8 +14,6 @@ ClassTypes:
 - Class: 4
   Script: {instanceID: 0}
 - Class: 21
-  Script: {instanceID: 0}
-- Class: 28
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
@@ -32,10 +30,8 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/mouse spring/Texture/mouse spring.tga
-- Assets/art_assets/Ani/Role/mouse spring/mouse spring.controller
-- Assets/art_assets/Ani/Role/mouse spring/Texture/mouse spring.mat
-- Assets/art_assets/Ani/Role/mouse spring/mouse spring_prefab.prefab
-- Assets/art_assets/Ani/Role/mouse spring/mouse spring.FBX
-- Assets/art_assets/Ani/Role/mouse spring/Texture/white.mat
+- Assets/art_assets/Ani/Role/papercut mice/papercut mice.controller
+- Assets/art_assets/Ani/Role/papercut mice/Texture/papercut mice.mat
+- Assets/art_assets/Ani/Role/papercut mice/papercut mice_prefab.prefab
+- Assets/art_assets/Ani/Role/papercut mice/papercut mice.FBX
 Dependencies: []
