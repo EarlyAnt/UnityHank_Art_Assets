@@ -172,9 +172,9 @@ ModelImporter:
     7400012: dony_eat_hungry_loop
     7400014: dony_eat_hungry_out
     7400016: dony_terrible_in
-    7400018: dony_terrible_loop
+    7400018: dony_eat_terrible_loop
     7400020: dony_terrible_out
-    7400022: dony_joyful
+    7400022: dony_eat_joyful
     7400024: dony_drink_hungry_out
     7400026: dony_drink_hungry_in
     7400028: dony_display01
@@ -483,7 +483,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: dony_terrible_loop
+      name: dony_eat_terrible_loop
       takeName: Take 001
       firstFrame: 475
       lastFrame: 545
@@ -539,7 +539,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: dony_joyful
+      name: dony_eat_joyful
       takeName: Take 001
       firstFrame: 590
       lastFrame: 665
