@@ -11,6 +11,7 @@ ModelImporter:
     100010: coin hat_bone03
     100012: coin hat_bone04
     100014: coin hat_root
+    100016: Object008
     400000: //RootNode
     400002: coin hat
     400004: coin hat_bone
@@ -19,9 +20,11 @@ ModelImporter:
     400010: coin hat_bone03
     400012: coin hat_bone04
     400014: coin hat_root
+    400016: Object008
     2100000: 'Material #38'
     2100002: 'Material #33'
     4300000: coin hat
+    4300002: Object008
     7400000: san_coin hat
     7400002: pur_coin hat
     7400004: nuo_coin hat
@@ -30,6 +33,8 @@ ModelImporter:
     7400010: ' yoyo_coin hat'
     9500000: //RootNode
     13700000: coin hat
+    13700002: Object008
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -62,7 +67,7 @@ ModelImporter:
       name: san_coin hat
       takeName: Take 001
       firstFrame: 5
-      lastFrame: 6
+      lastFrame: 7
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
