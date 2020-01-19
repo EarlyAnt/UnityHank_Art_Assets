@@ -30,7 +30,7 @@ ModelImporter:
     7400004: nuo_coin hat
     7400006: ninji_coin hat
     7400008: dony_coin hat
-    7400010: ' yoyo_coin hat'
+    7400010: yoyo_coin hat
     9500000: //RootNode
     13700000: coin hat
     13700002: Object008
@@ -204,7 +204,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ' yoyo_coin hat'
+      name: yoyo_coin hat
       takeName: Take 001
       firstFrame: 55
       lastFrame: 56
