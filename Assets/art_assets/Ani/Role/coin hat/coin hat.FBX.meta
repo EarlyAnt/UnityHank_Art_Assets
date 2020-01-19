@@ -62,7 +62,7 @@ ModelImporter:
       name: san_coin hat
       takeName: Take 001
       firstFrame: 5
-      lastFrame: 10
+      lastFrame: 6
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -90,7 +90,7 @@ ModelImporter:
       name: pur_coin hat
       takeName: Take 001
       firstFrame: 15
-      lastFrame: 20
+      lastFrame: 16
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -118,7 +118,7 @@ ModelImporter:
       name: nuo_coin hat
       takeName: Take 001
       firstFrame: 25
-      lastFrame: 30
+      lastFrame: 26
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -146,7 +146,7 @@ ModelImporter:
       name: ninji_coin hat
       takeName: Take 001
       firstFrame: 35
-      lastFrame: 40
+      lastFrame: 36
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -174,7 +174,7 @@ ModelImporter:
       name: dony_coin hat
       takeName: Take 001
       firstFrame: 45
-      lastFrame: 50
+      lastFrame: 46
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -202,7 +202,7 @@ ModelImporter:
       name: ' yoyo_coin hat'
       takeName: Take 001
       firstFrame: 55
-      lastFrame: 60
+      lastFrame: 56
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
