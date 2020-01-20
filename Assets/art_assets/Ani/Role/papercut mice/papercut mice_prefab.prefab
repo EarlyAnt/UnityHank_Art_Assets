@@ -708,14 +708,14 @@ SkinnedMeshRenderer:
   m_GameObject: {fileID: 1875671047054026}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74b8f3ffd90d854babd2cbd20d8a5b6, type: 3}
+  - {fileID: 2100000, guid: e30578aa8656bf343a23011e1051f44d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -761,14 +761,14 @@ SkinnedMeshRenderer:
   m_GameObject: {fileID: 1050563267877066}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74b8f3ffd90d854babd2cbd20d8a5b6, type: 3}
+  - {fileID: 2100000, guid: e30578aa8656bf343a23011e1051f44d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -814,14 +814,14 @@ SkinnedMeshRenderer:
   m_GameObject: {fileID: 1072118587816938}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74b8f3ffd90d854babd2cbd20d8a5b6, type: 3}
+  - {fileID: 2100000, guid: e30578aa8656bf343a23011e1051f44d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
