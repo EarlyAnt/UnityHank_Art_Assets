@@ -333,6 +333,141 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: ninji_prefab
+--- !u!1 &101012764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101012765}
+  - component: {fileID: 101012766}
+  m_Layer: 0
+  m_Name: Row 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &101012765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 101012764}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 846512869}
+  - {fileID: 990590872}
+  - {fileID: 1498219912}
+  - {fileID: 115758195}
+  - {fileID: 1012315159}
+  - {fileID: 197999909}
+  m_Father: {fileID: 1587961501}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &101012766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 101012764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e5aab893ae14641be2bf3d06b5009e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  space: 0.3
+--- !u!1 &115758194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115758195}
+  - component: {fileID: 115758196}
+  m_Layer: 0
+  m_Name: coin hat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115758195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115758194}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.90000004, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 101012765}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115758196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115758194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/coin hat.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: coin hat_point_prefab
+--- !u!1 &153515395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153515396}
+  - component: {fileID: 153515397}
+  m_Layer: 0
+  m_Name: elk A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &153515396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153515395}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &153515397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153515395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/elk.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: elk_A_prefab
 --- !u!1 &155388591
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,6 +512,50 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: nuo_prefab
+--- !u!1 &197999908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197999909}
+  - component: {fileID: 197999910}
+  m_Layer: 0
+  m_Name: mouse spring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197999909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 197999908}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 101012765}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &197999910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 197999908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/mouse spring.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: mouse spring_prefab
 --- !u!1 &273171053
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +641,7 @@ GameObject:
   - component: {fileID: 358129020}
   - component: {fileID: 358129021}
   m_Layer: 0
-  m_Name: Row 2
+  m_Name: Row 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -475,7 +654,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 358129019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 281652104}
@@ -485,16 +664,8 @@ Transform:
   - {fileID: 1966563348}
   - {fileID: 1538351546}
   - {fileID: 789474957}
-  - {fileID: 1560126841}
-  - {fileID: 2126194072}
-  - {fileID: 1286206865}
-  - {fileID: 1878152066}
-  - {fileID: 728958899}
-  - {fileID: 1970987972}
-  - {fileID: 984757538}
-  - {fileID: 1654436193}
   m_Father: {fileID: 1587961501}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &358129021
 MonoBehaviour:
@@ -508,6 +679,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   space: 0.3
+--- !u!1 &371234047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371234048}
+  - component: {fileID: 371234049}
+  m_Layer: 0
+  m_Name: elk C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &371234048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 371234047}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &371234049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 371234047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/elk.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: elk_C_prefab
 --- !u!1 &430828492
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +767,55 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: snowman_prefab
+--- !u!1 &433636748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433636749}
+  - component: {fileID: 433636750}
+  m_Layer: 0
+  m_Name: Row 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433636749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 433636748}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 153515396}
+  - {fileID: 1297046640}
+  - {fileID: 371234048}
+  - {fileID: 462520309}
+  - {fileID: 2118602057}
+  - {fileID: 1984282171}
+  - {fileID: 1088011438}
+  - {fileID: 1195663099}
+  m_Father: {fileID: 1587961501}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433636750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 433636748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e5aab893ae14641be2bf3d06b5009e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  space: 0.3
 --- !u!1 &438687443
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +860,50 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: elk_A_prefab
+--- !u!1 &462520308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 462520309}
+  - component: {fileID: 462520310}
+  m_Layer: 0
+  m_Name: elk D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462520309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462520308}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.90000004, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462520310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462520308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/elk.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: elk_D_prefab
 --- !u!1 &467916199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,50 +1327,6 @@ MonoBehaviour:
   assetBundleName: shader
   autoLoad: 0
   next: {fileID: 1340802886}
---- !u!1 &728958898
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 728958899}
-  - component: {fileID: 728958900}
-  m_Layer: 0
-  m_Name: giftBox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &728958899
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728958898}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3000002, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &728958900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728958898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/giftbox.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: giftbox_prefab
 --- !u!1 &789474956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1503,50 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: pumpkin_prefab
+--- !u!1 &846512868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 846512869}
+  - component: {fileID: 846512870}
+  m_Layer: 0
+  m_Name: cornu cervi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &846512869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846512868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 101012765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &846512870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846512868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/cornu cervi.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: cornu cervi_point_prefab
 --- !u!1 &893643671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,50 +1635,6 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: dony_prefab
---- !u!1 &930723682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 930723683}
-  - component: {fileID: 930723684}
-  m_Layer: 0
-  m_Name: cornu cervi
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &930723683
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 930723682}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1608408561}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930723684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 930723682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/cornu cervi.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: cornu cervi_point_prefab
 --- !u!1 &935639929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,50 +1723,6 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: wing_snow_prefab
---- !u!1 &984757537
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 984757538}
-  - component: {fileID: 984757539}
-  m_Layer: 0
-  m_Name: little mouse
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &984757538
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 984757537}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.9, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &984757539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 984757537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/little mouse.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: little mouse_prefab
 --- !u!1 &990067528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,50 +1767,94 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: pumpkin_prefab
---- !u!1 &1048120967
+--- !u!1 &990590871
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1048120968}
-  - component: {fileID: 1048120969}
+  - component: {fileID: 990590872}
+  - component: {fileID: 990590873}
   m_Layer: 0
-  m_Name: mouse spring
+  m_Name: wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1048120968
+--- !u!4 &990590872
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1048120967}
+  m_GameObject: {fileID: 990590871}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1608408561}
-  m_RootOrder: 10
+  m_Father: {fileID: 101012765}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1048120969
+--- !u!114 &990590873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1048120967}
+  m_GameObject: {fileID: 990590871}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: role/mouse spring.ab
+  assetBundleName: role/wing.ab
   autoLoad: 1
   next: {fileID: 0}
-  objectName: mouse spring_prefab
+  objectName: wing_point_prefab
+--- !u!1 &1012315158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012315159}
+  - component: {fileID: 1012315160}
+  m_Layer: 0
+  m_Name: fan wing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1012315159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012315158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 101012765}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1012315160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012315158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/fan wing.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: fan wing_point_prefab
 --- !u!1 &1073493363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1899,50 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: sansa_prefab
+--- !u!1 &1088011437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088011438}
+  - component: {fileID: 1088011439}
+  m_Layer: 0
+  m_Name: little mouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1088011438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1088011437}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.8000001, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1088011439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1088011437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/little mouse.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: little mouse_prefab
 --- !u!1 &1097385876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +2097,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1195663098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195663099}
+  - component: {fileID: 1195663100}
+  m_Layer: 0
+  m_Name: papercut mice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1195663099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195663098}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.1000001, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1195663100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195663098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/papercut mice.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: papercut mice_prefab
 --- !u!1 &1204922892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,41 +2185,41 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: ninji_prefab
---- !u!1 &1286206864
+--- !u!1 &1297046639
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1286206865}
-  - component: {fileID: 1286206866}
+  - component: {fileID: 1297046640}
+  - component: {fileID: 1297046641}
   m_Layer: 0
-  m_Name: elk C
+  m_Name: elk B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1286206865
+--- !u!4 &1297046640
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286206864}
+  m_GameObject: {fileID: 1297046639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.7, y: 0, z: 0}
+  m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 9
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1286206866
+--- !u!114 &1297046641
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286206864}
+  m_GameObject: {fileID: 1297046639}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
@@ -1876,51 +2228,7 @@ MonoBehaviour:
   assetBundleName: role/elk.ab
   autoLoad: 1
   next: {fileID: 0}
-  objectName: elk_C_prefab
---- !u!1 &1288018327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1288018328}
-  - component: {fileID: 1288018329}
-  m_Layer: 0
-  m_Name: wing snow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1288018328
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1288018327}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1000001, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1608408561}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1288018329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1288018327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/wing_snow.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: wing_snow_prefab
+  objectName: elk_B_prefab
 --- !u!1 &1300027155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,6 +2316,50 @@ Transform:
   m_Father: {fileID: 273171054}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1498219911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498219912}
+  - component: {fileID: 1498219913}
+  m_Layer: 0
+  m_Name: wing snow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498219912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498219911}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 101012765}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1498219913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498219911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: role/wing_snow.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: wing_snow_prefab
 --- !u!1 &1538351545
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,50 +2448,6 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: ghost_prefab
---- !u!1 &1560126840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1560126841}
-  - component: {fileID: 1560126842}
-  m_Layer: 0
-  m_Name: elk A
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1560126841
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1560126840}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1000001, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1560126842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1560126840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/elk.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: elk_A_prefab
 --- !u!1 &1587961500
 GameObject:
   m_ObjectHideFlags: 0
@@ -2166,7 +2474,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1608408561}
+  - {fileID: 101012765}
   - {fileID: 358129020}
+  - {fileID: 433636749}
   m_Father: {fileID: 1744673878}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2214,50 +2524,6 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: pur_prefab
---- !u!1 &1602205515
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1602205516}
-  - component: {fileID: 1602205517}
-  m_Layer: 0
-  m_Name: coin hat
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1602205516
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1602205515}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1608408561}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1602205517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1602205515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/coin hat.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: coin hat_point_prefab
 --- !u!1 &1608408560
 GameObject:
   m_ObjectHideFlags: 0
@@ -2273,7 +2539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1608408561
 Transform:
   m_ObjectHideFlags: 0
@@ -2289,12 +2555,6 @@ Transform:
   - {fileID: 2052946358}
   - {fileID: 1300027156}
   - {fileID: 556665476}
-  - {fileID: 930723683}
-  - {fileID: 1689258073}
-  - {fileID: 1288018328}
-  - {fileID: 1602205516}
-  - {fileID: 2095991905}
-  - {fileID: 1048120968}
   m_Father: {fileID: 1587961501}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2310,50 +2570,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   space: 0.3
---- !u!1 &1654436192
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1654436193}
-  - component: {fileID: 1654436194}
-  m_Layer: 0
-  m_Name: papercut mice
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1654436193
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1654436192}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.2000003, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1654436194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1654436192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/papercut mice.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: papercut mice_prefab
 --- !u!1 &1677419501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,50 +2613,6 @@ Transform:
   m_Father: {fileID: 273171054}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1689258072
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1689258073}
-  - component: {fileID: 1689258074}
-  m_Layer: 0
-  m_Name: wing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1689258073
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1689258072}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8000001, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1608408561}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1689258074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1689258072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/wing.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: wing_point_prefab
 --- !u!1 &1699824981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,7 +2671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1744673878
 Transform:
   m_ObjectHideFlags: 0
@@ -2647,50 +2819,6 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: nuo_prefab
---- !u!1 &1878152065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1878152066}
-  - component: {fileID: 1878152067}
-  m_Layer: 0
-  m_Name: elk D
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1878152066
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878152065}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1878152067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878152065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/elk.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: elk_D_prefab
 --- !u!1 &1966563347
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,15 +2863,15 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: snowman_prefab
---- !u!1 &1970987971
+--- !u!1 &1984282170
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1970987972}
-  - component: {fileID: 1970987973}
+  - component: {fileID: 1984282171}
+  - component: {fileID: 1984282172}
   m_Layer: 0
   m_Name: giftBox A
   m_TagString: Untagged
@@ -2751,25 +2879,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1970987972
+--- !u!4 &1984282171
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970987971}
+  m_GameObject: {fileID: 1984282170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6000001, y: 0, z: 0}
+  m_LocalPosition: {x: 1.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 12
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1970987973
+--- !u!114 &1984282172
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970987971}
+  m_GameObject: {fileID: 1984282170}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
@@ -2867,94 +2995,50 @@ MonoBehaviour:
   autoLoad: 1
   next: {fileID: 0}
   objectName: cap_pointA_prefab
---- !u!1 &2095991904
+--- !u!1 &2118602056
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2095991905}
-  - component: {fileID: 2095991906}
+  - component: {fileID: 2118602057}
+  - component: {fileID: 2118602058}
   m_Layer: 0
-  m_Name: fan wing
+  m_Name: giftBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2095991905
+--- !u!4 &2118602057
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2095991904}
+  m_GameObject: {fileID: 2118602056}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.7, y: 0, z: 0}
+  m_LocalPosition: {x: 1.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1608408561}
-  m_RootOrder: 9
+  m_Father: {fileID: 433636749}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2095991906
+--- !u!114 &2118602058
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2095991904}
+  m_GameObject: {fileID: 2118602056}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetBundleName: role/fan wing.ab
+  assetBundleName: role/giftbox.ab
   autoLoad: 1
   next: {fileID: 0}
-  objectName: fan wing_point_prefab
---- !u!1 &2126194071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2126194072}
-  - component: {fileID: 2126194073}
-  m_Layer: 0
-  m_Name: elk B
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2126194072
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2126194071}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 358129020}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2126194073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2126194071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82768f920dc72844a3a05f68f5d7947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetBundleName: role/elk.ab
-  autoLoad: 1
-  next: {fileID: 0}
-  objectName: elk_B_prefab
+  objectName: giftbox_prefab
 --- !u!1 &2140824589
 GameObject:
   m_ObjectHideFlags: 0
