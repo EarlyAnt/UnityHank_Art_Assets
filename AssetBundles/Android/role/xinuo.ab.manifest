@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 2144964347
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8d66491b02140bf6f8e9de60347cb327
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02414ef950ca26464080856446ac2820
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/sun.mat
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/cloth.mat
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/coat_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/moon.mat
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/eye_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/yanpi.mat
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/eyelid_DiffuseGlossiness 1.tga
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/star.mat
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/moon_moon1SG_DiffuseGlossiness_new.tga
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/body_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/eye.mat
+- Assets/art_assets/Ani/Role/xinuo/nuo_MAX_ani.FBX
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/star_c.png
+- Assets/art_assets/Ani/Role/xinuo/nuo_prefab.prefab
+- Assets/art_assets/Ani/Role/xinuo/nuo_MAX_ani.controller
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/sun_c.png
+- Assets/art_assets/Ani/Role/xinuo/unity4_yellow/body.mat
+- Assets/art_assets/Ani/Role/xinuo/nuo_eat.FBX
+Dependencies: []
