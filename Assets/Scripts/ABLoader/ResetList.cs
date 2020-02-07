@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace Chapter02
+namespace ABLoader
 {
     public class ResetList : MonoBehaviour
     {

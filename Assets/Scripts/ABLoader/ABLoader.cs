@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Chapter02
+namespace ABLoader
 {
-    public class PetLoader : BaseLoader
+    public class ABLoader : BaseLoader
     {
         [SerializeField]
         private string objectName;
