@@ -9,6 +9,8 @@ namespace ABLoader
     {
         [SerializeField]
         private string objectName;
+        [SerializeField]
+        private bool SetParent = false;
 
         [ContextMenu("0-创建物体")]
         public override void LoadNextAB()
@@ -17,7 +19,10 @@ namespace ABLoader
             Object obj = this.assetBundle.LoadAsset(this.objectName);
             this.gameObject = GameObject.Instantiate(obj) as GameObject;
             this.gameObject.name = this.objectName;
-            this.gameObject.transform.position = this.transform.position;
+            if (this.SetParent)
+                this.gameObject.transform.SetParent(this.transform, false);
+            else
+                this.gameObject.transform.position = this.transform.position;
             this.gameObject.AddComponent<FixShader>();
             Debug.LogFormat("<><PetLoader.LoadAB>asset bundle name: {0}, pet name: {1}", this.assetBundleName, this.objectName);
             base.LoadNextAB();

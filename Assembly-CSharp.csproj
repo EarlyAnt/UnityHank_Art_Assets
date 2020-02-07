@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\ABLoader\CommonLoader.cs" />
     <Compile Include="Assets\Scripts\ABLoader\ResetList.cs" />
     <Compile Include="Assets\Scripts\Common\FixShader.cs" />
+    <Compile Include="Assets\Scripts\Common\TurnOff.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\BaseMaterial.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\CameraShake.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\Label.cs" />
