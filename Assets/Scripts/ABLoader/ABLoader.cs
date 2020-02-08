@@ -24,7 +24,7 @@ namespace ABLoader
             else
                 this.gameObject.transform.position = this.transform.position;
             this.gameObject.AddComponent<FixShader>();
-            Debug.LogFormat("<><PetLoader.LoadAB>asset bundle name: {0}, pet name: {1}", this.assetBundleName, this.objectName);
+            Debug.LogFormat("<><ABLoader.LoadAB>asset bundle name: {0}, pet name: {1}", this.assetBundleName, this.objectName);
             base.LoadNextAB();
         }
     }
