@@ -235,6 +235,7 @@ MonoBehaviour:
   Prefab: antler_ponit_prefab
   Region: 0
   Icon: part_head_antler02
+  CanWear: 1
 --- !u!114 &41231128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,7 +274,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 41231129}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 41231127}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &41231129
@@ -797,6 +809,7 @@ MonoBehaviour:
   Prefab: fan wing_point_prefab
   Region: 1
   Icon: part_wing_fan
+  CanWear: 1
 --- !u!114 &125535052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -835,7 +848,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 125535053}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 125535051}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &125535053
@@ -1035,7 +1059,7 @@ RectTransform:
   - {fileID: 693678251}
   - {fileID: 877158349}
   m_Father: {fileID: 908911154}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1290,6 +1314,7 @@ MonoBehaviour:
   Prefab: christmas hat_point_prefab
   Region: 0
   Icon: part_head_merryhat
+  CanWear: 1
 --- !u!114 &214988300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1328,7 +1353,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 214988301}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 214988299}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &214988301
@@ -1556,6 +1592,7 @@ MonoBehaviour:
   Prefab: giftbox_A_prefab
   Region: 3
   Icon: elf_up_gift02
+  CanWear: 0
 --- !u!114 &233115166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1594,7 +1631,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 233115167}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 233115165}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &233115167
@@ -2242,6 +2290,7 @@ MonoBehaviour:
   Prefab: giftbox_prefab
   Region: 3
   Icon: elf_up_gift
+  CanWear: 0
 --- !u!114 &356254417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2280,7 +2329,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 356254418}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 356254416}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &356254418
@@ -2743,6 +2803,7 @@ MonoBehaviour:
   Prefab: snowmanB_prefab
   Region: 4
   Icon: elf_down_snowman02
+  CanWear: 0
 --- !u!114 &453681543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2781,7 +2842,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 453681544}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 453681542}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &453681544
@@ -2999,6 +3071,7 @@ MonoBehaviour:
   Prefab: elk_C_prefab
   Region: 4
   Icon: elf_down_minions
+  CanWear: 0
 --- !u!114 &473837113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3037,7 +3110,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 473837114}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 473837112}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &473837114
@@ -3127,6 +3211,7 @@ MonoBehaviour:
   Prefab: papercut mice_prefab
   Region: 4
   Icon: elf_down_papercut_mice
+  CanWear: 0
 --- !u!114 &474147575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3165,7 +3250,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 474147576}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 474147574}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &474147576
@@ -3403,6 +3499,7 @@ MonoBehaviour:
   Prefab: elk_A_prefab
   Region: 4
   Icon: elf_down_deer
+  CanWear: 0
 --- !u!114 &500289145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3441,7 +3538,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 500289146}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 500289144}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &500289146
@@ -3531,6 +3639,7 @@ MonoBehaviour:
   Prefab: elk_D_prefab
   Region: 4
   Icon: elf_down_Batman
+  CanWear: 0
 --- !u!114 &500771743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3569,7 +3678,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 500771744}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 500771742}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &500771744
@@ -3728,6 +3848,7 @@ MonoBehaviour:
   Prefab: cap_pointA_prefab
   Region: 0
   Icon: part_head_hat02
+  CanWear: 1
 --- !u!114 &519979578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3766,7 +3887,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 519979579}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 519979577}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &519979579
@@ -3856,6 +3988,7 @@ MonoBehaviour:
   Prefab: elk_B_prefab
   Region: 4
   Icon: elf_down_deer02
+  CanWear: 0
 --- !u!114 &520436547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3894,7 +4027,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 520436548}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 520436546}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &520436548
@@ -4053,6 +4197,7 @@ MonoBehaviour:
   Prefab: christmas_point_prefab
   Region: 2
   Icon: suit_pur_merry
+  CanWear: 1
 --- !u!114 &625339637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4091,7 +4236,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 625339638}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 625339636}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &625339638
@@ -4181,6 +4337,7 @@ MonoBehaviour:
   Prefab: cap_point_prefab
   Region: 0
   Icon: part_head_hat
+  CanWear: 1
 --- !u!114 &640389862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4219,7 +4376,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 640389863}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 640389861}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &640389863
@@ -4574,6 +4742,66 @@ RectTransform:
   m_AnchoredPosition: {x: 64, y: 0}
   m_SizeDelta: {x: 160, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &736275179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1434430216222286, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 736275180}
+  - component: {fileID: 736275181}
+  m_Layer: 0
+  m_Name: Mate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &736275180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4449437733916788, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736275179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01, y: -0.1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 957815293}
+  - {fileID: 2064794016}
+  m_Father: {fileID: 908911154}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &736275181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736275179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f0041f0f54d17e42946b71c7de5e3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topLeftMate:
+    Root: {fileID: 957815293}
+    Region: 3
+    Object: {fileID: 0}
+    Animator: {fileID: 0}
+    IntervalMin: 10
+    IntervalMax: 30
+    StopAnimation: 0
+  bottomRightMate:
+    Root: {fileID: 2064794016}
+    Region: 4
+    Object: {fileID: 0}
+    Animator: {fileID: 0}
+    IntervalMin: 10
+    IntervalMax: 30
+    StopAnimation: 0
 --- !u!1 &754546569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4742,6 +4970,7 @@ MonoBehaviour:
   Prefab: snowmanA_prefab
   Region: 4
   Icon: elf_down_snowman03
+  CanWear: 0
 --- !u!114 &773518317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4780,7 +5009,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 773518318}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 773518316}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &773518318
@@ -5221,6 +5461,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_Children:
+  - {fileID: 1450656002}
   - {fileID: 2112836876}
   m_Father: {fileID: 1529367027}
   m_RootOrder: 1
@@ -5250,7 +5491,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.8627451, g: 0.8627451, b: 0.8627451, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5267,7 +5508,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 892817336}
   toggleTransition: 1
-  graphic: {fileID: 892817336}
+  graphic: {fileID: 1450656003}
   m_Group: {fileID: 1529367029}
   onValueChanged:
     m_PersistentCalls:
@@ -5298,7 +5539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5373,6 +5614,7 @@ MonoBehaviour:
   Prefab: cloud_snow_prefab
   Region: 3
   Icon: elf_up_cloud
+  CanWear: 0
 --- !u!114 &899618902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5411,7 +5653,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 899618903}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 899618901}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &899618903
@@ -5474,11 +5727,55 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 426103129}
+  - {fileID: 736275180}
   - {fileID: 1510947592}
   - {fileID: 167682150}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &957815292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1798906532132786, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 957815293}
+  - component: {fileID: 957815294}
+  m_Layer: 0
+  m_Name: Mate1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &957815293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4390843615204132, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957815292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 736275180}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &957815294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114882432802587430, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957815292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &961388579
 GameObject:
   m_ObjectHideFlags: 0
@@ -5507,7 +5804,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1558710378}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5607,6 +5904,7 @@ MonoBehaviour:
   Prefab: snowman_prefab
   Region: 4
   Icon: elf_down_snowman
+  CanWear: 0
 --- !u!114 &979522653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5645,7 +5943,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 979522654}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 979522652}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &979522654
@@ -5735,6 +6044,7 @@ MonoBehaviour:
   Prefab: wing_point_prefab
   Region: 1
   Icon: part_wing_bat
+  CanWear: 1
 --- !u!114 &983675628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5773,7 +6083,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 983675629}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 983675627}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &983675629
@@ -6008,6 +6329,7 @@ MonoBehaviour:
   Prefab: cornu cervi_point_prefab
   Region: 0
   Icon: part_head_antler
+  CanWear: 1
 --- !u!114 &1003028670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6046,7 +6368,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1003028671}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1003028669}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1003028671
@@ -6347,6 +6680,7 @@ MonoBehaviour:
   Prefab: little mouse_prefab
   Region: 4
   Icon: elf_down_lmouse
+  CanWear: 0
 --- !u!114 &1049920501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6385,7 +6719,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1049920502}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1049920500}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1049920502
@@ -7088,6 +7433,7 @@ MonoBehaviour:
   Prefab: pumpkin_prefab
   Region: 4
   Icon: elf_down_pumpkin
+  CanWear: 0
 --- !u!114 &1285611961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7126,7 +7472,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1285611962}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1285611960}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1285611962
@@ -7607,6 +7964,7 @@ MonoBehaviour:
   Prefab: wing_snow_prefab
   Region: 1
   Icon: part_wing_snow
+  CanWear: 1
 --- !u!114 &1342101593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7645,7 +8003,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1342101594}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1342101592}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1342101594
@@ -7735,6 +8104,7 @@ MonoBehaviour:
   Prefab: ghost_prefab
   Region: 3
   Icon: elf_up_ghost
+  CanWear: 0
 --- !u!114 &1372237015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7773,7 +8143,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1372237016}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1372237014}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1372237016
@@ -7844,6 +8225,75 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -79}
   m_SizeDelta: {x: 144, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1450656001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1450656002}
+  - component: {fileID: 1450656004}
+  - component: {fileID: 1450656003}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1450656002
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1450656001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 892817334}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1450656003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1450656001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1450656004
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1450656001}
+  m_CullTransparentMesh: 0
 --- !u!1 &1476473109
 GameObject:
   m_ObjectHideFlags: 0
@@ -8068,7 +8518,7 @@ Transform:
   m_Children:
   - {fileID: 259311941}
   m_Father: {fileID: 908911154}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1529367026
 GameObject:
@@ -8317,6 +8767,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2073530602}
   - {fileID: 961388580}
   m_Father: {fileID: 1529367027}
   m_RootOrder: 0
@@ -8346,7 +8797,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.8627451, g: 0.8627451, b: 0.8627451, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -8363,7 +8814,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1558710380}
   toggleTransition: 1
-  graphic: {fileID: 1558710380}
+  graphic: {fileID: 2073530603}
   m_Group: {fileID: 1529367029}
   onValueChanged:
     m_PersistentCalls:
@@ -8394,7 +8845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8573,6 +9024,7 @@ MonoBehaviour:
   Prefab: mouse spring_prefab
   Region: 2
   Icon: suit_yoyo_mousespring
+  CanWear: 1
 --- !u!114 &1616513187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8611,7 +9063,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1616513188}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1616513186}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1616513188
@@ -9440,6 +9903,7 @@ MonoBehaviour:
   Prefab: coin hat_point_prefab
   Region: 0
   Icon: part_head_coinhat
+  CanWear: 1
 --- !u!114 &1870520172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9478,7 +9942,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1870520173}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1267009179}
+        m_MethodName: SetupAccessory
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1870520171}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1870520173
@@ -10155,6 +10630,7 @@ MonoBehaviour:
   Prefab: cloud_snowA_prefab
   Region: 3
   Icon: elf_up_cloud02
+  CanWear: 0
 --- !u!114 &1992812271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10193,7 +10669,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1992812272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736275181}
+        m_MethodName: SetMate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1992812270}
+          m_ObjectArgumentAssemblyTypeName: ModelTest.AccessoryButton, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1992812272
@@ -10445,6 +10932,118 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 8}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!1 &2064794015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1852448188279760, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2064794016}
+  - component: {fileID: 2064794017}
+  m_Layer: 0
+  m_Name: Mate2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2064794016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4279234548169744, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2064794015}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 736275180}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2064794017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114609104169103574, guid: 268e8b0bc22d1684799fe676ba2b6f6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2064794015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2073530601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073530602}
+  - component: {fileID: 2073530604}
+  - component: {fileID: 2073530603}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2073530602
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073530601}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1558710378}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2073530603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073530601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2073530604
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073530601}
+  m_CullTransparentMesh: 0
 --- !u!1 &2098917674
 GameObject:
   m_ObjectHideFlags: 0
@@ -10542,7 +11141,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 892817334}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

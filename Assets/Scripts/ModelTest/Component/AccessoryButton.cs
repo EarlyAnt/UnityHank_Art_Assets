@@ -15,11 +15,11 @@ namespace ModelTest
     public class AccessoryButton : MonoBehaviour
     {
         /************************************************属性与变量命名************************************************/
-        public enum Regions { Dummy_head, Dummy_wing, Dummy_taozhuang, TopLeft, BottomRight }
         public string AB;
         public string Prefab;
         public Regions Region;
         public string Icon;
+        public bool CanWear;
         /************************************************Unity方法与事件***********************************************/
 
         /************************************************自 定 义 方 法************************************************/

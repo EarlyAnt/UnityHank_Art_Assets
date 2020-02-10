@@ -76,12 +76,16 @@
     <Compile Include="Assets\Scripts\ABLoader\BaseLoader.cs" />
     <Compile Include="Assets\Scripts\ABLoader\CommonLoader.cs" />
     <Compile Include="Assets\Scripts\ABLoader\ResetList.cs" />
+    <Compile Include="Assets\Scripts\Common\Common.cs" />
     <Compile Include="Assets\Scripts\Common\FixShader.cs" />
     <Compile Include="Assets\Scripts\Common\TurnOff.cs" />
+    <Compile Include="Assets\Scripts\ModelTest\BaseLoader.cs" />
     <Compile Include="Assets\Scripts\ModelTest\Component\AccessoryButton.cs" />
+    <Compile Include="Assets\Scripts\ModelTest\MateLoader.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetControl.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetLoader.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetPlayer.cs" />
+    <Compile Include="Assets\Scripts\Utils\UnityHelper.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\BaseMaterial.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\CameraShake.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\Label.cs" />

@@ -10,7 +10,7 @@ namespace ModelTest
     /// <summary>
     /// 小宠物加载
     /// </summary>
-    public class PetLoader : MonoBehaviour
+    public class PetLoader : BaseLoader
     {
         /************************************************属性与变量命名************************************************/
         [SerializeField]
@@ -18,24 +18,24 @@ namespace ModelTest
         [SerializeField]
         private List<PetInfo> petInfos;
         private PetInfo petInfo;
-        private AssetBundle assetBundle;
         private GameObject petObject;
-        private AssetBundle manifestAssetBundle;
-        private StringBuilder strContent = new StringBuilder();
-        private Dictionary<string, AssetBundle> assetBundles = new Dictionary<string, AssetBundle>();
+        private Dictionary<AccessoryButton, GameObject> accessories = new Dictionary<AccessoryButton, GameObject>();
         public PetPlayer PetPlayer
         {
             get { return this.petObject != null ? this.petObject.GetComponent<PetPlayer>() : null; }
         }
         /************************************************Unity方法与事件***********************************************/
-        private void Start()
+        private void Awake()
+        {
+            this.LoadManifest();
+        }
+        protected override void Start()
         {
             this.LoadPet(this.petInfos.Find(t => t.Default));
         }
         /************************************************自 定 义 方 法************************************************/
         public void LoadPet(string petName)
         {
-            this.LoadManifest();
             this.LoadPet(this.petInfos.Find(t => t.PetName == petName));
         }
         private void LoadPet(PetInfo petInfo)
@@ -45,6 +45,7 @@ namespace ModelTest
                 Debug.LogError("<><PetLoader.LoadPet>Parameter 'petInfo' is null");
                 return;
             }
+            this.petInfo = petInfo;
             this.DestroyModel();
 
             if (petInfo.IsLocal)
@@ -58,8 +59,8 @@ namespace ModelTest
             }
             else
             {
-                this.assetBundle = this.GetAssetBundle(petInfo.AB);
-                UnityEngine.Object obj = this.assetBundle.LoadAsset(petInfo.Prefab);
+                AssetBundle assetBundle = this.GetAssetBundle(petInfo.AB);
+                UnityEngine.Object obj = assetBundle.LoadAsset(petInfo.Prefab);
                 this.petObject = GameObject.Instantiate(obj) as GameObject;
                 this.petObject.name = string.Format("{0}(Clone)", petInfo.PetName);
                 this.petObject.transform.SetParent(this.petRoot, false);
@@ -74,65 +75,133 @@ namespace ModelTest
             GameObject.Destroy(this.petObject);
             if (this.petInfo != null)
             {
-                if (!this.petInfo.IsLocal && this.assetBundles.ContainsKey(this.petInfo.AB))
+                if (!this.petInfo.IsLocal && assetBundles.ContainsKey(this.petInfo.AB))
                 {
-                    if (this.assetBundles[this.petInfo.AB] != null)
-                        this.assetBundles[this.petInfo.AB].Unload(true);
-                    this.assetBundles.Remove(this.petInfo.AB);
+                    if (assetBundles[this.petInfo.AB] != null)
+                        assetBundles[this.petInfo.AB].Unload(true);
+                    assetBundles.Remove(this.petInfo.AB);
                     Resources.UnloadUnusedAssets();
                     Debug.LogFormat("<><PetLoader.DestroyModel>asset bundle name: {0}, pet name: {1}", petInfo.AB, petInfo.PetName);
                 }
             }
         }
-        private void LoadManifest()
+
+        public void SetupAccessory(AccessoryButton accessoryButton)
         {
-            if (this.manifestAssetBundle == null)
+            if (this.petObject == null)
             {
-                this.manifestAssetBundle = AssetBundle.LoadFromFile(string.Format("{0}/Model/Android", Application.persistentDataPath));
+                Debug.LogError("<><PetLoader.SetupPetAccessory>Parameter 'petRoot' is null");
+                return;
+            }
+            else if (accessoryButton == null)
+            {
+                Debug.LogError("<><PetLoader.SetupPetAccessory>Parameter 'accessoryButton' is null");
+                return;
+            }
+
+            if (accessoryButton.CanWear)
+            {//只有配饰和套装能穿在身上
+                if (!this.accessories.ContainsKey(accessoryButton))
+                {
+                    foreach (KeyValuePair<AccessoryButton, GameObject> kvp in this.accessories.ToArray())
+                    {//脱掉同位置的配饰
+                        if (kvp.Key.Region == accessoryButton.Region)
+                            this.TakeOff(kvp.Key);
+                    }
+
+                    if (accessoryButton.Region == Regions.Dummy_head || accessoryButton.Region == Regions.Dummy_wing)
+                    {//穿帽子或翅膀，脱掉套装
+                        foreach (KeyValuePair<AccessoryButton, GameObject> kvp in this.accessories.ToArray())
+                        {
+                            if (kvp.Key.Region == Regions.Dummy_taozhuang)
+                                this.TakeOff(kvp.Key);
+                        }
+                    }
+                    else if (accessoryButton.Region == Regions.Dummy_taozhuang)
+                    {//穿套装，脱掉帽子和翅膀
+                        foreach (KeyValuePair<AccessoryButton, GameObject> kvp in this.accessories.ToArray())
+                        {
+                            if (kvp.Key.Region == Regions.Dummy_head || kvp.Key.Region == Regions.Dummy_wing)
+                                this.TakeOff(kvp.Key);
+                        }
+                    }
+
+                    this.PutOn(accessoryButton);
+                }
+                else
+                {
+                    this.TakeOff(accessoryButton);
+                }
             }
         }
-        private AssetBundle GetAssetBundle(string assetBundleName)
+        private void PlayAccessoryAnimation(Animator animator)
         {
-            if (this.assetBundles.ContainsKey(assetBundleName) && this.assetBundles[assetBundleName] == null)
-                this.assetBundles.Remove(assetBundleName);
-
-            if (!this.assetBundles.ContainsKey(assetBundleName))
+            if (animator != null && animator.runtimeAnimatorController != null &&
+                animator.runtimeAnimatorController.animationClips != null)
             {
-                AssetBundle assetBundle = AssetBundle.LoadFromFile(string.Format("{0}/Model/{1}", Application.persistentDataPath, assetBundleName));
-                this.assetBundles.Add(assetBundleName, assetBundle);
-
-                if (manifestAssetBundle != null)
+                string prefix = "";
+                switch (this.petInfo.PetName.ToUpper())
                 {
-                    AssetBundleManifest manifest = manifestAssetBundle.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
-                    if (manifest != null)
+                    case Roles.Purpie:
+                        prefix = "pur";
+                        break;
+                    case Roles.Donny:
+                        prefix = "dony";
+                        break;
+                    case Roles.Ninji:
+                        prefix = "nin";
+                        break;
+                    case Roles.Sansa:
+                        prefix = "san";
+                        break;
+                    case Roles.Yoyo:
+                        prefix = "yoyo";
+                        break;
+                    case Roles.Nuo:
+                        prefix = "nuo";
+                        break;
+                }
+
+
+                for (int i = 0; i < animator.runtimeAnimatorController.animationClips.Length; i++)
+                {
+                    if (animator.runtimeAnimatorController.animationClips[i].name.Trim().StartsWith(prefix))
                     {
-                        string[] dependencies = manifest.GetAllDependencies(assetBundleName);
-                        foreach (string dependency in dependencies)
-                        {
-                            if (!this.assetBundles.ContainsKey(dependency))
-                            {
-                                AssetBundle dependencyAssetBundle = AssetBundle.LoadFromFile(string.Format("{0}/Model/{1}", Application.persistentDataPath, dependency));
-                                this.assetBundles.Add(dependency, dependencyAssetBundle);
-                            }
-                        }
+                        animator.Play(animator.runtimeAnimatorController.animationClips[i].name);
+                        return;
                     }
                 }
             }
-            this.PrintAssetBundles();
-            return assetBundles[assetBundleName];
         }
-        protected void PrintAssetBundles()
+        private void PutOn(AccessoryButton accessoryButton)
         {
-            this.strContent.Remove(0, this.strContent.Length);
-            if (assetBundles != null && assetBundles.Count > 0)
+            this.TakeOff(accessoryButton);
+
+            Transform bodyPart = UnityHelper.FindDeepChild(this.petObject.transform, accessoryButton.Region.ToString("G"));
+            if (bodyPart == null) bodyPart = this.petObject.transform;
+            AssetBundle assetBundle = this.GetAssetBundle(accessoryButton.AB);
+            UnityEngine.Object obj = assetBundle.LoadAsset(accessoryButton.Prefab);
+            GameObject accessoryObject = GameObject.Instantiate(obj) as GameObject;
+            accessoryObject.name = string.Format("{0}(Clone)", accessoryButton.name);
+            accessoryObject.transform.SetParent(bodyPart);
+            accessoryObject.transform.localPosition = Vector3.zero;
+            accessoryObject.transform.localRotation = Quaternion.identity;
+            accessoryObject.transform.localScale = Vector3.one;
+            accessoryObject.AddComponent<FixShader>();
+            this.PlayAccessoryAnimation(accessoryObject.GetComponent<Animator>());
+            this.accessories.Add(accessoryButton, accessoryObject);
+        }
+        private void TakeOff(AccessoryButton accessoryButton)
+        {
+            if (this.accessories.ContainsKey(accessoryButton))
             {
-                Dictionary<string, AssetBundle> buffer = assetBundles.OrderBy(p => p.Key).ToDictionary(p => p.Key, q => q.Value);
-                foreach (var assetBundle in buffer)
-                {
-                    this.strContent.AppendFormat("AssetBundle: {0}\n", assetBundle.Key);
-                }
+                if (this.accessories[accessoryButton] != null)
+                    GameObject.Destroy(this.accessories[accessoryButton]);
+                this.accessories.Remove(accessoryButton);
             }
-            Debug.LogFormat("<><PetLoader.PrintAssetBundles>\n{0}", this.strContent.ToString());
+
+            if (assetBundles.ContainsKey(accessoryButton.AB) && assetBundles[accessoryButton.AB] != null)
+                assetBundles[accessoryButton.AB].Unload(true);
         }
     }
 
