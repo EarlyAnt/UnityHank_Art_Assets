@@ -23,6 +23,10 @@ namespace ModelTest
         private AssetBundle manifestAssetBundle;
         private StringBuilder strContent = new StringBuilder();
         private Dictionary<string, AssetBundle> assetBundles = new Dictionary<string, AssetBundle>();
+        public PetPlayer PetPlayer
+        {
+            get { return this.petObject != null ? this.petObject.GetComponent<PetPlayer>() : null; }
+        }
         /************************************************Unity方法与事件***********************************************/
         private void Start()
         {
@@ -49,7 +53,7 @@ namespace ModelTest
                 this.petObject = GameObject.Instantiate(prefab) as GameObject;
                 petObject.transform.SetParent(this.petRoot, false);
                 PetPlayer petPlayer = petObject.AddComponent<PetPlayer>();
-                petPlayer.SetPetName(petInfo.PetName);
+                petPlayer.SetPetName(petInfo.AnimationNamePrefix);
                 Debug.LogFormat("<><PetLoader.LoadPet>pet name: {0}", petInfo.PetName);
             }
             else
@@ -60,6 +64,8 @@ namespace ModelTest
                 this.petObject.name = string.Format("{0}(Clone)", petInfo.PetName);
                 this.petObject.transform.SetParent(this.petRoot, false);
                 this.petObject.AddComponent<FixShader>();
+                PetPlayer petPlayer = petObject.AddComponent<PetPlayer>();
+                petPlayer.SetPetName(petInfo.AnimationNamePrefix);
                 Debug.LogFormat("<><PetLoader.LoadPet>asset bundle name: {0}, pet name: {1}", petInfo.AB, petInfo.PetName);
             }
         }
@@ -134,6 +140,7 @@ namespace ModelTest
     public class PetInfo
     {
         public string PetName;
+        public string AnimationNamePrefix;
         public string Prefab;
         public bool IsLocal;
         public string AB;

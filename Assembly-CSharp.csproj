@@ -78,7 +78,7 @@
     <Compile Include="Assets\Scripts\ABLoader\ResetList.cs" />
     <Compile Include="Assets\Scripts\Common\FixShader.cs" />
     <Compile Include="Assets\Scripts\Common\TurnOff.cs" />
-    <Compile Include="Assets\Scripts\ModelTest\ControlPanel.cs" />
+    <Compile Include="Assets\Scripts\ModelTest\PetControl.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetLoader.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetPlayer.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\BaseMaterial.cs" />

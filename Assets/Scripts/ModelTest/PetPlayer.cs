@@ -28,6 +28,14 @@ namespace ModelTest
         {
             this.petName = petName;
         }
+        public void ShowIdle()
+        {
+            if (!this.isPlaying)
+            {
+                this.StopAllCoroutines();
+                this.StartCoroutine(this.PlayByState("eat_hungry", "Hunger", false, () => this.StartCoroutine(this.PlayByName("idle_01"))));
+            }
+        }
         public void ShowFunny()
         {
             if (!this.isPlaying)
@@ -51,6 +59,7 @@ namespace ModelTest
             {
                 this.StopAllCoroutines();
                 this.StartCoroutine(this.PlayByState("eat_hungry", "Hunger", false));
+                this.StartCoroutine(this.PlayByName("eat_satisfaction", () => this.StartCoroutine(this.PlayByName("idle_01"))));
             }
         }
         public void ShowSleep()
@@ -71,19 +80,19 @@ namespace ModelTest
                 this.StartCoroutine(this.PlayByState("sleep_end_01", "SleepEnd", true));
             }
         }
-        private IEnumerator PlayByName(string animationName)
+        private IEnumerator PlayByName(string animationName, System.Action callback = null)
         {
             this.isPlaying = true;
-            this.animator.Play(animationName);
+            this.animator.CrossFade(animationName, 0.2f);
             yield return new WaitForSeconds(this.GetAnimationLength(animationName));
-            this.isPlaying = false;
+            if (callback != null) callback(); else this.isPlaying = false;
         }
-        private IEnumerator PlayByState(string animationName, string stateName, bool stateValue)
+        private IEnumerator PlayByState(string animationName, string stateName, bool stateValue, System.Action callback = null)
         {
             this.isPlaying = true;
             this.animator.SetBool(stateName, stateValue);
             yield return new WaitForSeconds(this.GetAnimationLength(animationName));
-            this.isPlaying = false;
+            if (callback != null) callback(); else this.isPlaying = false;
         }
         private float GetAnimationLength(string animationName)
         {
