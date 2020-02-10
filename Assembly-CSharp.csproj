@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\ABLoader\ResetList.cs" />
     <Compile Include="Assets\Scripts\Common\FixShader.cs" />
     <Compile Include="Assets\Scripts\Common\TurnOff.cs" />
+    <Compile Include="Assets\Scripts\ModelTest\Component\AccessoryButton.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetControl.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetLoader.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetPlayer.cs" />
@@ -528,7 +529,9 @@
     <None Include="Assets\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Fill.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Resources\Shader\FurFX.cginc" />
-    <None Include="Assets\StreamingAssets\Config\ActionConfig.xml" />
+    <None Include="Assets\StreamingAssets\Config\ActionConfig.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Assets\Resources\Shader\FurFX SelfShadow NoBlend 20Layer.shader" />
     <Reference Include="Assembly-UnityScript-firstpass">
       <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
