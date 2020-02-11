@@ -16,7 +16,7 @@ namespace ModelTest
         private Animator animator;
         [SerializeField]
         private bool isPlaying;
-        private string[] funnyAnimations = new string[] { "play_up_01", "play_down_01", "play_up_down_01" };
+        private string[] funnyAnimations = new string[] { Animations.PlayUp, Animations.PlayDown, Animations.PlayUpDown };
         /************************************************Unity方法与事件***********************************************/
         private void Start()
         {
@@ -32,8 +32,12 @@ namespace ModelTest
         {
             if (!this.isPlaying)
             {
+                Queue<AnimationInfo> animations = new Queue<AnimationInfo>();
+                if (this.GetState(AnimationParams.Hunger))
+                    animations.Enqueue(new AnimationInfo() { DelayReturn = 5, PlayMethod = this.PlayByState(Animations.EatHungry, AnimationParams.Hunger, false) });
+                animations.Enqueue(new AnimationInfo() { PlayMethod = this.PlayByName(Animations.Idle) });
                 this.StopAllCoroutines();
-                this.StartCoroutine(this.PlayByState("eat_hungry", "Hunger", false, () => this.StartCoroutine(this.PlayByName("idle_01"))));
+                this.StartCoroutine(this.PlayAnimations(animations));
             }
         }
         public void ShowFunny()
@@ -50,34 +54,54 @@ namespace ModelTest
             if (!this.isPlaying)
             {
                 this.StopAllCoroutines();
-                this.StartCoroutine(this.PlayByState("eat_hungry", "Hunger", true));
+                this.StartCoroutine(this.PlayByState(Animations.EatHungry, AnimationParams.Hunger, true));
             }
         }
         public void ShowSatisfaction()
         {
             if (!this.isPlaying)
             {
+                Queue<AnimationInfo> animations = new Queue<AnimationInfo>();
+                if (this.GetState(AnimationParams.Hunger))
+                    animations.Enqueue(new AnimationInfo() { DelayReturn = 5, PlayMethod = this.PlayByState(Animations.EatHungry, AnimationParams.Hunger, false) });
+                animations.Enqueue(new AnimationInfo() { PlayMethod = this.PlayByName(Animations.EatSatisfaction) });
+                animations.Enqueue(new AnimationInfo() { PlayMethod = this.PlayByName(Animations.Idle) });
                 this.StopAllCoroutines();
-                this.StartCoroutine(this.PlayByState("eat_hungry", "Hunger", false));
-                this.StartCoroutine(this.PlayByName("eat_satisfaction", () => this.StartCoroutine(this.PlayByName("idle_01"))));
+                this.StartCoroutine(this.PlayAnimations(animations));
             }
         }
         public void ShowSleep()
         {
             if (!this.isPlaying)
             {
+                Queue<AnimationInfo> animations = new Queue<AnimationInfo>();
+                if (this.GetState(AnimationParams.SleepEnd))
+                    animations.Enqueue(new AnimationInfo() { PlayMethod = this.PlayByState(Animations.SleepEnd, AnimationParams.SleepEnd, false) });
+                animations.Enqueue(new AnimationInfo() { PlayMethod = this.PlayByState(Animations.SleepBegin, AnimationParams.SleepBegin, true) });
                 this.StopAllCoroutines();
-                this.StartCoroutine(this.PlayByState("sleep_end_01", "SleepEnd", false));
-                this.StartCoroutine(this.PlayByState("sleep_begin_01", "SleepBegin", true));
+                this.StartCoroutine(this.PlayAnimations(animations));
             }
         }
         public void ShowWakeUp()
         {
             if (!this.isPlaying)
             {
+                Queue<AnimationInfo> animations = new Queue<AnimationInfo>();
+                if (this.GetState(AnimationParams.SleepBegin))
+                    animations.Enqueue(new AnimationInfo() { PlayMethod = this.PlayByState(Animations.SleepBegin, AnimationParams.SleepBegin, false) });
+                animations.Enqueue(new AnimationInfo() { PlayMethod = this.PlayByState(Animations.SleepEnd, AnimationParams.SleepEnd, true) });
                 this.StopAllCoroutines();
-                this.StartCoroutine(this.PlayByState("sleep_begin_01", "SleepBegin", false));
-                this.StartCoroutine(this.PlayByState("sleep_end_01", "SleepEnd", true));
+                this.StartCoroutine(this.PlayAnimations(animations));
+            }
+        }
+        private IEnumerator PlayAnimations(Queue<AnimationInfo> animations)
+        {
+            while (animations.Count > 0)
+            {
+                AnimationInfo animationInfo = animations.Dequeue();
+                yield return new WaitForSeconds(animationInfo.DelayStart);
+                yield return this.StartCoroutine(animationInfo.PlayMethod);
+                yield return new WaitForSeconds(animationInfo.DelayReturn);
             }
         }
         private IEnumerator PlayByName(string animationName, System.Action callback = null)
@@ -93,6 +117,10 @@ namespace ModelTest
             this.animator.SetBool(stateName, stateValue);
             yield return new WaitForSeconds(this.GetAnimationLength(animationName));
             if (callback != null) callback(); else this.isPlaying = false;
+        }
+        private bool GetState(string stateName)
+        {
+            return this.animator.GetBool(stateName);
         }
         private float GetAnimationLength(string animationName)
         {
@@ -111,5 +139,12 @@ namespace ModelTest
             Debug.LogFormat("<><PetPlayer.GetAnimationLength>3-AnimationFullName: {0}, Length: 0", animationFullName);
             return 0;
         }
+    }
+
+    public class AnimationInfo
+    {
+        public float DelayStart { get; set; }
+        public float DelayReturn { get; set; }
+        public IEnumerator PlayMethod { get; set; }
     }
 }
