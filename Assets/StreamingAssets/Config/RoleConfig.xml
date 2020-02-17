@@ -2,11 +2,11 @@
 <Project Name="Gululu" Version="">
   <Roles>
     <!--Purpie dony ninji sansa-->
-    <Role Id="0" Name="PURPIE" ChineseName="胖紫" ModelPath="pur" GuestPath="pur"/>
-    <Role Id="1" Name="DONNY" ChineseName="逗泥" ModelPath="dony" GuestPath="dony"/>
-    <Role Id="2" Name="NINJI" ChineseName="小忍" ModelPath="ninji" GuestPath="ninji"/>
-    <Role Id="3" Name="SANSA" ChineseName="珊珊" ModelPath="sansa" GuestPath="sansa"/>
-    <Role Id="4" Name="YOYO" ChineseName="呦呦" ModelPath="yoyo" GuestPath="yoyo"/>
-    <Role Id="5" Name="NUO" ChineseName="诺诺" ModelPath="nuo" GuestPath="nuo"/>
+    <Role Id="0" Name="PURPIE" ChineseName="胖紫" Storage="Local" ModelPath="pur" GuestPath="pur"/>
+    <Role Id="1" Name="DONNY" ChineseName="逗泥" Storage="Remote" ModelPath="dony" GuestPath="dony"/>
+    <Role Id="2" Name="NINJI" ChineseName="小忍" Storage="Local" ModelPath="ninji" GuestPath="ninji"/>
+    <Role Id="3" Name="SANSA" ChineseName="珊珊" Storage="Local" ModelPath="sansa" GuestPath="sansa"/>
+    <Role Id="4" Name="YOYO" ChineseName="呦呦" Storage="Remote" ModelPath="yoyo" GuestPath="yoyo"/>
+    <Role Id="5" Name="NUO" ChineseName="诺诺" Storage="Remote" ModelPath="nuo" GuestPath="nuo"/>
   </Roles>
 </Project>
