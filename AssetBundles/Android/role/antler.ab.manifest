@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 702171203
+CRC: 2077360925
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 367c993930517c8ac05bd342819986d7
+    Hash: d24ffbc010cb3be5dbd9a0c5497d0523
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7b1993402593558cb4fc5b36334d689b
@@ -36,9 +36,9 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/antler/Texture/antler.png
-- Assets/art_assets/Ani/Role/antler/antler.FBX
-- Assets/art_assets/Ani/Role/antler/antler_ponit.controller
-- Assets/art_assets/Ani/Role/antler/Texture/antler.mat
-- Assets/art_assets/Ani/Role/antler/antler_ponit_prefab.prefab
+- Assets/art_assets/Ani/AB/antler/Texture/antler.png
+- Assets/art_assets/Ani/AB/antler/antler.FBX
+- Assets/art_assets/Ani/AB/antler/antler_ponit.controller
+- Assets/art_assets/Ani/AB/antler/Texture/antler.mat
+- Assets/art_assets/Ani/AB/antler/antler_ponit_prefab.prefab
 Dependencies: []

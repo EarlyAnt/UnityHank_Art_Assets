@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 869830374
+CRC: 3584198065
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3ac236c426775508517ad0956dcf88c6
+    Hash: b99c00fac7aab94e2b99de82984c09ba
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6f8b48ddfd4d8ea80e402faa1ba4e3cb
@@ -38,14 +38,14 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/giftbox/giftbox_prefab.prefab
-- Assets/art_assets/Ani/Role/giftbox/Texture/eye.mat
-- Assets/art_assets/Ani/Role/giftbox/Texture/giftbox_A.png
-- Assets/art_assets/Ani/Role/giftbox/giftbox.FBX
-- Assets/art_assets/Ani/Role/giftbox/giftbox.controller
-- Assets/art_assets/Ani/Role/giftbox/Texture/giftbox.png
-- Assets/art_assets/Ani/Role/giftbox/Texture/giftbox_A.mat
-- Assets/art_assets/Ani/Role/giftbox/Texture/giftbox.mat
-- Assets/art_assets/Ani/Role/giftbox/giftbox_A_prefab.prefab
+- Assets/art_assets/Ani/AB/giftbox/giftbox_prefab.prefab
+- Assets/art_assets/Ani/AB/giftbox/Texture/eye.mat
+- Assets/art_assets/Ani/AB/giftbox/Texture/giftbox_A.png
+- Assets/art_assets/Ani/AB/giftbox/giftbox.FBX
+- Assets/art_assets/Ani/AB/giftbox/giftbox.controller
+- Assets/art_assets/Ani/AB/giftbox/Texture/giftbox.png
+- Assets/art_assets/Ani/AB/giftbox/Texture/giftbox_A.mat
+- Assets/art_assets/Ani/AB/giftbox/Texture/giftbox.mat
+- Assets/art_assets/Ani/AB/giftbox/giftbox_A_prefab.prefab
 Dependencies:
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/hezi_fx.ab
+- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/hezi_fx.ab

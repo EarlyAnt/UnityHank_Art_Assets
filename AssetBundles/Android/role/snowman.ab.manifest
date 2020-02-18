@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3703726156
+CRC: 1921876505
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d738881f26eae0136a855eb47f556d69
+    Hash: d371a6d2050e454d392b2b4445598bd8
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3d7e0ebadadd20a331663440a56df288
@@ -36,17 +36,17 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/snowman/Texture/snowman _normal.tga
-- Assets/art_assets/Ani/Role/snowman/snowman_prefab.prefab
-- Assets/art_assets/Ani/Role/snowman/Texture/snowmanA.png
-- Assets/art_assets/Ani/Role/snowman/snowmanB_prefab.prefab
-- Assets/art_assets/Ani/Role/snowman/Texture/snowman.mat
-- Assets/art_assets/Ani/Role/snowman/Texture/snowmanB.mat
-- Assets/art_assets/Ani/Role/snowman/snowmanA_prefab.prefab
-- Assets/art_assets/Ani/Role/snowman/Texture/snowmanA.mat
-- Assets/art_assets/Ani/Role/snowman/Texture/snowmanB.png
-- Assets/art_assets/Ani/Role/snowman/snowman.controller
-- Assets/art_assets/Ani/Role/snowman/snowman.FBX
-- Assets/art_assets/Ani/Role/snowman/Texture/snowman.tga
+- Assets/art_assets/Ani/AB/snowman/Texture/snowman _normal.tga
+- Assets/art_assets/Ani/AB/snowman/snowman_prefab.prefab
+- Assets/art_assets/Ani/AB/snowman/Texture/snowmanA.png
+- Assets/art_assets/Ani/AB/snowman/snowmanB_prefab.prefab
+- Assets/art_assets/Ani/AB/snowman/Texture/snowman.mat
+- Assets/art_assets/Ani/AB/snowman/Texture/snowmanB.mat
+- Assets/art_assets/Ani/AB/snowman/snowmanA_prefab.prefab
+- Assets/art_assets/Ani/AB/snowman/Texture/snowmanA.mat
+- Assets/art_assets/Ani/AB/snowman/Texture/snowmanB.png
+- Assets/art_assets/Ani/AB/snowman/snowman.controller
+- Assets/art_assets/Ani/AB/snowman/snowman.FBX
+- Assets/art_assets/Ani/AB/snowman/Texture/snowman.tga
 Dependencies:
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
+- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab

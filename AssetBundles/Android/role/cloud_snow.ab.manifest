@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3075102276
+CRC: 2563370700
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: be09b87c2e11f539310a8795e9ba3565
+    Hash: 2b0922ae169d857d7839fecc9cb65e85
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6f8b48ddfd4d8ea80e402faa1ba4e3cb
@@ -38,13 +38,13 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/cloud_snow/cloud_snowA_prefab.prefab
-- Assets/art_assets/Ani/Role/cloud_snow/cloud_snow_prefab.prefab
-- Assets/art_assets/Ani/Role/cloud_snow/Texture/cloud_snowA.png
-- Assets/art_assets/Ani/Role/cloud_snow/cloud_snow.FBX
-- Assets/art_assets/Ani/Role/cloud_snow/Texture/cloud_snowA.mat
-- Assets/art_assets/Ani/Role/cloud_snow/Texture/cloud_snow.png
-- Assets/art_assets/Ani/Role/cloud_snow/cloud_snow.controller
-- Assets/art_assets/Ani/Role/cloud_snow/Texture/cloud_snow.mat
+- Assets/art_assets/Ani/AB/cloud_snow/cloud_snowA_prefab.prefab
+- Assets/art_assets/Ani/AB/cloud_snow/cloud_snow_prefab.prefab
+- Assets/art_assets/Ani/AB/cloud_snow/Texture/cloud_snowA.png
+- Assets/art_assets/Ani/AB/cloud_snow/cloud_snow.FBX
+- Assets/art_assets/Ani/AB/cloud_snow/Texture/cloud_snowA.mat
+- Assets/art_assets/Ani/AB/cloud_snow/Texture/cloud_snow.png
+- Assets/art_assets/Ani/AB/cloud_snow/cloud_snow.controller
+- Assets/art_assets/Ani/AB/cloud_snow/Texture/cloud_snow.mat
 Dependencies:
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/yun.ab
+- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/yun.ab

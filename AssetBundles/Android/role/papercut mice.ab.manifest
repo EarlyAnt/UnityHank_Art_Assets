@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3440397082
+CRC: 3161871966
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e9048fd7b3d83e2890097b265da2b631
+    Hash: d2a0fe639255a389683bb65f220b8728
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0954bcf195e28da56c116a350350d8a4
@@ -30,8 +30,8 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/papercut mice/papercut mice.controller
-- Assets/art_assets/Ani/Role/papercut mice/Texture/papercut mice.mat
-- Assets/art_assets/Ani/Role/papercut mice/papercut mice_prefab.prefab
-- Assets/art_assets/Ani/Role/papercut mice/papercut mice.FBX
+- Assets/art_assets/Ani/AB/papercut mice/papercut mice.controller
+- Assets/art_assets/Ani/AB/papercut mice/Texture/papercut mice.mat
+- Assets/art_assets/Ani/AB/papercut mice/papercut mice_prefab.prefab
+- Assets/art_assets/Ani/AB/papercut mice/papercut mice.FBX
 Dependencies: []

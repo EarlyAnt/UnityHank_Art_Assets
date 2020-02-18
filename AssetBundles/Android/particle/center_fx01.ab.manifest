@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2706885430
+CRC: 641433195
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 459044c9a75186569a8c77ac5ac8a3f2
+    Hash: 063056a3d3ec3c10c765ec1259b6042d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0f931d4ebb7724728a37cd063f2dc20a
@@ -24,7 +24,7 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/particle/center_fx01/center_fx01.prefab
-- Assets/art_assets/Ani/Role/particle/center_fx01/textures/snow_blue.png
-- Assets/art_assets/Ani/Role/particle/center_fx01/materials/xuahua_blue.mat
+- Assets/art_assets/Ani/AB/particle/center_fx01/center_fx01.prefab
+- Assets/art_assets/Ani/AB/particle/center_fx01/textures/snow_blue.png
+- Assets/art_assets/Ani/AB/particle/center_fx01/materials/xuahua_blue.mat
 Dependencies: []

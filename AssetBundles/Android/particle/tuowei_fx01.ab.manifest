@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1484278282
+CRC: 2336501198
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e1f96b2e29688bd81f966a5930c17626
+    Hash: dc404bbccda7844359c05700f2346374
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0f931d4ebb7724728a37cd063f2dc20a
@@ -24,9 +24,9 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/particle/tuowei_fx01/textures/guangdian_24_00000.png
-- Assets/art_assets/Ani/Role/particle/tuowei_fx01/materials/sanjiao.mat
-- Assets/art_assets/Ani/Role/particle/tuowei_fx01/tuowei_fx01.prefab
-- Assets/art_assets/Ani/Role/particle/tuowei_fx01/textures/sanjiao.png
-- Assets/art_assets/Ani/Role/particle/tuowei_fx01/materials/guangdian.mat
+- Assets/art_assets/Ani/AB/particle/tuowei_fx01/textures/guangdian_24_00000.png
+- Assets/art_assets/Ani/AB/particle/tuowei_fx01/materials/sanjiao.mat
+- Assets/art_assets/Ani/AB/particle/tuowei_fx01/tuowei_fx01.prefab
+- Assets/art_assets/Ani/AB/particle/tuowei_fx01/textures/sanjiao.png
+- Assets/art_assets/Ani/AB/particle/tuowei_fx01/materials/guangdian.mat
 Dependencies: []

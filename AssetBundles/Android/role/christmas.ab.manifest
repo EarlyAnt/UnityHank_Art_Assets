@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3460865193
+CRC: 1645626409
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f0fc1c8ee92b824ae7c2c180f8677db4
+    Hash: ce48c846c217c0a00927e4b404352755
   TypeTreeHash:
     serializedVersion: 2
     Hash: c6a55bdc13a8b6db14d532b7faaa95fd
@@ -42,16 +42,16 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/christmas/christmas_point.controller
-- Assets/art_assets/Ani/Role/christmas/christmas.FBX
-- Assets/art_assets/Ani/Role/christmas/Texture/christmas02.mat
-- Assets/art_assets/Ani/Role/christmas/christmas_point_prefab.prefab
-- Assets/art_assets/Ani/Role/christmas/Texture/star.mat
-- Assets/art_assets/Ani/Role/christmas/Texture/christmas.png
-- Assets/art_assets/Ani/Role/christmas/Texture/FurNoise Sharp.tga
-- Assets/art_assets/Ani/Role/christmas/Texture/christmas03.mat
-- Assets/art_assets/Ani/Role/christmas/Texture/christmas01.mat
+- Assets/art_assets/Ani/AB/christmas/christmas_point.controller
+- Assets/art_assets/Ani/AB/christmas/christmas.FBX
+- Assets/art_assets/Ani/AB/christmas/Texture/christmas02.mat
+- Assets/art_assets/Ani/AB/christmas/christmas_point_prefab.prefab
+- Assets/art_assets/Ani/AB/christmas/Texture/star.mat
+- Assets/art_assets/Ani/AB/christmas/Texture/christmas.png
+- Assets/art_assets/Ani/AB/christmas/Texture/FurNoise Sharp.tga
+- Assets/art_assets/Ani/AB/christmas/Texture/christmas03.mat
+- Assets/art_assets/Ani/AB/christmas/Texture/christmas01.mat
 Dependencies:
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/center_fx02.ab
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_01.ab
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/star_fx.ab
+- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_01.ab
+- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/center_fx02.ab
+- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/star_fx.ab

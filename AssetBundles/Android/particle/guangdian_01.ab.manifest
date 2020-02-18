@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1956668550
+CRC: 2649097802
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bc92e45ea1394748970d932b5acc1fc2
+    Hash: 9ee899d4f316c4eb038b4936d6921960
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0f931d4ebb7724728a37cd063f2dc20a
@@ -24,7 +24,7 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/particle/guangdian_01/materials/guangdian_01.mat
-- Assets/art_assets/Ani/Role/particle/guangdian_01/textures/guangdian_01.png
-- Assets/art_assets/Ani/Role/particle/guangdian_01/guangdian_01.prefab
+- Assets/art_assets/Ani/AB/particle/guangdian_01/materials/guangdian_01.mat
+- Assets/art_assets/Ani/AB/particle/guangdian_01/textures/guangdian_01.png
+- Assets/art_assets/Ani/AB/particle/guangdian_01/guangdian_01.prefab
 Dependencies: []

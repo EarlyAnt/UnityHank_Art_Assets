@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1130127255
+CRC: 537662064
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c7245afd2334ac62434b94411f19c02c
+    Hash: e2494efbe534fae08a0c32021b8d9ec4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 01f0e06c6ea1c8ac7827c408f93abb39
@@ -38,20 +38,20 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/dony/dony_MAX_ani.controller
-- Assets/art_assets/Ani/Role/dony/dony_MAX_ani.FBX
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/sun.mat
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/dony_eye_F.tga
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/sun_c.png
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/dony_body.mat
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/dony_eye.mat
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/star_c.png
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/moon.mat
-- Assets/art_assets/Ani/Role/dony/dony_eat.FBX
-- Assets/art_assets/Ani/Role/dony/dony_doc.FBX
-- Assets/art_assets/Ani/Role/dony/dony_dailygoal.FBX
-- Assets/art_assets/Ani/Role/dony/dony_prefab.prefab
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/star.mat
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/tongkong.mat
-- Assets/art_assets/Ani/Role/dony/Dony_Texture/moon_moon1SG_DiffuseGlossiness_new.tga
+- Assets/art_assets/Ani/AB/dony/dony_MAX_ani.controller
+- Assets/art_assets/Ani/AB/dony/dony_MAX_ani.FBX
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/sun.mat
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/dony_eye_F.tga
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/sun_c.png
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/dony_body.mat
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/dony_eye.mat
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/star_c.png
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/moon.mat
+- Assets/art_assets/Ani/AB/dony/dony_eat.FBX
+- Assets/art_assets/Ani/AB/dony/dony_doc.FBX
+- Assets/art_assets/Ani/AB/dony/dony_dailygoal.FBX
+- Assets/art_assets/Ani/AB/dony/dony_prefab.prefab
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/star.mat
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/tongkong.mat
+- Assets/art_assets/Ani/AB/dony/Dony_Texture/moon_moon1SG_DiffuseGlossiness_new.tga
 Dependencies: []

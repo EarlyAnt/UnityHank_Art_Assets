@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1621572023
+CRC: 697282945
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 49205c39d699c96d81291b3acd85dfd7
+    Hash: 1df21eb22c72927c81e538d144c9cb48
   TypeTreeHash:
     serializedVersion: 2
     Hash: 60d6d76df22e48d7476a6ed7e324d448
@@ -34,12 +34,12 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/christmas hat/Texture/christmas hat01.mat
-- Assets/art_assets/Ani/Role/christmas hat/christmas hat.controller
-- Assets/art_assets/Ani/Role/christmas hat/Texture/christmas hat02.mat
-- Assets/art_assets/Ani/Role/christmas hat/Texture/FurNoise Sharp.tga
-- Assets/art_assets/Ani/Role/christmas hat/Texture/christmas hat03.mat
-- Assets/art_assets/Ani/Role/christmas hat/christmas hat.FBX
-- Assets/art_assets/Ani/Role/christmas hat/christmas hat_point_prefab.prefab
-- Assets/art_assets/Ani/Role/christmas hat/Texture/shengdangmao.png
+- Assets/art_assets/Ani/AB/christmas hat/Texture/christmas hat01.mat
+- Assets/art_assets/Ani/AB/christmas hat/christmas hat.controller
+- Assets/art_assets/Ani/AB/christmas hat/Texture/christmas hat02.mat
+- Assets/art_assets/Ani/AB/christmas hat/Texture/FurNoise Sharp.tga
+- Assets/art_assets/Ani/AB/christmas hat/Texture/christmas hat03.mat
+- Assets/art_assets/Ani/AB/christmas hat/christmas hat.FBX
+- Assets/art_assets/Ani/AB/christmas hat/christmas hat_point_prefab.prefab
+- Assets/art_assets/Ani/AB/christmas hat/Texture/shengdangmao.png
 Dependencies: []

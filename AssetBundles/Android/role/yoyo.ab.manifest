@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 516842226
+CRC: 3213008778
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b42fe96e996d4e80edb4e8470734d9c7
+    Hash: 4b81557370f51880f2e7b77cc4e8173a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 02414ef950ca26464080856446ac2820
@@ -34,21 +34,21 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/yoyo/yoyo_dailygoal.FBX
-- Assets/art_assets/Ani/Role/yoyo/Texture/moon.mat
-- Assets/art_assets/Ani/Role/yoyo/Texture/body_DiffuseGlossiness 2.tga
-- Assets/art_assets/Ani/Role/yoyo/yoyo_MAX_ani.FBX
-- Assets/art_assets/Ani/Role/yoyo/Texture/tongkong.mat
-- Assets/art_assets/Ani/Role/yoyo/Texture/spine.mat
-- Assets/art_assets/Ani/Role/yoyo/Texture/star.mat
-- Assets/art_assets/Ani/Role/yoyo/Texture/eye_down.mat
-- Assets/art_assets/Ani/Role/yoyo/Texture/moon_moon1SG_DiffuseGlossiness_new.tga
-- Assets/art_assets/Ani/Role/yoyo/Texture/eye_down_DiffuseGlossiness.tga
-- Assets/art_assets/Ani/Role/yoyo/yoyo_MAX_ani.controller
-- Assets/art_assets/Ani/Role/yoyo/Texture/sun.mat
-- Assets/art_assets/Ani/Role/yoyo/Texture/body.mat
-- Assets/art_assets/Ani/Role/yoyo/Texture/sun_c.png
-- Assets/art_assets/Ani/Role/yoyo/yoyo_prefab.prefab
-- Assets/art_assets/Ani/Role/yoyo/Texture/star_c.png
-- Assets/art_assets/Ani/Role/yoyo/yoyo_eat.FBX
+- Assets/art_assets/Ani/AB/yoyo/yoyo_dailygoal.FBX
+- Assets/art_assets/Ani/AB/yoyo/Texture/moon.mat
+- Assets/art_assets/Ani/AB/yoyo/Texture/body_DiffuseGlossiness 2.tga
+- Assets/art_assets/Ani/AB/yoyo/yoyo_MAX_ani.FBX
+- Assets/art_assets/Ani/AB/yoyo/Texture/tongkong.mat
+- Assets/art_assets/Ani/AB/yoyo/Texture/spine.mat
+- Assets/art_assets/Ani/AB/yoyo/Texture/star.mat
+- Assets/art_assets/Ani/AB/yoyo/Texture/eye_down.mat
+- Assets/art_assets/Ani/AB/yoyo/Texture/moon_moon1SG_DiffuseGlossiness_new.tga
+- Assets/art_assets/Ani/AB/yoyo/Texture/eye_down_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/AB/yoyo/yoyo_MAX_ani.controller
+- Assets/art_assets/Ani/AB/yoyo/Texture/sun.mat
+- Assets/art_assets/Ani/AB/yoyo/Texture/body.mat
+- Assets/art_assets/Ani/AB/yoyo/Texture/sun_c.png
+- Assets/art_assets/Ani/AB/yoyo/yoyo_prefab.prefab
+- Assets/art_assets/Ani/AB/yoyo/Texture/star_c.png
+- Assets/art_assets/Ani/AB/yoyo/yoyo_eat.FBX
 Dependencies: []

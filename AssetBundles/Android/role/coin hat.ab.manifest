@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2404622043
+CRC: 239583762
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4e8ab71bc9eb8a50a11476b51bbb4017
+    Hash: 18108dc914089da87819b542eb5b14f5
   TypeTreeHash:
     serializedVersion: 2
     Hash: 77b4c59a67aa556d836c196a8ffff137
@@ -32,9 +32,9 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/coin hat/Texture/coin hat.mat
-- Assets/art_assets/Ani/Role/coin hat/coin hat_point.controller
-- Assets/art_assets/Ani/Role/coin hat/Texture/coin hat.tga
-- Assets/art_assets/Ani/Role/coin hat/coin hat_point_prefab.prefab
-- Assets/art_assets/Ani/Role/coin hat/coin hat.FBX
+- Assets/art_assets/Ani/AB/coin hat/Texture/coin hat.mat
+- Assets/art_assets/Ani/AB/coin hat/coin hat_point.controller
+- Assets/art_assets/Ani/AB/coin hat/Texture/coin hat.tga
+- Assets/art_assets/Ani/AB/coin hat/coin hat_point_prefab.prefab
+- Assets/art_assets/Ani/AB/coin hat/coin hat.FBX
 Dependencies: []

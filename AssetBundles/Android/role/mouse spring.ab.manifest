@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3319733861
+CRC: 1352956033
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 480dec3cdb980e8c0bbadcf5f6050a7e
+    Hash: 81f11d9757c3a4120ae2eaa839cc8884
   TypeTreeHash:
     serializedVersion: 2
     Hash: 77b4c59a67aa556d836c196a8ffff137
@@ -32,10 +32,10 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/Role/mouse spring/Texture/mouse spring.tga
-- Assets/art_assets/Ani/Role/mouse spring/mouse spring.controller
-- Assets/art_assets/Ani/Role/mouse spring/Texture/mouse spring.mat
-- Assets/art_assets/Ani/Role/mouse spring/mouse spring_prefab.prefab
-- Assets/art_assets/Ani/Role/mouse spring/mouse spring.FBX
-- Assets/art_assets/Ani/Role/mouse spring/Texture/white.mat
+- Assets/art_assets/Ani/AB/mouse spring/Texture/mouse spring.tga
+- Assets/art_assets/Ani/AB/mouse spring/mouse spring.controller
+- Assets/art_assets/Ani/AB/mouse spring/Texture/mouse spring.mat
+- Assets/art_assets/Ani/AB/mouse spring/mouse spring_prefab.prefab
+- Assets/art_assets/Ani/AB/mouse spring/mouse spring.FBX
+- Assets/art_assets/Ani/AB/mouse spring/Texture/white.mat
 Dependencies: []
