@@ -72,9 +72,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Utils\MD5\Interface\IMD5Util.cs" />
-    <Compile Include="Assets\Script\Utils\MD5\MD5Util.cs" />
-    <Compile Include="Assets\Script\Utils\MD5\View\MD5View.cs" />
     <Compile Include="Assets\Scripts\ABLoader\ABLoader.cs" />
     <Compile Include="Assets\Scripts\ABLoader\BaseLoader.cs" />
     <Compile Include="Assets\Scripts\ABLoader\CommonLoader.cs" />
@@ -88,6 +85,10 @@
     <Compile Include="Assets\Scripts\ModelTest\PetControl.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetLoader.cs" />
     <Compile Include="Assets\Scripts\ModelTest\PetPlayer.cs" />
+    <Compile Include="Assets\Scripts\Utils\FileName\FileNameView.cs" />
+    <Compile Include="Assets\Scripts\Utils\MD5\Interface\IMD5Util.cs" />
+    <Compile Include="Assets\Scripts\Utils\MD5\MD5Util.cs" />
+    <Compile Include="Assets\Scripts\Utils\MD5\View\MD5View.cs" />
     <Compile Include="Assets\Scripts\Utils\UnityHelper.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\BaseMaterial.cs" />
     <Compile Include="Assets\ShaderForge\Base\Scripts\CameraShake.cs" />
