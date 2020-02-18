@@ -72,6 +72,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Utils\MD5\Interface\IMD5Util.cs" />
+    <Compile Include="Assets\Script\Utils\MD5\MD5Util.cs" />
+    <Compile Include="Assets\Script\Utils\MD5\View\MD5View.cs" />
     <Compile Include="Assets\Scripts\ABLoader\ABLoader.cs" />
     <Compile Include="Assets\Scripts\ABLoader\BaseLoader.cs" />
     <Compile Include="Assets\Scripts\ABLoader\CommonLoader.cs" />

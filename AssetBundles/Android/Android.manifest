@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 997208812
+CRC: 3110214412
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -109,4 +109,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_31:
       Name: role/garland.ab
+      Dependencies: {}
+    Info_32:
+      Name: role/glasses.ab
       Dependencies: {}
