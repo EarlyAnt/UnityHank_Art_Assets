@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 99952176}
   - component: {fileID: 99952175}
   m_Layer: 5
-  m_Name: head_giftcap
+  m_Name: head_rose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
   AB: role/garland.ab
   Prefab: garland_point_prefab
   Region: 0
-  Icon: part_ head_giftcap
+  Icon: part_ head_rose
   CanWear: 1
 --- !u!114 &99952176
 MonoBehaviour:
@@ -11977,7 +11977,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d5364e7502235294ead7f260252de8fe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5ce1369c998ac44396cedaec2854519, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
