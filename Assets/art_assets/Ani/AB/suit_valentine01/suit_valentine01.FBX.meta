@@ -53,7 +53,7 @@ ModelImporter:
       name: sansa_suit_valentine01
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 5
+      lastFrame: 2
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -81,14 +81,14 @@ ModelImporter:
       name: yoyo_suit_valentine01
       takeName: Take 001
       firstFrame: 10
-      lastFrame: 15
+      lastFrame: 11
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -109,14 +109,14 @@ ModelImporter:
       name: ninji_suit_valentine01
       takeName: Take 001
       firstFrame: 20
-      lastFrame: 25
+      lastFrame: 21
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -136,15 +136,15 @@ ModelImporter:
     - serializedVersion: 16
       name: nuo_suit_valentine01
       takeName: Take 001
-      firstFrame: 35
-      lastFrame: 45
+      firstFrame: 40
+      lastFrame: 41
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -165,14 +165,14 @@ ModelImporter:
       name: dony_suit_valentine01
       takeName: Take 001
       firstFrame: 30
-      lastFrame: 35
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -193,14 +193,14 @@ ModelImporter:
       name: pur_suit_valentine01
       takeName: Take 001
       firstFrame: 50
-      lastFrame: 55
+      lastFrame: 51
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

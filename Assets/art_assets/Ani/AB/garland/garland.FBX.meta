@@ -12,6 +12,7 @@ ModelImporter:
     400004: garland_bone01
     400006: garland_root
     2100000: 'Material #39'
+    2100002: 02 - Default
     4300000: garland01
     7400000: sansa_garland
     7400002: ninji_garland
@@ -21,6 +22,7 @@ ModelImporter:
     7400010: pur_garland
     9500000: //RootNode
     13700000: garland01
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -53,7 +55,7 @@ ModelImporter:
       name: sansa_garland
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 5
+      lastFrame: 2
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -81,7 +83,7 @@ ModelImporter:
       name: ninji_garland
       takeName: Take 001
       firstFrame: 20
-      lastFrame: 25
+      lastFrame: 21
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -109,7 +111,7 @@ ModelImporter:
       name: yoyo_garland
       takeName: Take 001
       firstFrame: 10
-      lastFrame: 15
+      lastFrame: 11
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -137,7 +139,7 @@ ModelImporter:
       name: dony_garland
       takeName: Take 001
       firstFrame: 30
-      lastFrame: 35
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -165,7 +167,7 @@ ModelImporter:
       name: nuo_garland
       takeName: Take 001
       firstFrame: 40
-      lastFrame: 45
+      lastFrame: 41
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -193,7 +195,7 @@ ModelImporter:
       name: pur_garland
       takeName: Take 001
       firstFrame: 50
-      lastFrame: 55
+      lastFrame: 51
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

@@ -50,7 +50,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4725410086390976}
-  - component: {fileID: 95668615737036036}
+  - component: {fileID: 95433849547185526}
   m_Layer: 0
   m_Name: suit_valentine_point_prefab
   m_TagString: Untagged
@@ -245,7 +245,7 @@ Transform:
   m_Father: {fileID: 4231448621113536}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &95668615737036036
+--- !u!95 &95433849547185526
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -254,7 +254,7 @@ Animator:
   m_GameObject: {fileID: 1183178497171354}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 97eea3f721582314f8ec5e1664a24103, type: 3}
-  m_Controller: {fileID: 9100000, guid: c9bdaddd99e32db45aa16b5dfebe76fd, type: 2}
+  m_Controller: {fileID: 9100000, guid: eeab8bbf07f43514fa4f876b5a72e34f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
