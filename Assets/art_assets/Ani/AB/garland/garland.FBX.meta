@@ -55,7 +55,7 @@ ModelImporter:
       name: sansa_garland
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 2
+      lastFrame: 5
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -83,7 +83,7 @@ ModelImporter:
       name: ninji_garland
       takeName: Take 001
       firstFrame: 20
-      lastFrame: 21
+      lastFrame: 25
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -111,7 +111,7 @@ ModelImporter:
       name: yoyo_garland
       takeName: Take 001
       firstFrame: 10
-      lastFrame: 11
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -139,7 +139,7 @@ ModelImporter:
       name: dony_garland
       takeName: Take 001
       firstFrame: 30
-      lastFrame: 31
+      lastFrame: 35
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -167,7 +167,7 @@ ModelImporter:
       name: nuo_garland
       takeName: Take 001
       firstFrame: 40
-      lastFrame: 41
+      lastFrame: 45
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -195,7 +195,7 @@ ModelImporter:
       name: pur_garland
       takeName: Take 001
       firstFrame: 50
-      lastFrame: 51
+      lastFrame: 55
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
