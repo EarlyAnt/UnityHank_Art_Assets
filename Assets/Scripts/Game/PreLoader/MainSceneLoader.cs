@@ -74,7 +74,7 @@ namespace Hank.PreLoad
         private bool bMovieEnd = false;
         private int displayProgress = 0;
         private string sceneName = "";
-        #endregion
+        #endregion        
         /************************************************Unity方法与事件***********************************************/
         protected override void Start()
         {

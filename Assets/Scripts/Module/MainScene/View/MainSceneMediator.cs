@@ -248,34 +248,34 @@ namespace Hank.MainScene
         }
         protected override void PowerHold()
         {
-            if (TopViewHelper.Instance.IsOpenedView(TopViewHelper.ETopView.eLanguageSetting))
-                return;//语言设置页显示时，此页面不响应电源键长按操作(语言设置页放到独立场景中了，不需要此处显示系统页进行关机)
+//            if (TopViewHelper.Instance.IsOpenedView(TopViewHelper.ETopView.eLanguageSetting))
+//                return;//语言设置页显示时，此页面不响应电源键长按操作(语言设置页放到独立场景中了，不需要此处显示系统页进行关机)
 
-            string currentChildSN = mLocalChildInfoAgent.getChildSN();
-            //Debug.LogFormat("<><MainSceneMediator.PowerKeyLongPress>GetChildSN: [{0}]", currentChildSN);
-            if (string.IsNullOrEmpty(currentChildSN))
-            {//如果处在放打扰模式(睡眠模式or学习模式)下，进入SystemMenu
-                //this.ShowSystemMenu();
-            }
-            else
-            {
-                if (this.SilenceTimeDataManager.InSilenceMode(DateTime.Now))
-                {
-                    //this.ShowSystemMenu();
-                }
-                else
-                {
-#if !UNITY_EDITOR
-                    if (interactiveCountManager.IsNeedNoviceGuide())
-                    {//如果处在引导环节，进入SystemMenu
-                        this.ShowSystemMenu();
-                    }
-                    else this.ShowMainMenu();
-#else
-                    this.ShowMainMenu();
-#endif
-                }
-            }
+//            string currentChildSN = mLocalChildInfoAgent.getChildSN();
+//            //Debug.LogFormat("<><MainSceneMediator.PowerKeyLongPress>GetChildSN: [{0}]", currentChildSN);
+//            if (string.IsNullOrEmpty(currentChildSN))
+//            {//如果处在放打扰模式(睡眠模式or学习模式)下，进入SystemMenu
+//                this.ShowSystemMenu();
+//            }
+//            else
+//            {
+//                if (this.SilenceTimeDataManager.InSilenceMode(DateTime.Now))
+//                {
+//                    this.ShowSystemMenu();
+//                }
+//                else
+//                {
+//#if !UNITY_EDITOR
+//                    if (interactiveCountManager.IsNeedNoviceGuide())
+//                    {//如果处在引导环节，进入SystemMenu
+//                        this.ShowSystemMenu();
+//                    }
+//                    else this.ShowMainMenu();
+//#else
+//                    this.ShowMainMenu();
+//#endif
+//                }
+//            }
         }
         protected override void CupShake()
         {
@@ -702,44 +702,44 @@ namespace Hank.MainScene
         /*--------------------------------------------------好友界面--------------------------------------------------*/
         public void ShowMakeFriend(bool bStart)
         {
-#if (UNITY_ANDROID) && (!UNITY_EDITOR)
-            string childSn = mLocalChildInfoAgent.getChildSN();
-            if (childSn == null || childSn == string.Empty)
-            {
-                GuLog.Debug("<><MainSceneMediator><MakeFriend>childSn is null!");
-                viewMainScene.ShowAlertPair(AlertType.AlertType_MakeFriend);
-                return;
-            }
+//#if (UNITY_ANDROID) && (!UNITY_EDITOR)
+//            string childSn = mLocalChildInfoAgent.getChildSN();
+//            if (childSn == null || childSn == string.Empty)
+//            {
+//                GuLog.Debug("<><MainSceneMediator><MakeFriend>childSn is null!");
+//                viewMainScene.ShowAlertPair(AlertType.AlertType_MakeFriend);
+//                return;
+//            }
 
-            if (bStart)
-            {
-                SleepTimeManager.AddSleepStatus(20);
-                viewMainScene.rolePlayer.Play("friend_search");
-                FlurryUtil.LogEvent("Friending_Search_Event");
+//            if (bStart)
+//            {
+//                SleepTimeManager.AddSleepStatus(20);
+//                viewMainScene.rolePlayer.Play("friend_search");
+//                FlurryUtil.LogEvent("Friending_Search_Event");
 
-                uiState.SetHoldStatus(true);
-                GuLog.Debug("<><MainSceneMediator><MakeFriend>new P2PManager!");
+//                uiState.SetHoldStatus(true);
+//                GuLog.Debug("<><MainSceneMediator><MakeFriend>new P2PManager!");
 
-                P2PSendInfo info = new P2PSendInfo();
+//                P2PSendInfo info = new P2PSendInfo();
 
-                info.childsn = mLocalChildInfoAgent.getChildSN();
-                info.cupSn = CupBuild.getCupSn();
-                info.petType = mLocalPetInfoAgent.getCurrentPet();
-                info.scanTimeOut = 8000;
-                info.waitTimeOut = 8000;
-                SoundPlayer.GetInstance().PlayMusic("friend_bgm");
+//                info.childsn = mLocalChildInfoAgent.getChildSN();
+//                info.cupSn = CupBuild.getCupSn();
+//                info.petType = mLocalPetInfoAgent.getCurrentPet();
+//                info.scanTimeOut = 8000;
+//                info.waitTimeOut = 8000;
+//                SoundPlayer.GetInstance().PlayMusic("friend_bgm");
 
-                mP2PManagerWrap.startP2P(info, OnP2PSuccess, OnP2PFail);
-                GuLog.Info("<><MainSceneMediator><MakeFriend>startP2P!");
-            }
-            else
-            {
-                uiState.SetHoldStatus(false);
-                mP2PManagerWrap.closeP2P();
-                SoundPlayer.GetInstance().StopMusic();
-                GuLog.Info("<><MainSceneMediator><MakeFriend>closeP2P!");
-            }
-#endif
+//                mP2PManagerWrap.startP2P(info, OnP2PSuccess, OnP2PFail);
+//                GuLog.Info("<><MainSceneMediator><MakeFriend>startP2P!");
+//            }
+//            else
+//            {
+//                uiState.SetHoldStatus(false);
+//                mP2PManagerWrap.closeP2P();
+//                SoundPlayer.GetInstance().StopMusic();
+//                GuLog.Info("<><MainSceneMediator><MakeFriend>closeP2P!");
+//            }
+//#endif
         }
         private void OnP2PSuccess(P2PInfo info)
         {

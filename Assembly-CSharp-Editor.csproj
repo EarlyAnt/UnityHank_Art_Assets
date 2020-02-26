@@ -438,9 +438,6 @@
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>

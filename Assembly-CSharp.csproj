@@ -1545,6 +1545,13 @@
     <Compile Include="Assets\Scripts\TestUtils\Common\Common.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Common\FixShader.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Common\TurnOff.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\EasyTest\Command\StartCommand.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\EasyTest\EasyTestContext.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\EasyTest\EasyTestRootView.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\EasyTest\Signal\StartSignal.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\EasyTest\View\EasyTestMediator.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\EasyTest\View\EasyTestView.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\EasyTest\View\FlashButton.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ModelTest\BaseLoader.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ModelTest\Component\AccessoryButton.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ModelTest\MateLoader.cs" />
@@ -1990,6 +1997,7 @@
     <None Include="Assets\StreamingAssets\Config\I18N.xml" />
     <None Include="Assets\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic-TintBlack.shader" />
     <None Include="Assets\3rd-Party\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\art_assets\UI\Main\Dony\NumberFont\number_donny.xml" />
     <None Include="Assets\StreamingAssets\Config\FontConfig.xml" />
     <None Include="Assets\art_assets\Ani\UI\Battery\ceshi.atlas.txt" />
     <None Include="Assets\art_assets\Ani\UI\coming soon\coming soon.atlas.txt" />
@@ -2007,6 +2015,7 @@
     <None Include="Assets\Resources\Shader\FurFX 3.0 20Layer.shader" />
     <None Include="Assets\StreamingAssets\Config\Accessory.xml" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
+    <None Include="Assets\art_assets\UI\Main\Sansa\NumberFont\number_sansa.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexAnimation.shader" />
     <None Include="Assets\Resources\Shader\FurFX Basic 10Layer.shader" />
@@ -2029,6 +2038,7 @@
     <None Include="Assets\art_assets\Ani\UI\CupPairLoading\loading.atlas.txt" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Parallax.shader" />
     <None Include="Assets\StreamingAssets\Config\Award.xml" />
+    <None Include="Assets\art_assets\UI\Main\Purpie\NumberFont\number_purpie.xml" />
     <None Include="Assets\spine-unity\Modules\Shaders\Spine-Skeleton-Tint.shader" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
@@ -2043,6 +2053,7 @@
     <None Include="Assets\StreamingAssets\Config\RoleConfig.xml" />
     <None Include="Assets\Resources\Shader\Single_Alpha_Cartoon.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\art_assets\UI\Main\Ninji\NumberFont\number_ninji.xml" />
     <None Include="Assets\art_assets\Ani\UI\ShutDown\close.atlas.txt" />
     <None Include="Assets\Resources\Shader\FurFXAdvanced.cginc" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpritesVertexLit.shader" />
@@ -2125,9 +2136,6 @@
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>

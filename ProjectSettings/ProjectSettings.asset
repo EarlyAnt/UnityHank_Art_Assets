@@ -119,7 +119,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.10.1.1
+  bundleVersion: 2.4.0.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -155,7 +155,7 @@ PlayerSettings:
     Android: com.bowhead.hank
   buildNumber:
     Standalone: 145
-  AndroidBundleVersionCode: 211
+  AndroidBundleVersionCode: 245
   AndroidMinSdkVersion: 24
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -244,7 +244,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 2800000, guid: 7e177af05f1cceb45aaa83a7b7367c8b, type: 3}
-  AndroidKeystoreName: D:/Workspace/UnityHank/UnityHank/herring.keystore
+  AndroidKeystoreName: D:/Workspace/UnityHank/UnityHank/UnityHank/herring.keystore
   AndroidKeyaliasName: herring
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

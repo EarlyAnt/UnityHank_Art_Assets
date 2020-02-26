@@ -38,7 +38,8 @@ public class TopViewHelper : SingletonBase<TopViewHelper>
         ePetFeed = 38,
         eWorldMap = 39,
         eGuideTip = 40,
-        ePetDress = 41
+        ePetDress = 41,
+        eEasyTest = 42
     }
     public ETopView TopView
     {
