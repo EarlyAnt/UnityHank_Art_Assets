@@ -376,6 +376,30 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/LitJson/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/LitJson/LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/Assets/3rd-Party/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity5.6/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
     </Reference>
