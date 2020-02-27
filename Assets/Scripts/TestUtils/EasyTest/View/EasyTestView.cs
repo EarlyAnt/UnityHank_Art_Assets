@@ -226,6 +226,7 @@ namespace Hank.EasyTest
             {
                 this.subNavigator.Visible = false;
                 this.Fade(false);
+                this.Select();
             }
         }
 
