@@ -13,15 +13,33 @@ namespace ModelTest
         private MateInfo topLeftMate;
         [SerializeField]
         private MateInfo bottomRightMate;
+        [SerializeField]
+        private DressInfo spriteButtons;
         private Dictionary<AccessoryButton, MateInfo> mates = new Dictionary<AccessoryButton, MateInfo>();
         /************************************************Unity方法与事件***********************************************/
 
         /************************************************自 定 义 方 法************************************************/
+        public void PreviousMate()
+        {
+            this.spriteButtons.PreviousAccessory();
+            this.SetMate(this.spriteButtons.CurrentAccessory);
+            Debug.LogFormat("<><MateLoader.PreviousMate>Sprite: {0}", this.spriteButtons.CurrentAccessory.Prefab);
+        }
+        public void NextMate()
+        {
+            this.spriteButtons.NextAccessory();
+            this.SetMate(this.spriteButtons.CurrentAccessory);
+            Debug.LogFormat("<><MateLoader.NextMate>Sprite: {0}", this.spriteButtons.CurrentAccessory.Prefab);
+        }
+        public void SetMate()
+        {
+            this.SetMate(this.spriteButtons.CurrentAccessory);
+        }
         public void SetMate(AccessoryButton accessoryButton)
         {
             if (accessoryButton == null)
             {
-                Debug.LogError("<><MateLoader.LoadMate>Parameter 'accessoryButton' is null");
+                Debug.LogError("<><MateLoader.SetMate>Parameter 'accessoryButton' is null");
                 return;
             }
 
@@ -59,6 +77,7 @@ namespace ModelTest
                 this.StopCoroutine(mateInfo.Coroutine);
             mateInfo.Coroutine = this.StartCoroutine(this.RandomAnimation(mateInfo));
             this.mates.Add(accessoryButton, mateInfo);
+            Debug.LogFormat("<><MateLoader.LoadMate>{0}", accessoryButton.Prefab);
         }
         private void UnloadMate(AccessoryButton accessoryButton)
         {
@@ -73,6 +92,7 @@ namespace ModelTest
                 assetBundles[accessoryButton.AB].Unload(true);
 
             Resources.UnloadUnusedAssets();
+            Debug.LogFormat("<><MateLoader.UnloadMate>{0}", accessoryButton.Prefab);
         }
         private MateInfo GetMateInfo(AccessoryButton accessoryButton)
         {
@@ -105,6 +125,11 @@ namespace ModelTest
                 }
             }
         }
+        [ContextMenu("搜集小精灵")]
+        private void CollectAccessories()
+        {
+            this.spriteButtons.CollectButton();
+        }
     }
 
     [System.Serializable]
@@ -120,7 +145,5 @@ namespace ModelTest
         public float IntervalMax = 30.0f;
         public bool StopAnimation;
         public Coroutine Coroutine;
-
-
     }
 }

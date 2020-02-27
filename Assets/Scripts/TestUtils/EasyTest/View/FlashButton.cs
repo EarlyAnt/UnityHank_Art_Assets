@@ -43,14 +43,4 @@ namespace Hank.EasyTest
             this.borderBox = this.GetComponent<Image>();
         }
     }
-
-    public enum Operations
-    {
-        Pet = 0,
-        Animation = 1,
-        Dress = 2,
-        Accessory = 3,
-        Suit = 4,
-        Sprite = 5
-    }
 }

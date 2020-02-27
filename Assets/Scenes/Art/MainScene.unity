@@ -6475,6 +6475,15 @@ MonoBehaviour:
     IntervalMin: 10
     IntervalMax: 30
     StopAnimation: 0
+  spriteButtons:
+    rootObject: {fileID: 1894518958}
+    accessories:
+    - {fileID: 453681542}
+    - {fileID: 773518316}
+    - {fileID: 473837112}
+    - {fileID: 500771742}
+    - {fileID: 1049920500}
+    - {fileID: 474147574}
 --- !u!1 &754546569
 GameObject:
   m_ObjectHideFlags: 0
@@ -10366,6 +10375,20 @@ MonoBehaviour:
     IsLocal: 0
     AB: role/xinuo.ab
     Default: 0
+  accessoryButtons:
+    rootObject: {fileID: 1724442055}
+    accessories:
+    - {fileID: 952895840}
+    - {fileID: 1228744591}
+    - {fileID: 449075171}
+    - {fileID: 99952175}
+    - {fileID: 260698622}
+    - {fileID: 1849206799}
+  suitButtons:
+    rootObject: {fileID: 452013318}
+    accessories:
+    - {fileID: 625339636}
+    - {fileID: 1616513186}
 --- !u!114 &1267009180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11466,6 +11489,7 @@ MonoBehaviour:
     - {fileID: 1423387603}
   petLoader: {fileID: 1267009179}
   petControl: {fileID: 1673567524}
+  mateLoader: {fileID: 736275181}
 --- !u!1 &1411412029
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using UnityEngine;
 
 namespace ModelTest
@@ -13,17 +12,25 @@ namespace ModelTest
     public class PetLoader : BaseLoader
     {
         /************************************************属性与变量命名************************************************/
+        #region 小宠物相关变量
         [SerializeField]
         private Transform petRoot;
         [SerializeField]
         private List<PetInfo> petInfos;
         private PetInfo petInfo;
-        private GameObject petObject;
-        private Dictionary<AccessoryButton, GameObject> accessories = new Dictionary<AccessoryButton, GameObject>();
+        private GameObject petObject;        
         public PetPlayer PetPlayer
         {
             get { return this.petObject != null ? this.petObject.GetComponent<PetPlayer>() : null; }
         }
+        #endregion
+        #region 配饰相关变量
+        [SerializeField]
+        private DressInfo accessoryButtons;
+        [SerializeField]
+        private DressInfo suitButtons;
+        private Dictionary<AccessoryButton, GameObject> accessories = new Dictionary<AccessoryButton, GameObject>();
+        #endregion
         /************************************************Unity方法与事件***********************************************/
         private void Awake()
         {
@@ -122,6 +129,50 @@ namespace ModelTest
             }
         }
 
+        public void PreviousAccessory(Operations operation)
+        {
+            switch (operation)
+            {
+                case Operations.Accessory:
+                    this.accessoryButtons.PreviousAccessory();
+                    this.SetupAccessory(this.accessoryButtons.CurrentAccessory);
+                    Debug.LogFormat("<><PetLoader.PreviousAccessory>Accessory: {0}", this.accessoryButtons.CurrentAccessory.Prefab);
+                    break;
+                case Operations.Suit:
+                    this.suitButtons.PreviousAccessory();
+                    this.SetupAccessory(this.suitButtons.CurrentAccessory);
+                    Debug.LogFormat("<><PetLoader.PreviousAccessory>Suit: {0}", this.suitButtons.CurrentAccessory.Prefab);
+                    break;
+            }
+        }
+        public void NextAccessory(Operations operation)
+        {
+            switch (operation)
+            {
+                case Operations.Accessory:
+                    this.accessoryButtons.NextAccessory();
+                    this.SetupAccessory(this.accessoryButtons.CurrentAccessory);
+                    Debug.LogFormat("<><PetLoader.NextAccessory>Accessory: {0}", this.accessoryButtons.CurrentAccessory.Prefab);
+                    break;
+                case Operations.Suit:
+                    this.suitButtons.NextAccessory();
+                    this.SetupAccessory(this.suitButtons.CurrentAccessory);
+                    Debug.LogFormat("<><PetLoader.NextAccessory>Suit: {0}", this.suitButtons.CurrentAccessory.Prefab);
+                    break;
+            }
+        }
+        public void SetupAccessory(Operations operation)
+        {
+            switch (operation)
+            {
+                case Operations.Accessory:
+                    this.SetupAccessory(this.accessoryButtons.CurrentAccessory);
+                    break;
+                case Operations.Suit:
+                    this.SetupAccessory(this.suitButtons.CurrentAccessory);
+                    break;
+            }
+        }
         public void SetupAccessory(AccessoryButton accessoryButton)
         {
             if (this.petObject == null)
@@ -226,6 +277,7 @@ namespace ModelTest
             accessoryObject.AddComponent<FixShader>();
             this.PlayAccessoryAnimation(accessoryObject.GetComponent<Animator>());
             this.accessories.Add(accessoryButton, accessoryObject);
+            Debug.LogFormat("<><PetLoader.PutOn>{0}", accessoryButton.Prefab);
         }
         private void TakeOff(AccessoryButton accessoryButton)
         {
@@ -238,6 +290,14 @@ namespace ModelTest
 
             if (assetBundles.ContainsKey(accessoryButton.AB) && assetBundles[accessoryButton.AB] != null)
                 assetBundles[accessoryButton.AB].Unload(true);
+
+            Debug.LogFormat("<><PetLoader.TakeOff>{0}", accessoryButton.Prefab);
+        }
+        [ContextMenu("搜集配饰")]
+        private void CollectAccessories()
+        {
+            this.accessoryButtons.CollectButton();
+            this.suitButtons.CollectButton();
         }
     }
 

@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using ModelTest;
+using System.Collections.Generic;
 
 public enum Regions
 {
@@ -37,4 +39,55 @@ public static class AnimationParams
     public const string SleepBegin = "SleepBegin";
     public const string SleepEnd = "SleepEnd";
     public const string Hunger = "Hunger";
+}
+
+public enum Operations
+{
+    Pet = 0,
+    Animation = 1,
+    Dress = 2,
+    Accessory = 3,
+    Suit = 4,
+    Sprite = 5
+}
+
+[System.Serializable]
+public class DressInfo
+{
+    [SerializeField]
+    public Transform rootObject;
+    [SerializeField]
+    public List<AccessoryButton> accessories;
+    public AccessoryButton CurrentAccessory
+    {
+        get
+        {
+            return this.accessories[this.selectedIndex];
+        }
+    }
+    private int selectedIndex;
+
+    public void CollectButton()
+    {
+        this.accessories = new List<AccessoryButton>();
+        if (this.rootObject != null && this.rootObject.childCount > 0)
+        {
+            for (int i = 0; i < this.rootObject.childCount; i++)
+            {
+                AccessoryButton accessoryButton = this.rootObject.GetChild(i).GetComponent<AccessoryButton>();
+                if (accessoryButton != null)
+                    this.accessories.Add(accessoryButton);
+            }
+        }
+    }
+    public void PreviousAccessory()
+    {
+        if (this.selectedIndex > 0)
+            this.selectedIndex -= 1;
+    }
+    public void NextAccessory()
+    {
+        if (this.selectedIndex + 1 < this.accessories.Count)
+            this.selectedIndex += 1;
+    }
 }

@@ -24,6 +24,8 @@ namespace Hank.EasyTest
         private PetLoader petLoader;
         [SerializeField]
         private PetControl petControl;
+        [SerializeField]
+        private MateLoader mateLoader;
         #endregion
         #region 其他变量
         private bool show;
@@ -101,13 +103,13 @@ namespace Hank.EasyTest
                         this.petControl.PlayAnimation();
                         break;
                     case Operations.Accessory:
-
+                        this.petLoader.SetupAccessory(Operations.Accessory);
                         break;
                     case Operations.Suit:
-
+                        this.petLoader.SetupAccessory(Operations.Suit);
                         break;
                     case Operations.Sprite:
-
+                        this.mateLoader.SetMate();
                         break;
                 }
             }
@@ -139,13 +141,13 @@ namespace Hank.EasyTest
                         this.petControl.PreviousAnimation();
                         break;
                     case Operations.Accessory:
-
+                        this.petLoader.PreviousAccessory(Operations.Accessory);
                         break;
                     case Operations.Suit:
-
+                        this.petLoader.PreviousAccessory(Operations.Suit);
                         break;
                     case Operations.Sprite:
-
+                        this.mateLoader.PreviousMate();
                         break;
                 }
             }
@@ -177,13 +179,13 @@ namespace Hank.EasyTest
                         this.petControl.NextAnimation();
                         break;
                     case Operations.Accessory:
-
+                        this.petLoader.NextAccessory(Operations.Accessory);
                         break;
                     case Operations.Suit:
-
+                        this.petLoader.NextAccessory(Operations.Suit);
                         break;
                     case Operations.Sprite:
-
+                        this.mateLoader.NextMate();
                         break;
                 }
             }
