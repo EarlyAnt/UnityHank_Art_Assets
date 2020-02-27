@@ -48,7 +48,8 @@ public enum Operations
     Dress = 2,
     Accessory = 3,
     Suit = 4,
-    Sprite = 5
+    Sprite = 5,
+    Back = 99
 }
 
 [System.Serializable]

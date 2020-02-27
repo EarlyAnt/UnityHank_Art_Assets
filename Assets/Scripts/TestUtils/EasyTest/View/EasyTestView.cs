@@ -216,20 +216,17 @@ namespace Hank.EasyTest
             Debug.LogFormat("<><EasyTestView.OnDressChanged>Current dress: {0}", button.Operation);
 
             this.operation = button.Operation;
-            switch (button.Operation)
+            if (this.operation == Operations.Back)
             {
-                case Operations.Accessory:
-
-                    break;
-                case Operations.Suit:
-
-                    break;
-                case Operations.Sprite:
-
-                    break;
+                this.operation = Operations.Dress;
+                this.navigator.Visible = true;
+                this.subNavigator.Visible = false;
             }
-            this.subNavigator.Visible = false;
-            this.Fade(false);
+            else
+            {
+                this.subNavigator.Visible = false;
+                this.Fade(false);
+            }
         }
 
         [System.Serializable]
