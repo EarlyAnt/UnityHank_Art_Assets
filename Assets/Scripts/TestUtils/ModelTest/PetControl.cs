@@ -17,12 +17,35 @@ namespace ModelTest
         /************************************************属性与变量命名************************************************/
         [SerializeField]
         private PetLoader petLoader;
+        [SerializeField]
+        private List<Button> animationButtons;
+        private int selectedIndex;
         /************************************************Unity方法与事件***********************************************/
         private void Start()
         {
 
         }
         /************************************************自 定 义 方 法************************************************/
+        public void PreviousAnimation()
+        {
+            if (this.selectedIndex > 0)
+            {
+                this.selectedIndex -= 1;
+                this.PlayAnimation(this.animationButtons[this.selectedIndex]);
+            }
+        }
+        public void NextAnimation()
+        {
+            if (this.selectedIndex + 1 < this.animationButtons.Count)
+            {
+                this.selectedIndex += 1;
+                this.PlayAnimation(this.animationButtons[this.selectedIndex]);
+            }
+        }
+        public void PlayAnimation()
+        {
+            this.PlayAnimation(this.animationButtons[this.selectedIndex]);
+        }
         public void PlayAnimation(Button animationButton)
         {
             if (animationButton == null)

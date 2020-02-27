@@ -22,6 +22,8 @@ namespace Hank.EasyTest
         private Navigator subNavigator;//换装导航(配饰，套装，小精灵)
         [SerializeField]
         private PetLoader petLoader;
+        [SerializeField]
+        private PetControl petControl;
         #endregion
         #region 其他变量
         private bool show;
@@ -78,33 +80,53 @@ namespace Hank.EasyTest
         //确认选择
         public void Select()
         {
-            if (!this.show) return;
-
-            if (this.navigator.Visible)
+            if (this.show)
             {
-                this.navigator.Select();
-                Debug.Log("<><EasyTestView.Select>Select module");
+                if (this.navigator.Visible)
+                {
+                    this.navigator.Select();
+                    Debug.Log("<><EasyTestView.Select>Select module");
+                }
+                else if (this.subNavigator.Visible)
+                {
+                    this.subNavigator.Select();
+                    Debug.Log("<><EasyTestView.Select>Select dress");
+                }
             }
-            else if (this.subNavigator.Visible)
+            else
             {
-                this.subNavigator.Select();
-                Debug.Log("<><EasyTestView.Select>Select dress");
+                switch (this.operation)
+                {
+                    case Operations.Animation:
+                        this.petControl.PlayAnimation();
+                        break;
+                    case Operations.Accessory:
+
+                        break;
+                    case Operations.Suit:
+
+                        break;
+                    case Operations.Sprite:
+
+                        break;
+                }
             }
         }
         //前一个图标
         public void PreIcon()
         {
-            if (!this.show) return;
-
-            if (this.navigator.Visible)
+            if (this.show)
             {
-                this.navigator.MovePrevious();
-                Debug.Log("<><EasyTestView.PreIcon>Previous module");
-            }
-            else if (this.subNavigator.Visible)
-            {
-                this.subNavigator.MovePrevious();
-                Debug.Log("<><EasyTestView.PreIcon>Previous dress");
+                if (this.navigator.Visible)
+                {
+                    this.navigator.MovePrevious();
+                    Debug.Log("<><EasyTestView.PreIcon>Previous module");
+                }
+                else if (this.subNavigator.Visible)
+                {
+                    this.subNavigator.MovePrevious();
+                    Debug.Log("<><EasyTestView.PreIcon>Previous dress");
+                }
             }
             else
             {
@@ -114,7 +136,7 @@ namespace Hank.EasyTest
                         this.petLoader.PreviousPet();
                         break;
                     case Operations.Animation:
-
+                        this.petControl.PreviousAnimation();
                         break;
                     case Operations.Accessory:
 
@@ -131,17 +153,18 @@ namespace Hank.EasyTest
         //后一个图标
         public void NextIcon()
         {
-            if (!this.show) return;
-
-            if (this.navigator.Visible)
+            if (this.show)
             {
-                this.navigator.MoveNext();
-                Debug.LogFormat("<><EasyTestView.NextIcon>Next module, {0}", this.navigator.CurrentButton.Operation);
-            }
-            else if (this.subNavigator.Visible)
-            {
-                this.subNavigator.MoveNext();
-                Debug.LogFormat("<><EasyTestView.NextIcon>Next dress, {0}", this.subNavigator.CurrentButton.Operation);
+                if (this.navigator.Visible)
+                {
+                    this.navigator.MoveNext();
+                    Debug.LogFormat("<><EasyTestView.NextIcon>Next module, {0}", this.navigator.CurrentButton.Operation);
+                }
+                else if (this.subNavigator.Visible)
+                {
+                    this.subNavigator.MoveNext();
+                    Debug.LogFormat("<><EasyTestView.NextIcon>Next dress, {0}", this.subNavigator.CurrentButton.Operation);
+                }
             }
             else
             {
@@ -151,7 +174,7 @@ namespace Hank.EasyTest
                         this.petLoader.NextPet();
                         break;
                     case Operations.Animation:
-
+                        this.petControl.NextAnimation();
                         break;
                     case Operations.Accessory:
 
@@ -215,7 +238,6 @@ namespace Hank.EasyTest
             [SerializeField]
             private List<FlashButton> buttons;
             private int selectedIndex;
-            private int lastSelectedIndex;
             public FlashButton CurrentButton
             {
                 get
@@ -240,7 +262,6 @@ namespace Hank.EasyTest
             {
                 this.Visible = false;
                 this.selectedIndex = 0;
-                this.lastSelectedIndex = 0;
                 this.buttons[0].SetStatus(true);
             }
             //上一个图标

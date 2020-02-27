@@ -3552,6 +3552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   petLoader: {fileID: 0}
+  animationButtons: []
 --- !u!114 &452013321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8123,6 +8124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   petLoader: {fileID: 0}
+  animationButtons: []
 --- !u!114 &974145754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11463,6 +11465,7 @@ MonoBehaviour:
     - {fileID: 1633921336}
     - {fileID: 1423387603}
   petLoader: {fileID: 1267009179}
+  petControl: {fileID: 1673567524}
 --- !u!1 &1411412029
 GameObject:
   m_ObjectHideFlags: 0
@@ -11586,6 +11589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   petLoader: {fileID: 0}
+  animationButtons: []
 --- !u!114 &1416888810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13042,6 +13046,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   petLoader: {fileID: 1267009179}
+  animationButtons:
+  - {fileID: 1286037356}
+  - {fileID: 1700579034}
+  - {fileID: 469734405}
+  - {fileID: 1801550849}
+  - {fileID: 785789456}
+  - {fileID: 302472937}
 --- !u!114 &1673567525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13557,6 +13568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   petLoader: {fileID: 0}
+  animationButtons: []
 --- !u!114 &1724442058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14622,6 +14634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   petLoader: {fileID: 0}
+  animationButtons: []
 --- !u!114 &1894518961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16036,6 +16049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   petLoader: {fileID: 0}
+  animationButtons: []
 --- !u!114 &2058928547
 MonoBehaviour:
   m_ObjectHideFlags: 0
