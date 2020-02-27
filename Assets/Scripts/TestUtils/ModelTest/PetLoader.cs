@@ -38,6 +38,42 @@ namespace ModelTest
         {
             this.LoadPet(this.petInfos.Find(t => t.PetName == petName));
         }
+        public void PreviousPet()
+        {
+            if (this.petInfo == null)
+            {
+                this.LoadPet(this.petInfos[0]);
+                Debug.LogFormat("<><PetLoader.PreviousPet>Pet: {0}", this.petInfos[0].PetName);
+            }
+            else
+            {
+                int index = this.petInfos.IndexOf(this.petInfo);
+                if (index > 0)
+                {
+                    index -= 1;
+                    this.LoadPet(this.petInfos[index]);
+                    Debug.LogFormat("<><PetLoader.PreviousPet>Pet: {0}", this.petInfos[index].PetName);
+                }
+            }
+        }
+        public void NextPet()
+        {
+            if (this.petInfo == null)
+            {
+                this.LoadPet(this.petInfos[0]);
+                Debug.LogFormat("<><PetLoader.NextPet>Pet: {0}", this.petInfos[0].PetName);
+            }
+            else
+            {
+                int index = this.petInfos.IndexOf(this.petInfo);
+                if (index + 1 < this.petInfos.Count)
+                {
+                    index += 1;
+                    this.LoadPet(this.petInfos[index]);
+                    Debug.LogFormat("<><PetLoader.NextPet>Pet: {0}", this.petInfos[index].PetName);
+                }
+            }
+        }
         private void LoadPet(PetInfo petInfo)
         {
             if (petInfo == null)

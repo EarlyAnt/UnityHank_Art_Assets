@@ -1,5 +1,6 @@
 using DG.Tweening;
 using Gululu;
+using ModelTest;
 using strange.extensions.signal.impl;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,8 +20,12 @@ namespace Hank.EasyTest
         private Navigator navigator;//功能导航(宠物，动画，换装)
         [SerializeField]
         private Navigator subNavigator;//换装导航(配饰，套装，小精灵)
+        [SerializeField]
+        private PetLoader petLoader;
         #endregion
         #region 其他变量
+        private bool show;
+        private Operations operation;
         public Signal<bool> IconSelectedSignal = new Signal<bool>();
         #endregion
         /************************************************Unity方法与事件***********************************************/
@@ -37,6 +42,8 @@ namespace Hank.EasyTest
         //初始化
         private void Initialize()
         {
+            this.navigator.Initialize();
+            this.subNavigator.Initialize();
             this.navigator.ButtonChanged += this.OnModuleChanged;
             this.subNavigator.ButtonChanged += this.OnDressChanged;
             Debug.Log("<><EasyTestView.Initialize>+ + + + + + + +");
@@ -44,12 +51,35 @@ namespace Hank.EasyTest
         //入场动画
         public void Fade(bool show)
         {
+            this.show = show;
             this.rootObject.DOFade(show ? 1f : 0f, 1f);
+
+            if (this.show)
+            {
+                switch (this.operation)
+                {
+                    case Operations.Pet:
+                    case Operations.Animation:
+                    case Operations.Dress:
+                        this.navigator.Visible = true;
+                        this.subNavigator.Visible = false;
+                        break;
+                    case Operations.Accessory:
+                    case Operations.Suit:
+                    case Operations.Sprite:
+                        this.navigator.Visible = false;
+                        this.subNavigator.Visible = true;
+                        break;
+                }
+            }
+
             Debug.LogFormat("<><EasyTestView.Fade>Fade {0} + + + + + + + +", show ? "in" : "out");
         }
         //确认选择
         public void Select()
         {
+            if (!this.show) return;
+
             if (this.navigator.Visible)
             {
                 this.navigator.Select();
@@ -64,6 +94,8 @@ namespace Hank.EasyTest
         //前一个图标
         public void PreIcon()
         {
+            if (!this.show) return;
+
             if (this.navigator.Visible)
             {
                 this.navigator.MovePrevious();
@@ -74,10 +106,33 @@ namespace Hank.EasyTest
                 this.subNavigator.MovePrevious();
                 Debug.Log("<><EasyTestView.PreIcon>Previous dress");
             }
+            else
+            {
+                switch (this.operation)
+                {
+                    case Operations.Pet:
+                        this.petLoader.PreviousPet();
+                        break;
+                    case Operations.Animation:
+
+                        break;
+                    case Operations.Accessory:
+
+                        break;
+                    case Operations.Suit:
+
+                        break;
+                    case Operations.Sprite:
+
+                        break;
+                }
+            }
         }
         //后一个图标
         public void NextIcon()
         {
+            if (!this.show) return;
+
             if (this.navigator.Visible)
             {
                 this.navigator.MoveNext();
@@ -88,6 +143,27 @@ namespace Hank.EasyTest
                 this.subNavigator.MoveNext();
                 Debug.LogFormat("<><EasyTestView.NextIcon>Next dress, {0}", this.subNavigator.CurrentButton.Operation);
             }
+            else
+            {
+                switch (this.operation)
+                {
+                    case Operations.Pet:
+                        this.petLoader.NextPet();
+                        break;
+                    case Operations.Animation:
+
+                        break;
+                    case Operations.Accessory:
+
+                        break;
+                    case Operations.Suit:
+
+                        break;
+                    case Operations.Sprite:
+
+                        break;
+                }
+            }
         }
         //当功能改变时
         private void OnModuleChanged(FlashButton button)
@@ -96,13 +172,12 @@ namespace Hank.EasyTest
             Debug.LogFormat("<><EasyTestView.OnModuleChanged>Current module{0}", button.Operation);
 
             this.navigator.Visible = false;
+            this.operation = button.Operation;
             switch (button.Operation)
             {
                 case Operations.Pet:
-
-                    break;
                 case Operations.Animation:
-
+                    this.Fade(false);
                     break;
                 case Operations.Dress:
                     this.subNavigator.Visible = true;
@@ -113,8 +188,9 @@ namespace Hank.EasyTest
         private void OnDressChanged(FlashButton button)
         {
             if (button == null) return;
-            Debug.LogFormat("<><EasyTestView.OnDressChanged>Current dress{0}", button.Operation);
+            Debug.LogFormat("<><EasyTestView.OnDressChanged>Current dress: {0}", button.Operation);
 
+            this.operation = button.Operation;
             switch (button.Operation)
             {
                 case Operations.Accessory:
@@ -159,6 +235,14 @@ namespace Hank.EasyTest
                 }
             }
             public System.Action<FlashButton> ButtonChanged;
+            //初始化
+            public void Initialize()
+            {
+                this.Visible = false;
+                this.selectedIndex = 0;
+                this.lastSelectedIndex = 0;
+                this.buttons[0].SetStatus(true);
+            }
             //上一个图标
             public void MovePrevious()
             {
@@ -170,7 +254,7 @@ namespace Hank.EasyTest
             //下一个图标
             public void MoveNext()
             {
-                if (this.selectedIndex < this.buttons.Count)
+                if (this.selectedIndex + 1 < this.buttons.Count)
                     this.selectedIndex += 1;
 
                 this.buttons.ForEach(t => t.SetStatus(t == this.CurrentButton));
