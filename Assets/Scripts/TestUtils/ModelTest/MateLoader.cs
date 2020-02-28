@@ -22,13 +22,11 @@ namespace ModelTest
         public void PreviousMate()
         {
             this.spriteButtons.PreviousAccessory();
-            this.SetMate(this.spriteButtons.CurrentAccessory);
             Debug.LogFormat("<><MateLoader.PreviousMate>Sprite: {0}", this.spriteButtons.CurrentAccessory.Prefab);
         }
         public void NextMate()
         {
             this.spriteButtons.NextAccessory();
-            this.SetMate(this.spriteButtons.CurrentAccessory);
             Debug.LogFormat("<><MateLoader.NextMate>Sprite: {0}", this.spriteButtons.CurrentAccessory.Prefab);
         }
         public void SetMate()

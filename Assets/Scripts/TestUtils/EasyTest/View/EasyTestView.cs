@@ -65,6 +65,7 @@ namespace Hank.EasyTest
                     case Operations.Pet:
                     case Operations.Animation:
                     case Operations.Dress:
+                    case Operations.Close:
                         this.navigator.Visible = true;
                         this.subNavigator.Visible = false;
                         break;
@@ -195,6 +196,12 @@ namespace Hank.EasyTest
         {
             if (button == null) return;
             Debug.LogFormat("<><EasyTestView.OnModuleChanged>Current module{0}", button.Operation);
+
+            if (button.Operation == Operations.Close)
+            {
+                this.Fade(false);
+                return;
+            }
 
             this.navigator.Visible = false;
             this.operation = button.Operation;

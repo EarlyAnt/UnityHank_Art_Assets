@@ -49,6 +49,7 @@ public enum Operations
     Accessory = 3,
     Suit = 4,
     Sprite = 5,
+    Close = 98,
     Back = 99
 }
 

@@ -135,12 +135,10 @@ namespace ModelTest
             {
                 case Operations.Accessory:
                     this.accessoryButtons.PreviousAccessory();
-                    this.SetupAccessory(this.accessoryButtons.CurrentAccessory);
                     Debug.LogFormat("<><PetLoader.PreviousAccessory>Accessory: {0}", this.accessoryButtons.CurrentAccessory.Prefab);
                     break;
                 case Operations.Suit:
                     this.suitButtons.PreviousAccessory();
-                    this.SetupAccessory(this.suitButtons.CurrentAccessory);
                     Debug.LogFormat("<><PetLoader.PreviousAccessory>Suit: {0}", this.suitButtons.CurrentAccessory.Prefab);
                     break;
             }
@@ -151,12 +149,10 @@ namespace ModelTest
             {
                 case Operations.Accessory:
                     this.accessoryButtons.NextAccessory();
-                    this.SetupAccessory(this.accessoryButtons.CurrentAccessory);
                     Debug.LogFormat("<><PetLoader.NextAccessory>Accessory: {0}", this.accessoryButtons.CurrentAccessory.Prefab);
                     break;
                 case Operations.Suit:
                     this.suitButtons.NextAccessory();
-                    this.SetupAccessory(this.suitButtons.CurrentAccessory);
                     Debug.LogFormat("<><PetLoader.NextAccessory>Suit: {0}", this.suitButtons.CurrentAccessory.Prefab);
                     break;
             }
