@@ -63,6 +63,8 @@ namespace ModelTest
                 if (methodInfos[i].Name == animationButton.name)
                 {
                     methodInfos[i].Invoke(this.petLoader.PetPlayer, null);
+                    Text textBox = animationButton.transform.GetComponentInChildren<Text>();
+                    if (textBox != null) StatusBar.Instance.ShowMessage(textBox.text);
                     break;
                 }
             }

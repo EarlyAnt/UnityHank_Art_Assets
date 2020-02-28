@@ -20,22 +20,32 @@ namespace ModelTest
         public Regions Region;
         public string Icon;
         public bool CanWear;
+        private Image imageBox;
+        public Image ImageBox
+        {
+            get
+            {
+                if (this.imageBox == null)
+                {
+                    Transform child = this.transform.Find("Icon");
+                    if (child == null)
+                    {
+                        Debug.LogError("<><AccessoryButton.ImageBox>Child node 'Icon' is not existed");
+                        return null;
+                    }
+                    this.imageBox = child.GetComponent<Image>();
+                }
+                return this.imageBox;
+            }
+        }
         /************************************************Unity方法与事件***********************************************/
 
         /************************************************自 定 义 方 法************************************************/
         [ContextMenu("设置图标")]
         private void SetIcon()
         {
-            Transform child = this.transform.Find("Icon");
-            if (child == null)
-            {
-                Debug.LogError("<><AccessoryButton.SetIcon>Child node 'Icon' is not existed");
-                return;
-            }
-
-            Image image = child.GetComponent<Image>();
-            if (image != null)
-                image.sprite = Resources.Load<Sprite>(string.Format("Texture/PetDress/Accessories/{0}_big", this.Icon));
+            if (this.ImageBox != null)
+                this.ImageBox.sprite = Resources.Load<Sprite>(string.Format("Texture/PetDress/Accessories/{0}_big", this.Icon));
         }
     }
 }

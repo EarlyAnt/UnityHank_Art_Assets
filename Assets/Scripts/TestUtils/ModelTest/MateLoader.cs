@@ -75,6 +75,7 @@ namespace ModelTest
                 this.StopCoroutine(mateInfo.Coroutine);
             mateInfo.Coroutine = this.StartCoroutine(this.RandomAnimation(mateInfo));
             this.mates.Add(accessoryButton, mateInfo);
+            StatusBar.Instance.ShowMessage(accessoryButton.ImageBox.sprite);
             Debug.LogFormat("<><MateLoader.LoadMate>{0}", accessoryButton.Prefab);
         }
         private void UnloadMate(AccessoryButton accessoryButton)

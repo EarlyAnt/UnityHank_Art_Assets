@@ -33,6 +33,10 @@ namespace Hank.EasyTest
         public Signal<bool> IconSelectedSignal = new Signal<bool>();
         #endregion
         /************************************************Unity方法与事件***********************************************/
+        protected override void Awake()
+        {
+            this.rootObject.DOFade(0f, 0f);
+        }
         protected override void Start()
         {
             base.Start();

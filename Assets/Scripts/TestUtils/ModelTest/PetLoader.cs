@@ -18,7 +18,7 @@ namespace ModelTest
         [SerializeField]
         private List<PetInfo> petInfos;
         private PetInfo petInfo;
-        private GameObject petObject;        
+        private GameObject petObject;
         public PetPlayer PetPlayer
         {
             get { return this.petObject != null ? this.petObject.GetComponent<PetPlayer>() : null; }
@@ -273,6 +273,7 @@ namespace ModelTest
             accessoryObject.AddComponent<FixShader>();
             this.PlayAccessoryAnimation(accessoryObject.GetComponent<Animator>());
             this.accessories.Add(accessoryButton, accessoryObject);
+            StatusBar.Instance.ShowMessage(accessoryButton.ImageBox.sprite);
             Debug.LogFormat("<><PetLoader.PutOn>{0}", accessoryButton.Prefab);
         }
         private void TakeOff(AccessoryButton accessoryButton)

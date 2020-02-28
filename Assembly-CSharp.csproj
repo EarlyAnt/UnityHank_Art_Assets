@@ -1558,6 +1558,7 @@
     <Compile Include="Assets\Scripts\TestUtils\ModelTest\PetControl.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ModelTest\PetLoader.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ModelTest\PetPlayer.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\ModelTest\StatusBar.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Utils\FileName\FileNameView.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Utils\MD5\Interface\IMD5Util.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Utils\MD5\MD5Util.cs" />
