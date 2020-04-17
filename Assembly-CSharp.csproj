@@ -1541,6 +1541,7 @@
     <Compile Include="Assets\Scripts\TestUtils\ABLoader\ABLoader.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ABLoader\BaseLoader.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ABLoader\CommonLoader.cs" />
+    <Compile Include="Assets\Scripts\TestUtils\ABLoader\ExpressionLoader.cs" />
     <Compile Include="Assets\Scripts\TestUtils\ABLoader\ResetList.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Common\Common.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Common\FixShader.cs" />

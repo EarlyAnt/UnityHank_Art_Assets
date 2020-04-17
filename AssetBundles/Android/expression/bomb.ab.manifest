@@ -1,0 +1,112 @@
+ManifestFileVersion: 0
+CRC: 4042807772
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e096c47ae45dd14f2c7bdbd94d1c57e3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 734946cd596a27d1a9cd0b8a858be7d8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/bomb2.anim
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00017.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00022.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00033.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00006.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00034.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00011.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00004.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00012.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00038.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00010.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00024.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00001.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00029.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00002.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00028.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00008.png"
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/bomb1.controller
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00004.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00025.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00027.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00005.png"
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb_animation.prefab
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00009.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00036.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00006.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00014.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00039.png"
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/bomb1.anim
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00021.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00012.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00037.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00027.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00011.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00005.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00026.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00008.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00013.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00029.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00040.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00003.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00000.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00026.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00032.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00022.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00021.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00023.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00017.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00002.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00016.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00001.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00030.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00023.png"
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/bomb2.prefab
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00015.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00019.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00014.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00003.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00019.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00013.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00015.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00007.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00028.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00031.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00016.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00000.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00020.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00010.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00009.png"
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb.controller
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00020.png"
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/bomb1.prefab
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00024.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00018.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00035.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/\u70B8\u5F39\u5F85\u673A_00018.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00025.png"
+- "Assets/art_assets/Ani/UI/Expressions/bomb/bomb1/\u70B8\u5F39\u8EAB\u4F53\u52A8\u753B_00007.png"
+- Assets/art_assets/Ani/UI/Expressions/bomb/bomb2/bomb2.controller
+Dependencies: []

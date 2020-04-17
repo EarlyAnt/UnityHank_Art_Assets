@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1521007301
+CRC: 2536166755
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -124,4 +124,22 @@ AssetBundleManifest:
       Dependencies: {}
     Info_36:
       Name: role/garland.ab
+      Dependencies: {}
+    Info_37:
+      Name: expression/bomb.ab
+      Dependencies: {}
+    Info_38:
+      Name: expression/love.ab
+      Dependencies: {}
+    Info_39:
+      Name: expression/miss_you.ab
+      Dependencies: {}
+    Info_40:
+      Name: expression/octopus.ab
+      Dependencies: {}
+    Info_41:
+      Name: expression/paint.ab
+      Dependencies: {}
+    Info_42:
+      Name: expression/pig.ab
       Dependencies: {}

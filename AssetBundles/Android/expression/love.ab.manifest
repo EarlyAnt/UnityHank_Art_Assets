@@ -1,0 +1,71 @@
+ManifestFileVersion: 0
+CRC: 2900172483
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 29cf7aa0b9f14e068995efc43ad5b5f0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 734946cd596a27d1a9cd0b8a858be7d8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0023.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0012.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0011.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0013.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love1.prefab
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love0029.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0021.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0024.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0018.png
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love2.controller
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love2.anim
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love0028.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0004.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0006.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0020.png
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love0026.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0002.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0010.png
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love0030.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0025.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0007.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0009.png
+- Assets/art_assets/Ani/UI/Expressions/love/love_animation.prefab
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love2.prefab
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0022.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0016.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0017.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0005.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love1.anim
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0015.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0003.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love1.controller
+- Assets/art_assets/Ani/UI/Expressions/love/love2/love0027.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0008.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0014.png
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0019.png
+- Assets/art_assets/Ani/UI/Expressions/love/love.controller
+- Assets/art_assets/Ani/UI/Expressions/love/love1/love0001.png
+Dependencies: []
