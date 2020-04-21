@@ -1564,6 +1564,8 @@
     <Compile Include="Assets\Scripts\TestUtils\Utils\MD5\Interface\IMD5Util.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Utils\MD5\MD5Util.cs" />
     <Compile Include="Assets\Scripts\TestUtils\Utils\MD5\View\MD5View.cs" />
+    <Compile Include="Assets\Scripts\Utils\Animation\AnimationStateListener.cs" />
+    <Compile Include="Assets\Scripts\Utils\Animation\StateBehaviourTest.cs" />
     <Compile Include="Assets\Scripts\Utils\Common\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Utils\Common\EventTriggerListener.cs" />
     <Compile Include="Assets\Scripts\Utils\Common\ExpUI.cs" />
