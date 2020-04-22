@@ -24,14 +24,14 @@ namespace ABLoader
             this.LoadManifest();
             if (this.autoLoad)
             {
-                this.LoadNextAB();
+                this.LoadAB();
             }
         }
 
-        public virtual void LoadNextAB()
+        public virtual void LoadAB()
         {
             if (this.next != null)
-                this.next.LoadNextAB();
+                this.next.LoadAB();
         }
 
         protected void LoadManifest()
@@ -106,6 +106,7 @@ namespace ABLoader
         {
             if (this.gameObject != null)
                 GameObject.Destroy(this.gameObject);
+            Resources.UnloadUnusedAssets();
         }
     }
 }

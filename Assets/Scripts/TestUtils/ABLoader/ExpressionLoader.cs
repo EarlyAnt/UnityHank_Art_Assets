@@ -13,7 +13,7 @@ namespace ABLoader
         private bool SetParent = false;
 
         [ContextMenu("0-创建物体")]
-        public override void LoadNextAB()
+        public override void LoadAB()
         {
             this.assetBundle = this.GetAssetBundle(this.assetBundleName);
             Object obj = this.assetBundle.LoadAsset(this.objectName);
@@ -29,9 +29,9 @@ namespace ABLoader
                 this.gameObject.transform.position = this.transform.position;
                 this.gameObject.transform.rotation = Quaternion.identity;
             }
-            this.gameObject.AddComponent<FixShader>();
-            Debug.LogFormat("<><ABLoader.LoadAB>asset bundle name: {0}, pet name: {1}", this.assetBundleName, this.objectName);
-            base.LoadNextAB();
+            this.gameObject.AddComponent<AnimationMemoryManager>();
+            Debug.LogFormat("<><ExpressionLoader.LoadAB>assetbundle: {0}, object: {1}", this.assetBundleName, this.objectName);
+            base.LoadAB();
         }
     }
 }
