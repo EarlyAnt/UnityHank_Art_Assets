@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1645626409
+CRC: 1020771259
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -52,6 +52,6 @@ Assets:
 - Assets/art_assets/Ani/AB/christmas/Texture/christmas03.mat
 - Assets/art_assets/Ani/AB/christmas/Texture/christmas01.mat
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_01.ab
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/center_fx02.ab
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/star_fx.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/center_fx02.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_01.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/star_fx.ab
