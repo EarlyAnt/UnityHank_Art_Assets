@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationName: pig2
-  exitAnimation: 1
+  exitAnimation: 0
 --- !u!1101 &1101128425974214652
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
