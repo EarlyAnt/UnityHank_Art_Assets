@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3325222655
+CRC: 1680373961
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,9 +32,9 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/garland/Texture/garland.mat
-- Assets/art_assets/Ani/AB/garland/garland.FBX
-- Assets/art_assets/Ani/AB/garland/garland.controller
-- Assets/art_assets/Ani/AB/garland/garland_point_prefab.prefab
-- Assets/art_assets/Ani/AB/garland/Texture/garland.tga
+- Assets/art_assets/Ani/AB/Role/garland/Texture/garland.mat
+- Assets/art_assets/Ani/AB/Role/garland/garland.FBX
+- Assets/art_assets/Ani/AB/Role/garland/garland.controller
+- Assets/art_assets/Ani/AB/Role/garland/garland_point_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/garland/Texture/garland.tga
 Dependencies: []

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3421093935
+CRC: 1333936071
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -24,9 +24,9 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/particle/shandian_fx01/shandian_fx01.prefab
-- Assets/art_assets/Ani/AB/particle/shandian_fx01/materials/lighting_02.mat
-- Assets/art_assets/Ani/AB/particle/shandian_fx01/textures/glow_00175.png
-- Assets/art_assets/Ani/AB/particle/shandian_fx01/textures/lighting_04_4x4.png
-- Assets/art_assets/Ani/AB/particle/shandian_fx01/materials/glow_02.mat
+- Assets/art_assets/Ani/AB/Role/particle/shandian_fx01/shandian_fx01.prefab
+- Assets/art_assets/Ani/AB/Role/particle/shandian_fx01/materials/lighting_02.mat
+- Assets/art_assets/Ani/AB/Role/particle/shandian_fx01/textures/glow_00175.png
+- Assets/art_assets/Ani/AB/Role/particle/shandian_fx01/textures/lighting_04_4x4.png
+- Assets/art_assets/Ani/AB/Role/particle/shandian_fx01/materials/glow_02.mat
 Dependencies: []

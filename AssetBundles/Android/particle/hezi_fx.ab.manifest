@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 981935039
+CRC: 1783560471
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -24,7 +24,7 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/particle/hezi_fx/hezi_fx.prefab
-- Assets/art_assets/Ani/AB/particle/hezi_fx/textures/sanjiao.png
-- Assets/art_assets/Ani/AB/particle/hezi_fx/materials/sanjiao.mat
+- Assets/art_assets/Ani/AB/Role/particle/hezi_fx/hezi_fx.prefab
+- Assets/art_assets/Ani/AB/Role/particle/hezi_fx/textures/sanjiao.png
+- Assets/art_assets/Ani/AB/Role/particle/hezi_fx/materials/sanjiao.mat
 Dependencies: []

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2077360925
+CRC: 2378377495
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -36,9 +36,9 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/antler/Texture/antler.png
-- Assets/art_assets/Ani/AB/antler/antler.FBX
-- Assets/art_assets/Ani/AB/antler/antler_ponit.controller
-- Assets/art_assets/Ani/AB/antler/Texture/antler.mat
-- Assets/art_assets/Ani/AB/antler/antler_ponit_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/antler/Texture/antler.png
+- Assets/art_assets/Ani/AB/Role/antler/antler.FBX
+- Assets/art_assets/Ani/AB/Role/antler/antler_ponit.controller
+- Assets/art_assets/Ani/AB/Role/antler/Texture/antler.mat
+- Assets/art_assets/Ani/AB/Role/antler/antler_ponit_prefab.prefab
 Dependencies: []

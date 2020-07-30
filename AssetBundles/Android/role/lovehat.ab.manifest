@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 363160021
+CRC: 3355268478
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,11 +32,11 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/lovehat/Texture/lovehat.mat
-- Assets/art_assets/Ani/AB/lovehat/Texture/lovehat.tga
-- Assets/art_assets/Ani/AB/lovehat/Texture/lovehat01.tga
-- Assets/art_assets/Ani/AB/lovehat/lovehat.FBX
-- Assets/art_assets/Ani/AB/lovehat/lovehat.controller
-- Assets/art_assets/Ani/AB/lovehat/lovehat_point_prefab.prefab
-- Assets/art_assets/Ani/AB/lovehat/Texture/lovehat_maofa.mat
+- Assets/art_assets/Ani/AB/Role/lovehat/Texture/lovehat.mat
+- Assets/art_assets/Ani/AB/Role/lovehat/Texture/lovehat.tga
+- Assets/art_assets/Ani/AB/Role/lovehat/Texture/lovehat01.tga
+- Assets/art_assets/Ani/AB/Role/lovehat/lovehat.FBX
+- Assets/art_assets/Ani/AB/Role/lovehat/lovehat.controller
+- Assets/art_assets/Ani/AB/Role/lovehat/lovehat_point_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/lovehat/Texture/lovehat_maofa.mat
 Dependencies: []

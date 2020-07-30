@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4027060287
+CRC: 1499931497
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -24,9 +24,9 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/particle/wing01/textures/star01.png
-- Assets/art_assets/Ani/AB/particle/wing01/wing01.prefab
-- Assets/art_assets/Ani/AB/particle/wing01/textures/guangdian02.png
-- Assets/art_assets/Ani/AB/particle/wing01/materials/star_01.mat
-- Assets/art_assets/Ani/AB/particle/wing01/materials/wing01.mat
+- Assets/art_assets/Ani/AB/Role/particle/wing01/textures/star01.png
+- Assets/art_assets/Ani/AB/Role/particle/wing01/wing01.prefab
+- Assets/art_assets/Ani/AB/Role/particle/wing01/textures/guangdian02.png
+- Assets/art_assets/Ani/AB/Role/particle/wing01/materials/star_01.mat
+- Assets/art_assets/Ani/AB/Role/particle/wing01/materials/wing01.mat
 Dependencies: []

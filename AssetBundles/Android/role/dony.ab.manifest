@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 537662064
+CRC: 870070961
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -38,20 +38,20 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/dony/dony_MAX_ani.controller
-- Assets/art_assets/Ani/AB/dony/dony_MAX_ani.FBX
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/sun.mat
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/dony_eye_F.tga
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/sun_c.png
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/dony_body.mat
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/dony_eye.mat
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/star_c.png
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/moon.mat
-- Assets/art_assets/Ani/AB/dony/dony_eat.FBX
-- Assets/art_assets/Ani/AB/dony/dony_doc.FBX
-- Assets/art_assets/Ani/AB/dony/dony_dailygoal.FBX
-- Assets/art_assets/Ani/AB/dony/dony_prefab.prefab
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/star.mat
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/tongkong.mat
-- Assets/art_assets/Ani/AB/dony/Dony_Texture/moon_moon1SG_DiffuseGlossiness_new.tga
+- Assets/art_assets/Ani/AB/Role/dony/dony_MAX_ani.controller
+- Assets/art_assets/Ani/AB/Role/dony/dony_MAX_ani.FBX
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/sun.mat
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/dony_eye_F.tga
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/sun_c.png
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/dony_body.mat
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/dony_eye.mat
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/star_c.png
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/moon.mat
+- Assets/art_assets/Ani/AB/Role/dony/dony_eat.FBX
+- Assets/art_assets/Ani/AB/Role/dony/dony_doc.FBX
+- Assets/art_assets/Ani/AB/Role/dony/dony_dailygoal.FBX
+- Assets/art_assets/Ani/AB/Role/dony/dony_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/star.mat
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/tongkong.mat
+- Assets/art_assets/Ani/AB/Role/dony/Dony_Texture/moon_moon1SG_DiffuseGlossiness_new.tga
 Dependencies: []

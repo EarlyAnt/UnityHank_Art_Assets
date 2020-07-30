@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3435233135
+CRC: 3053907715
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,9 +32,9 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/fan wing/fan wing_point.controller
-- Assets/art_assets/Ani/AB/fan wing/Texture/fan wing.mat
-- Assets/art_assets/Ani/AB/fan wing/fan wing.FBX
-- Assets/art_assets/Ani/AB/fan wing/fan wing_point_prefab.prefab
-- Assets/art_assets/Ani/AB/fan wing/Texture/fan wing.tga
+- Assets/art_assets/Ani/AB/Role/fan wing/fan wing_point.controller
+- Assets/art_assets/Ani/AB/Role/fan wing/Texture/fan wing.mat
+- Assets/art_assets/Ani/AB/Role/fan wing/fan wing.FBX
+- Assets/art_assets/Ani/AB/Role/fan wing/fan wing_point_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/fan wing/Texture/fan wing.tga
 Dependencies: []

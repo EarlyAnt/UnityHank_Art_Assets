@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1921214411
+CRC: 2497658363
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,9 +32,9 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/cornu cervi/cornu cervi_point_prefab.prefab
-- Assets/art_assets/Ani/AB/cornu cervi/Texture/cornu cervi.mat
-- Assets/art_assets/Ani/AB/cornu cervi/cornu cervi.FBX
-- Assets/art_assets/Ani/AB/cornu cervi/Texture/cornu cervi.tga
-- Assets/art_assets/Ani/AB/cornu cervi/cornu cervi.controller
+- Assets/art_assets/Ani/AB/Role/cornu cervi/cornu cervi_point_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/cornu cervi/Texture/cornu cervi.mat
+- Assets/art_assets/Ani/AB/Role/cornu cervi/cornu cervi.FBX
+- Assets/art_assets/Ani/AB/Role/cornu cervi/Texture/cornu cervi.tga
+- Assets/art_assets/Ani/AB/Role/cornu cervi/cornu cervi.controller
 Dependencies: []

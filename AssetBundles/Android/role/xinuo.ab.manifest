@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3540723107
+CRC: 2304241232
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -34,22 +34,22 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/sun.mat
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/cloth.mat
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/coat_DiffuseGlossiness.tga
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/moon.mat
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/eye_DiffuseGlossiness.tga
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/yanpi.mat
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/eyelid_DiffuseGlossiness 1.tga
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/star.mat
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/moon_moon1SG_DiffuseGlossiness_new.tga
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/body_DiffuseGlossiness.tga
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/eye.mat
-- Assets/art_assets/Ani/AB/xinuo/nuo_MAX_ani.FBX
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/star_c.png
-- Assets/art_assets/Ani/AB/xinuo/nuo_prefab.prefab
-- Assets/art_assets/Ani/AB/xinuo/nuo_MAX_ani.controller
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/sun_c.png
-- Assets/art_assets/Ani/AB/xinuo/unity4_yellow/body.mat
-- Assets/art_assets/Ani/AB/xinuo/nuo_eat.FBX
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/sun.mat
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/cloth.mat
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/coat_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/moon.mat
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/eye_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/yanpi.mat
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/eyelid_DiffuseGlossiness 1.tga
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/star.mat
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/moon_moon1SG_DiffuseGlossiness_new.tga
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/body_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/eye.mat
+- Assets/art_assets/Ani/AB/Role/xinuo/nuo_MAX_ani.FBX
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/star_c.png
+- Assets/art_assets/Ani/AB/Role/xinuo/nuo_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/xinuo/nuo_MAX_ani.controller
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/sun_c.png
+- Assets/art_assets/Ani/AB/Role/xinuo/unity4_yellow/body.mat
+- Assets/art_assets/Ani/AB/Role/xinuo/nuo_eat.FBX
 Dependencies: []

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 973178087
+CRC: 1120548753
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -36,10 +36,10 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/wing/Texture/wing.mat
-- Assets/art_assets/Ani/AB/wing/Texture/Wing_DiffuseGlossiness.tga
-- Assets/art_assets/Ani/AB/wing/wing.FBX
-- Assets/art_assets/Ani/AB/wing/wing.controller
-- Assets/art_assets/Ani/AB/wing/wing_point_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/wing/Texture/wing.mat
+- Assets/art_assets/Ani/AB/Role/wing/Texture/Wing_DiffuseGlossiness.tga
+- Assets/art_assets/Ani/AB/Role/wing/wing.FBX
+- Assets/art_assets/Ani/AB/Role/wing/wing.controller
+- Assets/art_assets/Ani/AB/Role/wing/wing_point_prefab.prefab
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/wing01.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/wing01.ab

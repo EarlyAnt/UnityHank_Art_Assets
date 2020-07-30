@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4260682586
+CRC: 1800833300
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -38,19 +38,19 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/elk/Texture/elk_D.png
-- Assets/art_assets/Ani/AB/elk/elk_D_prefab.prefab
-- Assets/art_assets/Ani/AB/elk/Texture/elk_B.mat
-- Assets/art_assets/Ani/AB/elk/elk_C_prefab.prefab
-- Assets/art_assets/Ani/AB/elk/elk.FBX
-- Assets/art_assets/Ani/AB/elk/Texture/elk_A.png
-- Assets/art_assets/Ani/AB/elk/Texture/elk_D.mat
-- Assets/art_assets/Ani/AB/elk/elk_A_prefab.prefab
-- Assets/art_assets/Ani/AB/elk/Texture/elk_C.mat
-- Assets/art_assets/Ani/AB/elk/Texture/elk_A.mat
-- Assets/art_assets/Ani/AB/elk/elk_B_prefab.prefab
-- Assets/art_assets/Ani/AB/elk/elk.controller
-- Assets/art_assets/Ani/AB/elk/Texture/elk_B.png
-- Assets/art_assets/Ani/AB/elk/Texture/elk_C.png
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_D.png
+- Assets/art_assets/Ani/AB/Role/elk/elk_D_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_B.mat
+- Assets/art_assets/Ani/AB/Role/elk/elk_C_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/elk/elk.FBX
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_A.png
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_D.mat
+- Assets/art_assets/Ani/AB/Role/elk/elk_A_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_C.mat
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_A.mat
+- Assets/art_assets/Ani/AB/Role/elk/elk_B_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/elk/elk.controller
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_B.png
+- Assets/art_assets/Ani/AB/Role/elk/Texture/elk_C.png
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2183381175
+CRC: 874379453
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,9 +32,9 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/suit_valentine02/suit_valentine02.controller
-- Assets/art_assets/Ani/AB/suit_valentine02/Texture/suit_valentine02.tga
-- Assets/art_assets/Ani/AB/suit_valentine02/Texture/suit_valentine02.mat
-- Assets/art_assets/Ani/AB/suit_valentine02/suit_valentine02_point_prefab.prefab
-- Assets/art_assets/Ani/AB/suit_valentine02/suit_valentine02.FBX
+- Assets/art_assets/Ani/AB/Role/suit_valentine02/suit_valentine02.controller
+- Assets/art_assets/Ani/AB/Role/suit_valentine02/Texture/suit_valentine02.tga
+- Assets/art_assets/Ani/AB/Role/suit_valentine02/Texture/suit_valentine02.mat
+- Assets/art_assets/Ani/AB/Role/suit_valentine02/suit_valentine02_point_prefab.prefab
+- Assets/art_assets/Ani/AB/Role/suit_valentine02/suit_valentine02.FBX
 Dependencies: []
