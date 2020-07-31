@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/octopus.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: octopus_animation
   SetParent: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/tantan.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: tantan_animation
   SetParent: 1
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/love.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: love_animation
   SetParent: 1
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/miss_you.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: miss_you_animation
   SetParent: 1
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/bomb.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: bomb_animation
   SetParent: 1
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/paint.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: paint_animation
   SetParent: 1
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/pig.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: pig_animation
   SetParent: 1
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetBundleName: expression/rainbow.ab
-  autoLoad: 1
+  autoLoad: 0
   next: {fileID: 0}
   objectName: rainbow_animation
   SetParent: 1
