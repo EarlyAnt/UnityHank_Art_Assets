@@ -1993,6 +1993,7 @@
     <None Include="Assets\3rd-Party\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\art_assets\UI\Main\Dony\NumberFont\number_donny.xml" />
     <None Include="Assets\StreamingAssets\Config\FontConfig.xml" />
+    <None Include="Assets\art_assets\Ani\AB\UI\Battery\ceshi.atlas.txt" />
     <None Include="Assets\art_assets\Ani\UI\coming soon\coming soon.atlas.txt" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
     <None Include="Assets\Resources\Shader\FurFX Advanced 20Layer.shader" />
