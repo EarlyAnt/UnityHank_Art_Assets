@@ -2059,6 +2059,7 @@
     <None Include="Assets\art_assets\Ani\UI\GBC\GBC.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\Scripts\TestUtils\ABLoader\read me.txt" />
+    <None Include="Assets\art_assets\Ani\AB\UI\strawberry\strawberry.atlas.txt" />
     <None Include="Assets\Resources\Shader\FurFX Advanced 40Layer.shader" />
     <None Include="Assets\StreamingAssets\Config\TreasureBox.xml" />
     <None Include="Assets\art_assets\Ani\UI\unlockScene\not unlock scene.atlas.txt" />
