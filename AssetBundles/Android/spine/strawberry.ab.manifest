@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4121494504
+CRC: 1923294185
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 018f695606e67f954750ec80202ef56d
+    Hash: 2a04c1292c508a169f9a05f370e96317
   TypeTreeHash:
     serializedVersion: 2
     Hash: f325952b8584b8d5b5bc19a3c42c6bf7
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/Battery/ceshi.png
-- Assets/art_assets/Ani/AB/UI/Battery/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/Battery/Battery_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/Battery/ceshi_Atlas.asset
-- Assets/art_assets/Ani/AB/UI/Battery/ceshi_SkeletonData.asset
-- Assets/art_assets/Ani/AB/UI/Battery/ceshi.atlas.txt
-- Assets/art_assets/Ani/AB/UI/Battery/ceshi.json
-- Assets/art_assets/Ani/AB/UI/Battery/ceshi_Material.mat
+- Assets/art_assets/Ani/AB/UI/strawberry/SkeletonGraphicDefault.mat
+- Assets/art_assets/Ani/AB/UI/strawberry/strawberry.json
+- Assets/art_assets/Ani/AB/UI/strawberry/strawberry_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/strawberry/strawberry_Material.mat
+- Assets/art_assets/Ani/AB/UI/strawberry/strawberry.png
+- Assets/art_assets/Ani/AB/UI/strawberry/strawberry.atlas.txt
+- Assets/art_assets/Ani/AB/UI/strawberry/Strawberry_Prefab.prefab
+- Assets/art_assets/Ani/AB/UI/strawberry/strawberry_Atlas.asset
 Dependencies: []

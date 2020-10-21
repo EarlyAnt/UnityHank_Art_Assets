@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2445301296
+CRC: 2275513943
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -151,4 +151,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_45:
       Name: spine/battery.ab
+      Dependencies: {}
+    Info_46:
+      Name: spine/strawberry.ab
       Dependencies: {}
