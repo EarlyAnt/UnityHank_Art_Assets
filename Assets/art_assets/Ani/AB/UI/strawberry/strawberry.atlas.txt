@@ -235,20 +235,6 @@ shadow
   orig: 42, 28
   offset: 0, 0
   index: -1
-shadow 03
-  rotate: false
-  xy: 73, 27
-  size: 42, 28
-  orig: 42, 28
-  offset: 0, 0
-  index: -1
-shadow04
-  rotate: false
-  xy: 73, 27
-  size: 42, 28
-  orig: 42, 28
-  offset: 0, 0
-  index: -1
 shadow01
   rotate: false
   xy: 4, 4
