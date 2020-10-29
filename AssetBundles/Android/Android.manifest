@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2232800362
+CRC: 1497417510
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -150,8 +150,8 @@ AssetBundleManifest:
       Name: expression/tantan.ab
       Dependencies: {}
     Info_45:
-      Name: spine/strawberry.ab
+      Name: garden/gesture.ab
       Dependencies: {}
     Info_46:
-      Name: spine/battery.ab
+      Name: garden/strawberry.ab
       Dependencies: {}
