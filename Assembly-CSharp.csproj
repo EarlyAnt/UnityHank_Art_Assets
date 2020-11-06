@@ -1993,7 +1993,6 @@
     <None Include="Assets\3rd-Party\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\art_assets\UI\Main\Dony\NumberFont\number_donny.xml" />
     <None Include="Assets\StreamingAssets\Config\FontConfig.xml" />
-    <None Include="Assets\art_assets\Ani\AB\UI\Battery\ceshi.atlas.txt" />
     <None Include="Assets\art_assets\Ani\UI\coming soon\coming soon.atlas.txt" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
     <None Include="Assets\Resources\Shader\FurFX Advanced 20Layer.shader" />
@@ -2001,6 +2000,7 @@
     <None Include="Assets\ShaderForge\Readme.txt" />
     <None Include="Assets\Resources\Shader\FurFX Pixel.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\art_assets\Ani\AB\UI\hamimelon\hami_melon.atlas.txt" />
     <None Include="Assets\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Tint.shader" />
     <None Include="Assets\art_assets\Ani\UI\RemindBoard\board.atlas.txt" />
     <None Include="Assets\art_assets\Ani\UI\AiVoice\ai_voice.atlas.txt" />
@@ -2030,6 +2030,7 @@
     <None Include="Assets\spine-unity\version.txt" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
     <None Include="Assets\art_assets\Ani\UI\CupPairLoading\loading.atlas.txt" />
+    <None Include="Assets\art_assets\Ani\AB\UI\pineapple\pineapple.atlas.txt" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Parallax.shader" />
     <None Include="Assets\StreamingAssets\Config\Award.xml" />
     <None Include="Assets\art_assets\UI\Main\Purpie\NumberFont\number_purpie.xml" />
@@ -2064,6 +2065,8 @@
     <None Include="Assets\StreamingAssets\Config\TreasureBox.xml" />
     <None Include="Assets\art_assets\Ani\UI\unlockScene\not unlock scene.atlas.txt" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
+    <None Include="Assets\art_assets\Ani\AB\UI\blueberry\Blueberry.atlas.txt" />
+    <None Include="Assets\art_assets\Ani\AB\UI\watermelon\water_melon.atlas.txt" />
     <None Include="Assets\3rd-Party\StrangeIoC\LICENSE-2.0.txt" />
     <None Include="Assets\3rd-Party\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
@@ -2093,6 +2096,7 @@
     <None Include="Assets\spine-unity\Shaders\Spine-Skeleton.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Tiles.shader" />
+    <None Include="Assets\art_assets\Ani\AB\UI\gesture\ui_ani.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Resources\Shader\FurFX Advanced 5Layer.shader" />
     <None Include="Assets\art_assets\Ani\UI\TreasureIdle\ui_icon_spine.atlas.txt" />
