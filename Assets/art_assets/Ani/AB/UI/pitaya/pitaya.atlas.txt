@@ -1,131 +1,145 @@
 
-water_melon.png
+pitaya.png
 size: 512,128
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+branch01
+  rotate: false
+  xy: 297, 70
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+branch02
+  rotate: false
+  xy: 188, 34
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
 drop01
   rotate: false
-  xy: 312, 92
+  xy: 2, 2
   size: 4, 4
   orig: 4, 4
   offset: 0, 0
   index: -1
 drop02
   rotate: false
-  xy: 91, 15
+  xy: 8, 2
   size: 4, 4
   orig: 4, 4
   offset: 0, 0
   index: -1
 drop03
   rotate: false
-  xy: 293, 68
+  xy: 14, 2
   size: 4, 4
   orig: 4, 4
   offset: 0, 0
   index: -1
 flower01
   rotate: false
-  xy: 329, 101
-  size: 9, 9
-  orig: 9, 9
+  xy: 458, 96
+  size: 13, 14
+  orig: 13, 14
   offset: 0, 0
   index: -1
 flower02
   rotate: false
-  xy: 120, 50
-  size: 11, 11
-  orig: 11, 11
+  xy: 458, 112
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+flower03
+  rotate: false
+  xy: 280, 68
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+flower04
+  rotate: false
+  xy: 262, 67
+  size: 16, 16
+  orig: 16, 16
   offset: 0, 0
   index: -1
 fruit01
   rotate: false
-  xy: 293, 74
-  size: 15, 14
-  orig: 15, 14
+  xy: 222, 48
+  size: 15, 13
+  orig: 15, 13
   offset: 0, 0
   index: -1
 fruit02
   rotate: false
-  xy: 100, 43
-  size: 18, 18
-  orig: 18, 18
+  xy: 442, 91
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+fruit03
+  rotate: false
+  xy: 442, 109
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+fruit04
+  rotate: false
+  xy: 208, 34
+  size: 15, 12
+  orig: 15, 12
   offset: 0, 0
   index: -1
 leaf01
-  rotate: true
-  xy: 2, 2
-  size: 16, 23
-  orig: 16, 23
+  rotate: false
+  xy: 131, 23
+  size: 55, 38
+  orig: 55, 38
   offset: 0, 0
   index: -1
 leaf02
   rotate: false
-  xy: 70, 21
-  size: 25, 17
-  orig: 25, 17
+  xy: 2, 8
+  size: 65, 53
+  orig: 65, 53
   offset: 0, 0
   index: -1
 leaf03
   rotate: false
-  xy: 70, 2
-  size: 19, 17
-  orig: 19, 17
+  xy: 69, 15
+  size: 60, 46
+  orig: 60, 46
   offset: 0, 0
   index: -1
 leaf04
-  rotate: false
-  xy: 312, 98
-  size: 15, 28
-  orig: 15, 28
-  offset: 0, 0
-  index: -1
-leaf05
-  rotate: false
-  xy: 70, 40
-  size: 28, 21
-  orig: 28, 21
-  offset: 0, 0
-  index: -1
-leaf06
-  rotate: false
-  xy: 262, 68
-  size: 29, 20
-  orig: 29, 20
-  offset: 0, 0
-  index: -1
-leaf_l
-  rotate: false
-  xy: 329, 112
-  size: 10, 14
-  orig: 10, 14
-  offset: 0, 0
-  index: -1
-leaf_r
-  rotate: false
-  xy: 341, 113
-  size: 9, 13
-  orig: 9, 13
+  rotate: true
+  xy: 393, 83
+  size: 43, 47
+  orig: 43, 47
   offset: 0, 0
   index: -1
 shadow01
   rotate: false
-  xy: 27, 14
-  size: 19, 4
-  orig: 19, 4
+  xy: 188, 48
+  size: 32, 13
+  orig: 32, 13
   offset: 0, 0
   index: -1
 shadow02
   rotate: false
-  xy: 262, 90
-  size: 48, 36
-  orig: 48, 36
+  xy: 330, 85
+  size: 61, 41
+  orig: 61, 41
   offset: 0, 0
   index: -1
 soil
   rotate: false
-  xy: 2, 20
+  xy: 262, 85
   size: 66, 41
   orig: 66, 41
   offset: 0, 0
