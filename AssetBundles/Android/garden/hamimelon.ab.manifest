@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2981009339
+CRC: 3878803250
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7fd1303001c05ead1971620dec8dde6b
+    Hash: 04e75602089175811ba409636d86ba1b
   TypeTreeHash:
     serializedVersion: 2
     Hash: f325952b8584b8d5b5bc19a3c42c6bf7
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.json
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_Material.mat
-- Assets/art_assets/Ani/AB/UI/gesture/Gesture_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/gesture/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.atlas.txt
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_Atlas.asset
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.png
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon.atlas.txt
+- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon.png
+- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon_Material.mat
+- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/hamimelon/Hamimelon_Prefab.prefab
+- Assets/art_assets/Ani/AB/UI/hamimelon/SkeletonGraphicDefault.mat
+- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon.json
+- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon_Atlas.asset
 Dependencies: []

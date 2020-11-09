@@ -3,7 +3,7 @@ CRC: 339467646
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 18709d0583c309895477904993736561
+    Hash: cec4d24a8d8c593c1630f2b68c6eb586
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3d7e0ebadadd20a331663440a56df288
@@ -43,4 +43,4 @@ Assets:
 - Assets/art_assets/Ani/AB/Role/pumpkin/pumpkin.controller
 - Assets/art_assets/Ani/AB/Role/pumpkin/pumpkin_prefab.prefab
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/shandian_fx01.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/shandian_fx01.ab

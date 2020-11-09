@@ -3,7 +3,7 @@ CRC: 236204359
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8fd1c97a5cf896516ca9712e52f14fd9
+    Hash: 6274a57369dd74a881e72515b662d5ac
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3d7e0ebadadd20a331663440a56df288
@@ -42,4 +42,4 @@ Assets:
 - Assets/art_assets/Ani/AB/Role/wing_snow/snow_wing.FBX
 - Assets/art_assets/Ani/AB/Role/wing_snow/wing_snow_prefab.prefab
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab

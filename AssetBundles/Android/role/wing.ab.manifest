@@ -3,7 +3,7 @@ CRC: 1120548753
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a9e99ededc1db5464d2cc7e81df05af5
+    Hash: 8debd96afa0b20d4adf340df78b673f6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3d7e0ebadadd20a331663440a56df288
@@ -42,4 +42,4 @@ Assets:
 - Assets/art_assets/Ani/AB/Role/wing/wing.controller
 - Assets/art_assets/Ani/AB/Role/wing/wing_point_prefab.prefab
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/wing01.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/wing01.ab

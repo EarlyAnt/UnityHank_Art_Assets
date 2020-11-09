@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2981009339
+CRC: 602916895
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7fd1303001c05ead1971620dec8dde6b
+    Hash: 23040f260b3da2cd9298d9c7c945dbc5
   TypeTreeHash:
     serializedVersion: 2
     Hash: f325952b8584b8d5b5bc19a3c42c6bf7
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.json
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_Material.mat
-- Assets/art_assets/Ani/AB/UI/gesture/Gesture_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/gesture/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.atlas.txt
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_Atlas.asset
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.png
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/pitaya/pitaya.png
+- Assets/art_assets/Ani/AB/UI/pitaya/pitaya_Material.mat
+- Assets/art_assets/Ani/AB/UI/pitaya/pitaya.json
+- Assets/art_assets/Ani/AB/UI/pitaya/pitaya.atlas.txt
+- Assets/art_assets/Ani/AB/UI/pitaya/SkeletonGraphicDefault.mat
+- Assets/art_assets/Ani/AB/UI/pitaya/Pitaya_Prefab.prefab
+- Assets/art_assets/Ani/AB/UI/pitaya/pitaya_Atlas.asset
+- Assets/art_assets/Ani/AB/UI/pitaya/pitaya_SkeletonData.asset
 Dependencies: []

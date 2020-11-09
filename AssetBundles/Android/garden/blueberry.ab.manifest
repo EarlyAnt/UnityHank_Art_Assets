@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2981009339
+CRC: 1778519179
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7fd1303001c05ead1971620dec8dde6b
+    Hash: fff0f1d1cd26c8e5e1962769dd5cd8ef
   TypeTreeHash:
     serializedVersion: 2
     Hash: f325952b8584b8d5b5bc19a3c42c6bf7
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.json
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_Material.mat
-- Assets/art_assets/Ani/AB/UI/gesture/Gesture_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/gesture/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.atlas.txt
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_Atlas.asset
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani.png
-- Assets/art_assets/Ani/AB/UI/gesture/ui_ani_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/blueberry/Blueberry_Atlas.asset
+- Assets/art_assets/Ani/AB/UI/blueberry/Blueberry.json
+- Assets/art_assets/Ani/AB/UI/blueberry/Blueberry_Material.mat
+- Assets/art_assets/Ani/AB/UI/blueberry/Blueberry.atlas.txt
+- Assets/art_assets/Ani/AB/UI/blueberry/SkeletonGraphicDefault.mat
+- Assets/art_assets/Ani/AB/UI/blueberry/Blueberry_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/blueberry/Blueberry.png
+- Assets/art_assets/Ani/AB/UI/blueberry/Blueberry_Prefab.prefab
 Dependencies: []
