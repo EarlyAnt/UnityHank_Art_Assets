@@ -9,7 +9,7 @@ namespace ABLoader
     public class SpineAnimatonLoader : BaseLoader
     {
         [SerializeField]
-        private string objectName;        
+        private string objectName;
         [SerializeField]
         private bool setParent = false;
         private const string MATERIAL_NAME = "SkeletonGraphicDefault";
@@ -30,7 +30,8 @@ namespace ABLoader
             if (this.setParent)
             {
                 this.gameObject.transform.SetParent(this.transform, false);
-                this.gameObject.transform.localEulerAngles = Vector3.zero;
+                this.gameObject.transform.localPosition = Vector3.zero;
+                this.gameObject.transform.localRotation = Quaternion.identity;
             }
             else
             {
