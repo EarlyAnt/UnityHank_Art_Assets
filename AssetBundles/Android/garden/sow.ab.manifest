@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 709302360
+CRC: 3333317962
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0a1acd3619953f67130fd668cacff086
+    Hash: 7052d394def82e98b482815d43948d03
   TypeTreeHash:
     serializedVersion: 2
     Hash: f325952b8584b8d5b5bc19a3c42c6bf7
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/pineapple/pineapple_Material.mat
-- Assets/art_assets/Ani/AB/UI/pineapple/pineapple.png
-- Assets/art_assets/Ani/AB/UI/pineapple/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/pineapple/pineapple.json
-- Assets/art_assets/Ani/AB/UI/pineapple/pineapple.atlas.txt
-- Assets/art_assets/Ani/AB/UI/pineapple/Pineapple_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/pineapple/pineapple_Atlas.asset
-- Assets/art_assets/Ani/AB/UI/pineapple/pineapple_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/sow/sow_Material.mat
+- Assets/art_assets/Ani/AB/UI/sow/sow_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/sow/Sow_Prefab.prefab
+- Assets/art_assets/Ani/AB/UI/sow/sow.png
+- Assets/art_assets/Ani/AB/UI/sow/sow.json
+- Assets/art_assets/Ani/AB/UI/sow/sow.atlas.txt
+- Assets/art_assets/Ani/AB/UI/sow/sow_Atlas.asset
+- Assets/art_assets/Ani/AB/UI/sow/SkeletonGraphicDefault.mat
 Dependencies: []
