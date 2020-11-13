@@ -474,7 +474,7 @@ MonoBehaviour:
     PrefabNode: {fileID: 463012223}
     AssetBundleNode: {fileID: 544103902}
   tip: {fileID: 371519517}
-  node: 1
+  node: 0
 --- !u!1 &371519515
 GameObject:
   m_ObjectHideFlags: 0

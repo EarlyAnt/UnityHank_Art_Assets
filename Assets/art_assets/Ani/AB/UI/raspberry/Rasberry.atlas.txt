@@ -153,28 +153,28 @@ soil
   index: -1
 water001
   rotate: false
-  xy: 67, 58
+  xy: 2, 58
   size: 63, 63
   orig: 63, 63
   offset: 0, 0
   index: -1
 water002
   rotate: false
-  xy: 132, 58
+  xy: 67, 58
   size: 63, 63
   orig: 63, 63
   offset: 0, 0
   index: -1
 water003
   rotate: false
-  xy: 197, 58
+  xy: 132, 58
   size: 63, 63
   orig: 63, 63
   offset: 0, 0
   index: -1
 water004
   rotate: false
-  xy: 2, 58
+  xy: 197, 58
   size: 63, 63
   orig: 63, 63
   offset: 0, 0
