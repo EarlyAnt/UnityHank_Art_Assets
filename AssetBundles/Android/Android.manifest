@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 884588743
+CRC: 1276136790
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -175,4 +175,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_53:
       Name: garden/sow.ab
+      Dependencies: {}
+    Info_54:
+      Name: garden/treasurebox.ab
       Dependencies: {}
