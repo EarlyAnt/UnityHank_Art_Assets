@@ -2000,6 +2000,7 @@
     <None Include="Assets\Resources\Shader\FurFX Advanced 20Layer.shader" />
     <None Include="Assets\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
     <None Include="Assets\ShaderForge\Readme.txt" />
+    <None Include="Assets\art_assets\Ani\AB\UI\gardenlevelup\gardenlevelup.atlas.txt" />
     <None Include="Assets\Resources\Shader\FurFX Pixel.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\art_assets\Ani\AB\UI\hamimelon\hami_melon.atlas.txt" />
@@ -2083,6 +2084,7 @@
     <None Include="Assets\art_assets\Ani\AB\UI\sow\sow.atlas.txt" />
     <None Include="Assets\Resources\Shader\FurFX Basic 40Layer.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
+    <None Include="Assets\art_assets\Ani\AB\UI\soil\soil.atlas.txt" />
     <None Include="Assets\art_assets\Ani\UI\PetFeed\food.atlas.txt" />
     <None Include="Assets\art_assets\Ani\UI\MissionAward\mission completed.atlas.txt" />
     <None Include="Assets\3rd-Party\Demigiant\DOTween\DOTween43.xml" />
