@@ -9,6 +9,8 @@ public class SpineTest : MonoBehaviour
     private SkeletonGraphic spineGraphic;
     [SerializeField]
     private string startAnimationName;
+    [SerializeField]
+    private bool loop = true;
     private List<string> animations = new List<string>();
     private int animationIndex = 0;
 
@@ -44,7 +46,7 @@ public class SpineTest : MonoBehaviour
     private void PlayAnimation(string animationName)
     {
         //this.spineGraphic.AnimationState.ClearTracks();//这里不能ClearTracks，否则电池的所有格子不能全部正常显示
-        this.spineGraphic.AnimationState.SetAnimation(0, animationName, true);
+        this.spineGraphic.AnimationState.SetAnimation(0, animationName, this.loop);
         Debug.LogFormat("<><SpineTest.PlayAnimation>currrent animation: {0}", animationName);
     }
 }
