@@ -2069,6 +2069,7 @@
     <None Include="Assets\StreamingAssets\Config\TreasureBox.xml" />
     <None Include="Assets\art_assets\Ani\UI\unlockScene\not unlock scene.atlas.txt" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
+    <None Include="Assets\art_assets\Ani\AB\UI\record\record.atlas.txt" />
     <None Include="Assets\art_assets\Ani\AB\UI\blueberry\Blueberry.atlas.txt" />
     <None Include="Assets\art_assets\Ani\AB\UI\watermelon\water_melon.atlas.txt" />
     <None Include="Assets\3rd-Party\StrangeIoC\LICENSE-2.0.txt" />

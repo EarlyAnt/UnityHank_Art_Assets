@@ -319,6 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 82148628}
   startAnimationName: 
+  loop: 1
 --- !u!114 &82148628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +465,7 @@ RectTransform:
   - {fileID: 2064772606}
   - {fileID: 22706621}
   - {fileID: 1393155535}
+  - {fileID: 226036592}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -520,6 +522,9 @@ MonoBehaviour:
   - RootNode: {fileID: 1393155534}
     PrefabNode: {fileID: 199592729}
     AssetBundleNode: {fileID: 645342424}
+  - RootNode: {fileID: 226036591}
+    PrefabNode: {fileID: 2003160848}
+    AssetBundleNode: {fileID: 1627924137}
   tip: {fileID: 371519517}
   node: 0
 --- !u!1 &199592729
@@ -573,6 +578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 199592732}
   startAnimationName: 
+  loop: 1
 --- !u!114 &199592732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,6 +625,41 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 199592729}
   m_CullTransparentMesh: 0
+--- !u!1 &226036591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 226036592}
+  m_Layer: 5
+  m_Name: Record
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &226036592
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 226036591}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2003160849}
+  - {fileID: 1627924138}
+  m_Father: {fileID: 190865698}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &371519515
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,6 +786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 384146176}
   startAnimationName: 
+  loop: 1
 --- !u!114 &384146176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -842,6 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 463012225}
   startAnimationName: 
+  loop: 1
 --- !u!114 &463012225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1101,6 +1144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 632680987}
   startAnimationName: 
+  loop: 1
 --- !u!114 &632680987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1353,6 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 866844820}
   startAnimationName: 
+  loop: 1
 --- !u!114 &866844820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,6 +1541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 958222805}
   startAnimationName: 
+  loop: 1
 --- !u!1 &1013384292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1988,6 +2034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 1548067910}
   startAnimationName: 
+  loop: 1
 --- !u!114 &1548067910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2134,6 +2181,56 @@ MonoBehaviour:
   next: {fileID: 0}
   objectName: Sow_Prefab
   setParent: 1
+--- !u!1 &1627924137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1627924138}
+  - component: {fileID: 1627924139}
+  m_Layer: 5
+  m_Name: Record
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1627924138
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1627924137}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 226036592}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1627924139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1627924137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9eb2a519f0504b408ce55d4e2966657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetBundleName: remind/record.ab
+  autoLoad: 1
+  next: {fileID: 0}
+  objectName: Record_Prefab
+  setParent: 1
 --- !u!1 &1631699471
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,6 +2328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 1631699473}
   startAnimationName: 
+  loop: 1
 --- !u!1 &1650499880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,6 +2380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 1650499883}
   startAnimationName: 
+  loop: 1
 --- !u!114 &1650499883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2460,6 +2559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 1742049073}
   startAnimationName: 
+  loop: 1
 --- !u!1 &1916150426
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,6 +2692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 1961986628}
   startAnimationName: 
+  loop: 1
 --- !u!1 &1971277852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,6 +2743,104 @@ MonoBehaviour:
   next: {fileID: 0}
   objectName: Strawberry_Prefab
   setParent: 1
+--- !u!1 &2003160848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1560224196389224, guid: f3f254dcb9756a249b15c00d62e9d7b2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003160849}
+  - component: {fileID: 2003160851}
+  - component: {fileID: 2003160850}
+  - component: {fileID: 2003160852}
+  m_Layer: 0
+  m_Name: Record_Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2003160849
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 224784988123712940, guid: f3f254dcb9756a249b15c00d62e9d7b2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003160848}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
+  m_Children: []
+  m_Father: {fileID: 226036592}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2003160850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114647809142603384, guid: f3f254dcb9756a249b15c00d62e9d7b2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003160848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 7969b25ea50bfe44bab64256caddba21, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  skeletonDataAsset: {fileID: 11400000, guid: a56efb0fe40c2ed4091ce026eb950080, type: 2}
+  initialSkinName: default
+  initialFlipX: 0
+  initialFlipY: 0
+  startingAnimation: 
+  startingLoop: 0
+  timeScale: 1
+  freeze: 0
+  unscaledTime: 0
+  meshGenerator:
+    settings:
+      useClipping: 1
+      zSpacing: 0
+      pmaVertexColors: 1
+      tintBlack: 0
+      calculateTangents: 0
+      addNormals: 0
+      immutableTriangles: 0
+--- !u!222 &2003160851
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 222671155745178718, guid: f3f254dcb9756a249b15c00d62e9d7b2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003160848}
+  m_CullTransparentMesh: 0
+--- !u!114 &2003160852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003160848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ff3e4c2480d194886bdf44a5628938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spineGraphic: {fileID: 2003160850}
+  startAnimationName: 
+  loop: 1
 --- !u!1 &2064772605
 GameObject:
   m_ObjectHideFlags: 0
