@@ -2121,6 +2121,7 @@
     <None Include="Assets\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Multiply.shader" />
     <None Include="Assets\StreamingAssets\Config\Item.xml" />
     <None Include="Assets\Resources\Shader\FurFX SelfShadow Blend 20Layer.shader" />
+    <None Include="Assets\art_assets\Ani\AB\UI\clock\clock.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderMaths.cginc" />
     <None Include="Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />

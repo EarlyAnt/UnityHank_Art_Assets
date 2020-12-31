@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 60926616
+CRC: 2211308483
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -187,4 +187,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_57:
       Name: remind/record.ab
+      Dependencies: {}
+    Info_58:
+      Name: remind/clock.ab
       Dependencies: {}
