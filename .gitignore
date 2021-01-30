@@ -5,3 +5,7 @@
 /.vs
 /*.apk
 /.vscode
+/Assembly-CSharp-Editor.csproj
+/Assembly-CSharp-firstpass.csproj
+/UnityHank_Art_Assets.sln
+/Assembly-CSharp.csproj
