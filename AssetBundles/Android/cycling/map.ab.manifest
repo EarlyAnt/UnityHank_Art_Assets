@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2952398997
+CRC: 860357466
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e0e7591709619b901b58dd818f6483f3
+    Hash: f3ae43cb4cca8140aea113f41f2e5814
   TypeTreeHash:
     serializedVersion: 2
     Hash: ea5a42e0fd8ea905efa7aa926a3b8944
@@ -17,4 +17,5 @@ Assets:
 - Assets/art_assets/Ani/AB/UI/cycling/nanjing_bg.png
 - Assets/art_assets/Ani/AB/UI/cycling/path02.png
 - Assets/art_assets/Ani/AB/UI/cycling/path01.png
+- Assets/art_assets/Ani/AB/UI/cycling/nanjing_bg2.png
 Dependencies: []
