@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1843358577
+CRC: 831450945
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -192,5 +192,5 @@ AssetBundleManifest:
       Name: remind/clock.ab
       Dependencies: {}
     Info_59:
-      Name: cycling/map.ab
+      Name: cycling/nanjing.ab
       Dependencies: {}

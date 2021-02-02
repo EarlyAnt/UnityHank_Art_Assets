@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4243916756
+CRC: 225158794
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/strawberry/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/strawberry/strawberry.json
-- Assets/art_assets/Ani/AB/UI/strawberry/strawberry_SkeletonData.asset
-- Assets/art_assets/Ani/AB/UI/strawberry/strawberry_Material.mat
-- Assets/art_assets/Ani/AB/UI/strawberry/strawberry.png
-- Assets/art_assets/Ani/AB/UI/strawberry/strawberry.atlas.txt
-- Assets/art_assets/Ani/AB/UI/strawberry/Strawberry_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/strawberry/strawberry_Atlas.asset
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/SkeletonGraphicDefault.mat
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/strawberry.json
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/strawberry_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/strawberry_Material.mat
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/strawberry.png
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/strawberry.atlas.txt
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/Strawberry_Prefab.prefab
+- Assets/art_assets/Ani/AB/UI/Spine/strawberry/strawberry_Atlas.asset
 Dependencies: []

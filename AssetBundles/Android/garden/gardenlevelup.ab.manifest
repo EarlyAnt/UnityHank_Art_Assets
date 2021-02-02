@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1722381050
+CRC: 2093546668
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/gardenlevelup.atlas.txt
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/gardenlevelup.png
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/gardenlevelup.json
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/gardenlevelup_SkeletonData.asset
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/gardenlevelup_Material.mat
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/gardenlevelup_Atlas.asset
-- Assets/art_assets/Ani/AB/UI/gardenlevelup/GardenLevelUp_Prefab.prefab
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/gardenlevelup.atlas.txt
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/gardenlevelup.png
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/gardenlevelup.json
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/gardenlevelup_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/gardenlevelup_Material.mat
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/SkeletonGraphicDefault.mat
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/gardenlevelup_Atlas.asset
+- Assets/art_assets/Ani/AB/UI/Spine/gardenlevelup/GardenLevelUp_Prefab.prefab
 Dependencies: []

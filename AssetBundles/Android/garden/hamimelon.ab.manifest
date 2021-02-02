@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3192267223
+CRC: 4090044914
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -32,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon.atlas.txt
-- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon.png
-- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon_Material.mat
-- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon_SkeletonData.asset
-- Assets/art_assets/Ani/AB/UI/hamimelon/Hamimelon_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/hamimelon/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon.json
-- Assets/art_assets/Ani/AB/UI/hamimelon/hami_melon_Atlas.asset
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/hami_melon.atlas.txt
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/hami_melon.png
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/hami_melon_Material.mat
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/hami_melon_SkeletonData.asset
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/Hamimelon_Prefab.prefab
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/SkeletonGraphicDefault.mat
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/hami_melon.json
+- Assets/art_assets/Ani/AB/UI/Spine/hamimelon/hami_melon_Atlas.asset
 Dependencies: []
