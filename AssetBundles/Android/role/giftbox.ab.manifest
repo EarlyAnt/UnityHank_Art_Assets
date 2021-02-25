@@ -3,7 +3,7 @@ CRC: 1984654073
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0108c34c06908d1e1257703ade349ec8
+    Hash: b99c00fac7aab94e2b99de82984c09ba
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6f8b48ddfd4d8ea80e402faa1ba4e3cb
@@ -48,4 +48,4 @@ Assets:
 - Assets/art_assets/Ani/AB/Role/giftbox/Texture/giftbox.mat
 - Assets/art_assets/Ani/AB/Role/giftbox/giftbox_A_prefab.prefab
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/hezi_fx.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/hezi_fx.ab

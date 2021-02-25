@@ -3,7 +3,7 @@ CRC: 1800833300
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0766bcab395889f70803462afb02ffbe
+    Hash: fb67f9f73b2f936ab5a102a10da1a8a6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6f8b48ddfd4d8ea80e402faa1ba4e3cb
@@ -53,4 +53,4 @@ Assets:
 - Assets/art_assets/Ani/AB/Role/elk/Texture/elk_B.png
 - Assets/art_assets/Ani/AB/Role/elk/Texture/elk_C.png
 Dependencies:
-- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
+- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
