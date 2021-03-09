@@ -31,12 +31,14 @@ namespace ABLoader
             {
                 this.gameObject.transform.SetParent(this.transform, false);
                 this.gameObject.transform.localPosition = Vector3.zero;
-                this.gameObject.transform.localRotation = Quaternion.identity;
+                this.gameObject.transform.localEulerAngles = Vector3.zero;
+                this.gameObject.transform.localScale = Vector3.one;
             }
             else
             {
                 this.gameObject.transform.position = this.transform.position;
-                this.gameObject.transform.rotation = Quaternion.identity;
+                this.gameObject.transform.localEulerAngles = Vector3.zero;
+                this.gameObject.transform.localScale = Vector3.one;
             }
             this.gameObject.AddComponent<SpineTest>();
             Debug.LogFormat("<><SpineAnimatonLoader.LoadAB>assetbundle: {0}, object: {1}", this.assetBundleName, this.objectName);

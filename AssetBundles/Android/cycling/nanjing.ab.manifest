@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1206873914
+CRC: 3027124008
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -14,6 +14,6 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/Package/cycling/nanjing/path.png
-- Assets/art_assets/Ani/AB/UI/Package/cycling/nanjing/nanjing_bg.png
+- Assets/art_assets/Galaxy/cycling/nanjing/path.png
+- Assets/art_assets/Galaxy/cycling/nanjing/nanjing_bg.png
 Dependencies: []

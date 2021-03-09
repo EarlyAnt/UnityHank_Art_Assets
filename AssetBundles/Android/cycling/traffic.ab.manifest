@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3411931208
+CRC: 313759556
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f1bb59b2a2ce147daf47ccb6d9f5c85f
+    Hash: 23cc876b93debffaacde670a5de2b75b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f325952b8584b8d5b5bc19a3c42c6bf7
+    Hash: fd002a85aa9b728b6b941a63bb31c641
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,6 +25,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f0ff3e4c2480d194886bdf44a5628938, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 222
@@ -32,12 +34,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/SkeletonGraphicDefault.mat
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/traffic.png
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/traffic.json
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/traffic_Atlas.asset
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/Traffic_Prefab.prefab
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/traffic_Material.mat
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/traffic_SkeletonData.asset
-- Assets/art_assets/Ani/AB/UI/Package/cycling/traffic/traffic.atlas.txt
+- Assets/art_assets/Galaxy/cycling/traffic/traffic.png
+- Assets/art_assets/Galaxy/cycling/traffic/traffic.json
+- Assets/art_assets/Galaxy/cycling/traffic/traffic_Atlas.asset
+- Assets/art_assets/Galaxy/cycling/traffic/Traffic_Prefab.prefab
+- Assets/art_assets/Galaxy/cycling/traffic/traffic_Material.mat
+- Assets/art_assets/Galaxy/cycling/traffic/traffic_SkeletonData.asset
+- Assets/art_assets/Galaxy/cycling/traffic/traffic.atlas.txt
+- Assets/art_assets/Galaxy/cycling/traffic/SkeletonGraphicDefault.mat
 Dependencies: []
