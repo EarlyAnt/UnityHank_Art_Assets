@@ -21,7 +21,7 @@ public class SpineTest : MonoBehaviour
 
         foreach (var animation in this.spineGraphic.SkeletonData.Animations)
         {
-            this.animations.Add(animation.name);
+            this.animations.Add(animation.Name);
         }
         this.PlayAnimation(!string.IsNullOrEmpty(this.startAnimationName) ? this.startAnimationName : this.animations[0]);
     }

@@ -3,7 +3,7 @@ CRC: 2821979179
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d371a6d2050e454d392b2b4445598bd8
+    Hash: 8785a8a23d6ce3237b688642fa34f347
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3d7e0ebadadd20a331663440a56df288
@@ -49,4 +49,4 @@ Assets:
 - Assets/art_assets/Ani/AB/Role/snowman/snowman.FBX
 - Assets/art_assets/Ani/AB/Role/snowman/Texture/snowman.tga
 Dependencies:
-- D:/Workspace/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
+- D:/Workspace/UnityHank/UnityHank_Art_Assets/UnityHank_Art_Assets/AssetBundles/Android/particle/guangdian_02.ab
