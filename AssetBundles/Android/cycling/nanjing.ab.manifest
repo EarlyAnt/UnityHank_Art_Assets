@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3027124008
+CRC: 2649656308
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2fd4c8405f8d8cdcf125eaa827e5ca43
+    Hash: 208b7098f934bb0e45eb89ea673f484f
   TypeTreeHash:
     serializedVersion: 2
     Hash: ea5a42e0fd8ea905efa7aa926a3b8944
@@ -15,5 +15,5 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/art_assets/Galaxy/cycling/nanjing/path.png
-- Assets/art_assets/Galaxy/cycling/nanjing/nanjing_bg.png
+- Assets/art_assets/Galaxy/cycling/nanjing/map.png
 Dependencies: []
