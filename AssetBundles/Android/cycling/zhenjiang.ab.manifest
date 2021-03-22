@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 493263197
+CRC: 2235100240
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 86e931c1d3f69f2612a188bbf86304bd
+    Hash: ab402bbc4e79168d42804aa15028dcb3
   TypeTreeHash:
     serializedVersion: 2
     Hash: ea5a42e0fd8ea905efa7aa926a3b8944
@@ -14,6 +14,6 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Galaxy/cycling/zhenjiang/map.png
+- Assets/art_assets/Galaxy/cycling/zhenjiang/map.jpg
 - Assets/art_assets/Galaxy/cycling/zhenjiang/path.png
 Dependencies: []

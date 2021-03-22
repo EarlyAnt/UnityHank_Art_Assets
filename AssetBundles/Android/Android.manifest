@@ -1,13 +1,13 @@
 ManifestFileVersion: 0
-CRC: 604010083
+CRC: 2151268687
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: cycling/nanjing.ab
       Dependencies: {}
     Info_1:
-      Name: cycling/traffic.ab
+      Name: cycling/zhenjiang.ab
       Dependencies: {}
     Info_2:
-      Name: cycling/zhenjiang.ab
+      Name: cycling/traffic.ab
       Dependencies: {}
