@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 313759556
+CRC: 1047126508
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 23cc876b93debffaacde670a5de2b75b
+    Hash: ce4a33b80ca6edd915107a5d9324e3f5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: fd002a85aa9b728b6b941a63bb31c641
+    Hash: 944df37c255ee6a4a78376ffaa13c016
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,8 +25,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f0ff3e4c2480d194886bdf44a5628938, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 222
@@ -34,12 +32,12 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/art_assets/Galaxy/cycling/traffic/traffic.png
-- Assets/art_assets/Galaxy/cycling/traffic/traffic.json
-- Assets/art_assets/Galaxy/cycling/traffic/traffic_Atlas.asset
-- Assets/art_assets/Galaxy/cycling/traffic/Traffic_Prefab.prefab
-- Assets/art_assets/Galaxy/cycling/traffic/traffic_Material.mat
-- Assets/art_assets/Galaxy/cycling/traffic/traffic_SkeletonData.asset
-- Assets/art_assets/Galaxy/cycling/traffic/traffic.atlas.txt
-- Assets/art_assets/Galaxy/cycling/traffic/SkeletonGraphicDefault.mat
+- Assets/art_assets/Galaxy/cycling/treasurebox/watingbox.atlas.txt
+- Assets/art_assets/Galaxy/cycling/treasurebox/SkeletonGraphicDefault.mat
+- Assets/art_assets/Galaxy/cycling/treasurebox/watingbox_Atlas.asset
+- Assets/art_assets/Galaxy/cycling/treasurebox/watingbox.json
+- Assets/art_assets/Galaxy/cycling/treasurebox/TreasureBox_Prefab.prefab
+- Assets/art_assets/Galaxy/cycling/treasurebox/watingbox_SkeletonData.asset
+- Assets/art_assets/Galaxy/cycling/treasurebox/watingbox.png
+- Assets/art_assets/Galaxy/cycling/treasurebox/watingbox_Material.mat
 Dependencies: []
