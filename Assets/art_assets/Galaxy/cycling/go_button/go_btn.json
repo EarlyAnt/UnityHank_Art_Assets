@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "Vgrpsd/O5ySKrtzcTzlPD316TvQ",
+	"hash": "YnbmeNbB7thmhyp0qIfoGsglIJ4",
 	"spine": "3.8.83",
 	"x": -291.32,
 	"y": -121.68,
@@ -104,6 +104,108 @@
 	}
 ],
 "animations": {
+	"animation0": {
+		"slots": {
+			"GO": {
+				"attachment": [
+					{ "name": "GO" }
+				]
+			},
+			"btn_bg": {
+				"attachment": [
+					{ "name": "btn_bg" }
+				]
+			},
+			"btn_down": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"btn_font": {
+				"attachment": [
+					{ "name": "btn_font" }
+				]
+			},
+			"mask": {
+				"attachment": [
+					{ "name": "mask" }
+				]
+			},
+			"ptc01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ptc02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ptc03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ptc04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ptc05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ptc06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ptc07": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ptc7": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"wave01": {
+				"color": [
+					{ "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "wave01" }
+				]
+			},
+			"wave02": {
+				"color": [
+					{ "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "wave02" }
+				]
+			}
+		},
+		"bones": {
+			"wave01": {
+				"translate": [
+					{ "x": -541.84, "y": -55.09 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "y": -140.79 }
+				]
+			},
+			"wave02": {
+				"translate": [
+					{ "x": 0.78, "y": -66.29 }
+				]
+			}
+		}
+	},
 	"animation10": {
 		"slots": {
 			"ptc01": {
