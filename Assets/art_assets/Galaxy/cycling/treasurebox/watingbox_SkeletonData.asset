@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: watingbox_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: ab89ae8229d8d0445affc12cfb498b52, type: 2}
+  - {fileID: 11400000, guid: bb7dfa6e5b3f00b428fa7f4815263e0b, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: 9924b4d34a7e43d4ea6c3d43c3304eeb, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: cae2d2d5bf6d9be47ab6c76f982f67bd, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 0

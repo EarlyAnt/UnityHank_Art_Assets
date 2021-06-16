@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2227773409
+CRC: 1797555116
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -12,8 +12,8 @@ AssetBundleManifest:
       Name: cycling/zhenjiang.ab
       Dependencies: {}
     Info_3:
-      Name: cycling/treasurebox.ab
+      Name: cycling/gobutton.ab
       Dependencies: {}
     Info_4:
-      Name: cycling/gobutton.ab
+      Name: cycling/treasurebox.ab
       Dependencies: {}

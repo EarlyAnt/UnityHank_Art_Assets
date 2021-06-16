@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: watingbox_Atlas
   m_EditorClassIdentifier: 
-  atlasFile: {fileID: 4900000, guid: 0a83c92083a6123428abfd0344bf98f1, type: 3}
+  atlasFile: {fileID: 4900000, guid: c087343545d727d448edac12c0c1730e, type: 3}
   materials:
-  - {fileID: 2100000, guid: f304dc9eca83337499d16ef690c245c2, type: 2}
+  - {fileID: 2100000, guid: eb116ed22b54d8d4082609f17b75bb59, type: 2}

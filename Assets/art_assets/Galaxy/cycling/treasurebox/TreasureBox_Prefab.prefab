@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1735809389709286}
+  m_RootGameObject: {fileID: 1271945807967846}
   m_IsPrefabAsset: 1
---- !u!1 &1735809389709286
+--- !u!1 &1271945807967846
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224644632104254042}
-  - component: {fileID: 222033960182313158}
-  - component: {fileID: 114237558141893626}
+  - component: {fileID: 224632964151678552}
+  - component: {fileID: 222082622836462126}
+  - component: {fileID: 114638082835743408}
   m_Layer: 0
   m_Name: TreasureBox_Prefab
   m_TagString: Untagged
@@ -28,18 +28,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114237558141893626
+--- !u!114 &114638082835743408
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735809389709286}
+  m_GameObject: {fileID: 1271945807967846}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: b28509e0798c18d418802df32ea7419b, type: 2}
+  m_Material: {fileID: 2100000, guid: cdee4ca00ee40f44e94f96e9eab3eb7f, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -47,7 +47,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  skeletonDataAsset: {fileID: 11400000, guid: fca017892a241f843b6c5c8ca4d39531, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 524de72f0da1f3c43a73a93967c29842, type: 2}
   initialSkinName: default
   initialFlipX: 0
   initialFlipY: 0
@@ -73,19 +73,19 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
---- !u!222 &222033960182313158
+--- !u!222 &222082622836462126
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735809389709286}
+  m_GameObject: {fileID: 1271945807967846}
   m_CullTransparentMesh: 0
---- !u!224 &224644632104254042
+--- !u!224 &224632964151678552
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735809389709286}
+  m_GameObject: {fileID: 1271945807967846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
