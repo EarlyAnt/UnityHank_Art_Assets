@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 224329032554015130}
   - component: {fileID: 222161167661267504}
   - component: {fileID: 114104372255558032}
-  - component: {fileID: 114767780795454462}
   m_Layer: 0
   m_Name: Traffic_Prefab
   m_TagString: Untagged
@@ -74,20 +73,6 @@ MonoBehaviour:
       calculateTangents: 0
       addNormals: 0
       immutableTriangles: 0
---- !u!114 &114767780795454462
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1701151077199378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ff3e4c2480d194886bdf44a5628938, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spineGraphic: {fileID: 114104372255558032}
-  startAnimationName: 
-  loop: 1
 --- !u!222 &222161167661267504
 CanvasRenderer:
   m_ObjectHideFlags: 1

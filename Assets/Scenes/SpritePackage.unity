@@ -716,6 +716,7 @@ MonoBehaviour:
   spineGraphic: {fileID: 775206589}
   startAnimationName: 
   loop: 1
+  clearTracks: 0
 --- !u!1 &777975755
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,8 +793,7 @@ RectTransform:
 --- !u!114 &894515782
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114767780795454462, guid: c1c7e41deb0665048829141bab9c5d35,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 894515780}
   m_Enabled: 1
@@ -804,6 +804,7 @@ MonoBehaviour:
   spineGraphic: {fileID: 894515783}
   startAnimationName: 
   loop: 1
+  clearTracks: 0
 --- !u!114 &894515783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1274,7 +1275,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineGraphic: {fileID: 0}
   startAnimationName: 
-  loop: 1
+  loop: 0
+  clearTracks: 0
 --- !u!1 &1477721887
 GameObject:
   m_ObjectHideFlags: 0
