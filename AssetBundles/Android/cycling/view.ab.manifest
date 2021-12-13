@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 1193455188
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f6509392cb1d4de2292cd24ff99e7acb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Textures/Cycling/View/scenicspot_normal.png
+- Assets/art_assets/Textures/Cycling/View/treasure_box_arrow.png
+- Assets/art_assets/Textures/Cycling/View/cloud_03.png
+- Assets/art_assets/Textures/Cycling/View/coin_border.png
+- Assets/art_assets/Textures/Cycling/View/card_bg.png
+- Assets/art_assets/Textures/Cycling/View/circle_2.png
+- Assets/art_assets/Textures/Cycling/View/pay_border.png
+- Assets/art_assets/Textures/Cycling/View/pay_panel.png
+- Assets/art_assets/Textures/Cycling/View/cloud_04.png
+- Assets/art_assets/Textures/Cycling/View/pay_line.png
+- Assets/art_assets/Textures/Cycling/View/pop_border1.png
+- Assets/art_assets/Textures/Cycling/View/treasure_box.png
+- Assets/art_assets/Textures/Cycling/View/circle_1.png
+- Assets/art_assets/Textures/Cycling/View/coord_friend.png
+- Assets/art_assets/Textures/Cycling/View/train3.png
+- Assets/art_assets/Textures/Cycling/View/stars_highlight.png
+- Assets/art_assets/Textures/Cycling/View/card_place.png
+- Assets/art_assets/Textures/Cycling/View/tip_error.png
+- Assets/art_assets/Textures/Cycling/View/pop_border2.png
+- Assets/art_assets/Textures/Cycling/View/site_normal.png
+- Assets/art_assets/Textures/Cycling/View/station_panel.png
+- Assets/art_assets/Textures/Cycling/View/ticket_highlight.png
+- Assets/art_assets/Textures/Cycling/View/disable_button.png
+- Assets/art_assets/Textures/Cycling/View/scenicspot_highlight.png
+- Assets/art_assets/Textures/Cycling/View/timer.png
+- Assets/art_assets/Textures/Cycling/View/enable_button.png
+- Assets/art_assets/Textures/Cycling/View/site_normal2.png
+- Assets/art_assets/Textures/Cycling/View/arrow_panel.png
+- Assets/art_assets/Textures/Cycling/View/back.png
+- Assets/art_assets/Textures/Cycling/View/random_event.png
+- Assets/art_assets/Textures/Cycling/View/start_normal.png
+- Assets/art_assets/Textures/Cycling/View/site_highlight.png
+- Assets/art_assets/Textures/Cycling/View/hp_border.png
+- Assets/art_assets/Textures/Cycling/View/card_back2.png
+- Assets/art_assets/Textures/Cycling/View/card_back1.png
+- Assets/art_assets/Textures/Cycling/View/book.png
+- Assets/art_assets/Textures/Cycling/View/train2.png
+- Assets/art_assets/Textures/Cycling/View/cost_panel.png
+- Assets/art_assets/Textures/Cycling/View/cloud_02.png
+- Assets/art_assets/Textures/Cycling/View/cloud_01.png
+- Assets/art_assets/Textures/Cycling/View/plane.png
+- Assets/art_assets/Textures/Cycling/View/ticket_normal.png
+- Assets/art_assets/Textures/Cycling/View/coin.png
+- Assets/art_assets/Textures/Cycling/View/train1.png
+- Assets/art_assets/Textures/Cycling/View/title_border.png
+- Assets/art_assets/Textures/Cycling/View/card_return.png
+- Assets/art_assets/Textures/Cycling/View/coord.png
+- Assets/art_assets/Textures/Cycling/View/go.png
+- Assets/art_assets/Textures/Cycling/View/bus.png
+- Assets/art_assets/Textures/Cycling/View/progress.png
+Dependencies: []

@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1827095510
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74c2cb595c3f777368f3f9cd69502b63
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing02.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing06.png
+- Assets/art_assets/Textures/Cycling/Site/ZhenJiang/card_zhenjiang02.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing08.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing09.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing03.png
+- Assets/art_assets/Textures/Cycling/Site/ZhenJiang/card_zhenjiang01.png
+- Assets/art_assets/Textures/Cycling/Site/ZhenJiang/card_zhenjiang03.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing01.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing07.png
+- Assets/art_assets/Textures/Cycling/Site/ZhenJiang/card_zhenjiang06.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing05.png
+- Assets/art_assets/Textures/Cycling/Site/NanJing/card_nanjing04.png
+- Assets/art_assets/Textures/Cycling/Site/ZhenJiang/card_zhenjiang05.png
+- Assets/art_assets/Textures/Cycling/Site/ZhenJiang/card_zhenjiang04.png
+Dependencies: []

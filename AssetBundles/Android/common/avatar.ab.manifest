@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2333609660
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ebb65378c751def52a988a4cb8f2433a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0008.png
+- Assets/art_assets/Textures/Common/Avatar/bg_circle.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a001.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0001.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0004.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a013.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a007.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0003.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0005.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0002.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0009.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a004.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a014.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a012.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0007.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a003.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0006.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-p0010.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a006.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a010.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a011.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a005.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a002.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a008.png
+- Assets/art_assets/Textures/Common/Avatar/app-icon-avatar-a009.png
+Dependencies: []

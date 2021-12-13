@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 286862362
+CRC: 2651751417
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -16,4 +16,13 @@ AssetBundleManifest:
       Dependencies: {}
     Info_4:
       Name: cycling/treasurebox.ab
+      Dependencies: {}
+    Info_5:
+      Name: cycling/view.ab
+      Dependencies: {}
+    Info_6:
+      Name: cycling/site.ab
+      Dependencies: {}
+    Info_7:
+      Name: common/avatar.ab
       Dependencies: {}
