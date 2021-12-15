@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 2210621781
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ddded687f68900bb7d79f724c4d80bf1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e511669b2edeab006d0f549a4088a3f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/art_assets/Galaxy/cycling/go_button/go_btn_Material.mat
+- Assets/art_assets/Galaxy/cycling/go_button/go_btn_Atlas.asset
+- Assets/art_assets/Galaxy/cycling/go_button/go_btn.atlas.txt
+- Assets/art_assets/Galaxy/cycling/go_button/GoButton_Prefab.prefab
+- Assets/art_assets/Galaxy/cycling/go_button/SkeletonGraphicDefault.mat
+- Assets/art_assets/Galaxy/cycling/go_button/go_btn_SkeletonData.asset
+- Assets/art_assets/Galaxy/cycling/go_button/go_btn.json
+- Assets/art_assets/Galaxy/cycling/go_button/go_btn.png
+Dependencies: []

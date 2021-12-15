@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3848417181
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 646486e0f24a46e6bf115c8d5e4e5ed8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c90fc19e2679e5295d10bd00f33cb4c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/art_assets/Galaxy/cycling/zhenjiang/map.jpg
+- Assets/art_assets/Galaxy/cycling/zhenjiang/path.png
+Dependencies: []

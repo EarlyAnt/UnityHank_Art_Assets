@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 22082825
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: cycling/treasurebox.ab
+      Dependencies: {}
+    Info_1:
+      Name: cycling/gobutton.ab
+      Dependencies: {}
+    Info_2:
+      Name: cycling/zhenjiang.ab
+      Dependencies: {}
+    Info_3:
+      Name: cycling/nanjing.ab
+      Dependencies: {}
+    Info_4:
+      Name: cycling/traffic.ab
+      Dependencies: {}
+    Info_5:
+      Name: cycling/site.ab
+      Dependencies: {}
+    Info_6:
+      Name: common/avatar.ab
+      Dependencies: {}
+    Info_7:
+      Name: cycling/view.ab
+      Dependencies: {}
